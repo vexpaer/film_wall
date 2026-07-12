@@ -11,13 +11,7 @@ import { getAllMovies, getStats, formatRating } from "../utils/data";
 const movies = await getAllMovies();
 const stats = await getStats();
 
-// 用于图表的序列化数据
-const chartData = {
-  byWatchYear: stats.byWatchYear,
-  byGenre: stats.topGenres,
-  ratingDist: stats.ratingDist,
-  topDirectors: stats.topDirectors,
-};
+
 ---
 
 <BaseLayout

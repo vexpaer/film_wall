@@ -135,68 +135,45 @@ const moviesJson = JSON.stringify(movies);
 </BaseLayout>
 
 <!-- 内嵌电影数据，供前端脚本使用 -->
-<script type="application/json" id="movies-data">
-  {moviesJson}
-</script>
+<script type="application/json" id="movies-data" set:html={moviesJson} is:inline></script>
 
-<script>
+<script is:inline>
   // ── 前端筛选、搜索、排序逻辑 ──────────────────────────
-
-  interface MovieData {
-    id: string;
-    title: string;
-    originalTitle?: string;
-    year?: number;
-    poster?: string;
-    directors: string[];
-    actors: string[];
-    genres: string[];
-    countries: string[];
-    tags: string[];
-    doubanRating?: number;
-    personalRating?: number;
-    watchedAt?: string;
-    shortComment?: string;
-    review?: string;
-    favorite: boolean;
-    source: string;
-  }
 
   // 读取数据
   const rawData = document.getElementById('movies-data')?.textContent ?? '[]';
-  const allMovies: MovieData[] = JSON.parse(rawData);
+  const allMovies = JSON.parse(rawData);
 
   // DOM 元素
-  const searchInput = document.getElementById('movie-search') as HTMLInputElement;
-  const genreSelect = document.getElementById('filter-genre') as HTMLSelectElement;
-  const yearSelect = document.getElementById('filter-year') as HTMLSelectElement;
-  const ratingSelect = document.getElementById('filter-rating') as HTMLSelectElement;
-  const sortSelect = document.getElementById('sort-by') as HTMLSelectElement;
+  const searchInput = document.getElementById('movie-search');
+  const genreSelect = document.getElementById('filter-genre');
+  const yearSelect = document.getElementById('filter-year');
+  const ratingSelect = document.getElementById('filter-rating');
+  const sortSelect = document.getElementById('sort-by');
   const grid = document.getElementById('movie-grid');
   const emptyState = document.getElementById('empty-state');
   const countDisplay = document.getElementById('count-display');
   const resetBtn = document.getElementById('reset-filters');
-  const chips = document.querySelectorAll<HTMLButtonElement>('.filter-chip');
+  const chips = document.querySelectorAll('.filter-chip');
 
-  const base = document.querySelector('meta[name="base-url"]')?.getAttribute('content') || '';
 
   let activeQuickFilter = 'all';
 
   // 获取卡片列表
-  const cards = grid ? Array.from(grid.querySelectorAll<HTMLElement>('.movie-card')) : [];
+  const cards = grid ? Array.from(grid.querySelectorAll('.movie-card')) : [];
 
   // 构建 ID → 卡片映射
-  const cardMap = new Map<string, HTMLElement>();
+  const cardMap = new Map();
   cards.forEach(card => {
     const id = card.dataset.movieId;
     if (id) cardMap.set(id, card);
   });
 
-  function normalize(str: string): string {
+  function normalize(str) {
     return str.toLowerCase().replace(/\s/g, '');
   }
 
-  function matchSearch(movie: MovieData, query: string): boolean {
+  function matchSearch(movie, query) {
     if (!query) return true;
     const q = normalize(query);
     return (
@@ -210,8 +187,10 @@ const moviesJson = JSON.stringify(movies);
     );
   }
 
-  function compareMovies(a: MovieData, b: MovieData, sortKey: string): number {
-    const [field, dir] = sortKey.split('-') as [string, string];
+  function compareMovies(a, b, sortKey) {
+    const parts = sortKey.split('-');
+    const field = parts[0];
+    const dir = parts[1];
     const asc = dir === 'asc';
 
     switch (field) {
@@ -302,7 +281,7 @@ const moviesJson = JSON.stringify(movies);
   }
 
   // 事件绑定
-  let searchTimer: ReturnType<typeof setTimeout>;
+  let searchTimer;
   searchInput?.addEventListener('input', () => {
     clearTimeout(searchTimer);
     searchTimer = setTimeout(applyFilters, 200);
