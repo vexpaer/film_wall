@@ -1,0 +1,147 @@
+---
+/**
+ * 电影卡片组件
+ * 显示电影海报、标题、评分、类型等信息
+ */
+
+import type { Movie } from "../types/movie";
+import { formatRating, formatDate } from "../utils/data";
+
+interface Props {
+  movie: Movie;
+  /** 是否显示观看日期 */
+  showDate?: boolean;
+  /** 是否懒加载 */
+  lazy?: boolean;
+}
+
+const { movie, showDate = false, lazy = true } = Astro.props;
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const detailUrl = `${base}/movies/${movie.id}/`;
+
+// 海报优先：movie.poster，无则使用占位
+const hasPoster = Boolean(movie.poster);
+
+// 个人评分 → 星星
+const stars = movie.personalRating ? Math.round(movie.personalRating) : 0;
+
+// 只显示前 2 个类型
+const displayGenres = movie.genres.slice(0, 2);
+---
+
+<article class="movie-card" data-movie-id={movie.id}>
+  <a
+    href={detailUrl}
+    class="movie-card__link"
+    aria-label={`${movie.title}${movie.year ? ` (${movie.year})` : ""}`}
+  >
+    <!-- 海报 -->
+    <div class="movie-card__poster">
+      {hasPoster ? (
+        <img
+          src={movie.poster}
+          alt={`${movie.title} 电影海报`}
+          loading={lazy ? "lazy" : "eager"}
+          decoding="async"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+        />
+        <div class="movie-card__poster-placeholder" style="display:none;">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect x="4" y="8" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2"/>
+            <circle cx="14" cy="16" r="3" stroke="currentColor" stroke-width="2"/>
+            <path d="M4 26l8-6 6 5 5-4 13 9" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+          </svg>
+          <span>{movie.title}</span>
+        </div>
+      ) : (
+        <div class="movie-card__poster-placeholder">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect x="4" y="8" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2"/>
+            <circle cx="14" cy="16" r="3" stroke="currentColor" stroke-width="2"/>
+            <path d="M4 26l8-6 6 5 5-4 13 9" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+          </svg>
+          <span>{movie.title}</span>
+        </div>
+      )}
+
+      <!-- 收藏标记 -->
+      {movie.favorite && (
+        <div class="movie-card__favorite" aria-label="已收藏" title="已收藏">
+          ⭐
+        </div>
+      )}
+
+      <!-- 悬停覆盖层 -->
+      <div class="movie-card__overlay" aria-hidden="true">
+        <div class="movie-card__overlay-info">
+          {movie.shortComment && (
+            <p class="movie-card__overlay-comment">{movie.shortComment}</p>
+          )}
+          {showDate && movie.watchedAt && (
+            <p>观看于 {formatDate(movie.watchedAt)}</p>
+          )}
+        </div>
+      </div>
+    </div>
+
+    <!-- 信息区 -->
+    <div class="movie-card__info">
+      <h3 class="movie-card__title">{movie.title}</h3>
+
+      <div class="movie-card__meta">
+        {movie.year && (
+          <span class="movie-card__year">{movie.year}</span>
+        )}
+
+        {movie.doubanRating && (
+          <span class="movie-card__rating movie-card__rating--douban" title="豆瓣评分">
+            <span class="movie-card__rating-icon" aria-hidden="true">◆</span>
+            {formatRating(movie.doubanRating)}
+          </span>
+        )}
+
+        {stars > 0 && (
+          <span class="movie-card__rating movie-card__rating--personal" title={`我的评分：${stars}星`}>
+            <span class="movie-card__rating-icon" aria-hidden="true">★</span>
+            {stars}/5
+          </span>
+        )}
+      </div>
+
+      {displayGenres.length > 0 && (
+        <div class="movie-card__genres" aria-label="类型">
+          {displayGenres.map(g => (
+            <span class="genre-tag">{g}</span>
+          ))}
+        </div>
+      )}
+    </div>
+  </a>
+</article>
+
+<style>
+  .movie-card__link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .movie-card__overlay-comment {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: var(--text-xs);
+    line-height: 1.5;
+    margin-bottom: var(--space-2);
+  }
+
+  .movie-card__genres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-1);
+  }
+</style>

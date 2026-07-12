@@ -1,0 +1,25 @@
+{
+  "_comment": "这是示例文件，说明手动电影数据的格式。真实数据请写入 movies.json。",
+  "_instructions": "key 为电影 ID（豆瓣 subject ID），value 为可覆盖/补充的字段。手动字段优先级高于豆瓣数据。",
+  "EXAMPLE_MANUAL_ONLY": {
+    "title": "示例：无豆瓣条目的电影",
+    "originalTitle": "Example Movie Without Douban Entry",
+    "year": 2023,
+    "releaseDate": "2023-06-15",
+    "directors": ["导演名"],
+    "actors": ["演员A", "演员B"],
+    "genres": ["剧情"],
+    "countries": ["美国"],
+    "languages": ["英语"],
+    "doubanRating": 8.5,
+    "personalRating": 4,
+    "watchedAt": "2024-01-01T00:00:00.000Z",
+    "shortComment": "短评示例",
+    "review": "长评示例，支持 **Markdown**。",
+    "tags": ["示例", "测试"],
+    "favorite": false,
+    "hidden": true,
+    "status": "watched",
+    "poster": ""
+  }
+}

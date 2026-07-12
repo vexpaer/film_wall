@@ -1,0 +1,185 @@
+---
+/**
+ * 基础页面布局
+ * 所有页面共用：导航、全局样式、页脚、SEO meta
+ */
+
+import { siteConfig } from "../config/site";
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** 当前页面 OG 图片 */
+  ogImage?: string;
+  /** 覆盖 canonical URL */
+  canonicalUrl?: string;
+  /** 附加 class 给 body */
+  bodyClass?: string;
+}
+
+const {
+  title,
+  description = siteConfig.description,
+  ogImage,
+  canonicalUrl,
+  bodyClass,
+} = Astro.props;
+
+const pageTitle = title
+  ? `${title} — ${siteConfig.title}`
+  : `${siteConfig.title} · ${siteConfig.subtitle}`;
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const currentPath = Astro.url.pathname;
+
+// 导航链接
+const navLinks = [
+  { href: `${base}/`, label: "首页" },
+  { href: `${base}/movies/`, label: "电影墙" },
+  { href: `${base}/stats/`, label: "统计" },
+  { href: `${base}/about/`, label: "关于" },
+];
+
+function isCurrentPage(href: string): boolean {
+  if (href === `${base}/`) {
+    return currentPath === href || currentPath === `${base}`;
+  }
+  return currentPath.startsWith(href);
+}
+---
+
+<!DOCTYPE html>
+<html lang={siteConfig.lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- SEO -->
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content={siteConfig.author} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:site_name" content={siteConfig.title} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+
+    <!-- Canonical -->
+    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
+
+    <!-- 主题色 -->
+    <meta name="theme-color" content="#0a0a0f" />
+    <meta name="color-scheme" content="dark" />
+
+    <slot name="head" />
+  </head>
+
+  <body class={bodyClass}>
+    <!-- 顶部胶片光晕 -->
+    <div class="glow-top" aria-hidden="true"></div>
+
+    <!-- 导航栏 -->
+    <nav class="nav" aria-label="主导航">
+      <div class="nav__inner">
+        <a href={`${base}/`} class="nav__logo" aria-label={siteConfig.title}>
+          <span class="nav__logo-icon" aria-hidden="true">🎬</span>
+          <span>{siteConfig.title}</span>
+        </a>
+
+        <!-- 移动端菜单按钮 -->
+        <button
+          class="nav__menu-btn btn-ghost"
+          id="nav-menu-btn"
+          aria-expanded="false"
+          aria-controls="nav-links"
+          aria-label="切换导航菜单"
+        >
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <rect x="2" y="4" width="16" height="2" rx="1"/>
+            <rect x="2" y="9" width="16" height="2" rx="1"/>
+            <rect x="2" y="14" width="16" height="2" rx="1"/>
+          </svg>
+        </button>
+
+        <!-- 导航链接 -->
+        <ul class="nav__links" id="nav-links" role="list">
+          {navLinks.map(({ href, label }) => (
+            <li>
+              <a
+                href={href}
+                class="nav__link"
+                aria-current={isCurrentPage(href) ? "page" : undefined}
+              >
+                {label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 主内容 -->
+    <main class="main-content" id="main-content">
+      <slot />
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <nav class="footer__links" aria-label="页脚导航">
+          {navLinks.map(({ href, label }) => (
+            <a href={href} class="footer__link">{label}</a>
+          ))}
+          {siteConfig.githubUrl && (
+            <a
+              href={siteConfig.githubUrl}
+              class="footer__link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          )}
+        </nav>
+        <p>
+          {siteConfig.title} · 由
+          <a href={siteConfig.githubUrl || "#"} class="footer__link" target="_blank" rel="noopener noreferrer">
+            {siteConfig.author}
+          </a>
+          手工维护
+        </p>
+      </div>
+    </footer>
+
+    <!-- 移动端菜单脚本 -->
+    <script>
+      const btn = document.getElementById('nav-menu-btn');
+      const links = document.getElementById('nav-links');
+      if (btn && links) {
+        btn.addEventListener('click', () => {
+          const isOpen = links.classList.toggle('is-open');
+          btn.setAttribute('aria-expanded', String(isOpen));
+        });
+        // 点击链接后关闭菜单
+        links.querySelectorAll('a').forEach(a => {
+          a.addEventListener('click', () => {
+            links.classList.remove('is-open');
+            btn.setAttribute('aria-expanded', 'false');
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

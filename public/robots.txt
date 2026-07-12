@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vexpaer.github.io/film_wall/sitemap-index.xml

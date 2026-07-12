@@ -1,0 +1,48 @@
+---
+/**
+ * 星级评分显示组件
+ */
+
+interface Props {
+  rating: number | undefined;
+  max?: number;
+  size?: "sm" | "md" | "lg";
+  label?: string;
+}
+
+const { rating, max = 5, size = "md", label } = Astro.props;
+
+const filled = rating ? Math.floor(rating) : 0;
+const hasHalf = rating ? rating - filled >= 0.5 : false;
+const empty = max - filled - (hasHalf ? 1 : 0);
+---
+
+{rating && rating > 0 ? (
+  <span
+    class={`star-rating star-rating--${size}`}
+    aria-label={label || `${rating} 星（满分 ${max} 星）`}
+    role="img"
+  >
+    {Array.from({ length: filled }).map(() => (
+      <span class="star-rating__star is-filled" aria-hidden="true">★</span>
+    ))}
+    {hasHalf && (
+      <span class="star-rating__star is-half" aria-hidden="true">★</span>
+    )}
+    {Array.from({ length: empty }).map(() => (
+      <span class="star-rating__star" aria-hidden="true">☆</span>
+    ))}
+  </span>
+) : (
+  <span class="star-rating" aria-label="暂无评分">
+    {Array.from({ length: max }).map(() => (
+      <span class="star-rating__star" aria-hidden="true">☆</span>
+    ))}
+  </span>
+)}
+
+<style>
+  .star-rating--sm .star-rating__star { font-size: 12px; }
+  .star-rating--md .star-rating__star { font-size: 16px; }
+  .star-rating--lg .star-rating__star { font-size: 20px; }
+</style>

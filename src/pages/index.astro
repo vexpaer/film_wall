@@ -1,0 +1,568 @@
+---
+/**
+ * 首页 — 个人电影墙主页
+ * 视觉冲击力强的个人电影档案入口
+ */
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import MovieCard from "../components/MovieCard.astro";
+import StarRating from "../components/StarRating.astro";
+import { siteConfig } from "../config/site";
+import {
+  getAllMovies,
+  getRecentMovies,
+  getFavoriteMovies,
+  getStats,
+  formatRating,
+} from "../utils/data";
+
+const movies = await getAllMovies();
+const recent = await getRecentMovies(6);
+const favorites = await getFavoriteMovies();
+const stats = await getStats();
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+// 精选电影（有长评且是收藏的）
+const featured = movies
+  .filter((m) => m.favorite && m.review)
+  .slice(0, 3);
+
+// 首屏背景电影（最近观看中有海报的）
+const heroBgMovie = recent.find((m) => m.poster);
+---
+
+<BaseLayout
+  title={undefined}
+  description={siteConfig.description}
+>
+  <!-- ── 首屏英雄区 ─────────────────────────────────────── -->
+  <section class="hero" aria-labelledby="hero-title">
+    <!-- 背景氛围 -->
+    <div class="hero__bg" aria-hidden="true">
+      <div class="hero__bg-gradient"></div>
+      {heroBgMovie?.poster && (
+        <img
+          class="hero__bg-img"
+          src={heroBgMovie.poster}
+          alt=""
+          loading="eager"
+          decoding="async"
+          aria-hidden="true"
+        />
+      )}
+      <div class="hero__bg-overlay"></div>
+    </div>
+
+    <!-- 胶片装饰 -->
+    <div class="hero__film-strip" aria-hidden="true">
+      <div class="film-strip">
+        {[...Array(8)].map((_, i) => (
+          <div class="film-strip__hole" style={`animation-delay: ${i * 0.1}s`}></div>
+        ))}
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="hero__content animate-fade-in-up">
+        <p class="hero__eyebrow" aria-hidden="true">
+          <span class="hero__eyebrow-dot"></span>
+          个人观影档案
+        </p>
+
+        <h1 class="hero__title" id="hero-title">
+          {siteConfig.title}
+        </h1>
+
+        <p class="hero__subtitle">{siteConfig.description}</p>
+
+        <div class="hero__actions">
+          <a href={`${base}/movies/`} class="btn btn-primary hero__cta">
+            <span aria-hidden="true">🎞</span>
+            浏览电影墙
+          </a>
+          <a href={`${base}/stats/`} class="btn btn-secondary">
+            <span aria-hidden="true">📊</span>
+            查看统计
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 快速统计 ───────────────────────────────────────── -->
+  <section class="stats-section" aria-labelledby="stats-heading">
+    <div class="container">
+      <h2 class="sr-only" id="stats-heading">观影统计概览</h2>
+      <div class="stats-grid animate-fade-in-up delay-200">
+        <div class="stat-card">
+          <div class="stat-card__number">{stats.total}</div>
+          <div class="stat-card__label">已看电影</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number">{stats.avgRating > 0 ? formatRating(stats.avgRating) : '—'}</div>
+          <div class="stat-card__label">平均评分</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number">{stats.favorites}</div>
+          <div class="stat-card__label">收藏电影</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number">{stats.topGenres[0]?.genre || '—'}</div>
+          <div class="stat-card__label">最喜欢的类型</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 最近观看 ───────────────────────────────────────── -->
+  {recent.length > 0 && (
+    <section class="section" aria-labelledby="recent-heading">
+      <div class="container">
+        <div class="section__header">
+          <div>
+            <span class="section__eyebrow">最近观看</span>
+            <h2 class="section__title" id="recent-heading">新入档案</h2>
+          </div>
+          <a href={`${base}/movies/`} class="btn btn-ghost section__more-btn">
+            查看全部 →
+          </a>
+        </div>
+
+        <div class="movie-grid animate-fade-in-up delay-300">
+          {recent.map((movie) => (
+            <MovieCard movie={movie} showDate={true} />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- ── 收藏精选 ───────────────────────────────────────── -->
+  {featured.length > 0 && (
+    <section class="section section--featured" aria-labelledby="featured-heading">
+      <div class="container">
+        <div class="section__header">
+          <div>
+            <span class="section__eyebrow">精选收藏</span>
+            <h2 class="section__title" id="featured-heading">值得反复回味</h2>
+          </div>
+        </div>
+
+        <div class="featured-grid">
+          {featured.map((movie, i) => (
+            <a
+              href={`${base}/movies/${movie.id}/`}
+              class={`featured-card animate-fade-in-up delay-${(i + 1) * 100}`}
+              aria-label={`${movie.title} — 查看详情`}
+            >
+              {movie.poster && (
+                <div class="featured-card__poster">
+                  <img
+                    src={movie.poster}
+                    alt={`${movie.title} 海报`}
+                    loading="lazy"
+                    decoding="async"
+                    onerror="this.parentElement.classList.add('no-img')"
+                  />
+                  <div class="featured-card__poster-overlay"></div>
+                </div>
+              )}
+              <div class="featured-card__content">
+                <div class="featured-card__meta">
+                  {movie.year && <span class="featured-card__year">{movie.year}</span>}
+                  <span class="featured-card__favorite" aria-label="收藏">⭐</span>
+                </div>
+                <h3 class="featured-card__title">{movie.title}</h3>
+                {movie.review && (
+                  <p class="featured-card__review">
+                    {movie.review.replace(/[#*`]/g, "").slice(0, 120)}…
+                  </p>
+                )}
+                <div class="featured-card__rating">
+                  {movie.personalRating && (
+                    <StarRating rating={movie.personalRating} size="sm" />
+                  )}
+                  {movie.doubanRating && (
+                    <span class="featured-card__douban-rating">
+                      豆瓣 {formatRating(movie.doubanRating)}
+                    </span>
+                  )}
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- ── 电影墙入口 ─────────────────────────────────────── -->
+  <section class="section section--cta" aria-labelledby="wall-heading">
+    <div class="container">
+      <div class="cta-block animate-fade-in-up">
+        <p class="cta-block__eyebrow" aria-hidden="true">🎬</p>
+        <h2 class="cta-block__title" id="wall-heading">完整电影墙</h2>
+        <p class="cta-block__desc">
+          共 {stats.total} 部电影，支持按类型、评分、年份筛选和搜索
+        </p>
+        <a href={`${base}/movies/`} class="btn btn-primary cta-block__btn">
+          进入电影墙
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* ── 首屏英雄区 ──────────────────────────────────────── */
+  .hero {
+    position: relative;
+    min-height: 85dvh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .hero__bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+
+  .hero__bg-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+    filter: blur(2px) saturate(0.5) brightness(0.3);
+    transform: scale(1.05);
+  }
+
+  .hero__bg-gradient {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+      ellipse at 60% 40%,
+      rgba(245, 166, 35, 0.08) 0%,
+      transparent 60%
+    );
+    z-index: 1;
+  }
+
+  .hero__bg-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(10, 10, 15, 0.5) 0%,
+      rgba(10, 10, 15, 0.4) 50%,
+      var(--bg-base) 100%
+    );
+    z-index: 2;
+  }
+
+  /* 胶片装饰 */
+  .hero__film-strip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    pointer-events: none;
+  }
+
+  .film-strip {
+    display: flex;
+    gap: 20px;
+    padding: 10px 24px;
+    opacity: 0.15;
+  }
+
+  .film-strip__hole {
+    width: 12px;
+    height: 20px;
+    border-radius: 3px;
+    border: 2px solid var(--color-accent);
+    flex-shrink: 0;
+    animation: filmPulse 3s ease-in-out infinite;
+  }
+
+  @keyframes filmPulse {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+  }
+
+  .hero .container {
+    position: relative;
+    z-index: 4;
+    padding-top: var(--space-20);
+    padding-bottom: var(--space-20);
+  }
+
+  .hero__content {
+    max-width: 640px;
+  }
+
+  .hero__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    margin-bottom: var(--space-6);
+  }
+
+  .hero__eyebrow-dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--color-accent);
+    animation: blink 2s ease-in-out infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.8); }
+  }
+
+  .hero__title {
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    margin-bottom: var(--space-5);
+    background: linear-gradient(
+      135deg,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0.8) 50%,
+      var(--color-accent) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero__subtitle {
+    font-size: var(--text-lg);
+    color: var(--text-secondary);
+    margin-bottom: var(--space-8);
+    line-height: 1.6;
+  }
+
+  .hero__actions {
+    display: flex;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+  }
+
+  .hero__cta {
+    font-size: var(--text-base);
+    padding: var(--space-4) var(--space-6);
+  }
+
+  /* ── 统计网格 ─────────────────────────────────────────── */
+  .stats-section {
+    padding: var(--space-16) 0;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-4);
+  }
+
+  @media (max-width: 768px) {
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  /* ── 通用 section ─────────────────────────────────────── */
+  .section {
+    padding: var(--space-16) 0;
+  }
+
+  .section__header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: var(--space-8);
+    gap: var(--space-4);
+  }
+
+  .section__eyebrow {
+    display: block;
+    font-size: var(--text-xs);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    margin-bottom: var(--space-2);
+  }
+
+  .section__title {
+    font-size: var(--text-3xl);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+
+  .section__more-btn {
+    flex-shrink: 0;
+  }
+
+  /* ── 精选网格 ─────────────────────────────────────────── */
+  .section--featured {
+    background: linear-gradient(
+      180deg,
+      transparent 0%,
+      rgba(245, 166, 35, 0.03) 50%,
+      transparent 100%
+    );
+  }
+
+  .featured-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-5);
+  }
+
+  @media (max-width: 900px) {
+    .featured-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 600px) {
+    .featured-grid { grid-template-columns: 1fr; }
+  }
+
+  .featured-card {
+    position: relative;
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    color: var(--text-primary);
+    display: flex;
+    flex-direction: column;
+    transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+    min-height: 300px;
+  }
+
+  .featured-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--border-accent);
+  }
+
+  .featured-card:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  .featured-card__poster {
+    position: relative;
+    height: 180px;
+    overflow: hidden;
+  }
+
+  .featured-card__poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+  }
+
+  .featured-card:hover .featured-card__poster img {
+    transform: scale(1.05);
+  }
+
+  .featured-card__poster-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, var(--bg-card), transparent 50%);
+  }
+
+  .featured-card__content {
+    padding: var(--space-5);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .featured-card__meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+  }
+
+  .featured-card__year {
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+
+  .featured-card__title {
+    font-size: var(--text-xl);
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .featured-card__review {
+    font-size: var(--text-sm);
+    color: var(--text-muted);
+    line-height: 1.6;
+    flex: 1;
+  }
+
+  .featured-card__rating {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    margin-top: auto;
+  }
+
+  .featured-card__douban-rating {
+    font-size: var(--text-xs);
+    color: var(--color-accent);
+    font-weight: 600;
+  }
+
+  /* ── CTA 区域 ─────────────────────────────────────────── */
+  .section--cta {
+    padding: var(--space-24) 0;
+  }
+
+  .cta-block {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .cta-block__eyebrow {
+    font-size: 3rem;
+    margin-bottom: var(--space-4);
+  }
+
+  .cta-block__title {
+    font-size: var(--text-4xl);
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    margin-bottom: var(--space-4);
+  }
+
+  .cta-block__desc {
+    font-size: var(--text-lg);
+    color: var(--text-muted);
+    margin-bottom: var(--space-8);
+  }
+
+  .cta-block__btn {
+    font-size: var(--text-lg);
+    padding: var(--space-4) var(--space-8);
+  }
+</style>

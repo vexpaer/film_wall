@@ -1,0 +1,787 @@
+---
+/**
+ * 电影详情页 — 动态路由
+ * 每部电影生成独立静态页面
+ */
+
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import StarRating from "../../components/StarRating.astro";
+import { siteConfig } from "../../config/site";
+import { getAllMovies, formatRating, formatDate } from "../../utils/data";
+
+// 生成所有静态路径
+export async function getStaticPaths() {
+  const movies = await getAllMovies();
+  return movies.map((movie, index) => ({
+    params: { id: movie.id },
+    props: {
+      movie,
+      prevMovie: movies[index - 1] ?? null,
+      nextMovie: movies[index + 1] ?? null,
+    },
+  }));
+}
+
+const { movie, prevMovie, nextMovie } = Astro.props;
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+// 简单 Markdown → HTML 渲染（处理长评）
+function renderMarkdown(text: string): string {
+  return text
+    // 粗体
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    // 斜体
+    .replace(/\*(.*?)\*/g, '<em>$1</em>')
+    // 换行 → 段落
+    .split(/\n\n+/)
+    .map(p => p.trim())
+    .filter(Boolean)
+    .map(p => `<p>${p.replace(/\n/g, '<br>')}</p>`)
+    .join('\n');
+}
+
+const reviewHtml = movie.review ? renderMarkdown(movie.review) : null;
+
+// 背景色：使用暗色梯度
+const hasPoster = Boolean(movie.poster);
+---
+
+<BaseLayout
+  title={`${movie.title}${movie.year ? ` (${movie.year})` : ''}`}
+  description={movie.shortComment || movie.review?.slice(0, 150) || `${movie.title} — ${siteConfig.title}`}
+  ogImage={movie.poster}
+>
+  <!-- 返回按钮 -->
+  <div class="back-bar">
+    <div class="container">
+      <a href={`${base}/movies/`} class="back-link" aria-label="返回电影墙">
+        <span aria-hidden="true">←</span>
+        电影墙
+      </a>
+    </div>
+  </div>
+
+  <!-- ── 背景英雄区 ─────────────────────────────────────── -->
+  <div class="detail-hero" role="banner">
+    <!-- 背景图 -->
+    <div class="detail-hero__bg" aria-hidden="true">
+      {hasPoster && (
+        <img
+          class="detail-hero__bg-img"
+          src={movie.poster}
+          alt=""
+          loading="eager"
+          decoding="async"
+        />
+      )}
+      <div class="detail-hero__bg-overlay"></div>
+    </div>
+
+    <div class="container">
+      <div class="detail-hero__content">
+        <!-- 海报 -->
+        <div class="detail-poster" aria-label="电影海报">
+          {hasPoster ? (
+            <img
+              class="detail-poster__img"
+              src={movie.poster}
+              alt={`${movie.title} 电影海报`}
+              loading="eager"
+              decoding="async"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+            />
+            <div class="detail-poster__placeholder" style="display:none;">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <rect x="4" y="8" width="40" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+                <circle cx="16" cy="20" r="4" stroke="currentColor" stroke-width="2"/>
+                <path d="M4 34l10-8 8 7 6-5 16 12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              </svg>
+              <span>暂无海报</span>
+            </div>
+          ) : (
+            <div class="detail-poster__placeholder">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <rect x="4" y="8" width="40" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+                <circle cx="16" cy="20" r="4" stroke="currentColor" stroke-width="2"/>
+                <path d="M4 34l10-8 8 7 6-5 16 12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              </svg>
+              <span>暂无海报</span>
+            </div>
+          )}
+        </div>
+
+        <!-- 电影主要信息 -->
+        <div class="detail-info">
+          <div class="detail-info__badges">
+            {movie.favorite && (
+              <span class="tag tag--accent" aria-label="已收藏">⭐ 收藏</span>
+            )}
+            {movie.status === 'watching' && (
+              <span class="tag" style="color: var(--color-blue)">在看</span>
+            )}
+          </div>
+
+          <h1 class="detail-info__title">{movie.title}</h1>
+
+          {movie.originalTitle && movie.originalTitle !== movie.title && (
+            <p class="detail-info__original-title">{movie.originalTitle}</p>
+          )}
+
+          <!-- 基础元数据 -->
+          <div class="detail-meta">
+            {movie.year && (
+              <span class="detail-meta__item">
+                <span class="detail-meta__label">年份</span>
+                <span class="detail-meta__value">{movie.year}</span>
+              </span>
+            )}
+            {movie.releaseDate && movie.releaseDate !== String(movie.year) && (
+              <span class="detail-meta__item">
+                <span class="detail-meta__label">上映</span>
+                <span class="detail-meta__value">{movie.releaseDate}</span>
+              </span>
+            )}
+            {movie.countries.length > 0 && (
+              <span class="detail-meta__item">
+                <span class="detail-meta__label">国家</span>
+                <span class="detail-meta__value">{movie.countries.join(' / ')}</span>
+              </span>
+            )}
+            {movie.runtime && (
+              <span class="detail-meta__item">
+                <span class="detail-meta__label">时长</span>
+                <span class="detail-meta__value">{movie.runtime} 分钟</span>
+              </span>
+            )}
+          </div>
+
+          <!-- 类型 -->
+          {movie.genres.length > 0 && (
+            <div class="detail-genres" aria-label="类型">
+              {movie.genres.map(g => (
+                <a href={`${base}/movies/?genre=${encodeURIComponent(g)}`} class="genre-tag">
+                  {g}
+                </a>
+              ))}
+            </div>
+          )}
+
+          <!-- 评分区域 -->
+          <div class="detail-ratings">
+            {movie.doubanRating && (
+              <div class="detail-rating-block">
+                <span class="detail-rating-block__label">豆瓣评分</span>
+                <div class="detail-rating-block__score">
+                  <span class="detail-rating-block__number detail-rating-block__number--douban">
+                    {formatRating(movie.doubanRating)}
+                  </span>
+                  <span class="detail-rating-block__max">/10</span>
+                </div>
+              </div>
+            )}
+            {movie.personalRating && (
+              <div class="detail-rating-block">
+                <span class="detail-rating-block__label">我的评分</span>
+                <div class="detail-rating-block__score">
+                  <StarRating rating={movie.personalRating} size="lg" />
+                  <span class="detail-rating-block__number-small">{movie.personalRating}/5</span>
+                </div>
+              </div>
+            )}
+          </div>
+
+          <!-- 观看时间 -->
+          {movie.watchedAt && (
+            <p class="detail-watched">
+              <span class="detail-watched__label">观看于</span>
+              <time datetime={movie.watchedAt}>{formatDate(movie.watchedAt)}</time>
+            </p>
+          )}
+
+          <!-- 豆瓣链接 -->
+          {movie.doubanUrl && (
+            <a
+              href={movie.doubanUrl}
+              class="btn btn-secondary detail-douban-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`在豆瓣查看 ${movie.title}`}
+            >
+              <span aria-hidden="true">🔗</span>
+              豆瓣页面
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── 详细信息区 ─────────────────────────────────────── -->
+  <div class="detail-body">
+    <div class="container">
+      <div class="detail-body__grid">
+        <!-- 左侧主内容 -->
+        <main class="detail-main" id="main-content">
+          <!-- 短评 -->
+          {movie.shortComment && (
+            <section class="detail-section" aria-labelledby="short-comment-heading">
+              <h2 class="detail-section__title" id="short-comment-heading">短评</h2>
+              <blockquote class="detail-short-comment">
+                <p>{movie.shortComment}</p>
+              </blockquote>
+            </section>
+          )}
+
+          <!-- 长评 -->
+          {reviewHtml && (
+            <section class="detail-section" aria-labelledby="review-heading">
+              <h2 class="detail-section__title" id="review-heading">我的评价</h2>
+              <div class="prose detail-review" set:html={reviewHtml} />
+            </section>
+          )}
+
+          <!-- 金句 -->
+          {movie.quote && (
+            <section class="detail-section" aria-labelledby="quote-heading">
+              <h2 class="detail-section__title" id="quote-heading">台词 / 金句</h2>
+              <blockquote class="detail-quote">
+                <p>"{movie.quote}"</p>
+              </blockquote>
+            </section>
+          )}
+
+          <!-- 标签 -->
+          {movie.tags.length > 0 && (
+            <section class="detail-section" aria-labelledby="tags-heading">
+              <h2 class="detail-section__title" id="tags-heading">标签</h2>
+              <div class="detail-tags">
+                {movie.tags.map(t => (
+                  <span class="tag">{t}</span>
+                ))}
+              </div>
+            </section>
+          )}
+        </main>
+
+        <!-- 右侧侧边栏 -->
+        <aside class="detail-sidebar" aria-label="电影详情">
+          <!-- 导演 -->
+          {movie.directors.length > 0 && (
+            <div class="sidebar-section">
+              <h3 class="sidebar-section__title">导演</h3>
+              <ul class="sidebar-section__list" role="list">
+                {movie.directors.map(d => <li>{d}</li>)}
+              </ul>
+            </div>
+          )}
+
+          <!-- 演员 -->
+          {movie.actors.length > 0 && (
+            <div class="sidebar-section">
+              <h3 class="sidebar-section__title">主演</h3>
+              <ul class="sidebar-section__list" role="list">
+                {movie.actors.map(a => <li>{a}</li>)}
+              </ul>
+            </div>
+          )}
+
+          <!-- 语言 -->
+          {movie.languages.length > 0 && (
+            <div class="sidebar-section">
+              <h3 class="sidebar-section__title">语言</h3>
+              <p class="sidebar-section__text">{movie.languages.join(' / ')}</p>
+            </div>
+          )}
+
+          <!-- 来源 -->
+          <div class="sidebar-section">
+            <h3 class="sidebar-section__title">数据来源</h3>
+            <p class="sidebar-section__text">
+              {movie.source === 'douban' ? '豆瓣导入' :
+               movie.source === 'manual' ? '手动录入' : '合并数据'}
+            </p>
+          </div>
+        </aside>
+      </div>
+
+      <!-- ── 上下电影导航 ─────────────────────────────── -->
+      <nav class="detail-nav" aria-label="前后电影导航">
+        <div class="detail-nav__inner">
+          {prevMovie ? (
+            <a href={`${base}/movies/${prevMovie.id}/`} class="detail-nav__link detail-nav__link--prev">
+              <span class="detail-nav__direction" aria-hidden="true">←</span>
+              <div class="detail-nav__info">
+                <span class="detail-nav__label">上一部</span>
+                <span class="detail-nav__title">{prevMovie.title}</span>
+              </div>
+            </a>
+          ) : (
+            <div></div>
+          )}
+
+          {nextMovie ? (
+            <a href={`${base}/movies/${nextMovie.id}/`} class="detail-nav__link detail-nav__link--next">
+              <div class="detail-nav__info">
+                <span class="detail-nav__label">下一部</span>
+                <span class="detail-nav__title">{nextMovie.title}</span>
+              </div>
+              <span class="detail-nav__direction" aria-hidden="true">→</span>
+            </a>
+          ) : (
+            <div></div>
+          )}
+        </div>
+      </nav>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  /* 返回栏 */
+  .back-bar {
+    position: fixed;
+    top: var(--nav-height);
+    left: 0;
+    right: 0;
+    z-index: 50;
+    padding: var(--space-3) 0;
+    background: rgba(10, 10, 15, 0.8);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: var(--text-muted);
+    transition: color var(--transition-fast);
+  }
+
+  .back-link:hover {
+    color: var(--color-accent);
+  }
+
+  /* 英雄区 */
+  .detail-hero {
+    position: relative;
+    padding-top: calc(var(--nav-height) + 48px + var(--space-12));
+    padding-bottom: var(--space-16);
+    overflow: hidden;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .detail-hero__bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+
+  .detail-hero__bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(40px) saturate(0.6) brightness(0.2);
+    transform: scale(1.1);
+  }
+
+  .detail-hero__bg-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(10, 10, 15, 0.6) 0%,
+      rgba(10, 10, 15, 0.5) 60%,
+      var(--bg-base) 100%
+    );
+  }
+
+  .detail-hero .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .detail-hero__content {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: var(--space-10);
+    align-items: start;
+  }
+
+  @media (max-width: 768px) {
+    .detail-hero__content {
+      grid-template-columns: 160px 1fr;
+      gap: var(--space-6);
+    }
+  }
+
+  @media (max-width: 500px) {
+    .detail-hero__content {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* 海报 */
+  .detail-poster {
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    aspect-ratio: 2/3;
+    background: var(--bg-elevated);
+    box-shadow: var(--shadow-xl);
+    border: 1px solid var(--border-subtle);
+  }
+
+  .detail-poster__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .detail-poster__placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-3);
+    color: var(--text-muted);
+    font-size: var(--text-sm);
+  }
+
+  /* 信息区 */
+  .detail-info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+
+  .detail-info__badges {
+    display: flex;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  .detail-info__title {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+  }
+
+  .detail-info__original-title {
+    font-size: var(--text-lg);
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  /* 元数据 */
+  .detail-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+  }
+
+  .detail-meta__item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .detail-meta__label {
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+
+  .detail-meta__value {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+    font-weight: 500;
+  }
+
+  /* 类型 */
+  .detail-genres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  /* 评分区 */
+  .detail-ratings {
+    display: flex;
+    gap: var(--space-6);
+    flex-wrap: wrap;
+    padding: var(--space-4);
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    width: fit-content;
+  }
+
+  .detail-rating-block {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .detail-rating-block__label {
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+
+  .detail-rating-block__score {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+
+  .detail-rating-block__number {
+    font-size: var(--text-3xl);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1;
+  }
+
+  .detail-rating-block__number--douban {
+    color: var(--color-accent);
+  }
+
+  .detail-rating-block__max {
+    font-size: var(--text-sm);
+    color: var(--text-muted);
+  }
+
+  .detail-rating-block__number-small {
+    font-size: var(--text-sm);
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+
+  /* 观看时间 */
+  .detail-watched {
+    font-size: var(--text-sm);
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+
+  .detail-watched__label {
+    font-weight: 600;
+  }
+
+  .detail-douban-link {
+    width: fit-content;
+    font-size: var(--text-sm);
+  }
+
+  /* 详情主体 */
+  .detail-body {
+    padding: var(--space-12) 0 var(--space-20);
+  }
+
+  .detail-body__grid {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: var(--space-12);
+    align-items: start;
+  }
+
+  @media (max-width: 900px) {
+    .detail-body__grid {
+      grid-template-columns: 1fr;
+    }
+
+    .detail-sidebar {
+      order: -1;
+    }
+  }
+
+  /* 主内容区 */
+  .detail-section {
+    margin-bottom: var(--space-10);
+  }
+
+  .detail-section:last-child {
+    margin-bottom: 0;
+  }
+
+  .detail-section__title {
+    font-size: var(--text-lg);
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--space-4);
+    padding-bottom: var(--space-3);
+    border-bottom: 1px solid var(--border-subtle);
+    letter-spacing: -0.01em;
+  }
+
+  .detail-short-comment {
+    border-left: 3px solid var(--color-accent);
+    padding: var(--space-4) var(--space-5);
+    background: var(--bg-card);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    font-size: var(--text-lg);
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.7;
+  }
+
+  .detail-review {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+  }
+
+  .detail-quote {
+    text-align: center;
+    padding: var(--space-8) var(--space-6);
+    position: relative;
+  }
+
+  .detail-quote p {
+    font-family: var(--font-serif);
+    font-size: var(--text-2xl);
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  .detail-quote::before {
+    content: '"';
+    position: absolute;
+    top: 0;
+    left: var(--space-4);
+    font-size: 6rem;
+    color: var(--color-accent);
+    opacity: 0.2;
+    font-family: Georgia, serif;
+    line-height: 1;
+  }
+
+  .detail-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  /* 侧边栏 */
+  .detail-sidebar {
+    position: sticky;
+    top: calc(var(--nav-height) + 48px + var(--space-6));
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-xl);
+    padding: var(--space-6);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-5);
+  }
+
+  .sidebar-section__title {
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    font-weight: 700;
+    margin-bottom: var(--space-2);
+  }
+
+  .sidebar-section__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+  }
+
+  .sidebar-section__list li {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+
+  .sidebar-section__text {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+  }
+
+  /* 导航 */
+  .detail-nav {
+    margin-top: var(--space-16);
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--border-subtle);
+  }
+
+  .detail-nav__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+  }
+
+  .detail-nav__link {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-4);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-subtle);
+    background: var(--bg-card);
+    color: var(--text-secondary);
+    transition: border-color var(--transition-base), color var(--transition-base), background var(--transition-base);
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .detail-nav__link:hover {
+    border-color: var(--border-accent);
+    color: var(--text-primary);
+    background: var(--bg-card-hover);
+  }
+
+  .detail-nav__link--next {
+    justify-content: flex-end;
+    text-align: right;
+    grid-column: 2;
+  }
+
+  .detail-nav__direction {
+    font-size: var(--text-xl);
+    color: var(--color-accent);
+    flex-shrink: 0;
+  }
+
+  .detail-nav__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+  }
+
+  .detail-nav__label {
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+
+  .detail-nav__title {
+    font-size: var(--text-sm);
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+</style>
