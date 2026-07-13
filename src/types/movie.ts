@@ -97,23 +97,56 @@ export interface Movie {
  * 字段可能缺失或格式不一致，需兼容处理
  */
 export interface DoubanRawMovie {
-  id?: string;
+  id?: string | number;
   title?: string;
   intro?: string;
   poster?: string;
   pubdate?: string | string[];
   url?: string;
-  rating?: number | string;
+  rating?: number | string | DoubanRawRating | null;
   genres?: string | string[];
   star?: number | string;
   comment?: string;
   tags?: string | string[];
   star_time?: string;
+  /** 新版导出中的标记时间 */
+  create_time?: string;
+  /** 新版导出将电影详情放在 subject 中 */
+  subject?: DoubanRawSubject;
   /** card 字段包含电影基础信息的混合文本，尝试解析 */
   card?: string;
   /** 可能包含原名 */
   original_title?: string;
   /** 其他未知字段 */
+  [key: string]: unknown;
+}
+
+export interface DoubanRawRating {
+  value?: number | string;
+  star_count?: number | string;
+}
+
+export interface DoubanRawPerson {
+  name?: string;
+}
+
+export interface DoubanRawSubject {
+  id?: string | number;
+  title?: string;
+  original_title?: string;
+  year?: string | number;
+  pubdate?: string | string[];
+  url?: string;
+  rating?: DoubanRawRating | null;
+  genres?: string | string[];
+  cover_url?: string;
+  pic?: {
+    normal?: string;
+    large?: string;
+  };
+  directors?: DoubanRawPerson[];
+  actors?: DoubanRawPerson[];
+  card_subtitle?: string;
   [key: string]: unknown;
 }
 

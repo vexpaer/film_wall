@@ -12,6 +12,8 @@ import { fileURLToPath } from "url";
 import type {
   Movie,
   DoubanRawMovie,
+  DoubanRawPerson,
+  DoubanRawRating,
   ManualMoviesData,
   ManualMovieOverride,
   NormalizeResult,
@@ -115,6 +117,25 @@ function parseDoubanRating(
 }
 
 /**
+ * 从新版评分对象中读取数值
+ */
+function getRatingValue(
+  rating: number | string | DoubanRawRating | null | undefined
+): number | string | undefined {
+  if (typeof rating === "number" || typeof rating === "string") return rating;
+  return rating?.value;
+}
+
+/**
+ * 从新版人物对象数组中提取姓名
+ */
+function getPersonNames(people: DoubanRawPerson[] | undefined): string[] {
+  return (people ?? [])
+    .map((person) => person.name?.trim())
+    .filter((name): name is string => Boolean(name));
+}
+
+/**
  * 解析豆瓣星级（1–5）→ 个人评分（原值保留）
  */
 function parseStar(star: number | string | undefined | null): number | undefined {
@@ -193,48 +214,69 @@ function normalizeDoubanMovie(
   index: number,
   warnings: string[]
 ): Movie | null {
-  const id = String(raw.id || "").trim();
+  const subject = raw.subject;
+  const id = String(subject?.id ?? raw.id ?? "").trim();
   if (!id) {
     warnings.push(`[WARN] 第 ${index + 1} 条豆瓣数据缺少 id，已跳过`);
     return null;
   }
 
-  if (!raw.title) {
+  const title = subject?.title?.trim() || raw.title?.trim();
+  if (!title) {
     warnings.push(`[WARN] ID=${id} 的豆瓣数据缺少 title，已跳过`);
     return null;
   }
 
-  const { year, releaseDate } = parsePubdate(raw.pubdate);
-  const cardInfo = parseCard(raw.card);
+  const pubdate = subject?.pubdate ?? raw.pubdate;
+  const { year, releaseDate } = parsePubdate(pubdate);
+  const cardInfo = parseCard(subject?.card_subtitle ?? raw.card);
 
   // 合并 card 解析的数据（优先级低于直接字段）
-  const finalYear = year ?? cardInfo.year;
-  const genres = raw.genres
-    ? toArray(raw.genres)
+  const subjectYear = Number(subject?.year);
+  const finalYear = year ??
+    (Number.isInteger(subjectYear) ? subjectYear : undefined) ??
+    cardInfo.year;
+  const rawGenres = subject?.genres ?? raw.genres;
+  const genres = rawGenres
+    ? toArray(rawGenres)
     : (cardInfo.genres ?? []);
   const countries = cardInfo.countries ?? [];
-  const directors = cardInfo.directors ?? [];
-  const actors = cardInfo.actors ?? [];
+  const directors = subject?.directors
+    ? getPersonNames(subject.directors)
+    : (cardInfo.directors ?? []);
+  const actors = subject?.actors
+    ? getPersonNames(subject.actors)
+    : (cardInfo.actors ?? []);
+  const personalStar = parseStar(
+    subject ? getRatingValue(raw.rating) : raw.star
+  );
+  const poster = raw.poster?.trim() ||
+    subject?.pic?.normal?.trim() ||
+    subject?.pic?.large?.trim() ||
+    subject?.cover_url?.trim() ||
+    undefined;
 
   const movie: Movie = {
     id,
-    title: raw.title.trim(),
-    originalTitle: raw.original_title?.trim() || undefined,
+    title,
+    originalTitle: subject?.original_title?.trim() || raw.original_title?.trim() || undefined,
     year: finalYear,
     releaseDate,
-    poster: raw.poster?.trim() || undefined,
+    poster,
     backdrop: undefined,
     directors,
     actors,
     genres,
     countries,
     languages: [],
-    doubanUrl: raw.url?.trim() || `https://movie.douban.com/subject/${id}/`,
-    doubanRating: parseDoubanRating(raw.rating),
-    doubanStar: parseStar(raw.star),
-    personalRating: parseStar(raw.star),
-    watchedAt: raw.star_time
-      ? new Date(raw.star_time).toISOString()
+    doubanUrl: subject?.url?.trim() || raw.url?.trim() || `https://movie.douban.com/subject/${id}/`,
+    doubanRating: parseDoubanRating(
+      subject ? getRatingValue(subject.rating) : getRatingValue(raw.rating)
+    ),
+    doubanStar: personalStar,
+    personalRating: personalStar,
+    watchedAt: raw.create_time || raw.star_time
+      ? new Date(raw.create_time || raw.star_time!).toISOString()
       : undefined,
     addedAt: new Date().toISOString(),
     shortComment: raw.comment?.trim() || undefined,
@@ -385,13 +427,22 @@ async function main(): Promise<void> {
   // 3. 标准化豆瓣数据
   console.log("\n🔄 标准化豆瓣数据...");
   const doubanMovieMap = new Map<string, Movie>();
+  const nestedMovieIds = new Set<string>();
 
   for (let i = 0; i < doubanRaw.length; i++) {
     try {
       const movie = normalizeDoubanMovie(doubanRaw[i]!, i, result.warnings);
       if (movie) {
-        doubanMovieMap.set(movie.id, movie);
-        result.stats.fromDouban++;
+        const isNested = Boolean(doubanRaw[i]!.subject);
+        const isNewMovie = !doubanMovieMap.has(movie.id);
+        const existingIsNested = nestedMovieIds.has(movie.id);
+
+        // 新版嵌套格式信息更完整，不允许同 ID 的旧版数据覆盖它。
+        if (!doubanMovieMap.has(movie.id) || isNested || !existingIsNested) {
+          doubanMovieMap.set(movie.id, movie);
+        }
+        if (isNested) nestedMovieIds.add(movie.id);
+        if (isNewMovie) result.stats.fromDouban++;
       } else {
         result.stats.skipped++;
       }
