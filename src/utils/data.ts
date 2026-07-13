@@ -48,30 +48,6 @@ export async function getMovieById(id: string): Promise<Movie | undefined> {
 }
 
 /**
- * 获取所有分类
- */
-export async function getAllGenres(): Promise<string[]> {
-  const movies = await getAllMovies();
-  const genres = new Set<string>();
-  for (const m of movies) {
-    for (const g of m.genres) genres.add(g);
-  }
-  return Array.from(genres).sort();
-}
-
-/**
- * 获取所有年份
- */
-export async function getAllYears(): Promise<number[]> {
-  const movies = await getAllMovies();
-  const years = new Set<number>();
-  for (const m of movies) {
-    if (m.year) years.add(m.year);
-  }
-  return Array.from(years).sort((a, b) => b - a);
-}
-
-/**
  * 获取所有标签
  */
 export async function getAllTags(): Promise<string[]> {

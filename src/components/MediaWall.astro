@@ -1,0 +1,433 @@
+---
+/**
+ * 电影/电视剧墙共用页面
+ * 按传入类型展示条目，并支持前端筛选、搜索、排序
+ */
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import MovieCard from "./MovieCard.astro";
+import { siteConfig } from "../config/site";
+import { getAllMovies } from "../utils/data";
+import type { Movie } from "../types/movie";
+
+interface Props {
+  mediaType: Movie["mediaType"];
+}
+
+const { mediaType } = Astro.props;
+const movies = (await getAllMovies()).filter((movie) => movie.mediaType === mediaType);
+const genres = [...new Set(movies.flatMap((movie) => movie.genres))].sort();
+const years = [...new Set(movies.flatMap((movie) => movie.year ? [movie.year] : []))]
+  .sort((a, b) => b - a);
+const genreCounts = [...movies.flatMap((movie) => movie.genres)
+  .reduce((counts, genre) => counts.set(genre, (counts.get(genre) ?? 0) + 1), new Map<string, number>())]
+  .sort((a, b) => b[1] - a[1]);
+const wallTitle = mediaType === "tv" ? "电视剧墙" : "电影墙";
+const itemLabel = mediaType === "tv" ? "电视剧" : "电影";
+const searchPlaceholder = mediaType === "tv"
+  ? "搜索剧名、导演、演员、标签…"
+  : "搜索电影名、导演、演员、标签…";
+
+// 将电影数据序列化到客户端（用于前端筛选）
+const moviesJson = JSON.stringify(movies);
+---
+
+<BaseLayout
+  title={wallTitle}
+  description={`共 ${movies.length} 部${itemLabel} — ${siteConfig.description}`}
+>
+  <!-- 页面标题 -->
+  <div class="page-header">
+    <div class="container">
+      <div class="page-header__inner animate-fade-in-up">
+        <span class="page-header__eyebrow">全部档案</span>
+        <h1 class="page-header__title">{wallTitle}</h1>
+        <p class="page-header__desc">
+          共 <strong id="count-display">{movies.length}</strong> 部{itemLabel}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- ── 筛选栏 ──────────────────────────────────────── -->
+    <div class="filter-section animate-fade-in-up delay-100" role="search" aria-label={`${itemLabel}筛选`}>
+      <!-- 搜索框 -->
+      <div class="filter-bar__search">
+        <span class="filter-bar__search-icon" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M6.5 0a6.5 6.5 0 1 0 4.096 11.535l3.685 3.684a.75.75 0 1 0 1.06-1.06l-3.684-3.685A6.5 6.5 0 0 0 6.5 0zM1.5 6.5a5 5 0 1 1 10 0 5 5 0 0 1-10 0z"/>
+          </svg>
+        </span>
+        <input
+          type="search"
+          id="movie-search"
+          class="input filter-bar__search-input"
+          placeholder={searchPlaceholder}
+          aria-label={`搜索${itemLabel}`}
+          autocomplete="off"
+        />
+      </div>
+
+      <!-- 筛选和排序控件 -->
+      <div class="filter-controls">
+        <!-- 类型筛选 -->
+        <div class="filter-bar__select-wrap">
+          <select id="filter-genre" class="input select" aria-label="按类型筛选">
+            <option value="">全部类型</option>
+            {genres.map(g => <option value={g}>{g}</option>)}
+          </select>
+        </div>
+
+        <!-- 年份筛选 -->
+        <div class="filter-bar__select-wrap">
+          <select id="filter-year" class="input select" aria-label="按年份筛选">
+            <option value="">全部年份</option>
+            {years.map(y => <option value={String(y)}>{y}</option>)}
+          </select>
+        </div>
+
+        <!-- 评分筛选 -->
+        <div class="filter-bar__select-wrap">
+          <select id="filter-rating" class="input select" aria-label="按个人评分筛选">
+            <option value="">全部评分</option>
+            <option value="5">⭐⭐⭐⭐⭐ 5 星</option>
+            <option value="4">⭐⭐⭐⭐ 4 星及以上</option>
+            <option value="3">⭐⭐⭐ 3 星及以上</option>
+          </select>
+        </div>
+
+        <!-- 排序 -->
+        <div class="filter-bar__select-wrap">
+          <select id="sort-by" class="input select" aria-label="排序方式">
+            <option value="watchedAt-desc">最近观看</option>
+            <option value="watchedAt-asc">最早观看</option>
+            <option value="personalRating-desc">我的评分</option>
+            <option value="doubanRating-desc">豆瓣评分</option>
+            <option value="year-desc">上映年份（新→旧）</option>
+            <option value="year-asc">上映年份（旧→新）</option>
+            <option value="title-asc">标题</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- 快速筛选标签 -->
+      <div class="filter-chips" role="group" aria-label="快速筛选">
+        <button class="filter-chip is-active" data-filter="all" type="button">全部</button>
+        {genreCounts.slice(0, 5).map(([genre]) => (
+          <button class="filter-chip" data-filter={`genre:${genre}`} type="button">{genre}</button>
+        ))}
+      </div>
+    </div>
+
+    <!-- ── 电影网格 ────────────────────────────────────── -->
+    <div
+      id="movie-grid"
+      class="movie-grid animate-fade-in-up delay-200"
+      aria-label={`${itemLabel}列表`}
+      aria-live="polite"
+    >
+      {movies.map((movie) => (
+        <MovieCard movie={movie} showDate={true} />
+      ))}
+    </div>
+
+    <!-- 空状态 -->
+    <div id="empty-state" class="empty-state" style="display:none;" aria-live="polite">
+      <div class="empty-state__icon" aria-hidden="true">{mediaType === "tv" ? "📺" : "🎬"}</div>
+      <p class="empty-state__title">没有找到匹配的{itemLabel}</p>
+      <p class="empty-state__desc">尝试调整筛选条件或搜索词</p>
+      <button id="reset-filters" class="btn btn-secondary" type="button">
+        重置筛选
+      </button>
+    </div>
+
+    <!-- 底部间距 -->
+    <div style="height: var(--space-20);"></div>
+  </div>
+</BaseLayout>
+
+<!-- 内嵌电影数据，供前端脚本使用 -->
+<script type="application/json" id="movies-data" set:html={moviesJson} is:inline></script>
+
+<script is:inline>
+  // ── 前端筛选、搜索、排序逻辑 ──────────────────────────
+
+  // 读取数据
+  const rawData = document.getElementById('movies-data')?.textContent ?? '[]';
+  const allMovies = JSON.parse(rawData);
+
+  // DOM 元素
+  const searchInput = document.getElementById('movie-search');
+  const genreSelect = document.getElementById('filter-genre');
+  const yearSelect = document.getElementById('filter-year');
+  const ratingSelect = document.getElementById('filter-rating');
+  const sortSelect = document.getElementById('sort-by');
+  const grid = document.getElementById('movie-grid');
+  const emptyState = document.getElementById('empty-state');
+  const countDisplay = document.getElementById('count-display');
+  const resetBtn = document.getElementById('reset-filters');
+  const chips = document.querySelectorAll('.filter-chip');
+
+
+  let activeQuickFilter = 'all';
+
+  // 获取卡片列表
+  const cards = grid ? Array.from(grid.querySelectorAll('.movie-card')) : [];
+
+  // 构建 ID → 卡片映射
+  const cardMap = new Map();
+  cards.forEach(card => {
+    const id = card.dataset.movieId;
+    if (id) cardMap.set(id, card);
+  });
+
+  function normalize(str) {
+    return str.toLowerCase().replace(/\s/g, '');
+  }
+
+  function matchSearch(movie, query) {
+    if (!query) return true;
+    const q = normalize(query);
+    return (
+      normalize(movie.title).includes(q) ||
+      normalize(movie.originalTitle ?? '').includes(q) ||
+      movie.directors.some(d => normalize(d).includes(q)) ||
+      movie.actors.some(a => normalize(a).includes(q)) ||
+      movie.tags.some(t => normalize(t).includes(q)) ||
+      normalize(movie.shortComment ?? '').includes(q) ||
+      normalize(movie.review ?? '').includes(q)
+    );
+  }
+
+  function compareMovies(a, b, sortKey) {
+    const parts = sortKey.split('-');
+    const field = parts[0];
+    const dir = parts[1];
+    const asc = dir === 'asc';
+
+    switch (field) {
+      case 'watchedAt': {
+        const ta = a.watchedAt ? new Date(a.watchedAt).getTime() : 0;
+        const tb = b.watchedAt ? new Date(b.watchedAt).getTime() : 0;
+        return asc ? ta - tb : tb - ta;
+      }
+      case 'personalRating': {
+        const ra = a.personalRating ?? 0;
+        const rb = b.personalRating ?? 0;
+        return asc ? ra - rb : rb - ra;
+      }
+      case 'doubanRating': {
+        const ra = a.doubanRating ?? 0;
+        const rb = b.doubanRating ?? 0;
+        return asc ? ra - rb : rb - ra;
+      }
+      case 'year': {
+        const ya = a.year ?? 0;
+        const yb = b.year ?? 0;
+        return asc ? ya - yb : yb - ya;
+      }
+      case 'title': {
+        return asc
+          ? a.title.localeCompare(b.title, 'zh-CN')
+          : b.title.localeCompare(a.title, 'zh-CN');
+      }
+      default:
+        return 0;
+    }
+  }
+
+  function applyFilters() {
+    const query = searchInput?.value ?? '';
+    const genre = genreSelect?.value ?? '';
+    const year = yearSelect?.value ?? '';
+    const minRating = ratingSelect ? parseInt(ratingSelect.value) || 0 : 0;
+    const sortKey = sortSelect?.value ?? 'watchedAt-desc';
+
+    // 先筛选
+    let filtered = allMovies.filter(movie => {
+      if (!matchSearch(movie, query)) return false;
+      if (genre && !movie.genres.includes(genre)) return false;
+      if (year && movie.year !== parseInt(year)) return false;
+      if (minRating && (movie.personalRating ?? 0) < minRating) return false;
+
+      // 快速筛选
+      if (activeQuickFilter.startsWith('genre:')) {
+        const g = activeQuickFilter.slice(6);
+        if (!movie.genres.includes(g)) return false;
+      }
+
+      return true;
+    });
+
+    // 再排序
+    filtered = [...filtered].sort((a, b) => compareMovies(a, b, sortKey));
+
+    // 更新显示
+    const visibleIds = new Set(filtered.map(m => m.id));
+
+    if (grid) {
+      // 按排序重排 DOM
+      filtered.forEach(movie => {
+        const card = cardMap.get(movie.id);
+        if (card) {
+          card.style.display = '';
+          grid.appendChild(card); // 移到末尾以重排
+        }
+      });
+
+      // 隐藏不匹配的
+      cardMap.forEach((card, id) => {
+        if (!visibleIds.has(id)) {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    const count = filtered.length;
+    if (countDisplay) countDisplay.textContent = String(count);
+
+    if (emptyState) {
+      emptyState.style.display = count === 0 ? 'flex' : 'none';
+    }
+  }
+
+  // 事件绑定
+  let searchTimer;
+  searchInput?.addEventListener('input', () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(applyFilters, 200);
+  });
+
+  genreSelect?.addEventListener('change', applyFilters);
+  yearSelect?.addEventListener('change', applyFilters);
+  ratingSelect?.addEventListener('change', applyFilters);
+  sortSelect?.addEventListener('change', applyFilters);
+
+  // 快速筛选标签
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      chips.forEach(c => c.classList.remove('is-active'));
+      chip.classList.add('is-active');
+      activeQuickFilter = chip.dataset.filter ?? 'all';
+
+      // 同步 genre select
+      if (activeQuickFilter.startsWith('genre:')) {
+        const g = activeQuickFilter.slice(6);
+        if (genreSelect) genreSelect.value = g;
+      } else {
+        if (genreSelect) genreSelect.value = '';
+      }
+
+      applyFilters();
+    });
+  });
+
+  // 重置按钮
+  resetBtn?.addEventListener('click', () => {
+    if (searchInput) searchInput.value = '';
+    if (genreSelect) genreSelect.value = '';
+    if (yearSelect) yearSelect.value = '';
+    if (ratingSelect) ratingSelect.value = '';
+    if (sortSelect) sortSelect.value = 'watchedAt-desc';
+
+    chips.forEach(c => c.classList.remove('is-active'));
+    chips[0]?.classList.add('is-active');
+    activeQuickFilter = 'all';
+
+    applyFilters();
+  });
+</script>
+
+<style>
+  .page-header {
+    padding: var(--space-20) 0 var(--space-10);
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .page-header__inner {
+    max-width: 600px;
+  }
+
+  .page-header__eyebrow {
+    display: block;
+    font-size: var(--text-xs);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    margin-bottom: var(--space-3);
+  }
+
+  .page-header__title {
+    font-size: var(--text-5xl);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    margin-bottom: var(--space-3);
+  }
+
+  .page-header__desc {
+    font-size: var(--text-lg);
+    color: var(--text-muted);
+  }
+
+  .page-header__desc strong {
+    color: var(--color-accent);
+    font-weight: 700;
+  }
+
+  /* 筛选区域 */
+  .filter-section {
+    padding: var(--space-6) 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    border-bottom: 1px solid var(--border-subtle);
+    margin-bottom: var(--space-8);
+  }
+
+  .filter-bar__search {
+    position: relative;
+  }
+
+  .filter-bar__search-icon {
+    position: absolute;
+    left: var(--space-3);
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .filter-bar__search-input {
+    padding-left: calc(var(--space-3) + 16px + var(--space-2));
+  }
+
+  .filter-controls {
+    display: flex;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  .filter-bar__select-wrap .input {
+    height: 40px;
+    min-width: 140px;
+    font-size: var(--text-sm);
+    background-color: var(--bg-card);
+    color: var(--text-secondary);
+  }
+
+  @media (max-width: 640px) {
+    .filter-controls {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .filter-bar__select-wrap .input {
+      min-width: 0;
+      width: 100%;
+    }
+  }
+</style>

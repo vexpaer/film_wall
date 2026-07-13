@@ -5,10 +5,11 @@
 
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { siteConfig } from "../config/site";
-import { getAllMovies, getStats } from "../utils/data";
+import { getStats } from "../utils/data";
+import { getAllBooks } from "../utils/books";
 
-const movies = await getAllMovies();
 const stats = await getStats();
+const books = await getAllBooks();
 
 // 最后更新时间（用构建时间）
 const buildTime = new Date().toLocaleDateString("zh-CN", {
@@ -38,11 +39,11 @@ const buildTime = new Date().toLocaleDateString("zh-CN", {
       <section class="about-section" aria-labelledby="intro-heading">
         <h2 class="about-section__title" id="intro-heading">这是什么？</h2>
         <p>
-          这是 <strong>{siteConfig.author}</strong> 的个人观影记录档案。
-          记录看过的电影、个人评分和感受，不代表任何专业影评立场。
+          这是 <strong>{siteConfig.author}</strong> 的个人观影与阅读档案。
+          记录看过的影视作品、读过的书、个人评分和感受。
         </p>
         <p>
-          目前共记录了 <strong>{stats.total}</strong> 部影视作品，
+          目前共记录了 <strong>{stats.total}</strong> 部影视作品和 <strong>{books.length}</strong> 本书，
           其中 <strong>{stats.ratedCount}</strong> 部记录了个人评分。
         </p>
       </section>
@@ -51,9 +52,9 @@ const buildTime = new Date().toLocaleDateString("zh-CN", {
       <section class="about-section" aria-labelledby="source-heading">
         <h2 class="about-section__title" id="source-heading">数据来源</h2>
         <p>
-          电影数据主要来自
+          影视与书籍数据主要来自
           <a href="https://movie.douban.com" target="_blank" rel="noopener noreferrer" class="about-link">
-            豆瓣电影
+            豆瓣
           </a>
           的观影记录，通过
           <a href="https://github.com/lizheming/doumark-action" target="_blank" rel="noopener noreferrer" class="about-link">
@@ -62,8 +63,8 @@ const buildTime = new Date().toLocaleDateString("zh-CN", {
           自动同步。
         </p>
         <p>
-          部分电影的长评、标签和额外信息由我手动补充，存储在仓库的
-          <code>data/manual/movies.json</code> 中。
+          部分条目的评分、长评和额外信息由我手动补充，存储在仓库的
+          <code>data/manual/</code> 中。
           手动数据的优先级高于豆瓣导入数据。
         </p>
       </section>
@@ -77,7 +78,7 @@ const buildTime = new Date().toLocaleDateString("zh-CN", {
           构建，完全静态，部署在 GitHub Pages 上。
         </p>
         <ul class="about-list">
-          <li>豆瓣观影数据通过 GitHub Actions 定时同步</li>
+          <li>豆瓣观影与阅读数据通过 GitHub Actions 定时同步</li>
           <li>数据经过标准化处理，生成统一的 JSON 格式</li>
           <li>Astro 在构建时读取数据，生成静态 HTML 页面</li>
           <li>构建产物自动部署到 GitHub Pages</li>

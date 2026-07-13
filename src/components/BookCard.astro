@@ -1,0 +1,114 @@
+---
+import type { Book } from "../types/book";
+import { formatDate, formatRating } from "../utils/data";
+
+interface Props {
+  book: Book;
+  lazy?: boolean;
+}
+
+const { book, lazy = true } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const detailUrl = `${base}/books/${book.id}/`;
+const stars = book.personalRating ? Math.round(book.personalRating) : 0;
+---
+
+<article class="movie-card" data-book-id={book.id}>
+  <a href={detailUrl} class="book-card__link" aria-label={book.title}>
+    <div class="movie-card__poster">
+      {book.cover ? (
+        <img
+          src={book.cover}
+          data-fallback-src={book.coverFallback}
+          alt={`${book.title} 封面`}
+          loading={lazy ? "lazy" : "eager"}
+          decoding="async"
+          referrerpolicy="no-referrer"
+          onerror="const fallback=this.dataset.fallbackSrc;if(fallback){this.removeAttribute('data-fallback-src');this.src=fallback;}else{this.style.display='none';this.nextElementSibling.style.display='flex';}"
+        />
+        <div class="movie-card__poster-placeholder" style="display:none;">
+          <span class="book-card__placeholder-icon" aria-hidden="true">📖</span>
+          <span>{book.title}</span>
+        </div>
+      ) : (
+        <div class="movie-card__poster-placeholder">
+          <span class="book-card__placeholder-icon" aria-hidden="true">📖</span>
+          <span>{book.title}</span>
+        </div>
+      )}
+
+      <span class="book-card__type">书籍</span>
+
+      <div class="movie-card__overlay" aria-hidden="true">
+        <div class="movie-card__overlay-info">
+          {book.shortComment && <p>{book.shortComment}</p>}
+          {book.finishedAt && <p>读完于 {formatDate(book.finishedAt)}</p>}
+        </div>
+      </div>
+    </div>
+
+    <div class="movie-card__info">
+      <h3 class="movie-card__title">{book.title}</h3>
+      {book.authors.length > 0 && (
+        <p class="book-card__authors">{book.authors.join(" / ")}</p>
+      )}
+      <div class="movie-card__meta">
+        {book.year && <span class="movie-card__year">{book.year}</span>}
+        {book.doubanRating && (
+          <span class="movie-card__rating movie-card__rating--douban" title="豆瓣评分">
+            <span class="movie-card__rating-icon" aria-hidden="true">◆</span>
+            {formatRating(book.doubanRating)}
+          </span>
+        )}
+        {stars > 0 && (
+          <span class="movie-card__rating movie-card__rating--personal" title={`我的评分：${stars}星`}>
+            <span class="movie-card__rating-icon" aria-hidden="true">★</span>
+            {stars}/5
+          </span>
+        )}
+      </div>
+      {book.publisher && <p class="book-card__publisher">{book.publisher}</p>}
+    </div>
+  </a>
+</article>
+
+<style>
+  .book-card__link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .book-card__type {
+    position: absolute;
+    top: var(--space-2);
+    left: var(--space-2);
+    z-index: 2;
+    padding: 3px 8px;
+    border: 1px solid var(--border-accent);
+    border-radius: var(--radius-full);
+    background: rgba(10, 10, 15, 0.82);
+    color: var(--color-accent);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    backdrop-filter: blur(8px);
+  }
+
+  .book-card__placeholder-icon {
+    font-size: 2rem !important;
+    opacity: 0.55;
+  }
+
+  .book-card__authors,
+  .book-card__publisher {
+    overflow: hidden;
+    color: var(--text-muted);
+    font-size: var(--text-xs);
+    line-height: 1.4;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+</style>

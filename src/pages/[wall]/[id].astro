@@ -1,7 +1,7 @@
 ---
 /**
- * 电影详情页 — 动态路由
- * 每部电影生成独立静态页面
+ * 电影与电视剧详情页 — 动态路由
+ * 分别生成 /movies/:id 与 /tv/:id 静态页面
  */
 
 import BaseLayout from "../../layouts/BaseLayout.astro";
@@ -11,20 +11,27 @@ import { getAllMovies, formatRating, formatDate } from "../../utils/data";
 
 // 生成所有静态路径
 export async function getStaticPaths() {
-  const movies = await getAllMovies();
-  return movies.map((movie, index) => ({
-    params: { id: movie.id },
-    props: {
-      movie,
-      prevMovie: movies[index - 1] ?? null,
-      nextMovie: movies[index + 1] ?? null,
-    },
-  }));
+  const allMovies = await getAllMovies();
+  return (["movie", "tv"] as const).flatMap((mediaType) => {
+    const movies = allMovies.filter((movie) => movie.mediaType === mediaType);
+    const wall = mediaType === "tv" ? "tv" : "movies";
+    return movies.map((movie, index) => ({
+      params: { wall, id: movie.id },
+      props: {
+        movie,
+        prevMovie: movies[index - 1] ?? null,
+        nextMovie: movies[index + 1] ?? null,
+      },
+    }));
+  });
 }
 
 const { movie, prevMovie, nextMovie } = Astro.props;
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const wallPath = movie.mediaType === "tv" ? "tv" : "movies";
+const wallLabel = movie.mediaType === "tv" ? "电视剧墙" : "电影墙";
+const itemLabel = movie.mediaType === "tv" ? "剧集" : "电影";
 
 // 简单 Markdown → HTML 渲染（处理长评）
 function renderMarkdown(text: string): string {
@@ -55,9 +62,9 @@ const hasPoster = Boolean(movie.poster);
   <!-- 返回按钮 -->
   <div class="back-bar">
     <div class="container">
-      <a href={`${base}/movies/`} class="back-link" aria-label="返回电影墙">
+      <a href={`${base}/${wallPath}/`} class="back-link" aria-label={`返回${wallLabel}`}>
         <span aria-hidden="true">←</span>
-        电影墙
+        {wallLabel}
       </a>
     </div>
   </div>
@@ -84,13 +91,13 @@ const hasPoster = Boolean(movie.poster);
     <div class="container">
       <div class="detail-hero__content">
         <!-- 海报 -->
-        <div class="detail-poster" aria-label={`${movie.mediaType === 'tv' ? '剧集' : '电影'}海报`}>
+        <div class="detail-poster" aria-label={`${itemLabel}海报`}>
           {hasPoster ? (
             <img
               class="detail-poster__img"
               src={movie.poster}
               data-fallback-src={movie.posterFallback}
-              alt={`${movie.title} ${movie.mediaType === 'tv' ? '剧集' : '电影'}海报`}
+              alt={`${movie.title} ${itemLabel}海报`}
               loading="eager"
               decoding="async"
               referrerpolicy="no-referrer"
@@ -119,7 +126,7 @@ const hasPoster = Boolean(movie.poster);
         <!-- 电影主要信息 -->
         <div class="detail-info">
           <div class="detail-info__badges">
-            <span class="tag tag--accent">{movie.mediaType === 'tv' ? '剧集' : '电影'}</span>
+            <span class="tag tag--accent">{itemLabel}</span>
             {movie.status === 'watching' && (
               <span class="tag" style="color: var(--color-blue)">在看</span>
             )}
@@ -163,7 +170,7 @@ const hasPoster = Boolean(movie.poster);
           {movie.genres.length > 0 && (
             <div class="detail-genres" aria-label="类型">
               {movie.genres.map(g => (
-                <a href={`${base}/movies/?genre=${encodeURIComponent(g)}`} class="genre-tag">
+                <a href={`${base}/${wallPath}/?genre=${encodeURIComponent(g)}`} class="genre-tag">
                   {g}
                 </a>
               ))}
@@ -268,7 +275,7 @@ const hasPoster = Boolean(movie.poster);
         </main>
 
         <!-- 右侧侧边栏 -->
-        <aside class="detail-sidebar" aria-label="电影详情">
+        <aside class="detail-sidebar" aria-label={`${itemLabel}详情`}>
           <!-- 导演 -->
           {movie.directors.length > 0 && (
             <div class="sidebar-section">
@@ -312,7 +319,7 @@ const hasPoster = Boolean(movie.poster);
       <nav class="detail-nav" aria-label="前后电影导航">
         <div class="detail-nav__inner">
           {prevMovie ? (
-            <a href={`${base}/movies/${prevMovie.id}/`} class="detail-nav__link detail-nav__link--prev">
+            <a href={`${base}/${wallPath}/${prevMovie.id}/`} class="detail-nav__link detail-nav__link--prev">
               <span class="detail-nav__direction" aria-hidden="true">←</span>
               <div class="detail-nav__info">
                 <span class="detail-nav__label">上一部</span>
@@ -324,7 +331,7 @@ const hasPoster = Boolean(movie.poster);
           )}
 
           {nextMovie ? (
-            <a href={`${base}/movies/${nextMovie.id}/`} class="detail-nav__link detail-nav__link--next">
+            <a href={`${base}/${wallPath}/${nextMovie.id}/`} class="detail-nav__link detail-nav__link--next">
               <div class="detail-nav__info">
                 <span class="detail-nav__label">下一部</span>
                 <span class="detail-nav__title">{nextMovie.title}</span>

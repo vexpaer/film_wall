@@ -1,12 +1,12 @@
 # 🎬 Film Wall
 
-> 个人观影记录 · 自动同步豆瓣 · 部署到 GitHub Pages
+> 个人观影与阅读记录 · 自动同步豆瓣 · 部署到 GitHub Pages
 
 ![Film Wall](https://img.shields.io/badge/Astro-7.x-orange?logo=astro)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue?logo=typescript)
 ![GitHub Pages](https://img.shields.io/badge/部署-GitHub%20Pages-green?logo=github)
 
-一个由 Astro 构建的静态个人电影墙，支持豆瓣数据自动同步，部署在 GitHub Pages 上。
+一个由 Astro 构建的静态个人电影墙、电视剧墙与书架，支持豆瓣影视和书籍数据自动同步，部署在 GitHub Pages 上。
 
 **演示地址：** `https://<your-username>.github.io/film_wall/`
 
@@ -41,20 +41,21 @@ film_wall/
 │     ├─ sync-douban.yml        # 豆瓣数据同步工作流
 │     └─ deploy-pages.yml       # GitHub Pages 部署工作流
 ├─ data/
-│  ├─ raw/douban/movie.json     # 豆瓣原始数据（自动更新，勿手动编辑）
-│  ├─ manual/movies.json        # 手动补充/覆盖数据（请在此编辑）
-│  └─ generated/movies.json     # 构建时生成，勿直接编辑
+│  ├─ raw/douban/               # 豆瓣原始电影与书籍数据（自动更新）
+│  ├─ manual/                   # 手动补充/覆盖数据
+│  └─ generated/                # 构建时生成的 movies.json / books.json
 ├─ scripts/
-│  ├─ normalize-movies.ts       # 数据标准化脚本
-│  └─ validate-data.ts          # 数据校验脚本
+│  ├─ normalize-movies.ts       # 影视数据标准化脚本
+│  ├─ normalize-books.ts        # 书籍数据标准化脚本
+│  └─ validate-*.ts             # 数据校验脚本
 ├─ src/
 │  ├─ components/               # Astro 组件
 │  ├─ config/site.ts            # 站点配置
 │  ├─ layouts/BaseLayout.astro  # 页面布局
 │  ├─ pages/                    # 页面（自动路由）
 │  ├─ styles/global.css         # 全局样式
-│  ├─ types/movie.ts            # TypeScript 类型定义
-│  └─ utils/data.ts             # 数据工具函数
+│  ├─ types/                    # 影视与书籍 TypeScript 类型
+│  └─ utils/                    # 构建期数据工具函数
 ├─ public/                      # 静态资源
 ├─ astro.config.mjs             # Astro 配置
 ├─ package.json
@@ -204,12 +205,12 @@ npm run data:normalize
 在 GitHub 仓库页面：
 
 1. 进入 **Actions** 标签
-2. 选择左侧 **Sync Douban Movies**
+2. 选择左侧 **Sync Douban Library**
 3. 点击右侧 **Run workflow**
 
 ### 3. 自动同步
 
-工作流配置为每周一自动执行。仅在数据有变化时才提交。
+工作流配置为每周一自动执行，同时同步“看过”的电影/电视剧和“读过”的书；仅在数据有变化时才提交。
 
 ---
 
@@ -245,6 +246,9 @@ git push origin main
 
 ## 🗃 数据字段说明
 
+影视数据生成到 `data/generated/movies.json`，并按 `mediaType` 分别显示在电影墙和电视剧墙。
+书籍数据生成到 `data/generated/books.json`，包含书名、作者、出版社、出版时间、页数、评分、封面和读完时间等字段。
+
 | 字段 | 类型 | 说明 |
 |------|------|------|
 | `id` | string | 电影唯一 ID（豆瓣 subject ID） |
@@ -275,17 +279,18 @@ git push origin main
 ### 海报链接失效怎么办？
 
 同步数据会优先使用豆瓣导出中自带的封面代理，并在浏览器中自动尝试豆瓣原图；
-两者都失败时显示占位图。个别海报仍失效时：
+电影海报和书籍封面两者都失败时显示占位图。个别图片仍失效时：
 - 在 `data/manual/movies.json` 中为对应电影添加 `poster` 字段，指向可访问的图片 URL
+- 在 `data/manual/books.json` 中为对应书籍添加 `cover` 字段，指向可访问的图片 URL
 - 网站对无海报电影会显示美观的占位符，不会破坏布局
 
 ### 如何关闭豆瓣同步，只用手动数据？
 
 1. 在 GitHub Actions 中禁用 `sync-douban.yml` 工作流
 2. 或者不配置 `DOUBAN_USER_ID`（工作流会自动跳过同步步骤）
-3. 在 `data/manual/movies.json` 中手动填写所有电影数据
+3. 在 `data/manual/movies.json` 和 `data/manual/books.json` 中手动填写数据
 
-### 构建时 `data/generated/movies.json` 不存在？
+### 构建时生成数据不存在？
 
 先运行：
 

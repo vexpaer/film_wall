@@ -1,0 +1,44 @@
+[
+	{
+		"comment": "",
+		"create_time": "2026-06-30 23:21:36",
+		"star_time": "2026-06-30 23:21:36",
+		"id": 4878112603,
+		"rating": null,
+		"status": "done",
+		"subject": {
+			"author": [
+				"金庸"
+			],
+			"book_subtitle": "",
+			"card_subtitle": "金庸 / 1994 / 生活·读书·新知三联书店",
+			"cover_url": "https://dou.img.lithub.cc/book/1255625.jpg",
+			"id": "1255625",
+			"intro": "天龙八部乃金笔下的一部长篇小说，与《射雕》、《神雕》等几部长篇小说一起被称为可读性最高的金庸小说。故事以北宋末年动荡的社会环境为背景，展开波澜壮阔的历史画卷。",
+			"pages": [
+				"1978"
+			],
+			"pic": {
+				"large": "https://img9.doubanio.com/view/subject/l/public/s26018275.jpg",
+				"normal": "https://img9.doubanio.com/view/subject/m/public/s26018275.jpg"
+			},
+			"press": [
+				"生活·读书·新知三联书店"
+			],
+			"pubdate": [
+				"1994-5"
+			],
+			"rating": {
+				"count": 141354,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.2
+			},
+			"subtype": "book",
+			"title": "天龙八部",
+			"type": "book",
+			"url": "https://book.douban.com/subject/1255625/"
+		},
+		"tags": []
+	}
+]

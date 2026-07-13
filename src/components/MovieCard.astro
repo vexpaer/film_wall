@@ -18,7 +18,8 @@ interface Props {
 const { movie, showDate = false, lazy = true } = Astro.props;
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-const detailUrl = `${base}/movies/${movie.id}/`;
+const wallPath = movie.mediaType === "tv" ? "tv" : "movies";
+const detailUrl = `${base}/${wallPath}/${movie.id}/`;
 
 // 海报优先：movie.poster，无则使用占位
 const hasPoster = Boolean(movie.poster);

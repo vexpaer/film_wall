@@ -1,4 +1,4 @@
-name: Sync Douban Movies
+name: Sync Douban Library
 
 on:
   # 手动触发
@@ -42,6 +42,15 @@ jobs:
           echo "id=$DOUBAN_ID" >> $GITHUB_OUTPUT
           echo "✓ 使用豆瓣用户 ID: $DOUBAN_ID"
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Prepare incremental sync cursors
+        run: node scripts/prepare-doumark-json.mjs
+
       - name: Sync Douban watched movies
         uses: lizheming/doumark-action@master
         with:
@@ -53,11 +62,17 @@ jobs:
           # cookie 可选，用于访问私密内容
           # cookie: ${{ secrets.DOUBAN_COOKIE }}
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v5
+      - name: Sync Douban read books
+        uses: lizheming/doumark-action@master
         with:
-          node-version: '22'
-          cache: 'npm'
+          id: ${{ steps.douban-id.outputs.id }}
+          type: book
+          status: done
+          format: json
+          dir: ./data/raw/douban
+
+      - name: Persist incremental sync cursors
+        run: node scripts/prepare-doumark-json.mjs
 
       - name: Install dependencies
         run: npm ci
@@ -86,7 +101,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
-          git commit -m "chore(data): sync Douban movies
+          git commit -m "chore(data): sync Douban movies and books
 
           Auto-synced by doumark-action
           Run ID: ${{ github.run_id }}"

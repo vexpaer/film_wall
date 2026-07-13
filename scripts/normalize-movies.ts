@@ -126,6 +126,20 @@ function getRatingValue(
   return rating?.value;
 }
 
+/** 从用户评分对象读取 1–5 星；value 为 10 分制时自动换算。 */
+function getStarValue(
+  rating: number | string | DoubanRawRating | null | undefined,
+  fallback?: number | string
+): number | string | undefined {
+  if (rating && typeof rating === "object") {
+    const starCount = rating.star_count;
+    if (starCount !== undefined) return starCount;
+    const value = Number(rating.value);
+    if (Number.isFinite(value)) return value > 5 ? value / 2 : value;
+  }
+  return fallback;
+}
+
 /**
  * 从新版人物对象数组中提取姓名
  */
@@ -143,6 +157,16 @@ function parseStar(star: number | string | undefined | null): number | undefined
   const num = typeof star === "string" ? parseInt(star, 10) : Math.round(star);
   if (isNaN(num) || num <= 0) return undefined;
   return Math.min(5, Math.max(1, num));
+}
+
+/** 将豆瓣的北京时间字符串稳定转换为 ISO 时间，避免不同 runner 时区产生差异。 */
+function parseMarkedAt(value: string | undefined): string | undefined {
+  if (!value) return undefined;
+  const normalized = /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/.test(value)
+    ? `${value.replace(" ", "T")}+08:00`
+    : value;
+  const date = new Date(normalized);
+  return Number.isNaN(date.getTime()) ? undefined : date.toISOString();
 }
 
 /**
@@ -248,8 +272,9 @@ function normalizeDoubanMovie(
     ? getPersonNames(subject.actors)
     : (cardInfo.actors ?? []);
   const personalStar = parseStar(
-    subject ? getRatingValue(raw.rating) : raw.star
+    subject ? getStarValue(raw.rating) : raw.star
   );
+  const watchedAt = parseMarkedAt(raw.create_time || raw.star_time);
   const poster = raw.poster?.trim() ||
     subject?.cover_url?.trim() ||
     subject?.pic?.normal?.trim() ||
@@ -280,10 +305,8 @@ function normalizeDoubanMovie(
     ),
     doubanStar: personalStar,
     personalRating: personalStar,
-    watchedAt: raw.create_time || raw.star_time
-      ? new Date(raw.create_time || raw.star_time!).toISOString()
-      : undefined,
-    addedAt: new Date().toISOString(),
+    watchedAt,
+    addedAt: watchedAt,
     shortComment: raw.comment?.trim() || undefined,
     review: undefined,
     quote: undefined,
@@ -385,7 +408,6 @@ function createManualOnlyMovie(
     hidden: false,
     status: "watched",
     source: "manual",
-    addedAt: new Date().toISOString(),
   };
 
   return mergeManualOverride(base, override, warnings);

@@ -14,10 +14,14 @@ import {
   getStats,
   formatRating,
 } from "../utils/data";
+import { getAllBooks } from "../utils/books";
 
 const movies = await getAllMovies();
 const recent = await getRecentMovies(6);
 const stats = await getStats();
+const books = await getAllBooks();
+const movieCount = movies.filter((movie) => movie.mediaType === "movie").length;
+const tvCount = movies.filter((movie) => movie.mediaType === "tv").length;
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
@@ -153,7 +157,7 @@ const heroBgMovie = recent.find((m) => m.poster);
         <div class="featured-grid">
           {featured.map((movie, i) => (
             <a
-              href={`${base}/movies/${movie.id}/`}
+              href={`${base}/${movie.mediaType === "tv" ? "tv" : "movies"}/${movie.id}/`}
               class={`featured-card animate-fade-in-up delay-${(i + 1) * 100}`}
               aria-label={`${movie.title} — 查看详情`}
             >
@@ -199,18 +203,20 @@ const heroBgMovie = recent.find((m) => m.poster);
     </section>
   )}
 
-  <!-- ── 电影墙入口 ─────────────────────────────────────── -->
+  <!-- ── 分类入口 ───────────────────────────────────────── -->
   <section class="section section--cta" aria-labelledby="wall-heading">
     <div class="container">
       <div class="cta-block animate-fade-in-up">
-        <p class="cta-block__eyebrow" aria-hidden="true">🎬</p>
-        <h2 class="cta-block__title" id="wall-heading">完整电影墙</h2>
+        <p class="cta-block__eyebrow" aria-hidden="true">🎬 📺 📚</p>
+        <h2 class="cta-block__title" id="wall-heading">我的收藏空间</h2>
         <p class="cta-block__desc">
-          共 {stats.total} 部影视作品，支持按类型、评分、年份筛选和搜索
+          {movieCount} 部电影 · {tvCount} 部电视剧 · {books.length} 本书
         </p>
-        <a href={`${base}/movies/`} class="btn btn-primary cta-block__btn">
-          进入电影墙
-        </a>
+        <div class="cta-block__actions">
+          <a href={`${base}/movies/`} class="btn btn-primary cta-block__btn">电影墙</a>
+          <a href={`${base}/tv/`} class="btn btn-secondary cta-block__btn">电视剧墙</a>
+          <a href={`${base}/books/`} class="btn btn-secondary cta-block__btn">书架</a>
+        </div>
       </div>
     </div>
   </section>
@@ -566,5 +572,12 @@ const heroBgMovie = recent.find((m) => m.poster);
   .cta-block__btn {
     font-size: var(--text-lg);
     padding: var(--space-4) var(--space-8);
+  }
+
+  .cta-block__actions {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-3);
+    flex-wrap: wrap;
   }
 </style>

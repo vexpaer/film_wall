@@ -13,7 +13,7 @@ export const siteConfig = {
   author: "Vexpaer",
 
   /** 站点描述（用于 SEO meta description） */
-  description: "记录看过的电影、评分与感受。",
+  description: "记录看过的电影、电视剧与读过的书。",
 
   /** GitHub 仓库地址（可留空） */
   githubUrl: "https://github.com/vexpaer/film_wall",
