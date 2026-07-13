@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+env:
+  # 默认豆瓣用户 ID（也可通过仓库 Variables 覆盖）
+  DEFAULT_DOUBAN_ID: '111296951'
+
 jobs:
   sync:
     name: Sync Douban Data
@@ -23,29 +27,25 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ── 豆瓣用户 ID 配置说明 ─────────────────────────────────
-      # 请在仓库 Settings → Variables → Actions Variables 中添加：
-      #   Name: DOUBAN_USER_ID
-      #   Value: 你的豆瓣用户 ID（数字，可从豆瓣个人主页 URL 获取）
-      #
-      # 示例豆瓣主页 URL: https://www.douban.com/people/123456789/
-      # 则 DOUBAN_USER_ID 填写: 123456789
-      # ─────────────────────────────────────────────────────────
+      # 豆瓣用户 ID 已配置在上方 env.DEFAULT_DOUBAN_ID
+      # 也可通过仓库 Settings → Variables → DOUBAN_USER_ID 覆盖
 
-      - name: Validate Douban User ID
+      - name: Resolve Douban User ID
+        id: douban-id
         run: |
-          if [ -z "${{ vars.DOUBAN_USER_ID }}" ]; then
-            echo "⚠️  未配置 DOUBAN_USER_ID，跳过豆瓣同步"
-            echo "请在仓库 Settings → Variables → Actions Variables 中添加 DOUBAN_USER_ID"
-            exit 0
+          # 优先使用仓库变量，否则用默认值
+          DOUBAN_ID="${{ vars.DOUBAN_USER_ID || env.DEFAULT_DOUBAN_ID }}"
+          if [ -z "$DOUBAN_ID" ]; then
+            echo "⚠️  未配置豆瓣用户 ID，跳过同步"
+            exit 1
           fi
-          echo "✓ 使用豆瓣用户 ID: ${{ vars.DOUBAN_USER_ID }}"
+          echo "id=$DOUBAN_ID" >> $GITHUB_OUTPUT
+          echo "✓ 使用豆瓣用户 ID: $DOUBAN_ID"
 
       - name: Sync Douban watched movies
-        if: vars.DOUBAN_USER_ID != ''
         uses: lizheming/doumark-action@master
         with:
-          id: ${{ vars.DOUBAN_USER_ID }}
+          id: ${{ steps.douban-id.outputs.id }}
           type: movie
           status: done
           format: json
