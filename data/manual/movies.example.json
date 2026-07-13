@@ -3,6 +3,7 @@
   "_instructions": "key 为电影 ID（豆瓣 subject ID），value 为可覆盖/补充的字段。手动字段优先级高于豆瓣数据。",
   "EXAMPLE_MANUAL_ONLY": {
     "title": "示例：无豆瓣条目的电影",
+    "mediaType": "movie",
     "originalTitle": "Example Movie Without Douban Entry",
     "year": 2023,
     "releaseDate": "2023-06-15",
@@ -17,7 +18,6 @@
     "shortComment": "短评示例",
     "review": "长评示例，支持 **Markdown**。",
     "tags": ["示例", "测试"],
-    "favorite": false,
     "hidden": true,
     "status": "watched",
     "poster": ""

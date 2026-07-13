@@ -28,6 +28,7 @@ const stars = movie.personalRating ? Math.round(movie.personalRating) : 0;
 
 // 只显示前 2 个类型
 const displayGenres = movie.genres.slice(0, 2);
+const mediaLabel = movie.mediaType === "tv" ? "剧集" : "电影";
 ---
 
 <article class="movie-card" data-movie-id={movie.id}>
@@ -41,10 +42,12 @@ const displayGenres = movie.genres.slice(0, 2);
       {hasPoster ? (
         <img
           src={movie.poster}
-          alt={`${movie.title} 电影海报`}
+          data-fallback-src={movie.posterFallback}
+          alt={`${movie.title} ${mediaLabel}海报`}
           loading={lazy ? "lazy" : "eager"}
           decoding="async"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          referrerpolicy="no-referrer"
+          onerror="const fallback=this.dataset.fallbackSrc;if(fallback){this.removeAttribute('data-fallback-src');this.src=fallback;}else{this.style.display='none';this.nextElementSibling.style.display='flex';}"
         />
         <div class="movie-card__poster-placeholder" style="display:none;">
           <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
@@ -65,12 +68,9 @@ const displayGenres = movie.genres.slice(0, 2);
         </div>
       )}
 
-      <!-- 收藏标记 -->
-      {movie.favorite && (
-        <div class="movie-card__favorite" aria-label="已收藏" title="已收藏">
-          ⭐
-        </div>
-      )}
+      <span class:list={["movie-card__media-type", { "movie-card__media-type--tv": movie.mediaType === "tv" }]}>
+        {mediaLabel}
+      </span>
 
       <!-- 悬停覆盖层 -->
       <div class="movie-card__overlay" aria-hidden="true">
@@ -137,6 +137,27 @@ const displayGenres = movie.genres.slice(0, 2);
     font-size: var(--text-xs);
     line-height: 1.5;
     margin-bottom: var(--space-2);
+  }
+
+  .movie-card__media-type {
+    position: absolute;
+    top: var(--space-2);
+    left: var(--space-2);
+    z-index: 2;
+    padding: 3px 8px;
+    border-radius: var(--radius-full);
+    background: rgba(10, 10, 15, 0.82);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    color: var(--text-secondary);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    backdrop-filter: blur(8px);
+  }
+
+  .movie-card__media-type--tv {
+    color: var(--color-accent);
+    border-color: var(--border-accent);
   }
 
   .movie-card__genres {

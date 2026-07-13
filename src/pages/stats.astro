@@ -16,7 +16,7 @@ const stats = await getStats();
 
 <BaseLayout
   title="观影统计"
-  description={`${siteConfig.author} 的个人观影统计 — ${stats.total} 部电影`}
+  description={`${siteConfig.author} 的个人观影统计 — ${stats.total} 部影视作品`}
 >
   <!-- 页面标题 -->
   <div class="page-header">
@@ -25,7 +25,7 @@ const stats = await getStats();
         <span class="page-header__eyebrow">数据分析</span>
         <h1 class="page-header__title">观影统计</h1>
         <p class="page-header__desc">
-          {stats.total} 部电影的个人观影数据
+          {stats.total} 部影视作品的个人观影数据
         </p>
       </div>
     </div>
@@ -38,7 +38,7 @@ const stats = await getStats();
       <div class="overview-grid">
         <div class="stat-card">
           <div class="stat-card__number">{stats.total}</div>
-          <div class="stat-card__label">总电影数</div>
+          <div class="stat-card__label">影视总数</div>
         </div>
         <div class="stat-card">
           <div class="stat-card__number">
@@ -47,14 +47,14 @@ const stats = await getStats();
           <div class="stat-card__label">平均评分</div>
         </div>
         <div class="stat-card">
-          <div class="stat-card__number">{stats.favorites}</div>
-          <div class="stat-card__label">收藏电影</div>
+          <div class="stat-card__number">{stats.ratedCount}</div>
+          <div class="stat-card__label">已评分</div>
         </div>
         <div class="stat-card">
           <div class="stat-card__number">
-            {stats.total > 0 ? Math.round(stats.favorites / stats.total * 100) : 0}%
+            {stats.total > 0 ? Math.round(stats.ratedCount / stats.total * 100) : 0}%
           </div>
-          <div class="stat-card__label">收藏占比</div>
+          <div class="stat-card__label">评分覆盖率</div>
         </div>
       </div>
     </section>

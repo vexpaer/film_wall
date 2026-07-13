@@ -251,18 +251,23 @@ function normalizeDoubanMovie(
     subject ? getRatingValue(raw.rating) : raw.star
   );
   const poster = raw.poster?.trim() ||
+    subject?.cover_url?.trim() ||
     subject?.pic?.normal?.trim() ||
     subject?.pic?.large?.trim() ||
-    subject?.cover_url?.trim() ||
     undefined;
+  const posterFallback = subject?.cover_url
+    ? subject.pic?.normal?.trim() || subject.pic?.large?.trim() || undefined
+    : undefined;
 
   const movie: Movie = {
     id,
     title,
+    mediaType: subject?.subtype === "tv" || subject?.type === "tv" ? "tv" : "movie",
     originalTitle: subject?.original_title?.trim() || raw.original_title?.trim() || undefined,
     year: finalYear,
     releaseDate,
     poster,
+    posterFallback,
     backdrop: undefined,
     directors,
     actors,
@@ -283,7 +288,6 @@ function normalizeDoubanMovie(
     review: undefined,
     quote: undefined,
     tags: toArray(raw.tags),
-    favorite: false,
     hidden: false,
     status: "watched",
     source: "douban",
@@ -308,6 +312,7 @@ function mergeManualOverride(
   // 定义允许的覆盖字段（防止注入非法字段）
   const allowedFields: (keyof ManualMovieOverride)[] = [
     "title",
+    "mediaType",
     "originalTitle",
     "year",
     "releaseDate",
@@ -327,7 +332,6 @@ function mergeManualOverride(
     "review",
     "quote",
     "tags",
-    "favorite",
     "hidden",
     "status",
     "runtime",
@@ -371,13 +375,13 @@ function createManualOnlyMovie(
   const base: Movie = {
     id,
     title: override.title,
+    mediaType: override.mediaType ?? "movie",
     directors: [],
     actors: [],
     genres: [],
     countries: [],
     languages: [],
     tags: [],
-    favorite: false,
     hidden: false,
     status: "watched",
     source: "manual",

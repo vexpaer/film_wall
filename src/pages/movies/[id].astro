@@ -70,9 +70,12 @@ const hasPoster = Boolean(movie.poster);
         <img
           class="detail-hero__bg-img"
           src={movie.poster}
+          data-fallback-src={movie.posterFallback}
           alt=""
           loading="eager"
           decoding="async"
+          referrerpolicy="no-referrer"
+          onerror="const fallback=this.dataset.fallbackSrc;if(fallback){this.removeAttribute('data-fallback-src');this.src=fallback;}else{this.style.display='none';}"
         />
       )}
       <div class="detail-hero__bg-overlay"></div>
@@ -81,15 +84,17 @@ const hasPoster = Boolean(movie.poster);
     <div class="container">
       <div class="detail-hero__content">
         <!-- 海报 -->
-        <div class="detail-poster" aria-label="电影海报">
+        <div class="detail-poster" aria-label={`${movie.mediaType === 'tv' ? '剧集' : '电影'}海报`}>
           {hasPoster ? (
             <img
               class="detail-poster__img"
               src={movie.poster}
-              alt={`${movie.title} 电影海报`}
+              data-fallback-src={movie.posterFallback}
+              alt={`${movie.title} ${movie.mediaType === 'tv' ? '剧集' : '电影'}海报`}
               loading="eager"
               decoding="async"
-              onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+              referrerpolicy="no-referrer"
+              onerror="const fallback=this.dataset.fallbackSrc;if(fallback){this.removeAttribute('data-fallback-src');this.src=fallback;}else{this.style.display='none';this.nextElementSibling.style.display='flex';}"
             />
             <div class="detail-poster__placeholder" style="display:none;">
               <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
@@ -114,9 +119,7 @@ const hasPoster = Boolean(movie.poster);
         <!-- 电影主要信息 -->
         <div class="detail-info">
           <div class="detail-info__badges">
-            {movie.favorite && (
-              <span class="tag tag--accent" aria-label="已收藏">⭐ 收藏</span>
-            )}
+            <span class="tag tag--accent">{movie.mediaType === 'tv' ? '剧集' : '电影'}</span>
             {movie.status === 'watching' && (
               <span class="tag" style="color: var(--color-blue)">在看</span>
             )}

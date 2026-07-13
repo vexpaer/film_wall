@@ -458,23 +458,6 @@ p {
   line-height: 1.5;
 }
 
-/* 收藏角标 */
-.movie-card__favorite {
-  position: absolute;
-  top: var(--space-2);
-  right: var(--space-2);
-  width: 28px;
-  height: 28px;
-  border-radius: var(--radius-full);
-  background: var(--color-accent);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  box-shadow: 0 2px 8px rgba(245, 166, 35, 0.5);
-  z-index: 1;
-}
-
 /* 卡片信息区 */
 .movie-card__info {
   padding: var(--space-3) var(--space-4) var(--space-4);

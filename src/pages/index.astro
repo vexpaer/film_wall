@@ -11,21 +11,19 @@ import { siteConfig } from "../config/site";
 import {
   getAllMovies,
   getRecentMovies,
-  getFavoriteMovies,
   getStats,
   formatRating,
 } from "../utils/data";
 
 const movies = await getAllMovies();
 const recent = await getRecentMovies(6);
-const favorites = await getFavoriteMovies();
 const stats = await getStats();
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
-// 精选电影（有长评且是收藏的）
+// 精选电影（有长评的）
 const featured = movies
-  .filter((m) => m.favorite && m.review)
+  .filter((m) => m.review)
   .slice(0, 3);
 
 // 首屏背景电影（最近观看中有海报的）
@@ -45,9 +43,12 @@ const heroBgMovie = recent.find((m) => m.poster);
         <img
           class="hero__bg-img"
           src={heroBgMovie.poster}
+          data-fallback-src={heroBgMovie.posterFallback}
           alt=""
           loading="eager"
           decoding="async"
+          referrerpolicy="no-referrer"
+          onerror="const fallback=this.dataset.fallbackSrc;if(fallback){this.removeAttribute('data-fallback-src');this.src=fallback;}else{this.style.display='none';}"
           aria-hidden="true"
         />
       )}
@@ -104,8 +105,8 @@ const heroBgMovie = recent.find((m) => m.poster);
           <div class="stat-card__label">平均评分</div>
         </div>
         <div class="stat-card">
-          <div class="stat-card__number">{stats.favorites}</div>
-          <div class="stat-card__label">收藏电影</div>
+          <div class="stat-card__number">{stats.ratedCount}</div>
+          <div class="stat-card__label">已评分</div>
         </div>
         <div class="stat-card">
           <div class="stat-card__number">{stats.topGenres[0]?.genre || '—'}</div>
@@ -138,14 +139,14 @@ const heroBgMovie = recent.find((m) => m.poster);
     </section>
   )}
 
-  <!-- ── 收藏精选 ───────────────────────────────────────── -->
+  <!-- ── 影评精选 ───────────────────────────────────────── -->
   {featured.length > 0 && (
     <section class="section section--featured" aria-labelledby="featured-heading">
       <div class="container">
         <div class="section__header">
           <div>
-            <span class="section__eyebrow">精选收藏</span>
-            <h2 class="section__title" id="featured-heading">值得反复回味</h2>
+            <span class="section__eyebrow">观影札记</span>
+            <h2 class="section__title" id="featured-heading">我的电影评价</h2>
           </div>
         </div>
 
@@ -160,10 +161,12 @@ const heroBgMovie = recent.find((m) => m.poster);
                 <div class="featured-card__poster">
                   <img
                     src={movie.poster}
+                    data-fallback-src={movie.posterFallback}
                     alt={`${movie.title} 海报`}
                     loading="lazy"
                     decoding="async"
-                    onerror="this.parentElement.classList.add('no-img')"
+                    referrerpolicy="no-referrer"
+                    onerror="const fallback=this.dataset.fallbackSrc;if(fallback){this.removeAttribute('data-fallback-src');this.src=fallback;}else{this.parentElement.classList.add('no-img');}"
                   />
                   <div class="featured-card__poster-overlay"></div>
                 </div>
@@ -171,7 +174,6 @@ const heroBgMovie = recent.find((m) => m.poster);
               <div class="featured-card__content">
                 <div class="featured-card__meta">
                   {movie.year && <span class="featured-card__year">{movie.year}</span>}
-                  <span class="featured-card__favorite" aria-label="收藏">⭐</span>
                 </div>
                 <h3 class="featured-card__title">{movie.title}</h3>
                 {movie.review && (
@@ -204,7 +206,7 @@ const heroBgMovie = recent.find((m) => m.poster);
         <p class="cta-block__eyebrow" aria-hidden="true">🎬</p>
         <h2 class="cta-block__title" id="wall-heading">完整电影墙</h2>
         <p class="cta-block__desc">
-          共 {stats.total} 部电影，支持按类型、评分、年份筛选和搜索
+          共 {stats.total} 部影视作品，支持按类型、评分、年份筛选和搜索
         </p>
         <a href={`${base}/movies/`} class="btn btn-primary cta-block__btn">
           进入电影墙

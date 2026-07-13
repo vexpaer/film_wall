@@ -84,14 +84,6 @@ export async function getAllTags(): Promise<string[]> {
 }
 
 /**
- * 获取收藏电影
- */
-export async function getFavoriteMovies(): Promise<Movie[]> {
-  const movies = await getAllMovies();
-  return movies.filter((m) => m.favorite);
-}
-
-/**
  * 获取最近观看的电影
  */
 export async function getRecentMovies(count = 6): Promise<Movie[]> {
@@ -112,7 +104,6 @@ export async function getRecentMovies(count = 6): Promise<Movie[]> {
 export async function getStats() {
   const movies = await getAllMovies();
   const total = movies.length;
-  const favorites = movies.filter((m) => m.favorite).length;
 
   // 平均个人评分
   const rated = movies.filter((m) => m.personalRating);
@@ -162,7 +153,7 @@ export async function getStats() {
 
   return {
     total,
-    favorites,
+    ratedCount: rated.length,
     avgRating: Math.round(avgRating * 10) / 10,
     topGenres,
     byWatchYear: [...byWatchYear.entries()]

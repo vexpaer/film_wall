@@ -25,7 +25,6 @@ interface ValidationResult {
     withRating: number;
     withPersonalRating: number;
     withReview: number;
-    favorites: number;
   };
 }
 
@@ -51,6 +50,9 @@ function validateMovie(movie: unknown, index: number): {
   if (!m["title"] || typeof m["title"] !== "string") {
     errors.push(`[${id}] 缺少或无效的 title`);
   }
+  if (!["movie", "tv"].includes(m["mediaType"] as string)) {
+    errors.push(`[${id}] 字段 "mediaType" 值无效: ${m["mediaType"]}`);
+  }
 
   // 数组字段检查
   const arrayFields = ["directors", "actors", "genres", "countries", "languages", "tags"];
@@ -61,9 +63,6 @@ function validateMovie(movie: unknown, index: number): {
   }
 
   // 布尔字段
-  if (typeof m["favorite"] !== "boolean") {
-    errors.push(`[${id}] 字段 "favorite" 应为布尔值`);
-  }
   if (typeof m["hidden"] !== "boolean") {
     errors.push(`[${id}] 字段 "hidden" 应为布尔值`);
   }
@@ -99,8 +98,8 @@ function validateMovie(movie: unknown, index: number): {
   }
   if (m["personalRating"] !== undefined && m["personalRating"] !== null) {
     const r = m["personalRating"] as number;
-    if (r < 1 || r > 5) {
-      errors.push(`[${id}] personalRating 超出范围 (1–5): ${r}`);
+    if (!Number.isInteger(r) || r < 1 || r > 5) {
+      errors.push(`[${id}] personalRating 应为 1–5 的整数: ${r}`);
     }
   }
 
@@ -144,7 +143,6 @@ function main(): void {
       withRating: 0,
       withPersonalRating: 0,
       withReview: 0,
-      favorites: 0,
     },
   };
 
@@ -172,7 +170,6 @@ function main(): void {
     if (m.doubanRating) result.stats.withRating++;
     if (m.personalRating) result.stats.withPersonalRating++;
     if (m.review) result.stats.withReview++;
-    if (m.favorite) result.stats.favorites++;
   }
 
   result.valid = result.errors.length === 0;
@@ -185,7 +182,6 @@ function main(): void {
   console.log(`  有豆瓣评分: ${result.stats.withRating}`);
   console.log(`  有个人评分: ${result.stats.withPersonalRating}`);
   console.log(`  有长评: ${result.stats.withReview}`);
-  console.log(`  收藏数: ${result.stats.favorites}`);
 
   if (result.warnings.length > 0) {
     console.log(`\n⚠️  警告 (${result.warnings.length} 条):`);

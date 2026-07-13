@@ -107,19 +107,43 @@ export const siteConfig = {
 
 ## 📝 如何填写手动电影数据
 
+### 使用本地 Web 编辑器（推荐）
+
+电脑已安装 Python 3 时，在项目目录运行：
+
+```bash
+python scripts/movie_editor.py
+```
+
+浏览器会自动打开 `http://127.0.0.1:8765/`。选择电影后即可填写 1–5 星评分、
+一句话短评和长评；点击保存后，工具只会更新 `data/manual/movies.json`。
+按终端中的 `Ctrl+C` 可停止编辑器。
+
+### 直接编辑 JSON
+
 编辑 [`data/manual/movies.json`](./data/manual/movies.json)：
 
 ```json
 {
-  "豆瓣电影ID": {
-    "review": "我的长评（支持 Markdown）",
-    "favorite": true,
-    "tags": ["标签1", "标签2"],
-    "quote": "影片金句",
-    "personalRating": 5
+  "26910060": {
+    "personalRating": 5,
+    "shortComment": "轻松、温暖，很适合慢慢看。",
+    "review": "这是一段长评，可以使用 **粗体** 和 *斜体*。\n\n不同段落之间在 JSON 中写 `\\n\\n`。",
+    "tags": ["喜剧", "家庭"]
   }
 }
 ```
+
+豆瓣电影 ID 就是详情页网址中的数字。例如
+`https://movie.douban.com/subject/26910060/` 的 ID 是 `26910060`。
+
+- `personalRating`：个人评分，只能填写 `1`–`5` 的整数。
+- `shortComment`：一句话短评，会显示在电影卡片和详情页。
+- `review`：长评，支持 Markdown 粗体和斜体；JSON 中换段请写 `\n\n`。
+- 不需要填写的字段可以直接省略。
+
+写完后在本地运行 `npm run data:normalize` 即可预览；如果直接在 GitHub
+编辑并提交，Pages 工作流会自动重新生成并部署网站。后续豆瓣同步不会覆盖这里的手动评分和评价。
 
 **添加没有豆瓣 ID 的电影**，使用自定义字符串 ID，并填写 `title`：
 
@@ -225,6 +249,7 @@ git push origin main
 |------|------|------|
 | `id` | string | 电影唯一 ID（豆瓣 subject ID） |
 | `title` | string | 中文名 |
+| `mediaType` | enum | `movie`（电影）或 `tv`（剧集） |
 | `originalTitle` | string? | 原文名 |
 | `year` | number? | 上映年份 |
 | `poster` | string? | 海报图片 URL |
@@ -239,7 +264,6 @@ git push origin main
 | `review` | string? | 个人长评（Markdown） |
 | `quote` | string? | 影片金句 |
 | `tags` | string[] | 用户标签 |
-| `favorite` | boolean | 是否收藏 |
 | `hidden` | boolean | 是否隐藏（不公开显示） |
 | `status` | enum | `watched`/`watching`/`planned` |
 | `source` | enum | `douban`/`manual`/`merged` |
@@ -250,7 +274,8 @@ git push origin main
 
 ### 海报链接失效怎么办？
 
-豆瓣海报链接可能会因防盗链失效。解决方案：
+同步数据会优先使用豆瓣导出中自带的封面代理，并在浏览器中自动尝试豆瓣原图；
+两者都失败时显示占位图。个别海报仍失效时：
 - 在 `data/manual/movies.json` 中为对应电影添加 `poster` 字段，指向可访问的图片 URL
 - 网站对无海报电影会显示美观的占位符，不会破坏布局
 

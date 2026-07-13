@@ -10,6 +10,9 @@ export interface Movie {
   /** 中文名 */
   title: string;
 
+  /** 影视类型 */
+  mediaType: "movie" | "tv";
+
   /** 原文名 */
   originalTitle?: string;
 
@@ -21,6 +24,9 @@ export interface Movie {
 
   /** 海报图片 URL */
   poster?: string;
+
+  /** 海报备用 URL */
+  posterFallback?: string;
 
   /** 背景图片 URL */
   backdrop?: string;
@@ -66,9 +72,6 @@ export interface Movie {
 
   /** 用户自定义标签 */
   tags: string[];
-
-  /** 是否标记为收藏 */
-  favorite: boolean;
 
   /** 是否隐藏（不在公开列表显示） */
   hidden: boolean;
@@ -134,6 +137,8 @@ export interface DoubanRawSubject {
   id?: string | number;
   title?: string;
   original_title?: string;
+  subtype?: string;
+  type?: string;
   year?: string | number;
   pubdate?: string | string[];
   url?: string;

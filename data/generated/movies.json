@@ -2,9 +2,11 @@
   {
     "id": "26910060",
     "title": "小谢尔顿 第一季",
+    "mediaType": "tv",
     "year": 2017,
     "releaseDate": "2017-09-25",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2627603561.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/26910060.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2627603561.jpg",
     "directors": [
       "乔恩·费儒",
       "迈克尔·津伯格",
@@ -34,20 +36,22 @@
     "languages": [],
     "doubanUrl": "https://movie.douban.com/subject/26910060/",
     "doubanRating": 9.3,
+    "personalRating": 4,
     "watchedAt": "2026-07-06T12:14:36.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
-    "source": "douban"
+    "source": "merged"
   },
   {
     "id": "6395245",
     "title": "破产姐妹 第一季",
+    "mediaType": "tv",
     "year": 2011,
     "releaseDate": "2011-09-19",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2554478122.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/6395245.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2554478122.jpg",
     "directors": [
       "詹姆斯·伯罗斯",
       "John Fortenberry",
@@ -78,20 +82,22 @@
     "languages": [],
     "doubanUrl": "https://movie.douban.com/subject/6395245/",
     "doubanRating": 9.1,
+    "personalRating": 5,
     "watchedAt": "2026-07-06T12:14:29.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
-    "source": "douban"
+    "source": "merged"
   },
   {
     "id": "25726259",
     "title": "风骚律师 第一季",
+    "mediaType": "tv",
     "year": 2015,
     "releaseDate": "2015-02-08",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2218944919.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/25726259.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2218944919.jpg",
     "directors": [
       "文斯·吉利根",
       "米歇尔·麦克拉伦",
@@ -136,20 +142,22 @@
     "languages": [],
     "doubanUrl": "https://movie.douban.com/subject/25726259/",
     "doubanRating": 9.4,
+    "personalRating": 5,
     "watchedAt": "2026-07-06T12:14:21.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
-    "source": "douban"
+    "source": "merged"
   },
   {
     "id": "26359270",
     "title": "怪奇物语 第一季",
+    "mediaType": "tv",
     "year": 2016,
     "releaseDate": "2016-07-15",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2364206200.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/26359270.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2364206200.jpg",
     "directors": [
       "肖恩·利维",
       "马特·达菲",
@@ -194,9 +202,8 @@
     "doubanUrl": "https://movie.douban.com/subject/26359270/",
     "doubanRating": 9.1,
     "watchedAt": "2026-07-06T12:14:13.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -204,9 +211,11 @@
   {
     "id": "3754382",
     "title": "摩登家庭 第一季",
+    "mediaType": "tv",
     "year": 2009,
     "releaseDate": "2009-09-22",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p455073620.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/3754382.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p455073620.jpg",
     "directors": [
       "Jason Winer"
     ],
@@ -233,9 +242,8 @@
     "doubanUrl": "https://movie.douban.com/subject/3754382/",
     "doubanRating": 9.5,
     "watchedAt": "2026-07-06T12:14:03.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -243,9 +251,11 @@
   {
     "id": "2373195",
     "title": "绝命毒师 第一季",
+    "mediaType": "tv",
     "year": 2008,
     "releaseDate": "2008-01-20",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2886443948.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/2373195.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2886443948.jpg",
     "directors": [
       "亚当·伯恩斯坦",
       "文斯·吉利根",
@@ -273,9 +283,8 @@
     "doubanUrl": "https://movie.douban.com/subject/2373195/",
     "doubanRating": 9.2,
     "watchedAt": "2026-07-06T12:13:56.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -283,9 +292,11 @@
   {
     "id": "2156528",
     "title": "生活大爆炸  第一季",
+    "mediaType": "tv",
     "year": 2007,
     "releaseDate": "2007-09-24",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2553281898.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/2156528.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2553281898.jpg",
     "directors": [
       "詹姆斯·伯罗斯"
     ],
@@ -313,9 +324,8 @@
     "doubanUrl": "https://movie.douban.com/subject/2156528/",
     "doubanRating": 9.5,
     "watchedAt": "2026-07-06T12:13:47.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -323,9 +333,11 @@
   {
     "id": "1393859",
     "title": "老友记 第一季",
+    "mediaType": "tv",
     "year": 1994,
     "releaseDate": "1994-09-22",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2186920269.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1393859.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2186920269.jpg",
     "directors": [
       "大卫·克拉尼",
       "玛尔塔·考夫曼"
@@ -350,9 +362,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1393859/",
     "doubanRating": 9.7,
     "watchedAt": "2026-07-06T12:13:31.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -360,9 +371,11 @@
   {
     "id": "1302467",
     "title": "黑客帝国3：矩阵革命",
+    "mediaType": "movie",
     "year": 2003,
     "releaseDate": "2003-11-05",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p443461818.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1302467.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p443461818.jpg",
     "directors": [
       "拉娜·沃卓斯基",
       "莉莉·沃卓斯基"
@@ -414,9 +427,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1302467/",
     "doubanRating": 8.8,
     "watchedAt": "2026-06-30T15:20:40.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -424,8 +436,10 @@
   {
     "id": "1418019",
     "title": "大闹天宫",
+    "mediaType": "movie",
     "year": 1961,
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2184505167.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1418019.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2184505167.jpg",
     "directors": [
       "万籁鸣"
     ],
@@ -450,9 +464,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1418019/",
     "doubanRating": 9.4,
     "watchedAt": "2026-06-30T15:20:39.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -460,9 +473,11 @@
   {
     "id": "1304141",
     "title": "黑客帝国2：重装上阵",
+    "mediaType": "movie",
     "year": 2003,
     "releaseDate": "2003-07-18",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p443461390.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1304141.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p443461390.jpg",
     "directors": [
       "拉娜·沃卓斯基",
       "莉莉·沃卓斯基"
@@ -526,9 +541,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1304141/",
     "doubanRating": 8.7,
     "watchedAt": "2026-06-30T15:20:37.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -536,9 +550,11 @@
   {
     "id": "1858711",
     "title": "玩具总动员3",
+    "mediaType": "movie",
     "year": 2010,
     "releaseDate": "2010-06-16",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1283675359.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1858711.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1283675359.jpg",
     "directors": [
       "李·昂克里奇"
     ],
@@ -562,9 +578,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1858711/",
     "doubanRating": 8.9,
     "watchedAt": "2026-06-30T15:20:31.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -572,9 +587,11 @@
   {
     "id": "2156775",
     "title": "西游记",
+    "mediaType": "tv",
     "year": 1999,
     "releaseDate": "1999-07-23",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2927747451.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/2156775.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2927747451.jpg",
     "directors": [
       "方润南",
       "潘积耀",
@@ -625,9 +642,8 @@
     "doubanUrl": "https://movie.douban.com/subject/2156775/",
     "doubanRating": 9.3,
     "watchedAt": "2026-06-30T15:20:30.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -635,9 +651,11 @@
   {
     "id": "1294638",
     "title": "E.T.外星人",
+    "mediaType": "movie",
     "year": 2002,
     "releaseDate": "2002-06-20",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p984732992.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1294638.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p984732992.jpg",
     "directors": [
       "史蒂文·斯皮尔伯格"
     ],
@@ -659,9 +677,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1294638/",
     "doubanRating": 8.6,
     "watchedAt": "2026-06-30T15:20:29.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -669,9 +686,11 @@
   {
     "id": "2353023",
     "title": "驯龙高手",
+    "mediaType": "movie",
     "year": 2010,
     "releaseDate": "2010-05-14",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2210954024.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/2353023.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2210954024.jpg",
     "directors": [
       "迪恩·戴布洛伊",
       "克里斯·桑德斯"
@@ -703,9 +722,8 @@
     "doubanUrl": "https://movie.douban.com/subject/2353023/",
     "doubanRating": 8.8,
     "watchedAt": "2026-06-30T15:20:28.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -713,9 +731,11 @@
   {
     "id": "1291575",
     "title": "玩具总动员",
+    "mediaType": "movie",
     "year": 1995,
     "releaseDate": "1995-11-22",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2565956404.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1291575.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2565956404.jpg",
     "directors": [
       "约翰·拉塞特"
     ],
@@ -760,9 +780,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1291575/",
     "doubanRating": 8.6,
     "watchedAt": "2026-06-30T15:19:24.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -770,9 +789,11 @@
   {
     "id": "6311303",
     "title": "加勒比海盗5：死无对证",
+    "mediaType": "movie",
     "year": 2017,
     "releaseDate": "2017-05-26",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2459723975.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/6311303.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2459723975.jpg",
     "directors": [
       "艾斯彭·山德伯格",
       "乔阿吉姆·罗恩尼"
@@ -808,9 +829,8 @@
     "doubanUrl": "https://movie.douban.com/subject/6311303/",
     "doubanRating": 7.2,
     "watchedAt": "2026-06-30T15:19:18.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -818,9 +838,11 @@
   {
     "id": "1315574",
     "title": "加勒比海盗2：亡灵的宝藏",
+    "mediaType": "movie",
     "year": 2006,
     "releaseDate": "2006-07-07",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1076822803.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1315574.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1076822803.jpg",
     "directors": [
       "戈尔·维宾斯基"
     ],
@@ -889,9 +911,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1315574/",
     "doubanRating": 8.5,
     "watchedAt": "2026-06-30T15:19:17.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -899,9 +920,11 @@
   {
     "id": "3227410",
     "title": "加勒比海盗4：惊涛怪浪",
+    "mediaType": "movie",
     "year": 2011,
     "releaseDate": "2011-05-20",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p995422651.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/3227410.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p995422651.jpg",
     "directors": [
       "罗伯·马歇尔"
     ],
@@ -970,9 +993,8 @@
     "doubanUrl": "https://movie.douban.com/subject/3227410/",
     "doubanRating": 7.9,
     "watchedAt": "2026-06-30T15:19:17.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -980,9 +1002,11 @@
   {
     "id": "1418192",
     "title": "加勒比海盗3：世界的尽头",
+    "mediaType": "movie",
     "year": 2007,
     "releaseDate": "2007-06-12",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2407916208.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1418192.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2407916208.jpg",
     "directors": [
       "戈尔·维宾斯基"
     ],
@@ -1054,9 +1078,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1418192/",
     "doubanRating": 8.4,
     "watchedAt": "2026-06-30T15:19:13.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -1064,9 +1087,11 @@
   {
     "id": "1783457",
     "title": "功夫熊猫",
+    "mediaType": "movie",
     "year": 2008,
     "releaseDate": "2008-06-20",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1597238857.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1783457.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1597238857.jpg",
     "directors": [
       "马克·奥斯本",
       "约翰·斯蒂文森"
@@ -1107,9 +1132,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1783457/",
     "doubanRating": 8.3,
     "watchedAt": "2026-06-30T15:18:48.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -1117,9 +1141,11 @@
   {
     "id": "1292274",
     "title": "幸福终点站",
+    "mediaType": "movie",
     "year": 2005,
     "releaseDate": "2005-01-14",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p854757687.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1292274.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p854757687.jpg",
     "directors": [
       "史蒂文·斯皮尔伯格"
     ],
@@ -1188,9 +1214,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1292274/",
     "doubanRating": 8.8,
     "watchedAt": "2026-06-30T15:18:47.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -1198,9 +1223,11 @@
   {
     "id": "26366465",
     "title": "我的少女时代",
+    "mediaType": "movie",
     "year": 2015,
     "releaseDate": "2015-11-19",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2285115802.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/26366465.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2285115802.jpg",
     "directors": [
       "陈玉珊"
     ],
@@ -1236,20 +1263,22 @@
     "languages": [],
     "doubanUrl": "https://movie.douban.com/subject/26366465/",
     "doubanRating": 7.8,
+    "personalRating": 4,
     "watchedAt": "2026-06-30T15:18:46.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
-    "source": "douban"
+    "source": "merged"
   },
   {
     "id": "2133323",
     "title": "白日梦想家",
+    "mediaType": "movie",
     "year": 2013,
     "releaseDate": "2013-12-25",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2893896472.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/2133323.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2893896472.jpg",
     "directors": [
       "本·斯蒂勒"
     ],
@@ -1300,9 +1329,8 @@
     "doubanUrl": "https://movie.douban.com/subject/2133323/",
     "doubanRating": 8.6,
     "watchedAt": "2026-06-30T15:18:43.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -1310,9 +1338,11 @@
   {
     "id": "1291990",
     "title": "爱在日落黄昏时",
+    "mediaType": "movie",
     "year": 2004,
     "releaseDate": "2004-02-10",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2191788134.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1291990.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2191788134.jpg",
     "directors": [
       "理查德·林克莱特"
     ],
@@ -1340,9 +1370,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1291990/",
     "doubanRating": 8.9,
     "watchedAt": "2026-06-30T15:18:42.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -1350,9 +1379,11 @@
   {
     "id": "3168101",
     "title": "毒液：致命守护者",
+    "mediaType": "movie",
     "year": 2018,
     "releaseDate": "2018-11-09",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2537158013.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/3168101.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2537158013.jpg",
     "directors": [
       "鲁本·弗雷斯彻"
     ],
@@ -1426,9 +1457,8 @@
     "doubanUrl": "https://movie.douban.com/subject/3168101/",
     "doubanRating": 7.2,
     "watchedAt": "2026-06-30T15:18:36.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -1436,9 +1466,11 @@
   {
     "id": "24773958",
     "title": "复仇者联盟3：无限战争",
+    "mediaType": "movie",
     "year": 2018,
     "releaseDate": "2018-05-11",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2516481762.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/24773958.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2516481762.jpg",
     "directors": [
       "安东尼·罗素",
       "乔·罗素"
@@ -1497,9 +1529,8 @@
     "doubanUrl": "https://movie.douban.com/subject/24773958/",
     "doubanRating": 8.1,
     "watchedAt": "2026-06-30T15:18:35.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -1507,9 +1538,11 @@
   {
     "id": "26636712",
     "title": "蚁人2：黄蜂女现身",
+    "mediaType": "movie",
     "year": 2018,
     "releaseDate": "2018-08-24",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2529389608.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/26636712.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2529389608.jpg",
     "directors": [
       "佩顿·里德"
     ],
@@ -1572,9 +1605,8 @@
     "doubanUrl": "https://movie.douban.com/subject/26636712/",
     "doubanRating": 7.2,
     "watchedAt": "2026-06-30T15:18:35.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -1582,9 +1614,11 @@
   {
     "id": "6390825",
     "title": "黑豹",
+    "mediaType": "movie",
     "year": 2018,
     "releaseDate": "2018-03-09",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2512123434.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/6390825.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2512123434.jpg",
     "directors": [
       "瑞恩·库格勒"
     ],
@@ -1619,9 +1653,8 @@
     "doubanUrl": "https://movie.douban.com/subject/6390825/",
     "doubanRating": 6.5,
     "watchedAt": "2026-06-30T15:18:34.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -1629,9 +1662,11 @@
   {
     "id": "25821634",
     "title": "雷神3：诸神黄昏",
+    "mediaType": "movie",
     "year": 2017,
     "releaseDate": "2017-11-03",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2493777430.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/25821634.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2493777430.jpg",
     "directors": [
       "塔伊加·维迪提"
     ],
@@ -1670,9 +1705,8 @@
     "doubanUrl": "https://movie.douban.com/subject/25821634/",
     "doubanRating": 7.4,
     "watchedAt": "2026-06-30T15:18:34.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -1680,9 +1714,11 @@
   {
     "id": "24753477",
     "title": "蜘蛛侠：英雄归来",
+    "mediaType": "movie",
     "year": 2017,
     "releaseDate": "2017-09-08",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2497756471.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/24753477.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2497756471.jpg",
     "directors": [
       "乔恩·沃茨"
     ],
@@ -1721,9 +1757,8 @@
     "doubanUrl": "https://movie.douban.com/subject/24753477/",
     "doubanRating": 7.3,
     "watchedAt": "2026-06-30T15:18:33.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -1731,9 +1766,11 @@
   {
     "id": "3025375",
     "title": "奇异博士",
+    "mediaType": "movie",
     "year": 2016,
     "releaseDate": "2016-11-04",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2368783674.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/3025375.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2368783674.jpg",
     "directors": [
       "斯科特·德瑞克森"
     ],
@@ -1764,9 +1801,8 @@
     "doubanUrl": "https://movie.douban.com/subject/3025375/",
     "doubanRating": 7.6,
     "watchedAt": "2026-06-30T15:18:32.000Z",
-    "addedAt": "2026-07-13T02:53:29.659Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -1774,9 +1810,11 @@
   {
     "id": "25820460",
     "title": "美国队长3",
+    "mediaType": "movie",
     "year": 2016,
     "releaseDate": "2016-05-06",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2324472359.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/25820460.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2324472359.jpg",
     "directors": [
       "安东尼·罗素",
       "乔·罗素"
@@ -1839,9 +1877,8 @@
     "doubanUrl": "https://movie.douban.com/subject/25820460/",
     "doubanRating": 7.9,
     "watchedAt": "2026-06-30T15:18:32.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -1849,9 +1886,11 @@
   {
     "id": "25937854",
     "title": "银河护卫队2",
+    "mediaType": "movie",
     "year": 2017,
     "releaseDate": "2017-05-05",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2440935591.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/25937854.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2440935591.jpg",
     "directors": [
       "詹姆斯·古恩"
     ],
@@ -1918,9 +1957,8 @@
     "doubanUrl": "https://movie.douban.com/subject/25937854/",
     "doubanRating": 8,
     "watchedAt": "2026-06-30T15:18:32.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -1928,9 +1966,11 @@
   {
     "id": "1866473",
     "title": "蚁人",
+    "mediaType": "movie",
     "year": 2015,
     "releaseDate": "2015-10-16",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2242302551.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1866473.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2242302551.jpg",
     "directors": [
       "佩顿·里德"
     ],
@@ -1971,9 +2011,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1866473/",
     "doubanRating": 7.7,
     "watchedAt": "2026-06-30T15:18:31.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -1981,9 +2020,11 @@
   {
     "id": "10741834",
     "title": "复仇者联盟2：奥创纪元",
+    "mediaType": "movie",
     "year": 2015,
     "releaseDate": "2015-05-12",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2229594647.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/10741834.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2229594647.jpg",
     "directors": [
       "乔斯·韦登"
     ],
@@ -2026,9 +2067,8 @@
     "doubanUrl": "https://movie.douban.com/subject/10741834/",
     "doubanRating": 7.5,
     "watchedAt": "2026-06-30T15:18:31.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2036,9 +2076,11 @@
   {
     "id": "7065154",
     "title": "银河护卫队",
+    "mediaType": "movie",
     "year": 2014,
     "releaseDate": "2014-10-10",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2183582386.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/7065154.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2183582386.jpg",
     "directors": [
       "詹姆斯·古恩"
     ],
@@ -2077,9 +2119,8 @@
     "doubanUrl": "https://movie.douban.com/subject/7065154/",
     "doubanRating": 8.1,
     "watchedAt": "2026-06-30T15:18:30.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2087,9 +2128,11 @@
   {
     "id": "6390823",
     "title": "美国队长2",
+    "mediaType": "movie",
     "year": 2014,
     "releaseDate": "2014-04-04",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2169912867.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/6390823.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2169912867.jpg",
     "directors": [
       "安东尼·罗素",
       "乔·罗素"
@@ -2159,9 +2202,8 @@
     "doubanUrl": "https://movie.douban.com/subject/6390823/",
     "doubanRating": 8.1,
     "watchedAt": "2026-06-30T15:18:29.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2169,9 +2211,11 @@
   {
     "id": "6560058",
     "title": "雷神2：黑暗世界",
+    "mediaType": "movie",
     "year": 2013,
     "releaseDate": "2013-11-08",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2109235216.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/6560058.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2109235216.jpg",
     "directors": [
       "阿兰·泰勒"
     ],
@@ -2211,9 +2255,8 @@
     "doubanUrl": "https://movie.douban.com/subject/6560058/",
     "doubanRating": 7.4,
     "watchedAt": "2026-06-30T15:18:29.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2221,9 +2264,11 @@
   {
     "id": "3231742",
     "title": "钢铁侠3",
+    "mediaType": "movie",
     "year": 2013,
     "releaseDate": "2013-05-01",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1955027201.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/3231742.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1955027201.jpg",
     "directors": [
       "沙恩·布莱克"
     ],
@@ -2256,9 +2301,8 @@
     "doubanUrl": "https://movie.douban.com/subject/3231742/",
     "doubanRating": 7.9,
     "watchedAt": "2026-06-30T15:18:28.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2266,9 +2310,11 @@
   {
     "id": "1866479",
     "title": "复仇者联盟",
+    "mediaType": "movie",
     "year": 2012,
     "releaseDate": "2012-05-05",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1469137689.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1866479.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1469137689.jpg",
     "directors": [
       "乔斯·韦登"
     ],
@@ -2299,9 +2345,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1866479/",
     "doubanRating": 8.3,
     "watchedAt": "2026-06-30T15:18:27.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2309,9 +2354,11 @@
   {
     "id": "1866471",
     "title": "雷神",
+    "mediaType": "movie",
     "year": 2011,
     "releaseDate": "2011-05-08",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2159068249.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1866471.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2159068249.jpg",
     "directors": [
       "肯尼思·布拉纳"
     ],
@@ -2350,9 +2397,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1866471/",
     "doubanRating": 7.2,
     "watchedAt": "2026-06-30T15:18:26.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2360,9 +2406,11 @@
   {
     "id": "2138838",
     "title": "美国队长",
+    "mediaType": "movie",
     "year": 2011,
     "releaseDate": "2011-09-09",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1182659238.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/2138838.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1182659238.jpg",
     "directors": [
       "乔·庄斯顿"
     ],
@@ -2425,9 +2473,8 @@
     "doubanUrl": "https://movie.douban.com/subject/2138838/",
     "doubanRating": 7.2,
     "watchedAt": "2026-06-30T15:18:26.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2435,9 +2482,11 @@
   {
     "id": "3066739",
     "title": "钢铁侠2",
+    "mediaType": "movie",
     "year": 2010,
     "releaseDate": "2010-05-07",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1441141314.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/3066739.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1441141314.jpg",
     "directors": [
       "乔恩·费儒"
     ],
@@ -2467,9 +2516,8 @@
     "doubanUrl": "https://movie.douban.com/subject/3066739/",
     "doubanRating": 7.7,
     "watchedAt": "2026-06-30T15:18:25.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.297Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2477,9 +2525,11 @@
   {
     "id": "1866475",
     "title": "无敌浩克",
+    "mediaType": "movie",
     "year": 2008,
     "releaseDate": "2008-08-20",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p916263375.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1866475.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p916263375.jpg",
     "directors": [
       "路易斯·莱特里尔"
     ],
@@ -2547,9 +2597,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1866475/",
     "doubanRating": 7.1,
     "watchedAt": "2026-06-30T15:18:24.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2557,9 +2606,11 @@
   {
     "id": "26931786",
     "title": "蜘蛛侠：英雄远征",
+    "mediaType": "movie",
     "year": 2019,
     "releaseDate": "2019-06-28",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2558293106.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/26931786.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2558293106.jpg",
     "directors": [
       "乔恩·沃茨"
     ],
@@ -2602,9 +2653,8 @@
     "doubanUrl": "https://movie.douban.com/subject/26931786/",
     "doubanRating": 7.6,
     "watchedAt": "2026-06-30T15:18:24.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2612,9 +2662,11 @@
   {
     "id": "26213252",
     "title": "惊奇队长",
+    "mediaType": "movie",
     "year": 2019,
     "releaseDate": "2019-03-08",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2546360443.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/26213252.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2546360443.jpg",
     "directors": [
       "安娜·波顿",
       "瑞安·弗雷克"
@@ -2665,9 +2717,8 @@
     "doubanUrl": "https://movie.douban.com/subject/26213252/",
     "doubanRating": 6.8,
     "watchedAt": "2026-06-30T15:18:23.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2675,9 +2726,11 @@
   {
     "id": "1432146",
     "title": "钢铁侠",
+    "mediaType": "movie",
     "year": 2008,
     "releaseDate": "2008-04-30",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2196695849.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1432146.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2196695849.jpg",
     "directors": [
       "乔恩·费儒"
     ],
@@ -2704,9 +2757,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1432146/",
     "doubanRating": 8.4,
     "watchedAt": "2026-06-30T15:18:20.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2714,9 +2766,11 @@
   {
     "id": "25726614",
     "title": "神奇动物在哪里",
+    "mediaType": "movie",
     "year": 2016,
     "releaseDate": "2016-11-25",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2392444121.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/25726614.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2392444121.jpg",
     "directors": [
       "大卫·叶茨"
     ],
@@ -2749,9 +2803,8 @@
     "doubanUrl": "https://movie.douban.com/subject/25726614/",
     "doubanRating": 7.7,
     "watchedAt": "2026-06-30T15:18:14.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2759,9 +2812,11 @@
   {
     "id": "4811774",
     "title": "阿凡达：水之道",
+    "mediaType": "movie",
     "year": 2022,
     "releaseDate": "2022-12-16",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2882772634.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/4811774.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2882772634.jpg",
     "directors": [
       "詹姆斯·卡梅隆"
     ],
@@ -2810,9 +2865,8 @@
     "doubanUrl": "https://movie.douban.com/subject/4811774/",
     "doubanRating": 7.8,
     "watchedAt": "2026-06-30T15:18:07.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2820,9 +2874,11 @@
   {
     "id": "36438475",
     "title": "浪浪山小妖怪",
+    "mediaType": "movie",
     "year": 2025,
     "releaseDate": "2025-08-02",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2923770138.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/36438475.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2923770138.jpg",
     "directors": [
       "於水"
     ],
@@ -2854,9 +2910,8 @@
     "doubanUrl": "https://movie.douban.com/subject/36438475/",
     "doubanRating": 8.5,
     "watchedAt": "2026-06-30T15:17:59.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2864,9 +2919,11 @@
   {
     "id": "1294408",
     "title": "音乐之声",
+    "mediaType": "movie",
     "year": 1965,
     "releaseDate": "1965-03-02",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2585102899.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1294408.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2585102899.jpg",
     "directors": [
       "罗伯特·怀斯"
     ],
@@ -2916,9 +2973,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1294408/",
     "doubanRating": 9.1,
     "watchedAt": "2026-06-30T15:17:57.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2926,9 +2982,11 @@
   {
     "id": "1291578",
     "title": "冰川时代",
+    "mediaType": "movie",
     "year": 2002,
     "releaseDate": "2002-03-15",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1910895719.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1291578.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1910895719.jpg",
     "directors": [
       "卡洛斯·沙尔丹哈",
       "克里斯·韦奇"
@@ -2951,9 +3009,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1291578/",
     "doubanRating": 8.7,
     "watchedAt": "2026-06-30T15:17:56.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -2961,9 +3018,11 @@
   {
     "id": "3821067",
     "title": "一代宗师",
+    "mediaType": "movie",
     "year": 2013,
     "releaseDate": "2013-01-08",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2217557172.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/3821067.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2217557172.jpg",
     "directors": [
       "王家卫"
     ],
@@ -3000,9 +3059,8 @@
     "doubanUrl": "https://movie.douban.com/subject/3821067/",
     "doubanRating": 8.2,
     "watchedAt": "2026-06-30T15:17:54.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3010,9 +3068,11 @@
   {
     "id": "2973079",
     "title": "霍比特人3：五军之战",
+    "mediaType": "movie",
     "year": 2015,
     "releaseDate": "2015-01-23",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2219406504.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/2973079.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2219406504.jpg",
     "directors": [
       "彼得·杰克逊"
     ],
@@ -3052,9 +3112,8 @@
     "doubanUrl": "https://movie.douban.com/subject/2973079/",
     "doubanRating": 8.7,
     "watchedAt": "2026-06-30T15:17:49.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3062,9 +3121,11 @@
   {
     "id": "11606328",
     "title": "霍比特人2：史矛革之战",
+    "mediaType": "movie",
     "year": 2014,
     "releaseDate": "2014-02-21",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2166784595.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/11606328.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2166784595.jpg",
     "directors": [
       "彼得·杰克逊"
     ],
@@ -3109,9 +3170,8 @@
     "doubanUrl": "https://movie.douban.com/subject/11606328/",
     "doubanRating": 8.5,
     "watchedAt": "2026-06-30T15:17:49.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3119,9 +3179,11 @@
   {
     "id": "1291572",
     "title": "指环王2：双塔奇兵",
+    "mediaType": "movie",
     "year": 2003,
     "releaseDate": "2003-04-25",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2640236255.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1291572.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2640236255.jpg",
     "directors": [
       "彼得·杰克逊"
     ],
@@ -3191,9 +3253,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1291572/",
     "doubanRating": 9.2,
     "watchedAt": "2026-06-30T15:17:48.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3201,9 +3262,11 @@
   {
     "id": "1966182",
     "title": "霍比特人1：意外之旅",
+    "mediaType": "movie",
     "year": 2013,
     "releaseDate": "2013-02-22",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1862769025.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1966182.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1862769025.jpg",
     "directors": [
       "彼得·杰克逊"
     ],
@@ -3238,9 +3301,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1966182/",
     "doubanRating": 8.5,
     "watchedAt": "2026-06-30T15:17:48.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3248,9 +3310,11 @@
   {
     "id": "1291552",
     "title": "指环王3：王者无敌",
+    "mediaType": "movie",
     "year": 2004,
     "releaseDate": "2004-03-12",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2642829472.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1291552.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2642829472.jpg",
     "directors": [
       "彼得·杰克逊"
     ],
@@ -3332,9 +3396,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1291552/",
     "doubanRating": 9.3,
     "watchedAt": "2026-06-30T15:17:44.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3342,9 +3405,11 @@
   {
     "id": "3878007",
     "title": "海王",
+    "mediaType": "movie",
     "year": 2018,
     "releaseDate": "2018-12-07",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2541280047.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/3878007.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2541280047.jpg",
     "directors": [
       "温子仁"
     ],
@@ -3409,9 +3474,8 @@
     "doubanUrl": "https://movie.douban.com/subject/3878007/",
     "doubanRating": 7.6,
     "watchedAt": "2026-06-30T15:17:43.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3419,9 +3483,11 @@
   {
     "id": "1907966",
     "title": "疯狂原始人",
+    "mediaType": "movie",
     "year": 2013,
     "releaseDate": "2013-04-20",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1867084027.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1907966.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1867084027.jpg",
     "directors": [
       "柯克·德·米科",
       "克里斯·桑德斯"
@@ -3448,9 +3514,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1907966/",
     "doubanRating": 8.7,
     "watchedAt": "2026-06-30T15:17:40.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3458,9 +3523,11 @@
   {
     "id": "1291999",
     "title": "重庆森林",
+    "mediaType": "movie",
     "year": 1994,
     "releaseDate": "1994-07-14",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p792381411.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1291999.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p792381411.jpg",
     "directors": [
       "王家卫"
     ],
@@ -3482,9 +3549,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1291999/",
     "doubanRating": 8.8,
     "watchedAt": "2026-06-30T15:17:39.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3492,9 +3558,11 @@
   {
     "id": "3075287",
     "title": "源代码",
+    "mediaType": "movie",
     "year": 2011,
     "releaseDate": "2011-08-30",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p988260245.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/3075287.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p988260245.jpg",
     "directors": [
       "邓肯·琼斯"
     ],
@@ -3522,9 +3590,8 @@
     "doubanUrl": "https://movie.douban.com/subject/3075287/",
     "doubanRating": 8.6,
     "watchedAt": "2026-06-30T15:17:35.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3532,9 +3599,11 @@
   {
     "id": "4920528",
     "title": "那些年，我们一起追的女孩",
+    "mediaType": "movie",
     "year": 2012,
     "releaseDate": "2012-01-06",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1348910586.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/4920528.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1348910586.jpg",
     "directors": [
       "九把刀"
     ],
@@ -3570,9 +3639,8 @@
     "doubanUrl": "https://movie.douban.com/subject/4920528/",
     "doubanRating": 8.1,
     "watchedAt": "2026-06-30T15:17:32.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3580,9 +3648,11 @@
   {
     "id": "1418200",
     "title": "傲慢与偏见",
+    "mediaType": "movie",
     "year": 2005,
     "releaseDate": "2005-09-16",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2016401659.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1418200.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2016401659.jpg",
     "directors": [
       "乔·赖特"
     ],
@@ -3619,9 +3689,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1418200/",
     "doubanRating": 8.7,
     "watchedAt": "2026-06-30T15:17:29.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3629,9 +3698,11 @@
   {
     "id": "26363254",
     "title": "战狼2",
+    "mediaType": "movie",
     "year": 2017,
     "releaseDate": "2017-07-27",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2494701965.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/26363254.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2494701965.jpg",
     "directors": [
       "吴京"
     ],
@@ -3685,9 +3756,8 @@
     "doubanUrl": "https://movie.douban.com/subject/26363254/",
     "doubanRating": 7.1,
     "watchedAt": "2026-06-30T15:17:28.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3695,9 +3765,11 @@
   {
     "id": "1291843",
     "title": "黑客帝国",
+    "mediaType": "movie",
     "year": 2000,
     "releaseDate": "2000-01-14",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p451926968.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1291843.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p451926968.jpg",
     "directors": [
       "莉莉·沃卓斯基",
       "拉娜·沃卓斯基"
@@ -3734,9 +3806,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1291843/",
     "doubanRating": 9.1,
     "watchedAt": "2026-06-30T15:17:25.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3744,9 +3815,11 @@
   {
     "id": "26311973",
     "title": "唐人街探案",
+    "mediaType": "movie",
     "year": 2015,
     "releaseDate": "2015-12-31",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2302930556.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/26311973.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2302930556.jpg",
     "directors": [
       "陈思诚"
     ],
@@ -3781,9 +3854,8 @@
     "doubanUrl": "https://movie.douban.com/subject/26311973/",
     "doubanRating": 7.8,
     "watchedAt": "2026-06-30T15:17:21.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3791,9 +3863,11 @@
   {
     "id": "1291571",
     "title": "指环王1：护戒使者",
+    "mediaType": "movie",
     "year": 2002,
     "releaseDate": "2002-04-04",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2197698335.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1291571.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2197698335.jpg",
     "directors": [
       "彼得·杰克逊"
     ],
@@ -3851,9 +3925,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1291571/",
     "doubanRating": 9.1,
     "watchedAt": "2026-06-30T15:17:13.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3861,9 +3934,11 @@
   {
     "id": "1291832",
     "title": "低俗小说",
+    "mediaType": "movie",
     "year": 1994,
     "releaseDate": "1994-05-12",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910902213.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1291832.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910902213.jpg",
     "directors": [
       "昆汀·塔伦蒂诺"
     ],
@@ -3897,9 +3972,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1291832/",
     "doubanRating": 8.9,
     "watchedAt": "2026-06-30T15:17:12.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3907,9 +3981,11 @@
   {
     "id": "1301753",
     "title": "狮子王",
+    "mediaType": "movie",
     "year": 1995,
     "releaseDate": "1995-07-15",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p726659067.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1301753.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p726659067.jpg",
     "directors": [
       "罗杰·阿勒斯",
       "罗伯·明可夫"
@@ -3938,9 +4014,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1301753/",
     "doubanRating": 9.1,
     "watchedAt": "2026-06-30T15:17:11.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3948,9 +4023,11 @@
   {
     "id": "1780330",
     "title": "致命魔术",
+    "mediaType": "movie",
     "year": 2006,
     "releaseDate": "2006-10-17",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p480383375.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1780330.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p480383375.jpg",
     "directors": [
       "克里斯托弗·诺兰"
     ],
@@ -3988,9 +4065,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1780330/",
     "doubanRating": 8.9,
     "watchedAt": "2026-06-30T15:17:09.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -3998,9 +4074,11 @@
   {
     "id": "1298070",
     "title": "加勒比海盗",
+    "mediaType": "movie",
     "year": 2003,
     "releaseDate": "2003-11-21",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1596085504.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1298070.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1596085504.jpg",
     "directors": [
       "戈尔·维宾斯基"
     ],
@@ -4024,9 +4102,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1298070/",
     "doubanRating": 8.8,
     "watchedAt": "2026-06-30T15:17:02.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4034,9 +4111,11 @@
   {
     "id": "2051007",
     "title": "哈利·波特与死亡圣器(上)",
+    "mediaType": "movie",
     "year": 2010,
     "releaseDate": "2010-11-19",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913456984.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/2051007.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913456984.jpg",
     "directors": [
       "大卫·叶茨"
     ],
@@ -4068,9 +4147,8 @@
     "doubanUrl": "https://movie.douban.com/subject/2051007/",
     "doubanRating": 8.6,
     "watchedAt": "2026-06-30T15:16:54.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4078,9 +4156,11 @@
   {
     "id": "1433330",
     "title": "哈利·波特与混血王子",
+    "mediaType": "movie",
     "year": 2009,
     "releaseDate": "2009-07-15",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913456964.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1433330.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913456964.jpg",
     "directors": [
       "大卫·叶茨"
     ],
@@ -4156,9 +4236,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1433330/",
     "doubanRating": 8.4,
     "watchedAt": "2026-06-30T15:16:53.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4166,9 +4245,11 @@
   {
     "id": "1457217",
     "title": "哈利·波特与凤凰社",
+    "mediaType": "movie",
     "year": 2007,
     "releaseDate": "2007-08-10",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913456924.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1457217.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913456924.jpg",
     "directors": [
       "大卫·叶茨"
     ],
@@ -4205,9 +4286,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1457217/",
     "doubanRating": 8.6,
     "watchedAt": "2026-06-30T15:16:53.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4215,9 +4295,11 @@
   {
     "id": "1309055",
     "title": "哈利·波特与火焰杯",
+    "mediaType": "movie",
     "year": 2005,
     "releaseDate": "2005-11-18",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913456904.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1309055.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2913456904.jpg",
     "directors": [
       "迈克·内威尔"
     ],
@@ -4303,9 +4385,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1309055/",
     "doubanRating": 8.8,
     "watchedAt": "2026-06-30T15:16:52.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4313,9 +4394,11 @@
   {
     "id": "1291544",
     "title": "哈利·波特与阿兹卡班的囚徒",
+    "mediaType": "movie",
     "year": 2004,
     "releaseDate": "2004-09-10",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913456870.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1291544.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913456870.jpg",
     "directors": [
       "阿方索·卡隆"
     ],
@@ -4347,9 +4430,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1291544/",
     "doubanRating": 9,
     "watchedAt": "2026-06-30T15:16:51.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4357,9 +4439,11 @@
   {
     "id": "1296996",
     "title": "哈利·波特与密室",
+    "mediaType": "movie",
     "year": 2003,
     "releaseDate": "2003-01-24",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2913781951.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1296996.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2913781951.jpg",
     "directors": [
       "克里斯·哥伦布"
     ],
@@ -4395,9 +4479,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1296996/",
     "doubanRating": 8.9,
     "watchedAt": "2026-06-30T15:16:51.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4405,9 +4488,11 @@
   {
     "id": "3011235",
     "title": "哈利·波特与死亡圣器(下)",
+    "mediaType": "movie",
     "year": 2011,
     "releaseDate": "2011-08-04",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913457020.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/3011235.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913457020.jpg",
     "directors": [
       "大卫·叶茨"
     ],
@@ -4454,9 +4539,8 @@
     "doubanUrl": "https://movie.douban.com/subject/3011235/",
     "doubanRating": 9,
     "watchedAt": "2026-06-30T15:16:43.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4464,9 +4548,11 @@
   {
     "id": "26698897",
     "title": "唐人街探案2",
+    "mediaType": "movie",
     "year": 2018,
     "releaseDate": "2018-02-16",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2512717519.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/26698897.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2512717519.jpg",
     "directors": [
       "陈思诚"
     ],
@@ -4500,9 +4586,8 @@
     "doubanUrl": "https://movie.douban.com/subject/26698897/",
     "doubanRating": 6.6,
     "watchedAt": "2026-06-30T15:16:42.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4510,9 +4595,11 @@
   {
     "id": "1292000",
     "title": "搏击俱乐部",
+    "mediaType": "movie",
     "year": 1999,
     "releaseDate": "1999-09-10",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910931622.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1292000.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910931622.jpg",
     "directors": [
       "大卫·芬奇"
     ],
@@ -4539,9 +4626,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1292000/",
     "doubanRating": 9,
     "watchedAt": "2026-06-30T15:16:39.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4549,9 +4635,11 @@
   {
     "id": "1291583",
     "title": "天空之城",
+    "mediaType": "movie",
     "year": 1992,
     "releaseDate": "1992-05-01",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2892409201.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1291583.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2892409201.jpg",
     "directors": [
       "宫崎骏"
     ],
@@ -4581,9 +4669,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1291583/",
     "doubanRating": 9.2,
     "watchedAt": "2026-06-30T15:16:28.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4591,9 +4678,11 @@
   {
     "id": "1298624",
     "title": "闻香识女人",
+    "mediaType": "movie",
     "year": 1992,
     "releaseDate": "1992-12-23",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2550757929.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1298624.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2550757929.jpg",
     "directors": [
       "马丁·布莱斯特"
     ],
@@ -4629,9 +4718,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1298624/",
     "doubanRating": 9.1,
     "watchedAt": "2026-06-30T15:16:20.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4639,9 +4727,11 @@
   {
     "id": "30163509",
     "title": "飞驰人生",
+    "mediaType": "movie",
     "year": 2019,
     "releaseDate": "2019-02-05",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2542973862.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/30163509.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2542973862.jpg",
     "directors": [
       "韩寒"
     ],
@@ -4678,9 +4768,8 @@
     "doubanUrl": "https://movie.douban.com/subject/30163509/",
     "doubanRating": 6.8,
     "watchedAt": "2026-06-30T15:16:16.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4688,9 +4777,11 @@
   {
     "id": "3287562",
     "title": "神偷奶爸",
+    "mediaType": "movie",
     "year": 2010,
     "releaseDate": "2010-06-20",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792776858.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/3287562.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792776858.jpg",
     "directors": [
       "皮埃尔·柯芬",
       "克里斯·雷纳德"
@@ -4728,9 +4819,8 @@
     "doubanUrl": "https://movie.douban.com/subject/3287562/",
     "doubanRating": 8.7,
     "watchedAt": "2026-06-30T15:16:11.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4738,9 +4828,11 @@
   {
     "id": "1292223",
     "title": "七宗罪",
+    "mediaType": "movie",
     "year": 1995,
     "releaseDate": "1995-09-22",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2219586434.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1292223.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2219586434.jpg",
     "directors": [
       "大卫·芬奇"
     ],
@@ -4766,9 +4858,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1292223/",
     "doubanRating": 8.8,
     "watchedAt": "2026-06-30T15:16:07.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4776,9 +4867,11 @@
   {
     "id": "1292343",
     "title": "蝴蝶效应",
+    "mediaType": "movie",
     "year": 2004,
     "releaseDate": "2004-01-23",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2209066019.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1292343.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2209066019.jpg",
     "directors": [
       "埃里克·布雷斯",
       "J·麦基·格鲁伯"
@@ -4814,9 +4907,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1292343/",
     "doubanRating": 8.9,
     "watchedAt": "2026-06-30T15:16:06.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.298Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4824,9 +4916,11 @@
   {
     "id": "32659890",
     "title": "我和我的祖国",
+    "mediaType": "movie",
     "year": 2019,
     "releaseDate": "2019-09-30",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2567998580.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/32659890.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2567998580.jpg",
     "directors": [
       "陈凯歌",
       "张一白",
@@ -4906,9 +5000,8 @@
     "doubanUrl": "https://movie.douban.com/subject/32659890/",
     "doubanRating": 7.6,
     "watchedAt": "2026-06-30T15:16:05.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4916,9 +5009,11 @@
   {
     "id": "27605698",
     "title": "西虹市首富",
+    "mediaType": "movie",
     "year": 2018,
     "releaseDate": "2018-07-27",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2529206747.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/27605698.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2529206747.jpg",
     "directors": [
       "闫非",
       "彭大魔"
@@ -4963,9 +5058,8 @@
     "doubanUrl": "https://movie.douban.com/subject/27605698/",
     "doubanRating": 6.6,
     "watchedAt": "2026-06-30T15:15:51.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -4973,9 +5067,11 @@
   {
     "id": "26861685",
     "title": "红海行动",
+    "mediaType": "movie",
     "year": 2018,
     "releaseDate": "2018-02-16",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2514119443.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/26861685.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2514119443.jpg",
     "directors": [
       "林超贤"
     ],
@@ -5005,9 +5101,8 @@
     "doubanUrl": "https://movie.douban.com/subject/26861685/",
     "doubanRating": 8.2,
     "watchedAt": "2026-06-30T15:15:50.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5015,9 +5110,11 @@
   {
     "id": "1291841",
     "title": "教父",
+    "mediaType": "movie",
     "year": 1972,
     "releaseDate": "1972-03-15",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p616779645.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1291841.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p616779645.jpg",
     "directors": [
       "弗朗西斯·福特·科波拉"
     ],
@@ -5050,9 +5147,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1291841/",
     "doubanRating": 9.3,
     "watchedAt": "2026-06-30T15:15:44.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5060,9 +5156,11 @@
   {
     "id": "2334904",
     "title": "禁闭岛",
+    "mediaType": "movie",
     "year": 2010,
     "releaseDate": "2010-02-13",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p450262388.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/2334904.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p450262388.jpg",
     "directors": [
       "马丁·斯科塞斯"
     ],
@@ -5094,9 +5192,8 @@
     "doubanUrl": "https://movie.douban.com/subject/2334904/",
     "doubanRating": 8.9,
     "watchedAt": "2026-06-30T15:15:43.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5104,9 +5201,11 @@
   {
     "id": "1292370",
     "title": "剪刀手爱德华",
+    "mediaType": "movie",
     "year": 1990,
     "releaseDate": "1990-12-06",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p480956937.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1292370.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p480956937.jpg",
     "directors": [
       "蒂姆·波顿"
     ],
@@ -5144,9 +5243,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1292370/",
     "doubanRating": 8.7,
     "watchedAt": "2026-06-30T15:15:42.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5154,9 +5252,11 @@
   {
     "id": "25964071",
     "title": "夏洛特烦恼",
+    "mediaType": "movie",
     "year": 2015,
     "releaseDate": "2015-09-30",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2264377763.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/25964071.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2264377763.jpg",
     "directors": [
       "闫非",
       "彭大魔"
@@ -5248,9 +5348,8 @@
     "doubanUrl": "https://movie.douban.com/subject/25964071/",
     "doubanRating": 7.9,
     "watchedAt": "2026-06-30T15:15:41.000Z",
-    "addedAt": "2026-07-13T02:53:29.660Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5258,9 +5357,11 @@
   {
     "id": "27119724",
     "title": "小丑",
+    "mediaType": "movie",
     "year": 2019,
     "releaseDate": "2019-08-31",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2567198874.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/27119724.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2567198874.jpg",
     "directors": [
       "托德·菲利普斯"
     ],
@@ -5309,9 +5410,8 @@
     "doubanUrl": "https://movie.douban.com/subject/27119724/",
     "doubanRating": 8.7,
     "watchedAt": "2026-06-30T15:15:39.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5319,9 +5419,11 @@
   {
     "id": "25934014",
     "title": "爱乐之城",
+    "mediaType": "movie",
     "year": 2017,
     "releaseDate": "2017-02-14",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2929224846.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/25934014.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2929224846.jpg",
     "directors": [
       "达米恩·查泽雷"
     ],
@@ -5371,9 +5473,8 @@
     "doubanUrl": "https://movie.douban.com/subject/25934014/",
     "doubanRating": 8.4,
     "watchedAt": "2026-06-30T15:15:38.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5381,9 +5482,11 @@
   {
     "id": "27619748",
     "title": "唐人街探案3",
+    "mediaType": "movie",
     "year": 2021,
     "releaseDate": "2021-02-12",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2622388983.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/27619748.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2622388983.jpg",
     "directors": [
       "陈思诚"
     ],
@@ -5441,9 +5544,8 @@
     "doubanUrl": "https://movie.douban.com/subject/27619748/",
     "doubanRating": 5.3,
     "watchedAt": "2026-06-30T15:15:37.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5451,9 +5553,11 @@
   {
     "id": "11026735",
     "title": "超能陆战队",
+    "mediaType": "movie",
     "year": 2015,
     "releaseDate": "2015-02-28",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2224568669.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/11026735.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2224568669.jpg",
     "directors": [
       "唐·霍尔",
       "克里斯·威廉姆斯"
@@ -5487,9 +5591,8 @@
     "doubanUrl": "https://movie.douban.com/subject/11026735/",
     "doubanRating": 8.8,
     "watchedAt": "2026-06-30T15:15:35.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5497,9 +5600,11 @@
   {
     "id": "26100958",
     "title": "复仇者联盟4：终局之战",
+    "mediaType": "movie",
     "year": 2019,
     "releaseDate": "2019-04-24",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2550755859.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/26100958.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2550755859.jpg",
     "directors": [
       "安东尼·罗素",
       "乔·罗素"
@@ -5580,9 +5685,8 @@
     "doubanUrl": "https://movie.douban.com/subject/26100958/",
     "doubanRating": 8.5,
     "watchedAt": "2026-06-30T15:15:32.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5590,9 +5694,11 @@
   {
     "id": "36151692",
     "title": "周处除三害",
+    "mediaType": "movie",
     "year": 2024,
     "releaseDate": "2024-03-01",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2905021483.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/36151692.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2905021483.jpg",
     "directors": [
       "黄精甫"
     ],
@@ -5648,9 +5754,8 @@
     "doubanUrl": "https://movie.douban.com/subject/36151692/",
     "doubanRating": 8.1,
     "watchedAt": "2026-06-30T15:15:22.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5658,9 +5763,11 @@
   {
     "id": "1851857",
     "title": "蝙蝠侠：黑暗骑士",
+    "mediaType": "movie",
     "year": 2008,
     "releaseDate": "2008-07-14",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p462657443.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1851857.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p462657443.jpg",
     "directors": [
       "克里斯托弗·诺兰"
     ],
@@ -5712,9 +5819,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1851857/",
     "doubanRating": 9.2,
     "watchedAt": "2026-06-30T15:15:21.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5722,9 +5828,11 @@
   {
     "id": "1305487",
     "title": "猫鼠游戏",
+    "mediaType": "movie",
     "year": 2003,
     "releaseDate": "2003-04-11",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p453924541.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1305487.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p453924541.jpg",
     "directors": [
       "史蒂文·斯皮尔伯格"
     ],
@@ -5757,9 +5865,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1305487/",
     "doubanRating": 9.1,
     "watchedAt": "2026-06-30T15:15:20.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5767,9 +5874,11 @@
   {
     "id": "1295124",
     "title": "辛德勒的名单",
+    "mediaType": "movie",
     "year": 1993,
     "releaseDate": "1993-11-30",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p492406163.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1295124.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p492406163.jpg",
     "directors": [
       "史蒂文·斯皮尔伯格"
     ],
@@ -5801,9 +5910,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1295124/",
     "doubanRating": 9.5,
     "watchedAt": "2026-06-30T15:15:12.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5811,9 +5919,11 @@
   {
     "id": "10604086",
     "title": "封神第一部：朝歌风云",
+    "mediaType": "movie",
     "year": 2023,
     "releaseDate": "2023-07-20",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2895465725.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/10604086.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2895465725.jpg",
     "directors": [
       "乌尔善"
     ],
@@ -5899,9 +6009,8 @@
     "doubanUrl": "https://movie.douban.com/subject/10604086/",
     "doubanRating": 7.7,
     "watchedAt": "2026-06-30T15:15:09.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5909,9 +6018,11 @@
   {
     "id": "1308807",
     "title": "哈尔的移动城堡",
+    "mediaType": "movie",
     "year": 2024,
     "releaseDate": "2024-04-30",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2907583906.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1308807.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2907583906.jpg",
     "directors": [
       "宫崎骏"
     ],
@@ -5940,9 +6051,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1308807/",
     "doubanRating": 9.1,
     "watchedAt": "2026-06-30T15:15:06.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5950,9 +6060,11 @@
   {
     "id": "6786002",
     "title": "触不可及",
+    "mediaType": "movie",
     "year": 2011,
     "releaseDate": "2011-11-02",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1454261925.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/6786002.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1454261925.jpg",
     "directors": [
       "奥利维埃·纳卡什",
       "埃里克·托莱达诺"
@@ -5985,9 +6097,8 @@
     "doubanUrl": "https://movie.douban.com/subject/6786002/",
     "doubanRating": 9.3,
     "watchedAt": "2026-06-30T15:15:05.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -5995,9 +6106,11 @@
   {
     "id": "1292220",
     "title": "情书",
+    "mediaType": "movie",
     "year": 1999,
     "releaseDate": "1999-03",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2648230660.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1292220.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2648230660.jpg",
     "directors": [
       "岩井俊二"
     ],
@@ -6036,9 +6149,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1292220/",
     "doubanRating": 8.9,
     "watchedAt": "2026-06-30T15:15:00.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6046,9 +6158,11 @@
   {
     "id": "1291543",
     "title": "功夫",
+    "mediaType": "movie",
     "year": 2004,
     "releaseDate": "2004-12-23",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2219011938.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1291543.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2219011938.jpg",
     "directors": [
       "周星驰"
     ],
@@ -6089,9 +6203,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1291543/",
     "doubanRating": 8.9,
     "watchedAt": "2026-06-30T15:14:59.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6099,9 +6212,11 @@
   {
     "id": "25986180",
     "title": "釜山行",
+    "mediaType": "movie",
     "year": 2016,
     "releaseDate": "2016-05-13",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2360940399.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/25986180.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2360940399.jpg",
     "directors": [
       "延尚昊"
     ],
@@ -6133,9 +6248,8 @@
     "doubanUrl": "https://movie.douban.com/subject/25986180/",
     "doubanRating": 8.6,
     "watchedAt": "2026-06-30T15:14:57.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6143,9 +6257,11 @@
   {
     "id": "1299398",
     "title": "大话西游之月光宝盒",
+    "mediaType": "movie",
     "year": 2014,
     "releaseDate": "2014-10-24",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2561721372.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1299398.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2561721372.jpg",
     "directors": [
       "刘镇伟"
     ],
@@ -6175,9 +6291,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1299398/",
     "doubanRating": 9,
     "watchedAt": "2026-06-30T15:14:55.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6185,9 +6300,11 @@
   {
     "id": "1295038",
     "title": "哈利·波特与魔法石",
+    "mediaType": "movie",
     "year": 2002,
     "releaseDate": "2002-01-26",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913781448.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1295038.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913781448.jpg",
     "directors": [
       "克里斯·哥伦布"
     ],
@@ -6219,9 +6336,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1295038/",
     "doubanRating": 9.2,
     "watchedAt": "2026-06-30T15:14:50.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6229,9 +6345,11 @@
   {
     "id": "35267208",
     "title": "流浪地球2",
+    "mediaType": "movie",
     "year": 2023,
     "releaseDate": "2023-01-22",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2916835424.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/35267208.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2916835424.jpg",
     "directors": [
       "郭帆"
     ],
@@ -6297,9 +6415,8 @@
     "doubanUrl": "https://movie.douban.com/subject/35267208/",
     "doubanRating": 8.3,
     "watchedAt": "2026-06-30T15:14:50.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6307,9 +6424,11 @@
   {
     "id": "2131459",
     "title": "机器人总动员",
+    "mediaType": "movie",
     "year": 2008,
     "releaseDate": "2008-06-27",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1461851991.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/2131459.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1461851991.jpg",
     "directors": [
       "安德鲁·斯坦顿"
     ],
@@ -6352,9 +6471,8 @@
     "doubanUrl": "https://movie.douban.com/subject/2131459/",
     "doubanRating": 9.3,
     "watchedAt": "2026-06-30T15:14:41.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6362,9 +6480,11 @@
   {
     "id": "2129039",
     "title": "飞屋环游记",
+    "mediaType": "movie",
     "year": 2009,
     "releaseDate": "2009-08-04",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p485887754.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/2129039.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p485887754.jpg",
     "directors": [
       "彼特·道格特",
       "鲍勃·彼德森"
@@ -6399,9 +6519,8 @@
     "doubanUrl": "https://movie.douban.com/subject/2129039/",
     "doubanRating": 9.1,
     "watchedAt": "2026-06-30T15:14:40.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6409,9 +6528,11 @@
   {
     "id": "4920389",
     "title": "头号玩家",
+    "mediaType": "movie",
     "year": 2018,
     "releaseDate": "2018-03-30",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2516578307.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/4920389.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2516578307.jpg",
     "directors": [
       "史蒂文·斯皮尔伯格"
     ],
@@ -6445,9 +6566,8 @@
     "doubanUrl": "https://movie.douban.com/subject/4920389/",
     "doubanRating": 8.6,
     "watchedAt": "2026-06-30T15:14:39.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6455,9 +6575,11 @@
   {
     "id": "34780991",
     "title": "哪吒之魔童闹海",
+    "mediaType": "movie",
     "year": 2025,
     "releaseDate": "2025-01-29",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2916323291.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/34780991.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2916323291.jpg",
     "directors": [
       "饺子"
     ],
@@ -6499,9 +6621,8 @@
     "doubanUrl": "https://movie.douban.com/subject/34780991/",
     "doubanRating": 8.4,
     "watchedAt": "2026-06-30T15:14:37.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6509,9 +6630,11 @@
   {
     "id": "27010768",
     "title": "寄生虫",
+    "mediaType": "movie",
     "year": 2019,
     "releaseDate": "2019-05-21",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561439800.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/27010768.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2561439800.jpg",
     "directors": [
       "奉俊昊"
     ],
@@ -6541,9 +6664,8 @@
     "doubanUrl": "https://movie.douban.com/subject/27010768/",
     "doubanRating": 8.8,
     "watchedAt": "2026-06-30T15:14:35.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6551,9 +6673,11 @@
   {
     "id": "1652587",
     "title": "阿凡达",
+    "mediaType": "movie",
     "year": 2010,
     "releaseDate": "2010-01-04",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2180085848.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1652587.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2180085848.jpg",
     "directors": [
       "詹姆斯·卡梅隆"
     ],
@@ -6614,9 +6738,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1652587/",
     "doubanRating": 8.8,
     "watchedAt": "2026-06-30T15:14:24.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6624,9 +6747,11 @@
   {
     "id": "26683290",
     "title": "你的名字。",
+    "mediaType": "movie",
     "year": 2016,
     "releaseDate": "2016-12-02",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2910701461.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/26683290.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2910701461.jpg",
     "directors": [
       "新海诚"
     ],
@@ -6660,9 +6785,8 @@
     "doubanUrl": "https://movie.douban.com/subject/26683290/",
     "doubanRating": 8.5,
     "watchedAt": "2026-06-30T15:14:23.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6670,9 +6794,11 @@
   {
     "id": "1849031",
     "title": "当幸福来敲门",
+    "mediaType": "movie",
     "year": 2008,
     "releaseDate": "2008-01-17",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1312700628.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1849031.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1312700628.jpg",
     "directors": [
       "加布里埃莱·穆奇诺"
     ],
@@ -6705,9 +6831,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1849031/",
     "doubanRating": 9.1,
     "watchedAt": "2026-06-30T15:14:22.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6715,9 +6840,11 @@
   {
     "id": "1292213",
     "title": "大话西游之大圣娶亲",
+    "mediaType": "movie",
     "year": 2014,
     "releaseDate": "2014-10-24",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2455050536.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1292213.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2455050536.jpg",
     "directors": [
       "刘镇伟"
     ],
@@ -6746,9 +6873,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1292213/",
     "doubanRating": 9.2,
     "watchedAt": "2026-06-30T15:14:21.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6756,9 +6882,11 @@
   {
     "id": "26387939",
     "title": "摔跤吧！爸爸",
+    "mediaType": "movie",
     "year": 2017,
     "releaseDate": "2017-05-05",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2401676338.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/26387939.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2401676338.jpg",
     "directors": [
       "涅提·蒂瓦里"
     ],
@@ -6785,9 +6913,8 @@
     "doubanUrl": "https://movie.douban.com/subject/26387939/",
     "doubanRating": 9,
     "watchedAt": "2026-06-30T15:14:17.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6795,9 +6922,11 @@
   {
     "id": "1292001",
     "title": "海上钢琴师",
+    "mediaType": "movie",
     "year": 2019,
     "releaseDate": "2019-11-15",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2914698334.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1292001.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2914698334.jpg",
     "directors": [
       "朱塞佩·托纳多雷"
     ],
@@ -6835,9 +6964,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1292001/",
     "doubanRating": 9.3,
     "watchedAt": "2026-06-30T15:14:16.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6845,9 +6973,11 @@
   {
     "id": "27060077",
     "title": "绿皮书",
+    "mediaType": "movie",
     "year": 2019,
     "releaseDate": "2019-03-01",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2531065411.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/27060077.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2531065411.jpg",
     "directors": [
       "彼得·法雷里"
     ],
@@ -6898,9 +7028,8 @@
     "doubanUrl": "https://movie.douban.com/subject/27060077/",
     "doubanRating": 8.9,
     "watchedAt": "2026-06-30T15:14:15.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6908,9 +7037,11 @@
   {
     "id": "3742360",
     "title": "让子弹飞",
+    "mediaType": "movie",
     "year": 2010,
     "releaseDate": "2010-12-16",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1512562287.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/3742360.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1512562287.jpg",
     "directors": [
       "姜文"
     ],
@@ -6951,9 +7082,8 @@
     "doubanUrl": "https://movie.douban.com/subject/3742360/",
     "doubanRating": 9,
     "watchedAt": "2026-06-30T15:14:14.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -6961,9 +7091,11 @@
   {
     "id": "20495023",
     "title": "寻梦环游记",
+    "mediaType": "movie",
     "year": 2017,
     "releaseDate": "2017-11-24",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2505426431.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/20495023.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2505426431.jpg",
     "directors": [
       "李·昂克里奇",
       "阿德里安·莫利纳"
@@ -7005,9 +7137,8 @@
     "doubanUrl": "https://movie.douban.com/subject/20495023/",
     "doubanRating": 9.1,
     "watchedAt": "2026-06-30T15:14:13.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -7015,9 +7146,11 @@
   {
     "id": "1292064",
     "title": "楚门的世界",
+    "mediaType": "movie",
     "year": 1998,
     "releaseDate": "1998-06-05",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p479682972.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1292064.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p479682972.jpg",
     "directors": [
       "彼得·威尔"
     ],
@@ -7039,9 +7172,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1292064/",
     "doubanRating": 9.4,
     "watchedAt": "2026-06-30T15:14:12.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -7049,9 +7181,11 @@
   {
     "id": "26266893",
     "title": "流浪地球",
+    "mediaType": "movie",
     "year": 2019,
     "releaseDate": "2019-02-05",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2545472803.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/26266893.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2545472803.jpg",
     "directors": [
       "郭帆"
     ],
@@ -7097,9 +7231,8 @@
     "doubanUrl": "https://movie.douban.com/subject/26266893/",
     "doubanRating": 7.9,
     "watchedAt": "2026-06-30T15:14:09.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -7107,9 +7240,11 @@
   {
     "id": "3319755",
     "title": "怦然心动",
+    "mediaType": "movie",
     "year": 2010,
     "releaseDate": "2010-07-26",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p501177648.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/3319755.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p501177648.jpg",
     "directors": [
       "罗伯·莱纳"
     ],
@@ -7159,9 +7294,8 @@
     "doubanUrl": "https://movie.douban.com/subject/3319755/",
     "doubanRating": 9.1,
     "watchedAt": "2026-06-30T15:14:08.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -7169,9 +7303,11 @@
   {
     "id": "26794435",
     "title": "哪吒之魔童降世",
+    "mediaType": "movie",
     "year": 2019,
     "releaseDate": "2019-07-26",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2563780504.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/26794435.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2563780504.jpg",
     "directors": [
       "饺子"
     ],
@@ -7196,9 +7332,8 @@
     "doubanUrl": "https://movie.douban.com/subject/26794435/",
     "doubanRating": 8.4,
     "watchedAt": "2026-06-30T15:14:07.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -7206,9 +7341,11 @@
   {
     "id": "3793023",
     "title": "三傻大闹宝莱坞",
+    "mediaType": "movie",
     "year": 2011,
     "releaseDate": "2011-12-08",
-    "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p579729551.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/3793023.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p579729551.jpg",
     "directors": [
       "拉吉库马尔·希拉尼"
     ],
@@ -7234,9 +7371,8 @@
     "doubanUrl": "https://movie.douban.com/subject/3793023/",
     "doubanRating": 9.2,
     "watchedAt": "2026-06-30T15:14:06.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -7244,9 +7380,11 @@
   {
     "id": "1889243",
     "title": "星际穿越",
+    "mediaType": "movie",
     "year": 2014,
     "releaseDate": "2014-11-12",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2614988097.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1889243.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2614988097.jpg",
     "directors": [
       "克里斯托弗·诺兰"
     ],
@@ -7294,9 +7432,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1889243/",
     "doubanRating": 9.4,
     "watchedAt": "2026-06-30T15:14:05.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -7304,9 +7441,11 @@
   {
     "id": "25662329",
     "title": "疯狂动物城",
+    "mediaType": "movie",
     "year": 2016,
     "releaseDate": "2016-03-04",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2924128964.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/25662329.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2924128964.jpg",
     "directors": [
       "拜伦·霍华德",
       "瑞奇·摩尔",
@@ -7359,9 +7498,8 @@
     "doubanUrl": "https://movie.douban.com/subject/25662329/",
     "doubanRating": 9.3,
     "watchedAt": "2026-06-30T15:14:04.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -7369,9 +7507,11 @@
   {
     "id": "3541415",
     "title": "盗梦空间",
+    "mediaType": "movie",
     "year": 2010,
     "releaseDate": "2010-09-01",
-    "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p513344864.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/3541415.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p513344864.jpg",
     "directors": [
       "克里斯托弗·诺兰"
     ],
@@ -7415,9 +7555,8 @@
     "doubanUrl": "https://movie.douban.com/subject/3541415/",
     "doubanRating": 9.4,
     "watchedAt": "2026-06-30T15:14:01.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -7425,9 +7564,11 @@
   {
     "id": "1291546",
     "title": "霸王别姬",
+    "mediaType": "movie",
     "year": 1993,
     "releaseDate": "1993-07-26",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2911205318.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1291546.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2911205318.jpg",
     "directors": [
       "陈凯歌"
     ],
@@ -7466,9 +7607,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1291546/",
     "doubanRating": 9.6,
     "watchedAt": "2026-06-30T15:13:57.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -7476,9 +7616,11 @@
   {
     "id": "1292720",
     "title": "阿甘正传",
+    "mediaType": "movie",
     "year": 1994,
     "releaseDate": "1994-06-23",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2500944103.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1292720.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2500944103.jpg",
     "directors": [
       "罗伯特·泽米吉斯"
     ],
@@ -7536,9 +7678,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1292720/",
     "doubanRating": 9.5,
     "watchedAt": "2026-06-30T15:13:56.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -7546,9 +7687,11 @@
   {
     "id": "1291561",
     "title": "千与千寻",
+    "mediaType": "movie",
     "year": 2019,
     "releaseDate": "2019-06-21",
-    "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2557573348.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1291561.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2557573348.jpg",
     "directors": [
       "宫崎骏"
     ],
@@ -7580,9 +7723,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1291561/",
     "doubanRating": 9.4,
     "watchedAt": "2026-06-30T15:13:53.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
@@ -7590,9 +7732,11 @@
   {
     "id": "1292052",
     "title": "肖申克的救赎",
+    "mediaType": "movie",
     "year": 1994,
     "releaseDate": "1994-09-10",
-    "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p480747492.jpg",
+    "poster": "https://dou.img.lithub.cc/movie/1292052.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p480747492.jpg",
     "directors": [
       "弗兰克·德拉邦特"
     ],
@@ -7634,9 +7778,8 @@
     "doubanUrl": "https://movie.douban.com/subject/1292052/",
     "doubanRating": 9.7,
     "watchedAt": "2026-06-30T15:13:49.000Z",
-    "addedAt": "2026-07-13T02:53:29.661Z",
+    "addedAt": "2026-07-13T03:40:11.299Z",
     "tags": [],
-    "favorite": false,
     "hidden": false,
     "status": "watched",
     "source": "douban"
