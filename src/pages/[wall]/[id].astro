@@ -82,7 +82,7 @@ const hasPoster = Boolean(movie.poster);
           loading="eager"
           decoding="async"
           referrerpolicy="no-referrer"
-          onerror="const fallback=this.dataset.fallbackSrc;if(fallback){this.removeAttribute('data-fallback-src');this.src=fallback;}else{this.style.display='none';}"
+          onerror="if(this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;this.removeAttribute('data-fallback-src');}else{this.style.display='none';}"
         />
       )}
       <div class="detail-hero__bg-overlay"></div>
@@ -101,7 +101,7 @@ const hasPoster = Boolean(movie.poster);
               loading="eager"
               decoding="async"
               referrerpolicy="no-referrer"
-              onerror="const fallback=this.dataset.fallbackSrc;if(fallback){this.removeAttribute('data-fallback-src');this.src=fallback;}else{this.style.display='none';this.nextElementSibling.style.display='flex';}"
+              onerror="if(this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;this.removeAttribute('data-fallback-src');}else{this.style.display='none';this.nextElementSibling.style.display='flex';}"
             />
             <div class="detail-poster__placeholder" style="display:none;">
               <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">

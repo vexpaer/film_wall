@@ -3,23 +3,27 @@
    电影感 · 深色主题 · 沉浸式
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Serif+SC:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Serif+SC:wght@400;600;700&display=swap');
 
 /* ── CSS 变量 ─────────────────────────────────────────────── */
 :root {
   /* 背景色系 */
-  --bg-base: #0a0a0f;
-  --bg-surface: #111118;
-  --bg-card: #16161f;
-  --bg-card-hover: #1c1c28;
-  --bg-elevated: #1e1e2a;
-  --bg-overlay: rgba(10, 10, 15, 0.85);
+  --bg-base: #07070b;
+  --bg-surface: #0e0d16;
+  --bg-card: rgba(20, 19, 31, 0.82);
+  --bg-card-hover: rgba(30, 27, 46, 0.94);
+  --bg-elevated: #211f31;
+  --bg-overlay: rgba(7, 7, 11, 0.86);
 
   /* 主色调（暖金/琥珀 — 胶片感） */
-  --color-accent: #f5a623;
-  --color-accent-dim: #c47d0e;
-  --color-accent-glow: rgba(245, 166, 35, 0.15);
-  --color-accent-glow-strong: rgba(245, 166, 35, 0.3);
+  --color-accent: #ffd447;
+  --color-accent-dim: #ffad17;
+  --color-accent-glow: rgba(255, 212, 71, 0.15);
+  --color-accent-glow-strong: rgba(255, 212, 71, 0.32);
+  --color-pink: #ff3d9a;
+  --color-pink-glow: rgba(255, 61, 154, 0.24);
+  --color-cyan: #42e8ff;
+  --color-cyan-glow: rgba(66, 232, 255, 0.22);
 
   /* 辅助色 */
   --color-red: #e05252;
@@ -40,6 +44,7 @@
 
   /* 排版 */
   --font-sans: 'Inter', 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+  --font-display: 'Bebas Neue', 'Arial Narrow', Impact, sans-serif;
   --font-serif: 'Noto Serif SC', Georgia, serif;
   --font-mono: 'Fira Code', 'Cascadia Code', monospace;
 
@@ -91,7 +96,7 @@
   /* 布局 */
   --container-max: 1400px;
   --container-md: 900px;
-  --nav-height: 64px;
+  --nav-height: 82px;
 
   /* 海报比例 */
   --poster-ratio: 2/3;
@@ -995,5 +1000,586 @@ p {
 @media (max-width: 640px) {
   .hidden-mobile {
     display: none;
+  }
+}
+
+/* ============================================================
+   GSAP CINEMA MODE — 全站霓虹电影档案馆
+   ============================================================ */
+
+html {
+  background: var(--bg-base);
+}
+
+body {
+  position: relative;
+  isolation: isolate;
+  background:
+    radial-gradient(circle at 50% -20%, rgba(255, 212, 71, 0.07), transparent 34rem),
+    var(--bg-base);
+}
+
+::selection {
+  color: #07070b;
+  background: var(--color-cyan);
+}
+
+.site-chrome {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  max-width: none;
+  pointer-events: none;
+}
+
+.site-grid,
+.site-vignette,
+.site-noise,
+.site-aurora {
+  position: absolute;
+  max-width: none;
+  pointer-events: none;
+}
+
+.site-grid {
+  inset: 0;
+  opacity: 0.16;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 72px 72px;
+  mask-image: linear-gradient(to bottom, black 0%, transparent 78%);
+}
+
+.site-aurora {
+  width: min(58vw, 880px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  filter: blur(110px);
+  opacity: 0.14;
+  will-change: transform;
+}
+
+.site-aurora--gold {
+  top: -32%;
+  left: -12%;
+  background: var(--color-accent);
+}
+
+.site-aurora--cyan {
+  top: 28%;
+  right: -24%;
+  background: var(--color-cyan);
+}
+
+.site-aurora--pink {
+  bottom: -34%;
+  left: 28%;
+  background: var(--color-pink);
+}
+
+.site-vignette {
+  inset: 0;
+  background: radial-gradient(circle at center, transparent 38%, rgba(0, 0, 0, 0.64) 130%);
+}
+
+.site-noise {
+  inset: -45%;
+  opacity: 0.055;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.95' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.7'/%3E%3C/svg%3E");
+  transform: rotate(0.001deg);
+}
+
+.scroll-progress {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 160;
+  height: 3px;
+  max-width: none;
+  pointer-events: none;
+}
+
+.scroll-progress__bar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-pink), var(--color-accent), var(--color-cyan));
+  box-shadow: 0 0 16px var(--color-cyan), 0 0 28px var(--color-pink);
+  will-change: transform;
+}
+
+.cursor-aura {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 155;
+  width: 180px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  max-width: none;
+  opacity: 0;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  background: radial-gradient(circle, rgba(66, 232, 255, 0.13), rgba(255, 61, 154, 0.05) 42%, transparent 70%);
+  will-change: transform;
+}
+
+.main-content,
+.footer {
+  position: relative;
+  z-index: 1;
+}
+
+.main-content {
+  overflow: clip;
+}
+
+/* 浮动胶囊导航 */
+.nav {
+  height: var(--nav-height);
+  padding: 12px 0;
+  background: transparent;
+  border: 0;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.nav__inner {
+  width: calc(100% - 32px);
+  height: 58px;
+  padding: 0 10px 0 12px;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: var(--radius-full);
+  background: rgba(12, 11, 20, 0.6);
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(24px) saturate(1.5);
+  -webkit-backdrop-filter: blur(24px) saturate(1.5);
+  transition:
+    background var(--transition-base),
+    border-color var(--transition-base),
+    box-shadow var(--transition-base);
+}
+
+.nav.is-scrolled .nav__inner {
+  background: rgba(10, 9, 16, 0.9);
+  border-color: rgba(255, 212, 71, 0.24);
+  box-shadow:
+    0 18px 60px rgba(0, 0, 0, 0.46),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.025);
+}
+
+.nav__logo {
+  gap: 10px;
+  padding-right: 12px;
+  text-transform: uppercase;
+}
+
+.nav__logo-icon {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
+  border-radius: 50%;
+  color: #08080c;
+  font-size: 16px;
+  background: conic-gradient(from 40deg, var(--color-accent), var(--color-pink), var(--color-cyan), var(--color-accent));
+  box-shadow: 0 0 24px var(--color-accent-glow-strong);
+}
+
+.nav__logo-reel {
+  display: block;
+  line-height: 1;
+  will-change: transform;
+}
+
+.nav__logo-copy {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.nav__logo-copy > span {
+  font-size: 0.93rem;
+  letter-spacing: 0.02em;
+}
+
+.nav__logo-copy small {
+  margin-top: 4px;
+  color: var(--text-muted);
+  font-size: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 0.17em;
+}
+
+.nav__links {
+  gap: 2px;
+}
+
+.nav__link {
+  position: relative;
+  gap: 6px;
+  overflow: hidden;
+  padding: 9px 13px;
+  border-radius: var(--radius-full);
+}
+
+.nav__link::after {
+  content: "";
+  position: absolute;
+  right: 14px;
+  bottom: 6px;
+  left: 14px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-cyan), transparent);
+  transform: scaleX(0);
+  transition: transform var(--transition-base);
+}
+
+.nav__link:hover::after,
+.nav__link[aria-current="page"]::after {
+  transform: scaleX(1);
+}
+
+.nav__link-index {
+  color: var(--color-pink);
+  font-family: var(--font-mono);
+  font-size: 0.52rem;
+  line-height: 1;
+  opacity: 0.7;
+}
+
+.nav__link:hover,
+.nav__link[aria-current="page"] {
+  background: rgba(255, 255, 255, 0.055);
+}
+
+/* 卡片追光与霓虹边缘 */
+.movie-card,
+.book-card,
+.featured-card,
+.stat-card,
+.stats-card {
+  --pointer-x: 50%;
+  --pointer-y: 50%;
+  border-color: rgba(255, 255, 255, 0.09);
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.035), transparent 44%),
+    var(--bg-card);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.035);
+}
+
+.movie-card::before,
+.book-card::before,
+.featured-card::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  z-index: 5;
+  border-radius: inherit;
+  opacity: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    360px circle at var(--pointer-x) var(--pointer-y),
+    rgba(66, 232, 255, 0.28),
+    rgba(255, 61, 154, 0.12) 28%,
+    transparent 58%
+  );
+  mix-blend-mode: screen;
+  transition: opacity var(--transition-base);
+}
+
+.movie-card:hover::before,
+.book-card:hover::before,
+.featured-card:hover::before {
+  opacity: 1;
+}
+
+.motion-enabled .movie-card,
+.motion-enabled .book-card,
+.motion-enabled .featured-card {
+  transition-property: box-shadow, border-color, background-color;
+  will-change: transform;
+}
+
+.movie-card:hover,
+.book-card:hover,
+.featured-card:hover {
+  border-color: rgba(66, 232, 255, 0.42);
+  box-shadow:
+    0 22px 70px rgba(0, 0, 0, 0.6),
+    0 0 28px rgba(66, 232, 255, 0.08),
+    0 0 44px rgba(255, 61, 154, 0.055);
+}
+
+.genre-tag {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(8px);
+}
+
+/* 发光按钮 */
+.btn {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border-radius: var(--radius-full);
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  top: -140%;
+  left: -40%;
+  z-index: -1;
+  width: 32%;
+  height: 380%;
+  background: rgba(255, 255, 255, 0.34);
+  transform: rotate(24deg) translateX(-240%);
+  transition: transform 650ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn:hover::after {
+  transform: rotate(24deg) translateX(620%);
+}
+
+.btn-primary {
+  background: linear-gradient(110deg, var(--color-accent), #ffef9f 50%, var(--color-accent-dim));
+  box-shadow: 0 12px 36px var(--color-accent-glow-strong);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.055);
+  backdrop-filter: blur(12px);
+}
+
+/* 大字页脚 */
+.footer {
+  overflow: hidden;
+  padding-top: var(--space-16);
+  background: linear-gradient(to top, rgba(255, 61, 154, 0.035), transparent);
+}
+
+.footer__wordmark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.08em;
+  width: 100%;
+  margin: 0 auto var(--space-10);
+  overflow: hidden;
+  color: transparent;
+  font-family: var(--font-display);
+  font-size: clamp(5.5rem, 18vw, 18rem);
+  line-height: 0.72;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.14);
+  mask-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.15));
+}
+
+.footer__wordmark span {
+  display: inline-block;
+}
+
+.footer__wordmark-dot {
+  color: var(--color-accent);
+  font-size: 0.16em;
+  -webkit-text-stroke: 0;
+  filter: drop-shadow(0 0 18px var(--color-accent));
+}
+
+.glow-top {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .nav__link-index {
+    display: none;
+  }
+
+  .nav__link {
+    padding-inline: 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --nav-height: 76px;
+  }
+
+  .nav {
+    padding: 9px 0;
+  }
+
+  .nav__inner {
+    width: calc(100% - 20px);
+    height: 58px;
+  }
+
+  .nav__links {
+    top: var(--nav-height);
+    right: 10px;
+    left: 10px;
+    width: auto;
+    padding: 12px;
+    border: 1px solid var(--border-medium);
+    border-radius: 22px;
+    background: rgba(13, 12, 21, 0.96);
+    box-shadow: var(--shadow-xl);
+    backdrop-filter: blur(24px);
+  }
+
+  .nav__link {
+    justify-content: space-between;
+    border-radius: 14px;
+  }
+
+  .nav__link-index {
+    display: inline;
+    order: 2;
+  }
+
+  .site-grid {
+    background-size: 44px 44px;
+  }
+
+  .site-aurora {
+    width: 110vw;
+    filter: blur(80px);
+    opacity: 0.1;
+  }
+
+  .cursor-aura {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-aurora,
+  .cursor-aura {
+    display: none;
+  }
+
+  .motion-enabled .movie-card,
+  .motion-enabled .book-card,
+  .motion-enabled .featured-card {
+    will-change: auto;
+  }
+}
+
+/* 内页也进入同一套“电影档案馆”视觉语言 */
+body .main-content .page-header,
+body .main-content .books-header,
+body .main-content .page-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding-top: clamp(7rem, 13vw, 12rem);
+  padding-bottom: clamp(4rem, 8vw, 7rem);
+  border-bottom-color: rgba(255, 255, 255, 0.09);
+  background:
+    radial-gradient(circle at 82% 20%, rgba(255, 61, 154, 0.12), transparent 28%),
+    radial-gradient(circle at 58% 82%, rgba(66, 232, 255, 0.08), transparent 32%);
+}
+
+body .main-content .page-header::before,
+body .main-content .books-header::before,
+body .main-content .page-hero::before {
+  content: "ARCHIVE";
+  position: absolute;
+  right: -0.03em;
+  bottom: -0.22em;
+  z-index: -1;
+  color: transparent;
+  font-family: var(--font-display);
+  font-size: clamp(8rem, 25vw, 24rem);
+  line-height: 0.8;
+  letter-spacing: -0.02em;
+  opacity: 0.7;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.055);
+}
+
+body .main-content .page-header__inner,
+body .main-content .books-header__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 920px;
+}
+
+body .main-content .page-header__eyebrow,
+body .main-content .books-header__eyebrow,
+body .main-content .page-hero__eyebrow {
+  color: var(--color-cyan);
+  font-family: var(--font-mono);
+  letter-spacing: 0.18em;
+}
+
+body .main-content .page-header__title,
+body .main-content .books-header__title,
+body .main-content .page-hero__title {
+  max-width: none;
+  background: linear-gradient(110deg, #fff 12%, var(--color-accent) 62%, var(--color-pink));
+  background-clip: text;
+  font-family: var(--font-display);
+  font-size: clamp(5rem, 11vw, 11rem);
+  font-weight: 400;
+  line-height: 0.82;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 35px rgba(255, 212, 71, 0.08));
+}
+
+body .main-content .filter-section {
+  position: relative;
+  z-index: 5;
+  margin-top: -26px;
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  background: rgba(16, 15, 25, 0.72);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(24px) saturate(1.25);
+  -webkit-backdrop-filter: blur(24px) saturate(1.25);
+}
+
+body .main-content .filter-chip {
+  position: relative;
+  overflow: hidden;
+}
+
+body .main-content .filter-chip.is-active {
+  background: linear-gradient(110deg, rgba(255, 61, 154, 0.16), rgba(66, 232, 255, 0.12));
+  color: var(--color-cyan);
+  border-color: rgba(66, 232, 255, 0.4);
+  box-shadow: 0 0 22px rgba(66, 232, 255, 0.08);
+}
+
+@media (min-width: 901px) {
+  body .main-content .filter-section {
+    position: sticky;
+    top: calc(var(--nav-height) + 10px);
+  }
+}
+
+@media (max-width: 640px) {
+  body .main-content .page-header,
+  body .main-content .books-header,
+  body .main-content .page-hero {
+    padding-top: 6rem;
+  }
+
+  body .main-content .page-header__title,
+  body .main-content .books-header__title,
+  body .main-content .page-hero__title {
+    font-size: clamp(4.4rem, 24vw, 7rem);
+  }
+
+  body .main-content .filter-section {
+    margin-top: -18px;
+    padding: 15px;
+    border-radius: 18px;
   }
 }

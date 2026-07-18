@@ -82,13 +82,29 @@ function isCurrentPage(href: string): boolean {
     <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
 
     <!-- 主题色 -->
-    <meta name="theme-color" content="#0a0a0f" />
+    <meta name="theme-color" content="#07070b" />
     <meta name="color-scheme" content="dark" />
 
     <slot name="head" />
   </head>
 
   <body class={bodyClass}>
+    <!-- 全站电影氛围层：纯装饰，不参与交互 -->
+    <div class="site-chrome" aria-hidden="true">
+      <div class="site-grid"></div>
+      <div class="site-aurora site-aurora--gold"></div>
+      <div class="site-aurora site-aurora--cyan"></div>
+      <div class="site-aurora site-aurora--pink"></div>
+      <div class="site-vignette"></div>
+      <div class="site-noise"></div>
+    </div>
+
+    <!-- 滚动进度与指针光圈 -->
+    <div class="scroll-progress" aria-hidden="true">
+      <span class="scroll-progress__bar"></span>
+    </div>
+    <div class="cursor-aura" aria-hidden="true"></div>
+
     <!-- 顶部胶片光晕 -->
     <div class="glow-top" aria-hidden="true"></div>
 
@@ -96,8 +112,13 @@ function isCurrentPage(href: string): boolean {
     <nav class="nav" aria-label="主导航">
       <div class="nav__inner">
         <a href={`${base}/`} class="nav__logo" aria-label={siteConfig.title}>
-          <span class="nav__logo-icon" aria-hidden="true">🎬</span>
-          <span>{siteConfig.title}</span>
+          <span class="nav__logo-icon" aria-hidden="true">
+            <span class="nav__logo-reel">✦</span>
+          </span>
+          <span class="nav__logo-copy">
+            <span>{siteConfig.title}</span>
+            <small>Personal archive</small>
+          </span>
         </a>
 
         <!-- 移动端菜单按钮 -->
@@ -117,14 +138,15 @@ function isCurrentPage(href: string): boolean {
 
         <!-- 导航链接 -->
         <ul class="nav__links" id="nav-links" role="list">
-          {navLinks.map(({ href, label }) => (
+          {navLinks.map(({ href, label }, index) => (
             <li>
               <a
                 href={href}
                 class="nav__link"
                 aria-current={isCurrentPage(href) ? "page" : undefined}
               >
-                {label}
+                <span class="nav__link-index" aria-hidden="true">0{index + 1}</span>
+                <span>{label}</span>
               </a>
             </li>
           ))}
@@ -139,6 +161,11 @@ function isCurrentPage(href: string): boolean {
 
     <!-- 页脚 -->
     <footer class="footer" role="contentinfo">
+      <div class="footer__wordmark" aria-hidden="true">
+        <span>Film</span>
+        <span class="footer__wordmark-dot">✦</span>
+        <span>Wall</span>
+      </div>
       <div class="container">
         <nav class="footer__links" aria-label="页脚导航">
           {navLinks.map(({ href, label }) => (
@@ -167,6 +194,10 @@ function isCurrentPage(href: string): boolean {
 
     <!-- 移动端菜单脚本 -->
     <script>
+      import { initSiteMotion } from "../scripts/site-motion";
+
+      initSiteMotion();
+
       const btn = document.getElementById('nav-menu-btn');
       const links = document.getElementById('nav-links');
       if (btn && links) {
