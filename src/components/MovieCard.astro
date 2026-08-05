@@ -6,6 +6,8 @@
 
 import type { Movie } from "../types/movie";
 import { formatRating, formatDate } from "../utils/data";
+import { hasPosterSource } from "../utils/posters";
+import PosterImage from "./PosterImage.astro";
 
 interface Props {
   movie: Movie;
@@ -21,8 +23,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const wallPath = movie.mediaType === "tv" ? "tv" : "movies";
 const detailUrl = `${base}/${wallPath}/${movie.id}/`;
 
-// 海报优先：movie.poster，无则使用占位
-const hasPoster = Boolean(movie.poster);
+const hasPoster = hasPosterSource(movie);
 
 // 个人评分 → 星星
 const stars = movie.personalRating ? Math.round(movie.personalRating) : 0;
@@ -39,35 +40,24 @@ const mediaLabel = movie.mediaType === "tv" ? "剧集" : "电影";
     aria-label={`${movie.title}${movie.year ? ` (${movie.year})` : ""}`}
   >
     <!-- 海报 -->
-    <div class="movie-card__poster">
-      {hasPoster ? (
-        <img
-          src={movie.poster}
-          data-fallback-src={movie.posterFallback}
-          alt={`${movie.title} ${mediaLabel}海报`}
-          loading={lazy ? "lazy" : "eager"}
-          decoding="async"
-          referrerpolicy="no-referrer"
-          onerror="const fallback=this.dataset.fallbackSrc;if(fallback){this.removeAttribute('data-fallback-src');this.src=fallback;}else{this.style.display='none';this.nextElementSibling.style.display='flex';}"
-        />
-        <div class="movie-card__poster-placeholder" style="display:none;">
-          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
-            <rect x="4" y="8" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2"/>
-            <circle cx="14" cy="16" r="3" stroke="currentColor" stroke-width="2"/>
-            <path d="M4 26l8-6 6 5 5-4 13 9" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-          </svg>
-          <span>{movie.title}</span>
-        </div>
-      ) : (
-        <div class="movie-card__poster-placeholder">
-          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
-            <rect x="4" y="8" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2"/>
-            <circle cx="14" cy="16" r="3" stroke="currentColor" stroke-width="2"/>
-            <path d="M4 26l8-6 6 5 5-4 13 9" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-          </svg>
-          <span>{movie.title}</span>
-        </div>
-      )}
+    <div
+      class="movie-card__poster"
+      data-poster-frame
+      data-poster-missing={!hasPoster ? "true" : undefined}
+    >
+      <PosterImage
+        movie={movie}
+        alt={`${movie.title} ${mediaLabel}海报`}
+        loading={lazy ? "lazy" : "eager"}
+      />
+      <div class="movie-card__poster-placeholder">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <rect x="4" y="8" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2"/>
+          <circle cx="14" cy="16" r="3" stroke="currentColor" stroke-width="2"/>
+          <path d="M4 26l8-6 6 5 5-4 13 9" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        </svg>
+        <span>{movie.title}</span>
+      </div>
 
       <span class:list={["movie-card__media-type", { "movie-card__media-type--tv": movie.mediaType === "tv" }]}>
         {mediaLabel}
@@ -110,8 +100,14 @@ const mediaLabel = movie.mediaType === "tv" ? "剧集" : "电影";
         )}
       </div>
 
-      {displayGenres.length > 0 && (
-        <div class="movie-card__genres" aria-label="类型">
+      {(movie.series || displayGenres.length > 0) && (
+        <div class="movie-card__genres" aria-label={movie.series ? "系列与类型" : "类型"}>
+          {movie.series && (
+            <span class="series-tag" title={`${movie.series}系列`}>
+              <span aria-hidden="true">▣</span>
+              {movie.series}
+            </span>
+          )}
           {displayGenres.map(g => (
             <span class="genre-tag">{g}</span>
           ))}
@@ -165,5 +161,21 @@ const mediaLabel = movie.mediaType === "tv" ? "剧集" : "电影";
     display: flex;
     flex-wrap: wrap;
     gap: var(--space-1);
+  }
+
+  .series-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    max-width: 100%;
+    padding: 2px 8px;
+    border: 1px solid color-mix(in srgb, var(--color-blue) 40%, transparent);
+    border-radius: var(--radius-full);
+    background: color-mix(in srgb, var(--color-blue) 10%, transparent);
+    color: var(--color-blue);
+    font-size: var(--text-xs);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 </style>

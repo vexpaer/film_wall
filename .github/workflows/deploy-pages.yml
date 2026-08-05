@@ -49,6 +49,12 @@ jobs:
           npm run data:normalize
           echo "🔍 校验数据..."
           npm run data:validate
+        env:
+          TMDB_API_READ_ACCESS_TOKEN: ${{ secrets.TMDB_API_READ_ACCESS_TOKEN }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          FANART_API_KEY: ${{ secrets.FANART_API_KEY }}
+          FANART_CLIENT_KEY: ${{ secrets.FANART_CLIENT_KEY }}
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
 
       - name: Build with Astro
         run: |
@@ -58,6 +64,11 @@ jobs:
           # 注意：Astro 会自动读取 astro.config.mjs 中的 base
           # 此处 --base 参数用于覆盖（如有需要）
           NODE_ENV: production
+          TMDB_API_READ_ACCESS_TOKEN: ${{ secrets.TMDB_API_READ_ACCESS_TOKEN }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          FANART_API_KEY: ${{ secrets.FANART_API_KEY }}
+          FANART_CLIENT_KEY: ${{ secrets.FANART_CLIENT_KEY }}
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4

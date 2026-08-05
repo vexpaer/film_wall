@@ -34,8 +34,5 @@ yarn-error.log*
 *.tmp
 *.temp
 
-# 注意：data/generated/ 中的文件是生成的，
-# 但为了让首次克隆后可以直接构建，
-# 我们选择将生成的数据也提交到仓库
-# 如果想忽略，取消下面的注释：
-# data/generated/
+# 数据标准化产物由本地开发和 CI 构建时重新生成
+data/generated/

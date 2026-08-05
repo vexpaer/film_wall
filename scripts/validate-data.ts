@@ -5,7 +5,7 @@
  * 运行方式：npm run data:validate
  */
 
-import { readFileSync, existsSync } from "fs";
+import { readFileSync, existsSync, statSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 import type { Movie } from "../src/types/movie.js";
@@ -13,6 +13,7 @@ import type { Movie } from "../src/types/movie.js";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
 const GENERATED_PATH = resolve(ROOT, "data/generated/movies.json");
+const PUBLIC_PATH = resolve(ROOT, "public");
 
 interface ValidationResult {
   valid: boolean;
@@ -21,6 +22,7 @@ interface ValidationResult {
   stats: {
     total: number;
     withPoster: number;
+    withCachedPoster: number;
     withoutPoster: number;
     withRating: number;
     withPersonalRating: number;
@@ -61,6 +63,11 @@ function validateMovie(movie: unknown, index: number): {
       errors.push(`[${id}] 字段 "${field}" 应为数组`);
     }
   }
+  if (m["posterSources"] !== undefined &&
+      (!Array.isArray(m["posterSources"]) ||
+       !(m["posterSources"] as unknown[]).every((value) => typeof value === "string"))) {
+    errors.push(`[${id}] 字段 "posterSources" 应为字符串数组`);
+  }
 
   // 布尔字段
   if (typeof m["hidden"] !== "boolean") {
@@ -78,6 +85,27 @@ function validateMovie(movie: unknown, index: number): {
   // 警告性检查
   if (!m["poster"]) {
     warnings.push(`[${id}] 缺少海报图片`);
+  }
+  if (m["posterPath"] !== undefined) {
+    if (typeof m["posterPath"] !== "string") {
+      errors.push(`[${id}] posterPath 应为字符串`);
+    } else {
+      const cachedPath = resolve(PUBLIC_PATH, m["posterPath"]);
+      if (!cachedPath.startsWith(resolve(PUBLIC_PATH, "posters")) || !existsSync(cachedPath)) {
+        errors.push(`[${id}] 本地海报缓存不存在或路径无效: ${m["posterPath"]}`);
+      } else if (statSync(cachedPath).size <= 512) {
+        errors.push(`[${id}] 本地海报缓存内容无效: ${m["posterPath"]}`);
+      }
+    }
+  } else if (m["poster"]) {
+    warnings.push(`[${id}] 海报尚未写入本地缓存`);
+  }
+  if (m["series"] !== undefined && typeof m["series"] !== "string") {
+    errors.push(`[${id}] series 应为字符串`);
+  }
+  if (m["seasonNumber"] !== undefined &&
+      (!Number.isInteger(m["seasonNumber"]) || (m["seasonNumber"] as number) <= 0)) {
+    errors.push(`[${id}] seasonNumber 应为正整数`);
   }
   if (!m["year"]) {
     warnings.push(`[${id}] 缺少上映年份`);
@@ -139,6 +167,7 @@ function main(): void {
     stats: {
       total: movies.length,
       withPoster: 0,
+      withCachedPoster: 0,
       withoutPoster: 0,
       withRating: 0,
       withPersonalRating: 0,
@@ -166,6 +195,7 @@ function main(): void {
 
     const m = movies[i] as Movie;
     if (m.poster) result.stats.withPoster++;
+    if (m.posterPath) result.stats.withCachedPoster++;
     else result.stats.withoutPoster++;
     if (m.doubanRating) result.stats.withRating++;
     if (m.personalRating) result.stats.withPersonalRating++;
@@ -178,6 +208,7 @@ function main(): void {
   console.log(`\n📊 数据统计:`);
   console.log(`  总数: ${result.stats.total}`);
   console.log(`  有海报: ${result.stats.withPoster}`);
+  console.log(`  已本地缓存: ${result.stats.withCachedPoster}`);
   console.log(`  无海报: ${result.stats.withoutPoster}`);
   console.log(`  有豆瓣评分: ${result.stats.withRating}`);
   console.log(`  有个人评分: ${result.stats.withPersonalRating}`);

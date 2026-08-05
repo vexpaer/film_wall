@@ -1,0 +1,41 @@
+---
+import type { Movie } from "../types/movie";
+import { getPosterSources } from "../utils/posters";
+
+interface Props {
+  movie: Movie;
+  alt: string;
+  className?: string;
+  loading?: "eager" | "lazy";
+  decoding?: "async" | "sync" | "auto";
+  ariaHidden?: boolean;
+  fetchPriority?: "high" | "low" | "auto";
+}
+
+const {
+  movie,
+  alt,
+  className,
+  loading = "lazy",
+  decoding = "async",
+  ariaHidden = false,
+  fetchPriority = "auto",
+} = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const [src, ...fallbacks] = getPosterSources(movie, base);
+---
+
+{src && (
+  <img
+    class={className}
+    src={src}
+    data-poster-fallbacks={JSON.stringify(fallbacks)}
+    alt={alt}
+    loading={loading}
+    decoding={decoding}
+    fetchpriority={fetchPriority}
+    referrerpolicy="no-referrer"
+    aria-hidden={ariaHidden ? "true" : undefined}
+    onerror="const sources=JSON.parse(this.dataset.posterFallbacks||'[]');const next=sources.shift();this.dataset.posterFallbacks=JSON.stringify(sources);if(next){this.setAttribute('src',next);}else{this.setAttribute('hidden','');this.closest('[data-poster-frame]')?.setAttribute('data-poster-missing','true');}"
+  />
+)}

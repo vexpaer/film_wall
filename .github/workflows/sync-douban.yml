@@ -11,6 +11,11 @@ on:
 permissions:
   contents: write
 
+# 防止定时任务和手动任务同时更新同一份豆瓣原始数据
+concurrency:
+  group: sync-douban
+  cancel-in-progress: false
+
 env:
   # 默认豆瓣用户 ID（也可通过仓库 Variables 覆盖）
   DEFAULT_DOUBAN_ID: '111296951'
@@ -26,6 +31,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       # 豆瓣用户 ID 已配置在上方 env.DEFAULT_DOUBAN_ID
       # 也可通过仓库 Settings → Variables → DOUBAN_USER_ID 覆盖
@@ -79,6 +85,13 @@ jobs:
 
       - name: Normalize data
         run: npm run data:normalize
+        env:
+          # 可选：启用需要凭据的海报备用源；TVmaze 无需密钥
+          TMDB_API_READ_ACCESS_TOKEN: ${{ secrets.TMDB_API_READ_ACCESS_TOKEN }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          FANART_API_KEY: ${{ secrets.FANART_API_KEY }}
+          FANART_CLIENT_KEY: ${{ secrets.FANART_CLIENT_KEY }}
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
 
       - name: Validate data
         run: npm run data:validate
@@ -86,13 +99,14 @@ jobs:
       - name: Check for changes
         id: check-changes
         run: |
-          if git diff --quiet data/; then
+          if [ -z "$(git status --porcelain -- data/raw/douban/ public/posters/movies/)" ]; then
             echo "changed=false" >> $GITHUB_OUTPUT
-            echo "📭 数据无变化，跳过提交"
+            echo "📭 豆瓣原始数据和海报缓存均无变化，跳过提交"
           else
             echo "changed=true" >> $GITHUB_OUTPUT
-            echo "📬 数据有变化，准备提交"
-            git diff --stat data/
+            echo "📬 豆瓣原始数据或海报缓存有变化，准备提交"
+            git status --short -- data/raw/douban/ public/posters/movies/
+            git diff --stat -- data/raw/douban/ public/posters/movies/
           fi
 
       - name: Commit updated data
@@ -100,9 +114,30 @@ jobs:
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/
+          git add -- data/raw/douban/ public/posters/movies/
           git commit -m "chore(data): sync Douban movies and books
 
           Auto-synced by doumark-action
           Run ID: ${{ github.run_id }}"
-          git push
+
+          # 同步运行期间如果有人提交了笔记，将同步提交变基到最新分支后重试推送。
+          # generated/ 不入库、manual/ 不由机器人修改；海报缓存按 ID 独立存放。
+          for attempt in 1 2 3; do
+            git fetch origin "${GITHUB_REF_NAME}"
+            if ! git rebase FETCH_HEAD; then
+              git rebase --abort || true
+              echo "❌ 无法自动变基到 origin/${GITHUB_REF_NAME}，请检查原始数据冲突"
+              exit 1
+            fi
+
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+
+            if [ "${attempt}" -lt 3 ]; then
+              echo "⚠️ 推送期间远端再次更新，准备第 $((attempt + 1)) 次尝试"
+            fi
+          done
+
+          echo "❌ 连续 3 次推送失败"
+          exit 1

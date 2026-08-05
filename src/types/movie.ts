@@ -28,6 +28,12 @@ export interface Movie {
   /** 海报备用 URL */
   posterFallback?: string;
 
+  /** 可按顺序尝试的外部海报来源 */
+  posterSources?: string[];
+
+  /** public/ 下的本地海报缓存路径 */
+  posterPath?: string;
+
   /** 背景图片 URL */
   backdrop?: string;
 
@@ -45,6 +51,12 @@ export interface Movie {
 
   /** 语言列表 */
   languages: string[];
+
+  /** 自动识别或手动指定的电视剧系列名 */
+  series?: string;
+
+  /** 自动识别或手动指定的季数 */
+  seasonNumber?: number;
 
   /** 豆瓣页面 URL */
   doubanUrl?: string;

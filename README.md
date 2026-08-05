@@ -43,10 +43,11 @@ film_wall/
 ├─ data/
 │  ├─ raw/douban/               # 豆瓣原始电影与书籍数据（自动更新）
 │  ├─ manual/                   # 手动补充/覆盖数据
-│  └─ generated/                # 构建时生成的 movies.json / books.json
+│  └─ generated/                # 构建时生成（不提交到 Git）
 ├─ scripts/
 │  ├─ normalize-movies.ts       # 影视数据标准化脚本
 │  ├─ normalize-books.ts        # 书籍数据标准化脚本
+│  ├─ cache-posters.mjs         # 多来源海报下载与本地缓存
 │  └─ validate-*.ts             # 数据校验脚本
 ├─ src/
 │  ├─ components/               # Astro 组件
@@ -56,7 +57,8 @@ film_wall/
 │  ├─ styles/global.css         # 全局样式
 │  ├─ types/                    # 影视与书籍 TypeScript 类型
 │  └─ utils/                    # 构建期数据工具函数
-├─ public/                      # 静态资源
+├─ public/
+│  └─ posters/movies/           # 可直接部署的本地影视海报缓存
 ├─ astro.config.mjs             # Astro 配置
 ├─ package.json
 └─ tsconfig.json
@@ -178,8 +180,23 @@ npm run data:normalize
 手动填写字段 > 豆瓣导入字段 > 默认值
 ```
 
-> ⚠️ **不要直接编辑 `data/generated/movies.json`**，这是构建时自动生成的文件。
-> 自定义内容请写入 `data/manual/movies.json`。
+> ⚠️ **不要直接编辑 `data/generated/`**。它是可随时重建且不提交到 Git 的构建产物；
+> 自定义内容请写入 `data/manual/`。
+
+### 电视剧系列识别
+
+标准化脚本会从“第一季”“第十二季”“Season 2”“S03”等中英文剧名后缀自动提取
+`series` 和 `seasonNumber`。电视剧墙会显示系列标签，并提供系列下拉框和快捷标签筛选。
+如自动结果不符合预期，可在 `data/manual/movies.json` 中为对应 ID 手动填写：
+
+```json
+{
+  "电视剧 ID": {
+    "series": "系列名称",
+    "seasonNumber": 2
+  }
+}
+```
 
 ---
 
@@ -210,7 +227,10 @@ npm run data:normalize
 
 ### 3. 自动同步
 
-工作流配置为每周一自动执行，同时同步“看过”的电影/电视剧和“读过”的书；仅在数据有变化时才提交。
+工作流配置为每周一自动执行，同时同步“看过”的电影/电视剧和“读过”的书。
+机器人只提交 `data/raw/douban/` 中发生变化的豆瓣原始数据，以及按影视 ID
+独立保存的 `public/posters/movies/` 海报缓存；不会提交或修改 `data/manual/`
+中的个人笔记。`data/generated/` 会在部署时重新生成，因此不会再和笔记提交发生 Git 冲突。
 
 ---
 
@@ -257,10 +277,14 @@ git push origin main
 | `originalTitle` | string? | 原文名 |
 | `year` | number? | 上映年份 |
 | `poster` | string? | 海报图片 URL |
+| `posterSources` | string[]? | 外部海报备用地址列表 |
+| `posterPath` | string? | `public/` 下的本地海报缓存路径 |
 | `directors` | string[] | 导演列表 |
 | `actors` | string[] | 演员列表 |
 | `genres` | string[] | 类型标签 |
 | `countries` | string[] | 国家/地区 |
+| `series` | string? | 自动识别或手动指定的电视剧系列 |
+| `seasonNumber` | number? | 自动识别或手动指定的季数 |
 | `doubanRating` | number? | 豆瓣评分（0–10） |
 | `personalRating` | number? | 个人评分（1–5） |
 | `watchedAt` | string? | 观看时间（ISO 8601） |
@@ -278,9 +302,24 @@ git push origin main
 
 ### 海报链接失效怎么办？
 
-同步数据会优先使用豆瓣导出中自带的封面代理，并在浏览器中自动尝试豆瓣原图；
-电影海报和书籍封面两者都失败时显示占位图。个别图片仍失效时：
-- 在 `data/manual/movies.json` 中为对应电影添加 `poster` 字段，指向可访问的图片 URL
+影视海报不会再直接依赖浏览器访问豆瓣。运行 `npm run data:normalize` 时会按以下
+顺序寻找图片并缓存到 `public/posters/movies/`：已有本地缓存、手动 URL、豆瓣大/中/小图、
+豆瓣导出的封面代理、TMDB、TVmaze、Fanart.tv 和 OMDb。页面优先加载本地文件，失败时
+才按外部来源列表回退。TVmaze 无需密钥，仅用于电视剧；其他第三方 API 都是可选备用源。
+
+需要时可在本地环境或 GitHub Actions Secrets 中配置：
+
+- `TMDB_API_READ_ACCESS_TOKEN`：推荐，TMDB API Read Access Token
+- `TMDB_API_KEY`：兼容旧式 API Key
+- `FANART_API_KEY`：Fanart.tv Project API Key
+- `FANART_CLIENT_KEY`：可选的 Fanart.tv Personal API Key
+- `OMDB_API_KEY`：OMDb API Key
+
+不配置任何第三方密钥也可以正常工作：当前缓存会直接使用仓库中的本地海报，新增电视剧
+还可在前面来源都失败时自动尝试 TVmaze。
+
+个别图片仍失效时：
+- 在 `data/manual/movies.json` 中为对应电影添加 `poster`，也可用 `posterSources` 提供多个自定义备用 URL
 - 在 `data/manual/books.json` 中为对应书籍添加 `cover` 字段，指向可访问的图片 URL
 - 网站对无海报电影会显示美观的占位符，不会破坏布局
 
@@ -313,5 +352,5 @@ doumark-action 可能因豆瓣反爬虫机制失败。
 ## 🗂 数据安全说明
 
 - 没有任何 Token 或 Secret 写入仓库
-- 工作流只引用 `vars.DOUBAN_USER_ID`（仓库变量，非敏感信息）
-- 海报图片通过外部链接加载，客户端不暴露任何密钥
+- 工作流引用 `vars.DOUBAN_USER_ID`，并可选读取 TMDB、Fanart.tv、OMDb Secrets；Secret 不会写入生成数据或网页
+- 影视海报优先从本站静态目录加载，客户端不暴露任何 API 密钥

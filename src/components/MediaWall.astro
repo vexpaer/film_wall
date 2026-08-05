@@ -22,10 +22,15 @@ const years = [...new Set(movies.flatMap((movie) => movie.year ? [movie.year] : 
 const genreCounts = [...movies.flatMap((movie) => movie.genres)
   .reduce((counts, genre) => counts.set(genre, (counts.get(genre) ?? 0) + 1), new Map<string, number>())]
   .sort((a, b) => b[1] - a[1]);
+const seriesCounts = [...movies.reduce((counts, movie) => {
+  if (movie.series) counts.set(movie.series, (counts.get(movie.series) ?? 0) + 1);
+  return counts;
+}, new Map<string, number>())]
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-CN"));
 const wallTitle = mediaType === "tv" ? "电视剧墙" : "电影墙";
 const itemLabel = mediaType === "tv" ? "电视剧" : "电影";
 const searchPlaceholder = mediaType === "tv"
-  ? "搜索剧名、导演、演员、标签…"
+  ? "搜索剧名、系列、导演、演员、标签…"
   : "搜索电影名、导演、演员、标签…";
 
 // 将电影数据序列化到客户端（用于前端筛选）
@@ -79,6 +84,17 @@ const moviesJson = JSON.stringify(movies);
           </select>
         </div>
 
+        {mediaType === "tv" && seriesCounts.length > 0 && (
+          <div class="filter-bar__select-wrap">
+            <select id="filter-series" class="input select" aria-label="按系列筛选">
+              <option value="">全部系列</option>
+              {seriesCounts.map(([series, count]) => (
+                <option value={series}>{series}（{count}）</option>
+              ))}
+            </select>
+          </div>
+        )}
+
         <!-- 年份筛选 -->
         <div class="filter-bar__select-wrap">
           <select id="filter-year" class="input select" aria-label="按年份筛选">
@@ -116,6 +132,16 @@ const moviesJson = JSON.stringify(movies);
         <button class="filter-chip is-active" data-filter="all" type="button">全部</button>
         {genreCounts.slice(0, 5).map(([genre]) => (
           <button class="filter-chip" data-filter={`genre:${genre}`} type="button">{genre}</button>
+        ))}
+        {mediaType === "tv" && seriesCounts.slice(0, 5).map(([series, count]) => (
+          <button
+            class="filter-chip filter-chip--series"
+            data-filter={`series:${series}`}
+            type="button"
+            title={`${series}系列，共 ${count} 季`}
+          >
+            <span aria-hidden="true">▣</span> {series}
+          </button>
         ))}
       </div>
     </div>
@@ -167,6 +193,7 @@ const moviesJson = JSON.stringify(movies);
   // DOM 元素
   const searchInput = document.querySelector<HTMLInputElement>('#movie-search');
   const genreSelect = document.querySelector<HTMLSelectElement>('#filter-genre');
+  const seriesSelect = document.querySelector<HTMLSelectElement>('#filter-series');
   const yearSelect = document.querySelector<HTMLSelectElement>('#filter-year');
   const ratingSelect = document.querySelector<HTMLSelectElement>('#filter-rating');
   const sortSelect = document.querySelector<HTMLSelectElement>('#sort-by');
@@ -203,6 +230,7 @@ const moviesJson = JSON.stringify(movies);
       movie.directors.some(d => normalize(d).includes(q)) ||
       movie.actors.some(a => normalize(a).includes(q)) ||
       movie.tags.some(t => normalize(t).includes(q)) ||
+      normalize(movie.series ?? '').includes(q) ||
       normalize(movie.shortComment ?? '').includes(q) ||
       normalize(movie.review ?? '').includes(q)
     );
@@ -248,6 +276,7 @@ const moviesJson = JSON.stringify(movies);
   function applyFilters() {
     const query = searchInput?.value ?? '';
     const genre = genreSelect?.value ?? '';
+    const series = seriesSelect?.value ?? '';
     const year = yearSelect?.value ?? '';
     const minRating = ratingSelect ? parseInt(ratingSelect.value) || 0 : 0;
     const sortKey = sortSelect?.value ?? 'watchedAt-desc';
@@ -256,6 +285,7 @@ const moviesJson = JSON.stringify(movies);
     let filtered = allMovies.filter(movie => {
       if (!matchSearch(movie, query)) return false;
       if (genre && !movie.genres.includes(genre)) return false;
+      if (series && movie.series !== series) return false;
       if (year && movie.year !== parseInt(year)) return false;
       if (minRating && (movie.personalRating ?? 0) < minRating) return false;
 
@@ -263,6 +293,10 @@ const moviesJson = JSON.stringify(movies);
       if (activeQuickFilter.startsWith('genre:')) {
         const g = activeQuickFilter.slice(6);
         if (!movie.genres.includes(g)) return false;
+      }
+      if (activeQuickFilter.startsWith('series:')) {
+        const selectedSeries = activeQuickFilter.slice(7);
+        if (movie.series !== selectedSeries) return false;
       }
 
       return true;
@@ -351,7 +385,16 @@ const moviesJson = JSON.stringify(movies);
     searchTimer = window.setTimeout(applyFilters, 200);
   });
 
-  genreSelect?.addEventListener('change', applyFilters);
+  genreSelect?.addEventListener('change', () => {
+    activeQuickFilter = 'all';
+    chips.forEach(c => c.classList.toggle('is-active', c.dataset.filter === 'all'));
+    applyFilters();
+  });
+  seriesSelect?.addEventListener('change', () => {
+    activeQuickFilter = 'all';
+    chips.forEach(c => c.classList.toggle('is-active', c.dataset.filter === 'all'));
+    applyFilters();
+  });
   yearSelect?.addEventListener('change', applyFilters);
   ratingSelect?.addEventListener('change', applyFilters);
   sortSelect?.addEventListener('change', applyFilters);
@@ -367,8 +410,14 @@ const moviesJson = JSON.stringify(movies);
       if (activeQuickFilter.startsWith('genre:')) {
         const g = activeQuickFilter.slice(6);
         if (genreSelect) genreSelect.value = g;
+        if (seriesSelect) seriesSelect.value = '';
+      } else if (activeQuickFilter.startsWith('series:')) {
+        const selectedSeries = activeQuickFilter.slice(7);
+        if (seriesSelect) seriesSelect.value = selectedSeries;
+        if (genreSelect) genreSelect.value = '';
       } else {
         if (genreSelect) genreSelect.value = '';
+        if (seriesSelect) seriesSelect.value = '';
       }
 
       applyFilters();
@@ -379,6 +428,7 @@ const moviesJson = JSON.stringify(movies);
   resetBtn?.addEventListener('click', () => {
     if (searchInput) searchInput.value = '';
     if (genreSelect) genreSelect.value = '';
+    if (seriesSelect) seriesSelect.value = '';
     if (yearSelect) yearSelect.value = '';
     if (ratingSelect) ratingSelect.value = '';
     if (sortSelect) sortSelect.value = 'watchedAt-desc';
@@ -389,6 +439,18 @@ const moviesJson = JSON.stringify(movies);
 
     applyFilters();
   });
+
+  // 支持详情页标签链接：/tv/?series=... 与 /movies/?genre=...
+  const initialParams = new URLSearchParams(window.location.search);
+  const initialGenre = initialParams.get('genre');
+  const initialSeries = initialParams.get('series');
+  if (initialGenre && genreSelect && [...genreSelect.options].some(option => option.value === initialGenre)) {
+    genreSelect.value = initialGenre;
+  }
+  if (initialSeries && seriesSelect && [...seriesSelect.options].some(option => option.value === initialSeries)) {
+    seriesSelect.value = initialSeries;
+  }
+  if (initialGenre || initialSeries) applyFilters();
 </script>
 
 <style>
@@ -469,6 +531,11 @@ const moviesJson = JSON.stringify(movies);
     font-size: var(--text-sm);
     background-color: var(--bg-card);
     color: var(--text-secondary);
+  }
+
+  .filter-chip--series {
+    border-color: color-mix(in srgb, var(--color-blue) 35%, transparent);
+    color: var(--color-blue);
   }
 
   @media (max-width: 640px) {

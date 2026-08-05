@@ -18,6 +18,7 @@ import type {
   ManualMovieOverride,
   NormalizeResult,
 } from "../src/types/movie.js";
+import { detectTvSeries } from "../src/utils/series.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
@@ -56,6 +57,10 @@ function toArray(val: string | string[] | undefined | null): string[] {
     .split(/[,，、\s]+/)
     .map((s) => s.trim())
     .filter(Boolean);
+}
+
+function uniqueStrings(values: Array<string | undefined>): string[] {
+  return [...new Set(values.map((value) => value?.trim()).filter(Boolean) as string[])];
 }
 
 /**
@@ -275,30 +280,37 @@ function normalizeDoubanMovie(
     subject ? getStarValue(raw.rating) : raw.star
   );
   const watchedAt = parseMarkedAt(raw.create_time || raw.star_time);
-  const poster = raw.poster?.trim() ||
-    subject?.cover_url?.trim() ||
-    subject?.pic?.normal?.trim() ||
-    subject?.pic?.large?.trim() ||
-    undefined;
-  const posterFallback = subject?.cover_url
-    ? subject.pic?.normal?.trim() || subject.pic?.large?.trim() || undefined
+  const posterSources = uniqueStrings([
+    raw.poster,
+    subject?.cover_url,
+    subject?.pic?.large,
+    subject?.pic?.normal,
+  ]);
+  const poster = posterSources[0];
+  const posterFallback = posterSources.find((source) => source !== poster);
+  const mediaType = subject?.subtype === "tv" || subject?.type === "tv" ? "tv" : "movie";
+  const seriesInfo = mediaType === "tv"
+    ? detectTvSeries(title, subject?.original_title?.trim() || raw.original_title?.trim())
     : undefined;
 
   const movie: Movie = {
     id,
     title,
-    mediaType: subject?.subtype === "tv" || subject?.type === "tv" ? "tv" : "movie",
+    mediaType,
     originalTitle: subject?.original_title?.trim() || raw.original_title?.trim() || undefined,
     year: finalYear,
     releaseDate,
     poster,
     posterFallback,
+    posterSources,
     backdrop: undefined,
     directors,
     actors,
     genres,
     countries,
     languages: [],
+    series: seriesInfo?.series,
+    seasonNumber: seriesInfo?.seasonNumber,
     doubanUrl: subject?.url?.trim() || raw.url?.trim() || `https://movie.douban.com/subject/${id}/`,
     doubanRating: parseDoubanRating(
       subject ? getRatingValue(subject.rating) : getRatingValue(raw.rating)
@@ -340,12 +352,16 @@ function mergeManualOverride(
     "year",
     "releaseDate",
     "poster",
+    "posterFallback",
+    "posterSources",
     "backdrop",
     "directors",
     "actors",
     "genres",
     "countries",
     "languages",
+    "series",
+    "seasonNumber",
     "doubanUrl",
     "doubanRating",
     "personalRating",
@@ -377,6 +393,16 @@ function mergeManualOverride(
   }
 
   merged.source = "merged";
+
+  if (merged.mediaType === "tv") {
+    const derived = detectTvSeries(merged.title, merged.originalTitle);
+    if (!("series" in override)) merged.series = derived?.series;
+    if (!("seasonNumber" in override)) merged.seasonNumber = derived?.seasonNumber;
+  } else {
+    merged.series = undefined;
+    merged.seasonNumber = undefined;
+  }
+
   return merged;
 }
 

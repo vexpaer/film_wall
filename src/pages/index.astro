@@ -6,6 +6,7 @@
 
 import BaseLayout from "../layouts/BaseLayout.astro";
 import MovieCard from "../components/MovieCard.astro";
+import PosterImage from "../components/PosterImage.astro";
 import StarRating from "../components/StarRating.astro";
 import { siteConfig } from "../config/site";
 import {
@@ -15,6 +16,7 @@ import {
   formatRating,
 } from "../utils/data";
 import { getAllBooks } from "../utils/books";
+import { hasPosterSource } from "../utils/posters";
 
 const movies = await getAllMovies();
 const recent = await getRecentMovies(6);
@@ -27,7 +29,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
 // 精选电影：优先个人评分，其次豆瓣评分，确保视觉精选区始终有内容
 const featured = [...movies]
-  .filter((m) => m.poster)
+  .filter(hasPosterSource)
   .sort((a, b) =>
     (b.personalRating ?? 0) - (a.personalRating ?? 0) ||
     (b.doubanRating ?? 0) - (a.doubanRating ?? 0)
@@ -35,7 +37,7 @@ const featured = [...movies]
   .slice(0, 3);
 
 // 首屏背景电影（最近观看中有海报的）
-const heroBgMovie = recent.find((m) => m.poster);
+const heroBgMovie = recent.find(hasPosterSource);
 const heroTitleWords = siteConfig.title.split(/\s+/);
 const marqueeWords = ["Watch", "Feel", "Archive", "Repeat"];
 ---
@@ -48,19 +50,15 @@ const marqueeWords = ["Watch", "Feel", "Archive", "Repeat"];
   <!-- ── 首屏英雄区 ─────────────────────────────────────── -->
   <section class="hero" data-home-hero aria-labelledby="hero-title">
     <!-- 背景氛围 -->
-    <div class="hero__bg" aria-hidden="true">
+    <div class="hero__bg" data-poster-frame aria-hidden="true">
       <div class="hero__bg-gradient"></div>
-      {heroBgMovie?.poster && (
-        <img
-          class="hero__bg-img"
-          src={heroBgMovie.poster}
-          data-fallback-src={heroBgMovie.posterFallback}
+      {heroBgMovie && (
+        <PosterImage
+          movie={heroBgMovie}
+          className="hero__bg-img"
           alt=""
           loading="eager"
-          decoding="async"
-          referrerpolicy="no-referrer"
-          onerror="if(this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;this.removeAttribute('data-fallback-src');}else{this.style.display='none';}"
-          aria-hidden="true"
+          ariaHidden={true}
         />
       )}
       <div class="hero__bg-overlay"></div>
@@ -129,23 +127,21 @@ const marqueeWords = ["Watch", "Feel", "Archive", "Repeat"];
         </div>
       </div>
 
-      {heroBgMovie?.poster && (
+      {heroBgMovie && (
         <div class="hero__poster-scene" aria-hidden="true">
           <div class="hero__orbit hero__orbit--outer"></div>
           <div class="hero__orbit hero__orbit--inner"></div>
           <span class="hero__orbit-label hero__orbit-label--top">NOW SCREENING</span>
           <span class="hero__orbit-label hero__orbit-label--bottom">PERSONAL SELECTION</span>
 
-          <div class="hero__poster-card">
+          <div class="hero__poster-card" data-poster-frame>
             <div class="hero__poster-glitch"></div>
-            <img
-              src={heroBgMovie.poster}
-              data-fallback-src={heroBgMovie.posterFallback}
+            <PosterImage
+              movie={heroBgMovie}
               alt=""
               loading="eager"
-              decoding="async"
-              referrerpolicy="no-referrer"
-              onerror="if(this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;this.removeAttribute('data-fallback-src');}else{this.style.display='none';}"
+              ariaHidden={true}
+              fetchPriority="high"
             />
             <span class="hero__poster-corner hero__poster-corner--tl"></span>
             <span class="hero__poster-corner hero__poster-corner--tr"></span>
@@ -273,17 +269,9 @@ const marqueeWords = ["Watch", "Feel", "Archive", "Repeat"];
                   aria-label={`${movie.title} — 查看详情`}
                 >
                   <span class="featured-card__number" aria-hidden="true">0{i + 1}</span>
-                  {movie.poster && (
-                    <div class="featured-card__poster">
-                      <img
-                        src={movie.poster}
-                        data-fallback-src={movie.posterFallback}
-                        alt={`${movie.title} 海报`}
-                        loading="lazy"
-                        decoding="async"
-                        referrerpolicy="no-referrer"
-                        onerror="if(this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;this.removeAttribute('data-fallback-src');}else{this.parentElement.classList.add('no-img');}"
-                      />
+                  {hasPosterSource(movie) && (
+                    <div class="featured-card__poster" data-poster-frame>
+                      <PosterImage movie={movie} alt={`${movie.title} 海报`} />
                       <div class="featured-card__poster-overlay"></div>
                     </div>
                   )}
@@ -1572,11 +1560,11 @@ const marqueeWords = ["Watch", "Feel", "Archive", "Repeat"];
     background: linear-gradient(to right, transparent 58%, var(--bg-card)), linear-gradient(to top, rgba(7, 7, 11, 0.75), transparent 50%);
   }
 
-  .featured-card__poster.no-img img {
+  .featured-card__poster[data-poster-missing="true"] img {
     display: none;
   }
 
-  .featured-card__poster.no-img::before {
+  .featured-card__poster[data-poster-missing="true"]::before {
     content: "NO SIGNAL / ARCHIVE FRAME";
     position: absolute;
     inset: 0;

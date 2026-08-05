@@ -6,8 +6,10 @@
 
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import StarRating from "../../components/StarRating.astro";
+import PosterImage from "../../components/PosterImage.astro";
 import { siteConfig } from "../../config/site";
 import { getAllMovies, formatRating, formatDate } from "../../utils/data";
+import { getPosterSources, hasPosterSource } from "../../utils/posters";
 
 // 生成所有静态路径
 export async function getStaticPaths() {
@@ -51,13 +53,17 @@ function renderMarkdown(text: string): string {
 const reviewHtml = movie.review ? renderMarkdown(movie.review) : null;
 
 // 背景色：使用暗色梯度
-const hasPoster = Boolean(movie.poster);
+const hasPoster = hasPosterSource(movie);
+const primaryPoster = getPosterSources(movie, base)[0];
+const ogImage = primaryPoster
+  ? new URL(primaryPoster, Astro.site ?? Astro.url.origin).href
+  : undefined;
 ---
 
 <BaseLayout
   title={`${movie.title}${movie.year ? ` (${movie.year})` : ''}`}
   description={movie.shortComment || movie.review?.slice(0, 150) || `${movie.title} — ${siteConfig.title}`}
-  ogImage={movie.poster}
+  ogImage={ogImage}
 >
   <!-- 返回按钮 -->
   <div class="back-bar">
@@ -72,17 +78,14 @@ const hasPoster = Boolean(movie.poster);
   <!-- ── 背景英雄区 ─────────────────────────────────────── -->
   <div class="detail-hero" role="banner">
     <!-- 背景图 -->
-    <div class="detail-hero__bg" aria-hidden="true">
+    <div class="detail-hero__bg" data-poster-frame aria-hidden="true">
       {hasPoster && (
-        <img
-          class="detail-hero__bg-img"
-          src={movie.poster}
-          data-fallback-src={movie.posterFallback}
+        <PosterImage
+          movie={movie}
+          className="detail-hero__bg-img"
           alt=""
           loading="eager"
-          decoding="async"
-          referrerpolicy="no-referrer"
-          onerror="if(this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;this.removeAttribute('data-fallback-src');}else{this.style.display='none';}"
+          ariaHidden={true}
         />
       )}
       <div class="detail-hero__bg-overlay"></div>
@@ -91,42 +94,44 @@ const hasPoster = Boolean(movie.poster);
     <div class="container">
       <div class="detail-hero__content">
         <!-- 海报 -->
-        <div class="detail-poster" aria-label={`${itemLabel}海报`}>
-          {hasPoster ? (
-            <img
-              class="detail-poster__img"
-              src={movie.poster}
-              data-fallback-src={movie.posterFallback}
-              alt={`${movie.title} ${itemLabel}海报`}
-              loading="eager"
-              decoding="async"
-              referrerpolicy="no-referrer"
-              onerror="if(this.dataset.fallbackSrc){this.src=this.dataset.fallbackSrc;this.removeAttribute('data-fallback-src');}else{this.style.display='none';this.nextElementSibling.style.display='flex';}"
-            />
-            <div class="detail-poster__placeholder" style="display:none;">
-              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
-                <rect x="4" y="8" width="40" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
-                <circle cx="16" cy="20" r="4" stroke="currentColor" stroke-width="2"/>
-                <path d="M4 34l10-8 8 7 6-5 16 12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-              </svg>
-              <span>暂无海报</span>
-            </div>
-          ) : (
-            <div class="detail-poster__placeholder">
-              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
-                <rect x="4" y="8" width="40" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
-                <circle cx="16" cy="20" r="4" stroke="currentColor" stroke-width="2"/>
-                <path d="M4 34l10-8 8 7 6-5 16 12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-              </svg>
-              <span>暂无海报</span>
-            </div>
-          )}
+        <div
+          class="detail-poster"
+          data-poster-frame
+          data-poster-missing={!hasPoster ? "true" : undefined}
+          aria-label={`${itemLabel}海报`}
+        >
+          <PosterImage
+            movie={movie}
+            className="detail-poster__img"
+            alt={`${movie.title} ${itemLabel}海报`}
+            loading="eager"
+            fetchPriority="high"
+          />
+          <div class="detail-poster__placeholder">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <rect x="4" y="8" width="40" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+              <circle cx="16" cy="20" r="4" stroke="currentColor" stroke-width="2"/>
+              <path d="M4 34l10-8 8 7 6-5 16 12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+            <span>暂无海报</span>
+          </div>
         </div>
 
         <!-- 电影主要信息 -->
         <div class="detail-info">
           <div class="detail-info__badges">
             <span class="tag tag--accent">{itemLabel}</span>
+            {movie.series && (
+              <a
+                class="tag detail-series-tag"
+                href={`${base}/tv/?series=${encodeURIComponent(movie.series)}`}
+                title={`查看 ${movie.series} 系列`}
+              >
+                <span aria-hidden="true">▣</span>
+                {movie.series}系列
+                {movie.seasonNumber && <small>第 {movie.seasonNumber} 季</small>}
+              </a>
+            )}
             {movie.status === 'watching' && (
               <span class="tag" style="color: var(--color-blue)">在看</span>
             )}
@@ -455,13 +460,31 @@ const hasPoster = Boolean(movie.poster);
   .detail-poster__placeholder {
     width: 100%;
     height: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: var(--space-3);
     color: var(--text-muted);
     font-size: var(--text-sm);
+  }
+
+  .detail-poster[data-poster-missing="true"] .detail-poster__placeholder {
+    display: flex;
+  }
+
+  .detail-series-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--color-blue);
+    border-color: color-mix(in srgb, var(--color-blue) 40%, transparent);
+    background: color-mix(in srgb, var(--color-blue) 10%, transparent);
+  }
+
+  .detail-series-tag small {
+    color: var(--text-muted);
+    font-size: 0.9em;
   }
 
   /* 信息区 */

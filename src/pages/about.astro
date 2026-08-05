@@ -67,6 +67,28 @@ const buildTime = new Date().toLocaleDateString("zh-CN", {
           <code>data/manual/</code> 中。
           手动数据的优先级高于豆瓣导入数据。
         </p>
+        <p>
+          影视海报会在构建时缓存为本站静态资源。豆瓣来源不可用时，会依次尝试
+          TMDB、TVmaze、Fanart.tv 与 OMDb；其中 TVmaze 无需密钥，其余服务仅在配置凭据后启用。
+        </p>
+        <div class="tmdb-attribution">
+          <a href="https://www.themoviedb.org" target="_blank" rel="noopener noreferrer" aria-label="访问 TMDB">
+            <img
+              src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_1-5bdc75aaebeb75dc7ae79426ddd9be3b2be1e342510f8202baf6bffa71d7f5c4.svg"
+              alt="TMDB"
+              loading="lazy"
+            />
+          </a>
+          <p>This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+        </div>
+        <p class="source-attribution">
+          其他备用海报来源：
+          <a href="https://www.tvmaze.com" target="_blank" rel="noopener noreferrer" class="about-link">TVmaze</a>、
+          <a href="https://fanart.tv" target="_blank" rel="noopener noreferrer" class="about-link">Fanart.tv</a>
+          与
+          <a href="https://www.omdbapi.com" target="_blank" rel="noopener noreferrer" class="about-link">OMDb API</a>。
+          第三方图片只在构建阶段下载并转为本站静态缓存。
+        </p>
       </section>
 
       <!-- 技术栈 -->
@@ -90,6 +112,10 @@ const buildTime = new Date().toLocaleDateString("zh-CN", {
           <span class="tag">GitHub Actions</span>
           <span class="tag">GitHub Pages</span>
           <span class="tag">豆瓣 API</span>
+          <span class="tag">TMDB（备用）</span>
+          <span class="tag">TVmaze（备用）</span>
+          <span class="tag">Fanart.tv（备用）</span>
+          <span class="tag">OMDb（备用）</span>
         </div>
       </section>
 
@@ -152,6 +178,35 @@ const buildTime = new Date().toLocaleDateString("zh-CN", {
     display: flex;
     flex-direction: column;
     gap: var(--space-10);
+  }
+
+  .tmdb-attribution {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin-top: var(--space-4);
+    padding: var(--space-4);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    background: var(--bg-card);
+  }
+
+  .tmdb-attribution img {
+    display: block;
+    width: 48px;
+    height: 48px;
+  }
+
+  .tmdb-attribution p {
+    margin: 0;
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+  }
+
+  .source-attribution {
+    margin-top: var(--space-3);
+    font-size: var(--text-xs);
+    color: var(--text-muted);
   }
 
   .about-section__title {
