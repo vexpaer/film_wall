@@ -2,6 +2,3682 @@
 	{
 		"charts": [],
 		"comment": "",
+		"create_time": "2026-08-05 10:50:17",
+		"id": 4909651760,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/22523273 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/22523273/interest/4909651760",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "艾德·奥尼尔"
+				},
+				{
+					"name": "索菲娅·维加拉"
+				},
+				{
+					"name": "朱丽·鲍温"
+				},
+				{
+					"name": "泰·布利尔"
+				},
+				{
+					"name": "杰西·泰勒·弗格森"
+				},
+				{
+					"name": "艾瑞克·斯通斯崔特"
+				},
+				{
+					"name": "萨拉·海蓝德"
+				},
+				{
+					"name": "诺兰·古德"
+				},
+				{
+					"name": "里克·罗德里格兹"
+				},
+				{
+					"name": "奥布里·安德森-埃蒙斯"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2013 / 美国 / 喜剧 家庭 / 詹姆斯·R·巴格多纳斯 / 艾德·奥尼尔 索菲娅·维加拉",
+			"color_scheme": {
+				"_base_color": [
+					0,
+					0.04,
+					0.09803921568627451
+				],
+				"_avg_color": [
+					0.07407407407407406,
+					0.17647058823529418,
+					0.2
+				],
+				"primary_color_light": "726e6e",
+				"primary_color_dark": "4c4949",
+				"secondary_color": "f9f4f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/22523273.jpg",
+			"directors": [
+				{
+					"name": "詹姆斯·R·巴格多纳斯"
+				}
+			],
+			"genres": [
+				"喜剧",
+				"家庭"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 6,
+					"title": "第66届黄金时段艾美奖获奖名单",
+					"uri": "douban://douban.com/subject_collection/ECEIJLF2I?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "22523273",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2151475197.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2151475197.jpg"
+			},
+			"pubdate": [
+				"2013-09-25(美国)"
+			],
+			"rating": {
+				"count": 75554,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.6
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/22523273",
+			"subtype": "tv",
+			"title": "摩登家庭 第五季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/22523273",
+			"url": "https://movie.douban.com/subject/22523273/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2013"
+		},
+		"tags": [],
+		"vote_count": 0,
+		"star_time": "2026-08-05 10:50:17"
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:50:13",
+		"id": 4909651715,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/10748074 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/10748074/interest/4909651715",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "艾德·奥尼尔"
+				},
+				{
+					"name": "索菲娅·维加拉"
+				},
+				{
+					"name": "朱丽·鲍温"
+				},
+				{
+					"name": "泰·布利尔"
+				},
+				{
+					"name": "杰西·泰勒·弗格森"
+				},
+				{
+					"name": "艾瑞克·斯通斯崔特"
+				},
+				{
+					"name": "里克·罗德里格兹"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2012 / 美国 / 喜剧 家庭 / 斯蒂文·莱维坦 / 艾德·奥尼尔 索菲娅·维加拉",
+			"color_scheme": {
+				"_base_color": [
+					0,
+					0.008620689655172382,
+					0.9098039215686274
+				],
+				"_avg_color": [
+					0.047619047619047616,
+					0.03196347031963459,
+					0.8588235294117647
+				],
+				"primary_color_light": "a5a4a4",
+				"primary_color_dark": "7f7e7e",
+				"secondary_color": "f9f4f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/10748074.jpg",
+			"directors": [
+				{
+					"name": "斯蒂文·莱维坦"
+				}
+			],
+			"genres": [
+				"喜剧",
+				"家庭"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 7,
+					"title": "第65届黄金时段艾美奖获奖名单",
+					"uri": "douban://douban.com/subject_collection/ECPQJLWNQ?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "10748074",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2201084723.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2201084723.jpg"
+			},
+			"pubdate": [
+				"2012-09-26(美国)"
+			],
+			"rating": {
+				"count": 84471,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.6
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/10748074",
+			"subtype": "tv",
+			"title": "摩登家庭 第四季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/10748074",
+			"url": "https://movie.douban.com/subject/10748074/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2012"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:50:09",
+		"id": 4909651676,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/4904662 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/4904662/interest/4909651676",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "艾德·奥尼尔"
+				},
+				{
+					"name": "索菲娅·维加拉"
+				},
+				{
+					"name": "朱丽·鲍温"
+				},
+				{
+					"name": "泰·布利尔"
+				},
+				{
+					"name": "杰西·泰勒·弗格森"
+				},
+				{
+					"name": "艾瑞克·斯通斯崔特"
+				},
+				{
+					"name": "萨拉·海蓝德"
+				},
+				{
+					"name": "阿芮尔·温特"
+				},
+				{
+					"name": "诺兰·古德"
+				},
+				{
+					"name": "里克·罗德里格兹"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2010 / 美国 / 喜剧 家庭 / Jason Winer / 艾德·奥尼尔 索菲娅·维加拉",
+			"color_scheme": {
+				"_base_color": [
+					0.06250000000000037,
+					0.03524229074889868,
+					0.8901960784313725
+				],
+				"_avg_color": [
+					0.05000000000000019,
+					0.04524886877828064,
+					0.8666666666666667
+				],
+				"primary_color_light": "a5a29f",
+				"primary_color_dark": "7f7c7b",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/4904662.jpg",
+			"directors": [
+				{
+					"name": "Jason Winer"
+				}
+			],
+			"genres": [
+				"喜剧",
+				"家庭"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 19,
+					"title": "第11届美国电影学会奖获奖名单",
+					"uri": "douban://douban.com/subject_collection/ECWAKBXFQ?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "4904662",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p640181887.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p640181887.jpg"
+			},
+			"pubdate": [
+				"2010-09-22(美国)"
+			],
+			"rating": {
+				"count": 104029,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.6
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/4904662",
+			"subtype": "tv",
+			"title": "摩登家庭 第二季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/4904662",
+			"url": "https://movie.douban.com/subject/4904662/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2010"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:49:42",
+		"id": 4909651444,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/10727268 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/10727268/interest/4909651444",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "凯特·戴琳斯"
+				},
+				{
+					"name": "贝丝·比厄"
+				},
+				{
+					"name": "Garrett Morris"
+				},
+				{
+					"name": "马修·摩伊"
+				},
+				{
+					"name": "Jonathan Kite"
+				},
+				{
+					"name": "詹妮佛·库里奇"
+				},
+				{
+					"name": "瑞恩·汉森"
+				},
+				{
+					"name": "斯蒂文·韦伯"
+				},
+				{
+					"name": "乔纳森·克特"
+				},
+				{
+					"name": "加勒特·莫里斯"
+				},
+				{
+					"name": "尼克·扎诺"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2012 / 美国 / 喜剧 / 弗莱德·萨维奇 / 凯特·戴琳斯 贝丝·比厄",
+			"color_scheme": {
+				"_base_color": [
+					0.0666666666666667,
+					0.539568345323741,
+					0.5450980392156862
+				],
+				"_avg_color": [
+					0.07276995305164317,
+					0.47651006711409394,
+					0.5843137254901961
+				],
+				"primary_color_light": "a5704c",
+				"primary_color_dark": "7f563a",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/10727268.jpg",
+			"directors": [
+				{
+					"name": "弗莱德·萨维奇"
+				}
+			],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "10727268",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2312474023.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2312474023.jpg"
+			},
+			"pubdate": [
+				"2012-09-24(美国)"
+			],
+			"rating": {
+				"count": 184985,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 8.9
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/10727268",
+			"subtype": "tv",
+			"title": "破产姐妹 第二季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/10727268",
+			"url": "https://movie.douban.com/subject/10727268/",
+			"vendor_desc": "独播",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png"
+			],
+			"year": "2012"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:49:38",
+		"id": 4909651406,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/6729121 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/6729121/interest/4909651406",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "艾德·奥尼尔"
+				},
+				{
+					"name": "索菲娅·维加拉"
+				},
+				{
+					"name": "朱丽·鲍温"
+				},
+				{
+					"name": "泰·布利尔"
+				},
+				{
+					"name": "杰西·泰勒·弗格森"
+				},
+				{
+					"name": "艾瑞克·斯通斯崔特"
+				},
+				{
+					"name": "里德·尤因"
+				},
+				{
+					"name": "萨拉·海蓝德"
+				},
+				{
+					"name": "阿芮尔·温特"
+				},
+				{
+					"name": "诺兰·古德"
+				},
+				{
+					"name": "里克·罗德里格兹"
+				},
+				{
+					"name": "奥布里·安德森-埃蒙斯"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2011 / 美国 / 喜剧 家庭 / 杰森·维纳 / 艾德·奥尼尔 索菲娅·维加拉",
+			"color_scheme": {
+				"_base_color": [
+					0.0555555555555566,
+					0.012605042016806796,
+					0.9333333333333333
+				],
+				"_avg_color": [
+					0.0555555555555553,
+					0.02542372881355935,
+					0.9254901960784314
+				],
+				"primary_color_light": "f2f0ef",
+				"primary_color_dark": "f2f0ef",
+				"secondary_color": "f9f6f4",
+				"is_dark": false
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/6729121.jpg",
+			"directors": [
+				{
+					"name": "杰森·维纳"
+				}
+			],
+			"genres": [
+				"喜剧",
+				"家庭"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 20,
+					"title": "第12届美国电影学会奖获奖名单",
+					"uri": "douban://douban.com/subject_collection/EC2UJ76XI?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "6729121",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p1178503927.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1178503927.jpg"
+			},
+			"pubdate": [
+				"2011-09-21(美国)"
+			],
+			"rating": {
+				"count": 91387,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.6
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/6729121",
+			"subtype": "tv",
+			"title": "摩登家庭  第三季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/6729121",
+			"url": "https://movie.douban.com/subject/6729121/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2011"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:49:25",
+		"id": 4909651277,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/20470240 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/20470240/interest/4909651277",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "乔什·拉德诺"
+				},
+				{
+					"name": "尼尔·帕特里克·哈里斯"
+				},
+				{
+					"name": "杰森·席格尔"
+				},
+				{
+					"name": "寇碧·史莫德斯"
+				},
+				{
+					"name": "艾莉森·汉尼根"
+				},
+				{
+					"name": "克里斯汀·米利欧缇"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2013 / 美国 / 喜剧 爱情 / 帕梅拉·福莱曼 / 乔什·拉德诺 尼尔·帕特里克·哈里斯",
+			"color_scheme": {
+				"_base_color": [
+					0.9583333333333334,
+					0.16666666666666666,
+					0.18823529411764706
+				],
+				"_avg_color": [
+					0.75,
+					0.010695187165775364,
+					0.7333333333333333
+				],
+				"primary_color_light": "a58a91",
+				"primary_color_dark": "7f6a6f",
+				"secondary_color": "f9f4f6",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/20470240.jpg",
+			"directors": [
+				{
+					"name": "帕梅拉·福莱曼"
+				}
+			],
+			"genres": [
+				"喜剧",
+				"爱情"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "20470240",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2151222431.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2151222431.jpg"
+			},
+			"pubdate": [
+				"2013-09-23(美国)"
+			],
+			"rating": {
+				"count": 44173,
+				"max": 10,
+				"star_count": 4,
+				"value": 8.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/20470240",
+			"subtype": "tv",
+			"title": "老爸老妈的浪漫史 第九季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/20470240",
+			"url": "https://movie.douban.com/subject/20470240/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2013"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:49:20",
+		"id": 4909651222,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/10563743 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/10563743/interest/4909651222",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "乔什·拉德诺"
+				},
+				{
+					"name": "尼尔·帕特里克·哈里斯"
+				},
+				{
+					"name": "杰森·席格尔"
+				},
+				{
+					"name": "寇碧·史莫德斯"
+				},
+				{
+					"name": "艾莉森·汉尼根"
+				},
+				{
+					"name": "克里斯汀·米利欧缇"
+				},
+				{
+					"name": "比尔·法格巴克"
+				},
+				{
+					"name": "苏西·帕尔克森"
+				},
+				{
+					"name": "贝基·纽顿"
+				},
+				{
+					"name": "克里斯·艾略特"
+				},
+				{
+					"name": "琳德西·冯塞卡"
+				},
+				{
+					"name": "大卫·亨瑞"
+				},
+				{
+					"name": "鲍勃·萨盖特"
+				},
+				{
+					"name": "迈克尔·特鲁科"
+				},
+				{
+					"name": "阿什利·威廉姆斯"
+				},
+				{
+					"name": "艾伦·D.威廉姆斯"
+				},
+				{
+					"name": "乔·曼根尼罗"
+				},
+				{
+					"name": "乔·洛·特鲁格里奥"
+				},
+				{
+					"name": "大卫·伯卡"
+				},
+				{
+					"name": "亚历克西斯·德尼索夫"
+				},
+				{
+					"name": "马绍尔·曼尼什"
+				},
+				{
+					"name": "雷·怀斯"
+				},
+				{
+					"name": "凯莉·黛弗"
+				},
+				{
+					"name": "蕾切尔·比尔森"
+				},
+				{
+					"name": "帕梅拉·福莱曼"
+				},
+				{
+					"name": "艾比·艾略特"
+				},
+				{
+					"name": "艾伦·锡克"
+				},
+				{
+					"name": "迈克·泰森"
+				},
+				{
+					"name": "凯尔·麦克拉克伦"
+				},
+				{
+					"name": "劳拉·贝尔·邦迪"
+				},
+				{
+					"name": "弗兰西丝·康罗伊"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2012 / 美国 / 喜剧 爱情 / 帕梅拉·福莱曼 / 乔什·拉德诺 尼尔·帕特里克·哈里斯",
+			"color_scheme": {
+				"_base_color": [
+					0.44696969696969696,
+					0.09649122807017546,
+					0.8941176470588236
+				],
+				"_avg_color": [
+					0.4411764705882353,
+					0.09883720930232572,
+					0.6745098039215687
+				],
+				"primary_color_light": "95a5a0",
+				"primary_color_dark": "737f7b",
+				"secondary_color": "f4f9f8",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/10563743.jpg",
+			"directors": [
+				{
+					"name": "帕梅拉·福莱曼"
+				}
+			],
+			"genres": [
+				"喜剧",
+				"爱情"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "10563743",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2928242346.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2928242346.jpg"
+			},
+			"pubdate": [
+				"2012-09-24(美国)"
+			],
+			"rating": {
+				"count": 37721,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/10563743",
+			"subtype": "tv",
+			"title": "老爸老妈的浪漫史 第八季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/10563743",
+			"url": "https://movie.douban.com/subject/10563743/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2012"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:49:15",
+		"id": 4909651164,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/6794391 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/6794391/interest/4909651164",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "乔什·拉德诺"
+				},
+				{
+					"name": "尼尔·帕特里克·哈里斯"
+				},
+				{
+					"name": "杰森·席格尔"
+				},
+				{
+					"name": "寇碧·史莫德斯"
+				},
+				{
+					"name": "艾莉森·汉尼根"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2011 / 美国 / 喜剧 爱情 / 帕梅拉·福莱曼 / 乔什·拉德诺 尼尔·帕特里克·哈里斯",
+			"color_scheme": {
+				"_base_color": [
+					0.023809523809523708,
+					0.10000000000000005,
+					0.27450980392156865
+				],
+				"_avg_color": [
+					0.04166666666666665,
+					0.2903225806451613,
+					0.48627450980392156
+				],
+				"primary_color_light": "726867",
+				"primary_color_dark": "4c4544",
+				"secondary_color": "f9f5f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/6794391.jpg",
+			"directors": [
+				{
+					"name": "帕梅拉·福莱曼"
+				}
+			],
+			"genres": [
+				"喜剧",
+				"爱情"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "6794391",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2559733756.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2559733756.jpg"
+			},
+			"pubdate": [
+				"2011-09-19(美国)"
+			],
+			"rating": {
+				"count": 37833,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/6794391",
+			"subtype": "tv",
+			"title": "老爸老妈的浪漫史 第七季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/6794391",
+			"url": "https://movie.douban.com/subject/6794391/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2011"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:49:10",
+		"id": 4909651113,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/5262275 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/5262275/interest/4909651113",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "尼尔·帕特里克·哈里斯"
+				},
+				{
+					"name": "寇碧·史莫德斯"
+				},
+				{
+					"name": "乔什·拉德诺"
+				},
+				{
+					"name": "杰森·席格尔"
+				},
+				{
+					"name": "艾莉森·汉尼根"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2010 / 美国 / 喜剧 爱情 / Pamela Fryman / 尼尔·帕特里克·哈里斯 寇碧·史莫德斯",
+			"color_scheme": {
+				"_base_color": [
+					0.1218905472636816,
+					0.2991071428571428,
+					0.8784313725490196
+				],
+				"_avg_color": [
+					0.2037037037037038,
+					0.13432835820895528,
+					0.5254901960784314
+				],
+				"primary_color_light": "a59874",
+				"primary_color_dark": "7f7559",
+				"secondary_color": "f9f8f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/5262275.jpg",
+			"directors": [
+				{
+					"name": "Pamela Fryman"
+				}
+			],
+			"genres": [
+				"喜剧",
+				"爱情"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "5262275",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2559733721.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2559733721.jpg"
+			},
+			"pubdate": [
+				"2010-09-20(美国)"
+			],
+			"rating": {
+				"count": 39370,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.3
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/5262275",
+			"subtype": "tv",
+			"title": "老爸老妈的浪漫史 第六季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/5262275",
+			"url": "https://movie.douban.com/subject/5262275/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2010"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:49:04",
+		"id": 4909651064,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/3222657 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/3222657/interest/4909651064",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "乔什·拉德诺"
+				},
+				{
+					"name": "杰森·席格尔"
+				},
+				{
+					"name": "寇碧·史莫德斯"
+				},
+				{
+					"name": "尼尔·帕特里克·哈里斯"
+				},
+				{
+					"name": "艾莉森·汉尼根"
+				},
+				{
+					"name": "萨拉·乔克"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2008 / 美国 / 喜剧 爱情 / 帕梅拉·福莱曼 / 乔什·拉德诺 杰森·席格尔",
+			"color_scheme": {
+				"_base_color": [
+					0.9895833333333334,
+					0.3555555555555556,
+					0.17647058823529413
+				],
+				"_avg_color": [
+					0.06770833333333338,
+					0.15458937198067632,
+					0.8117647058823529
+				],
+				"primary_color_light": "a56a6e",
+				"primary_color_dark": "7f5255",
+				"secondary_color": "f9f4f5",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/3222657.jpg",
+			"directors": [
+				{
+					"name": "帕梅拉·福莱曼"
+				}
+			],
+			"genres": [
+				"喜剧",
+				"爱情"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "3222657",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2559733610.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2559733610.jpg"
+			},
+			"pubdate": [
+				"2008-09-22(美国)"
+			],
+			"rating": {
+				"count": 45610,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/3222657",
+			"subtype": "tv",
+			"title": "老爸老妈的浪漫史 第四季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/3222657",
+			"url": "https://movie.douban.com/subject/3222657/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2008"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:48:59",
+		"id": 4909651021,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/2326226 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/2326226/interest/4909651021",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "乔什·拉德诺"
+				},
+				{
+					"name": "尼尔·帕特里克·哈里斯"
+				},
+				{
+					"name": "艾莉森·汉尼根"
+				},
+				{
+					"name": "杰森·席格尔"
+				},
+				{
+					"name": "寇碧·史莫德斯"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2007 / 美国 / 喜剧 爱情 / 乔什·拉德诺 尼尔·帕特里克·哈里斯",
+			"color_scheme": {
+				"_base_color": [
+					0.9333333333333333,
+					0.21739130434782608,
+					0.09019607843137255
+				],
+				"_avg_color": [
+					0.007936507936507908,
+					0.29166666666666663,
+					0.2823529411764706
+				],
+				"primary_color_light": "725963",
+				"primary_color_dark": "4c3b42",
+				"secondary_color": "f9f4f6",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/2326226.jpg",
+			"directors": [],
+			"genres": [
+				"喜剧",
+				"爱情"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "2326226",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2375122590.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2375122590.jpg"
+			},
+			"pubdate": [
+				"2007-09-24(美国)"
+			],
+			"rating": {
+				"count": 49036,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.3
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/2326226",
+			"subtype": "tv",
+			"title": "老爸老妈的浪漫史 第三季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/2326226",
+			"url": "https://movie.douban.com/subject/2326226/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2007"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:48:53",
+		"id": 4909650974,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/1427818 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1427818/interest/4909650974",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "乔什·拉德诺"
+				},
+				{
+					"name": "杰森·席格尔"
+				},
+				{
+					"name": "艾莉森·汉尼根"
+				},
+				{
+					"name": "尼尔·帕特里克·哈里斯"
+				},
+				{
+					"name": "寇碧·史莫德斯"
+				},
+				{
+					"name": "阿什利·威廉姆斯"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2005 / 美国 / 喜剧 爱情 / Pamela Fryman Rob Greenberg / 乔什·拉德诺 杰森·席格尔",
+			"color_scheme": {
+				"_base_color": [
+					0.0555555555555566,
+					0.012605042016806796,
+					0.9333333333333333
+				],
+				"_avg_color": [
+					0,
+					0.1459459459459459,
+					0.7254901960784313
+				],
+				"primary_color_light": "a5a4a3",
+				"primary_color_dark": "7f7e7d",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/1427818.jpg",
+			"directors": [
+				{
+					"name": "Pamela Fryman"
+				},
+				{
+					"name": "Rob Greenberg"
+				}
+			],
+			"genres": [
+				"喜剧",
+				"爱情"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 12,
+					"title": "喜剧类美剧榜",
+					"uri": "douban://douban.com/subject_collection/ECX45ISGQ?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "1427818",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2375121696.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2375121696.jpg"
+			},
+			"pubdate": [
+				"2005-09-19(美国)"
+			],
+			"rating": {
+				"count": 94586,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.1
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/1427818",
+			"subtype": "tv",
+			"title": "老爸老妈的浪漫史 第一季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/1427818",
+			"url": "https://movie.douban.com/subject/1427818/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2005"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:48:44",
+		"id": 4909650891,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/37245790 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/37245790/interest/4909650891",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "蒙塔纳·乔丹"
+				},
+				{
+					"name": "艾米丽·奥斯蒙特"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2025 / 美国 / 喜剧 / Mark Cendrowski / 蒙塔纳·乔丹 艾米丽·奥斯蒙特",
+			"color_scheme": {
+				"_base_color": [
+					0.06957928802588997,
+					0.7202797202797203,
+					0.5607843137254902
+				],
+				"_avg_color": [
+					0.06790123456790126,
+					0.5827338129496403,
+					0.5450980392156862
+				],
+				"primary_color_light": "a5602e",
+				"primary_color_dark": "7f4a23",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/37245790.jpg",
+			"directors": [
+				{
+					"name": "Mark Cendrowski"
+				}
+			],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "37245790",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2926065431.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2926065431.jpg"
+			},
+			"pubdate": [
+				"2025-10-16(美国)"
+			],
+			"rating": {
+				"count": 1167,
+				"max": 10,
+				"star_count": 4,
+				"value": 8.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/37245790",
+			"subtype": "tv",
+			"title": "乔治和曼迪的头婚生活 第二季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/37245790",
+			"url": "https://movie.douban.com/subject/37245790/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2025"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:48:35",
+		"id": 4909650822,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/36731415 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/36731415/interest/4909650822",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "蒙塔纳·乔丹"
+				},
+				{
+					"name": "艾米丽·奥斯蒙特"
+				},
+				{
+					"name": "雷切尔·贝·琼斯"
+				},
+				{
+					"name": "威尔·萨索"
+				},
+				{
+					"name": "道奇·鲍德温"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2024 / 美国 / 剧情 喜剧 爱情 / 马克·森卓斯基 查克·罗瑞 史蒂文·莫拉 / 蒙塔纳·乔丹 艾米丽·奥斯蒙特",
+			"color_scheme": {
+				"_base_color": [
+					0.08404558404558404,
+					0.6610169491525424,
+					0.6941176470588235
+				],
+				"_avg_color": [
+					0.08052434456928838,
+					0.5741935483870967,
+					0.6078431372549019
+				],
+				"primary_color_light": "a56f38",
+				"primary_color_dark": "7f552b",
+				"secondary_color": "f9f7f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/36731415.jpg",
+			"directors": [
+				{
+					"name": "马克·森卓斯基"
+				},
+				{
+					"name": "查克·罗瑞"
+				},
+				{
+					"name": "史蒂文·莫拉"
+				}
+			],
+			"genres": [
+				"剧情",
+				"喜剧",
+				"爱情"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "36731415",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2913969681.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2913969681.jpg"
+			},
+			"pubdate": [
+				"2024-10-17(美国)"
+			],
+			"rating": {
+				"count": 3271,
+				"max": 10,
+				"star_count": 4,
+				"value": 8.3
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/36731415",
+			"subtype": "tv",
+			"title": "乔治和曼迪的头婚生活 第一季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/36731415",
+			"url": "https://movie.douban.com/subject/36731415/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2024"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:48:09",
+		"id": 4909650624,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/2296025 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/2296025/interest/4909650624",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "乔什·拉德诺"
+				},
+				{
+					"name": "尼尔·帕特里克·哈里斯"
+				},
+				{
+					"name": "艾莉森·汉尼根"
+				},
+				{
+					"name": "寇碧·史莫德斯"
+				},
+				{
+					"name": "杰森·席格尔"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2006 / 美国 / 喜剧 爱情 / 帕梅拉·福莱曼 / 乔什·拉德诺 尼尔·帕特里克·哈里斯",
+			"color_scheme": {
+				"_base_color": [
+					0.06060606060606044,
+					0.05045871559633023,
+					0.8549019607843137
+				],
+				"_avg_color": [
+					0.0064102564102563875,
+					0.13541666666666663,
+					0.7529411764705882
+				],
+				"primary_color_light": "a5a09d",
+				"primary_color_dark": "7f7b79",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/2296025.jpg",
+			"directors": [
+				{
+					"name": "帕梅拉·福莱曼"
+				}
+			],
+			"genres": [
+				"喜剧",
+				"爱情"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "2296025",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2375122102.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2375122102.jpg"
+			},
+			"pubdate": [
+				"2006-09-18(美国)"
+			],
+			"rating": {
+				"count": 54793,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.3
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/2296025",
+			"subtype": "tv",
+			"title": "老爸老妈的浪漫史 第二季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/2296025",
+			"url": "https://movie.douban.com/subject/2296025/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2006"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:45:55",
+		"id": 4909649503,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/35420025 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/35420025/interest/4909649503",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "伊恩·阿米蒂奇"
+				},
+				{
+					"name": "佐伊·派瑞"
+				},
+				{
+					"name": "兰斯·巴伯"
+				},
+				{
+					"name": "蒙塔纳·乔丹"
+				},
+				{
+					"name": "拉根·雷沃德"
+				},
+				{
+					"name": "马特·霍比"
+				},
+				{
+					"name": "艾米丽·奥斯蒙特"
+				},
+				{
+					"name": "安妮·波茨"
+				},
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "马伊姆·拜力克"
+				},
+				{
+					"name": "格雷格·T·尼尔森"
+				},
+				{
+					"name": "Mary Grill"
+				},
+				{
+					"name": "Korey Simeone"
+				},
+				{
+					"name": "Rayne Bidder"
+				},
+				{
+					"name": "塞巴斯蒂安·斯切尔"
+				},
+				{
+					"name": "Jeff Chen"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2024 / 美国 / 喜剧 / 伊恩·阿米蒂奇 佐伊·派瑞",
+			"color_scheme": {
+				"_base_color": [
+					0.06172839506172839,
+					0.675,
+					0.1568627450980392
+				],
+				"_avg_color": [
+					0.07364341085271316,
+					0.524390243902439,
+					0.3215686274509804
+				],
+				"primary_color_light": "724125",
+				"primary_color_dark": "4c2b18",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/35420025.jpg",
+			"directors": [],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 1,
+					"title": "豆瓣2024评分最高英美续订剧",
+					"uri": "douban://douban.com/subject_collection/ECOY7WR4I?type=rank&category=movie&rank_type=year"
+				}
+			],
+			"id": "35420025",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2903443592.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2903443592.jpg"
+			},
+			"pubdate": [
+				"2024-02-15(美国)"
+			],
+			"rating": {
+				"count": 27966,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/35420025",
+			"subtype": "tv",
+			"title": "小谢尔顿 第七季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/35420025",
+			"url": "https://movie.douban.com/subject/35420025/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "2024"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:45:51",
+		"id": 4909649477,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/35420024 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/35420024/interest/4909649477",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "伊恩·阿米蒂奇"
+				},
+				{
+					"name": "佐伊·派瑞"
+				},
+				{
+					"name": "兰斯·巴伯"
+				},
+				{
+					"name": "蒙塔纳·乔丹"
+				},
+				{
+					"name": "拉根·雷沃德"
+				},
+				{
+					"name": "马特·霍比"
+				},
+				{
+					"name": "艾米丽·奥斯蒙特"
+				},
+				{
+					"name": "安妮·波茨"
+				},
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "格雷格·T·尼尔森"
+				},
+				{
+					"name": "罗基·麦克默里"
+				},
+				{
+					"name": "Emanuel Loarca"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2022 / 美国 / 喜剧 / 艾力克斯·里德 / 伊恩·阿米蒂奇 佐伊·派瑞",
+			"color_scheme": {
+				"_base_color": [
+					0.16666666666666666,
+					0.032558139534883734,
+					0.8431372549019608
+				],
+				"_avg_color": [
+					0.06547619047619045,
+					0.18064516129032251,
+					0.6078431372549019
+				],
+				"primary_color_light": "a5a5a0",
+				"primary_color_dark": "7f7f7b",
+				"secondary_color": "f9f9f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/35420024.jpg",
+			"directors": [
+				{
+					"name": "艾力克斯·里德"
+				}
+			],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "35420024",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2881123578.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2881123578.jpg"
+			},
+			"pubdate": [
+				"2022-09-29(美国)"
+			],
+			"rating": {
+				"count": 25145,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.1
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/35420024",
+			"subtype": "tv",
+			"title": "小谢尔顿 第六季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/35420024",
+			"url": "https://movie.douban.com/subject/35420024/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "2022"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:45:47",
+		"id": 4909649452,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/35420023 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/35420023/interest/4909649452",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "伊恩·阿米蒂奇"
+				},
+				{
+					"name": "佐伊·派瑞"
+				},
+				{
+					"name": "兰斯·巴伯"
+				},
+				{
+					"name": "蒙塔纳·乔丹"
+				},
+				{
+					"name": "拉根·雷沃德"
+				},
+				{
+					"name": "Matt Hobby"
+				},
+				{
+					"name": "安妮·波茨"
+				},
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "华莱士·肖恩"
+				},
+				{
+					"name": "梅莉莎·彼得曼"
+				},
+				{
+					"name": "艾娃·艾伦"
+				},
+				{
+					"name": "汤姆·易"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2021 / 美国 / 喜剧 / 艾力克斯·里德 / 伊恩·阿米蒂奇 佐伊·派瑞",
+			"color_scheme": {
+				"_base_color": [
+					0.08666666666666667,
+					0.33112582781456956,
+					0.592156862745098
+				],
+				"_avg_color": [
+					0.07723577235772357,
+					0.259493670886076,
+					0.6196078431372549
+				],
+				"primary_color_light": "a58b6e",
+				"primary_color_dark": "7f6b55",
+				"secondary_color": "f9f7f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/35420023.jpg",
+			"directors": [
+				{
+					"name": "艾力克斯·里德"
+				}
+			],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 9,
+					"title": "豆瓣 2021评分最高英美续订剧",
+					"uri": "douban://douban.com/subject_collection/ECEI6A5ZI?type=rank&category=movie&rank_type=year"
+				}
+			],
+			"id": "35420023",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2692536045.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2692536045.jpg"
+			},
+			"pubdate": [
+				"2021-10-07(美国)"
+			],
+			"rating": {
+				"count": 35884,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.1
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/35420023",
+			"subtype": "tv",
+			"title": "小谢尔顿 第五季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/35420023",
+			"url": "https://movie.douban.com/subject/35420023/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "2021"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:45:42",
+		"id": 4909649411,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/30467486 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/30467486/interest/4909649411",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "伊恩·阿米蒂奇"
+				},
+				{
+					"name": "佐伊·派瑞"
+				},
+				{
+					"name": "兰斯·巴伯"
+				},
+				{
+					"name": "蒙塔纳·乔丹"
+				},
+				{
+					"name": "拉根·雷沃德"
+				},
+				{
+					"name": "安妮·波茨"
+				},
+				{
+					"name": "Matt Hobby"
+				},
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "Luis Victor Jimenez"
+				},
+				{
+					"name": "瑞克斯·林恩"
+				},
+				{
+					"name": "怀亚特·麦克卢尔"
+				},
+				{
+					"name": "格雷格·T·尼尔森"
+				},
+				{
+					"name": "瑞安·方"
+				},
+				{
+					"name": "Danielle Pinnock"
+				},
+				{
+					"name": "华莱士·肖恩"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2020 / 美国 / 喜剧 / 贾法尔·马赫穆德 / 伊恩·阿米蒂奇 佐伊·派瑞",
+			"color_scheme": {
+				"_base_color": [
+					0.4722222222222216,
+					0.030612244897959218,
+					0.7686274509803922
+				],
+				"_avg_color": [
+					0.1363636363636361,
+					0.07006369426751603,
+					0.615686274509804
+				],
+				"primary_color_light": "a0a5a4",
+				"primary_color_dark": "7b7f7e",
+				"secondary_color": "f4f9f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/30467486.jpg",
+			"directors": [
+				{
+					"name": "贾法尔·马赫穆德"
+				}
+			],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 7,
+					"title": "2020评分最高英美续订剧",
+					"uri": "douban://douban.com/subject_collection/ECZU5SJAI?type=rank&category=movie&rank_type=year"
+				}
+			],
+			"id": "30467486",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2569867115.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2569867115.jpg"
+			},
+			"pubdate": [
+				"2020-11-05(美国)"
+			],
+			"rating": {
+				"count": 57801,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.3
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/30467486",
+			"subtype": "tv",
+			"title": "小谢尔顿 第四季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/30467486",
+			"url": "https://movie.douban.com/subject/30467486/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "2020"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:45:39",
+		"id": 4909649376,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/30467485 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/30467485/interest/4909649376",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "伊恩·阿米蒂奇"
+				},
+				{
+					"name": "佐伊·派瑞"
+				},
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "兰斯·巴伯"
+				},
+				{
+					"name": "蒙塔纳·乔丹"
+				},
+				{
+					"name": "拉根·雷沃德"
+				},
+				{
+					"name": "安妮·波茨"
+				},
+				{
+					"name": "莎拉·贝克"
+				},
+				{
+					"name": "卡尔利斯·布克"
+				},
+				{
+					"name": "丹尼斯·库克鲁姆"
+				},
+				{
+					"name": "约翰·哈特曼"
+				},
+				{
+					"name": "卡罗尔·曼塞尔"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2019 / 美国 / 喜剧 / 贾法尔·马赫穆德 / 伊恩·阿米蒂奇 佐伊·派瑞",
+			"color_scheme": {
+				"_base_color": [
+					0.6282051282051283,
+					0.196969696969697,
+					0.25882352941176473
+				],
+				"_avg_color": [
+					0.06666666666666628,
+					0.028735632183908105,
+					0.6823529411764706
+				],
+				"primary_color_light": "858ca5",
+				"primary_color_dark": "666c7f",
+				"secondary_color": "f4f6f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/30467485.jpg",
+			"directors": [
+				{
+					"name": "贾法尔·马赫穆德"
+				}
+			],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "30467485",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2567488952.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2567488952.jpg"
+			},
+			"pubdate": [
+				"2019-09-26(美国)"
+			],
+			"rating": {
+				"count": 72959,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.4
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/30467485",
+			"subtype": "tv",
+			"title": "小谢尔顿 第三季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/30467485",
+			"url": "https://movie.douban.com/subject/30467485/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "2019"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:45:17",
+		"id": 4909649229,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/27623506 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/27623506/interest/4909649229",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "伊恩·阿米蒂奇"
+				},
+				{
+					"name": "佐伊·派瑞"
+				},
+				{
+					"name": "兰斯·巴伯"
+				},
+				{
+					"name": "蒙塔纳·乔丹"
+				},
+				{
+					"name": "拉根·雷沃德"
+				},
+				{
+					"name": "安妮·波茨"
+				},
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "瑞安·方"
+				},
+				{
+					"name": "怀亚特·麦克卢尔"
+				},
+				{
+					"name": "华莱士·肖恩"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2018 / 美国 / 喜剧 / 贾法尔·马赫穆德 霍华德·达奇 / 伊恩·阿米蒂奇 佐伊·派瑞",
+			"color_scheme": {
+				"_base_color": [
+					0.5222222222222223,
+					0.21126760563380287,
+					0.2784313725490196
+				],
+				"_avg_color": [
+					0.5,
+					0.08737864077669899,
+					0.403921568627451
+				],
+				"primary_color_light": "5a6f72",
+				"primary_color_dark": "3c4a4c",
+				"secondary_color": "f4f9f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/27623506.jpg",
+			"directors": [
+				{
+					"name": "贾法尔·马赫穆德"
+				},
+				{
+					"name": "霍华德·达奇"
+				}
+			],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "27623506",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2627603750.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2627603750.jpg"
+			},
+			"pubdate": [
+				"2018-09-24(美国)"
+			],
+			"rating": {
+				"count": 96603,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/27623506",
+			"subtype": "tv",
+			"title": "小谢尔顿 第二季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/27623506",
+			"url": "https://movie.douban.com/subject/27623506/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "2018"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:45:12",
+		"id": 4909649183,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/25845393 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/25845393/interest/4909649183",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "约翰尼·盖尔克奇"
+				},
+				{
+					"name": "凯莉·库柯"
+				},
+				{
+					"name": "西蒙·赫尔伯格"
+				},
+				{
+					"name": "昆瑙·内亚"
+				},
+				{
+					"name": "马伊姆·拜力克"
+				},
+				{
+					"name": "梅丽莎·劳奇"
+				},
+				{
+					"name": "比利·鲍伯·松顿"
+				},
+				{
+					"name": "凯文·苏斯曼 Kevin Sussman"
+				},
+				{
+					"name": "雷吉娜·金"
+				},
+				{
+					"name": "布莱恩·乔治"
+				},
+				{
+					"name": "劳拉·斯宾塞"
+				},
+				{
+					"name": "威尔·惠顿"
+				},
+				{
+					"name": "劳丽·梅特卡夫"
+				},
+				{
+					"name": "克里斯汀·芭伦斯基"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2014 / 美国 / 喜剧 / 马克·森卓斯基 / 吉姆·帕森斯 约翰尼·盖尔克奇",
+			"color_scheme": {
+				"_base_color": [
+					0.06410256410256408,
+					0.21666666666666662,
+					0.23529411764705882
+				],
+				"_avg_color": [
+					0.06666666666666667,
+					0.21276595744680848,
+					0.3686274509803922
+				],
+				"primary_color_light": "726359",
+				"primary_color_dark": "4c423b",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/25845393.jpg",
+			"directors": [
+				{
+					"name": "马克·森卓斯基"
+				}
+			],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 5,
+					"title": "2014评分最高英美剧",
+					"uri": "douban://douban.com/subject_collection/2014_tv_12?type=rank&category=movie&rank_type=year"
+				}
+			],
+			"id": "25845393",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2201798471.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2201798471.jpg"
+			},
+			"pubdate": [
+				"2014-09-22(美国)"
+			],
+			"rating": {
+				"count": 83891,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/25845393",
+			"subtype": "tv",
+			"title": "生活大爆炸 第八季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/25845393",
+			"url": "https://movie.douban.com/subject/25845393/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2014"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:45:09",
+		"id": 4909649148,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/25845401 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/25845401/interest/4909649148",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "约翰尼·盖尔克奇"
+				},
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "凯莉·库柯"
+				},
+				{
+					"name": "西蒙·赫尔伯格"
+				},
+				{
+					"name": "昆瑙·内亚"
+				},
+				{
+					"name": "马伊姆·拜力克"
+				},
+				{
+					"name": "梅丽莎·劳奇"
+				},
+				{
+					"name": "凯文·苏斯曼"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2016 / 美国 / 喜剧 / 马克·森卓斯基 / 约翰尼·盖尔克奇 吉姆·帕森斯",
+			"color_scheme": {
+				"_base_color": [
+					0,
+					0,
+					0.9137254901960784
+				],
+				"_avg_color": [
+					0.016666666666666625,
+					0.05747126436781605,
+					0.6823529411764706
+				],
+				"primary_color_light": "a5a5a5",
+				"primary_color_dark": "7f7f7f",
+				"secondary_color": "f9f4f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/25845401.jpg",
+			"directors": [
+				{
+					"name": "马克·森卓斯基"
+				}
+			],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 7,
+					"title": "2016评分最高英美剧",
+					"uri": "douban://douban.com/subject_collection/2016_tv_474?type=rank&category=movie&rank_type=year"
+				}
+			],
+			"id": "25845401",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2376308621.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2376308621.jpg"
+			},
+			"pubdate": [
+				"2016-09-19(美国)"
+			],
+			"rating": {
+				"count": 70188,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.4
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/25845401",
+			"subtype": "tv",
+			"title": "生活大爆炸 第十季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/25845401",
+			"url": "https://movie.douban.com/subject/25845401/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "2016"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:45:05",
+		"id": 4909649108,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/21339708 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/21339708/interest/4909649108",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "约翰尼·盖尔克奇"
+				},
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "凯莉·库柯"
+				},
+				{
+					"name": "西蒙·赫尔伯格"
+				},
+				{
+					"name": "昆瑙·内亚"
+				},
+				{
+					"name": "马伊姆·拜力克"
+				},
+				{
+					"name": "梅丽莎·劳奇"
+				},
+				{
+					"name": "威尔·惠顿"
+				},
+				{
+					"name": "凯文·苏斯曼"
+				},
+				{
+					"name": "克里斯汀·芭伦斯基"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2013 / 美国 / 喜剧 / 马克·森卓斯基 / 约翰尼·盖尔克奇 吉姆·帕森斯",
+			"color_scheme": {
+				"_base_color": [
+					0.1458333333333334,
+					0.13333333333333333,
+					0.23529411764705882
+				],
+				"_avg_color": [
+					0.12222222222222223,
+					0.17241379310344832,
+					0.3411764705882353
+				],
+				"primary_color_light": "727063",
+				"primary_color_dark": "4c4b42",
+				"secondary_color": "f9f9f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/21339708.jpg",
+			"directors": [
+				{
+					"name": "马克·森卓斯基"
+				}
+			],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 7,
+					"title": "第66届黄金时段艾美奖获奖名单",
+					"uri": "douban://douban.com/subject_collection/ECEIJLF2I?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "21339708",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2016948076.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2016948076.jpg"
+			},
+			"pubdate": [
+				"2013-09-27(美国)"
+			],
+			"rating": {
+				"count": 100850,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.3
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/21339708",
+			"subtype": "tv",
+			"title": "生活大爆炸 第七季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/21339708",
+			"url": "https://movie.douban.com/subject/21339708/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "2013"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:45:01",
+		"id": 4909649079,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/27000999 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/27000999/interest/4909649079",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "凯莉·库柯"
+				},
+				{
+					"name": "约翰尼·盖尔克奇"
+				},
+				{
+					"name": "西蒙·赫尔伯格"
+				},
+				{
+					"name": "昆瑙·内亚"
+				},
+				{
+					"name": "马伊姆·拜力克"
+				},
+				{
+					"name": "梅丽莎·劳奇"
+				},
+				{
+					"name": "凯文·苏斯曼"
+				},
+				{
+					"name": "劳丽·梅特卡夫"
+				},
+				{
+					"name": "瑞琪·琳德赫姆"
+				},
+				{
+					"name": "史蒂芬·霍金"
+				},
+				{
+					"name": "贝丝·比厄"
+				},
+				{
+					"name": "沃尔顿·戈金斯"
+				},
+				{
+					"name": "比尔·盖茨"
+				},
+				{
+					"name": "马克·哈米尔"
+				},
+				{
+					"name": "凯西·贝茨"
+				},
+				{
+					"name": "劳伦·拉普库斯"
+				},
+				{
+					"name": "Joseph Teller"
+				},
+				{
+					"name": "约翰·罗斯·鲍伊"
+				},
+				{
+					"name": "布莱恩·波塞恩"
+				},
+				{
+					"name": "威尔·惠顿"
+				},
+				{
+					"name": "考特尼·海根勒"
+				},
+				{
+					"name": "杰瑞·奥康奈尔"
+				},
+				{
+					"name": "尼尔·盖曼"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2017 / 美国 / 喜剧 爱情 / 马克·森卓斯基 / 吉姆·帕森斯 凯莉·库柯",
+			"color_scheme": {
+				"_base_color": [
+					0.6808943089430896,
+					0.7592592592592592,
+					0.4235294117647059
+				],
+				"_avg_color": [
+					0.9083333333333333,
+					0.25,
+					0.6274509803921569
+				],
+				"primary_color_light": "3227a5",
+				"primary_color_dark": "261e7f",
+				"secondary_color": "f5f4f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/27000999.jpg",
+			"directors": [
+				{
+					"name": "马克·森卓斯基"
+				}
+			],
+			"genres": [
+				"喜剧",
+				"爱情"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 7,
+					"title": "第8届美国评论家选择电视奖获奖名单",
+					"uri": "douban://douban.com/subject_collection/ECEYJX75A?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "27000999",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2562676631.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2562676631.jpg"
+			},
+			"pubdate": [
+				"2017-09-25(美国)"
+			],
+			"rating": {
+				"count": 76109,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/27000999",
+			"subtype": "tv",
+			"title": "生活大爆炸 第十一季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/27000999",
+			"url": "https://movie.douban.com/subject/27000999/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2017"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:44:56",
+		"id": 4909649043,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/3990470 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/3990470/interest/4909649043",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "约翰尼·盖尔克奇"
+				},
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "凯莉·库柯"
+				},
+				{
+					"name": "西蒙·赫尔伯格"
+				},
+				{
+					"name": "昆瑙·内亚"
+				},
+				{
+					"name": "梅丽莎·劳奇"
+				},
+				{
+					"name": "凯文·苏斯曼"
+				},
+				{
+					"name": "克里斯汀·芭伦斯基"
+				},
+				{
+					"name": "朱迪·格雷尔"
+				},
+				{
+					"name": "约书亚·马林纳"
+				},
+				{
+					"name": "威尔·惠顿"
+				},
+				{
+					"name": "翠西亚·希弗"
+				},
+				{
+					"name": "斯坦·李"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2009 / 美国 / 喜剧 / 马克·森卓斯基 / 约翰尼·盖尔克奇 吉姆·帕森斯",
+			"color_scheme": {
+				"_base_color": [
+					0.037878787878787956,
+					0.09606986899563322,
+					0.8980392156862745
+				],
+				"_avg_color": [
+					0,
+					0.08799999999999991,
+					0.49019607843137253
+				],
+				"primary_color_light": "726a67",
+				"primary_color_dark": "4c4645",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/3990470.jpg",
+			"directors": [
+				{
+					"name": "马克·森卓斯基"
+				}
+			],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 18,
+					"title": "第10届美国电影学会奖获奖名单",
+					"uri": "douban://douban.com/subject_collection/EC2QJ4SCQ?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "3990470",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p1864616471.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1864616471.jpg"
+			},
+			"pubdate": [
+				"2009-09-21(美国)"
+			],
+			"rating": {
+				"count": 189909,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.4
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/3990470",
+			"subtype": "tv",
+			"title": "生活大爆炸  第三季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/3990470",
+			"url": "https://movie.douban.com/subject/3990470/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2009"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:44:52",
+		"id": 4909649004,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/6557005 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/6557005/interest/4909649004",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "约翰尼·盖尔克奇"
+				},
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "凯莉·库柯"
+				},
+				{
+					"name": "西蒙·赫尔伯格"
+				},
+				{
+					"name": "昆瑙·内亚"
+				},
+				{
+					"name": "马伊姆·拜力克"
+				},
+				{
+					"name": "阿尔蒂·曼"
+				},
+				{
+					"name": "梅丽莎·劳奇"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2011 / 美国 / 喜剧 / 马克·森卓斯基 / 约翰尼·盖尔克奇 吉姆·帕森斯",
+			"color_scheme": {
+				"_base_color": [
+					0.5833333333333334,
+					0.07407407407407407,
+					0.10588235294117647
+				],
+				"_avg_color": [
+					0.04166666666666652,
+					0.05970149253731343,
+					0.2627450980392157
+				],
+				"primary_color_light": "6a6e72",
+				"primary_color_dark": "46494c",
+				"secondary_color": "f4f7f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/6557005.jpg",
+			"directors": [
+				{
+					"name": "马克·森卓斯基"
+				}
+			],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "6557005",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p1169720986.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1169720986.jpg"
+			},
+			"pubdate": [
+				"2011-09-22(美国)"
+			],
+			"rating": {
+				"count": 139209,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/6557005",
+			"subtype": "tv",
+			"title": "生活大爆炸  第五季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/6557005",
+			"url": "https://movie.douban.com/subject/6557005/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2011"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:44:48",
+		"id": 4909648957,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/3190880 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/3190880/interest/4909648957",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "约翰尼·盖尔克奇"
+				},
+				{
+					"name": "凯莉·库柯"
+				},
+				{
+					"name": "西蒙·赫尔伯格"
+				},
+				{
+					"name": "昆瑙·内亚"
+				},
+				{
+					"name": "莎拉·吉尔伯特"
+				},
+				{
+					"name": "克里斯汀·芭伦斯基"
+				},
+				{
+					"name": "凯文·苏斯曼"
+				},
+				{
+					"name": "乔迪·琳·欧基菲"
+				},
+				{
+					"name": "凯缇·萨克霍夫"
+				},
+				{
+					"name": "吴汉章"
+				},
+				{
+					"name": "马克·哈雷利克"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2008 / 美国 / 喜剧 / 查克·罗瑞 比尔·布拉迪 / 吉姆·帕森斯 约翰尼·盖尔克奇",
+			"color_scheme": {
+				"_base_color": [
+					0.08333333333333333,
+					0.07881773399014778,
+					0.796078431372549
+				],
+				"_avg_color": [
+					0.025641025641025734,
+					0.1595092024539877,
+					0.6392156862745098
+				],
+				"primary_color_light": "a59f98",
+				"primary_color_dark": "7f7a75",
+				"secondary_color": "f9f7f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/3190880.jpg",
+			"directors": [
+				{
+					"name": "查克·罗瑞"
+				},
+				{
+					"name": "比尔·布拉迪"
+				}
+			],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "3190880",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2557622277.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2557622277.jpg"
+			},
+			"pubdate": [
+				"2008-09-22(美国)"
+			],
+			"rating": {
+				"count": 212852,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/3190880",
+			"subtype": "tv",
+			"title": "生活大爆炸  第二季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/3190880",
+			"url": "https://movie.douban.com/subject/3190880/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "2008"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:44:43",
+		"id": 4909648921,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/4804079 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/4804079/interest/4909648921",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "约翰尼·盖尔克奇"
+				},
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "凯莉·库柯"
+				},
+				{
+					"name": "西蒙·赫尔伯格"
+				},
+				{
+					"name": "昆瑙·内亚"
+				},
+				{
+					"name": "马伊姆·拜力克"
+				},
+				{
+					"name": "Gregory Allen Gabroy"
+				},
+				{
+					"name": "梅丽莎·劳奇"
+				},
+				{
+					"name": "阿尔蒂·曼"
+				},
+				{
+					"name": "威尔·惠顿"
+				},
+				{
+					"name": "武井乔治"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2010 / 美国 / 喜剧 / 马克·森卓斯基 / 约翰尼·盖尔克奇 吉姆·帕森斯",
+			"color_scheme": {
+				"_base_color": [
+					0.06944444444444452,
+					0.05607476635514025,
+					0.8392156862745098
+				],
+				"_avg_color": [
+					0.03623188405797088,
+					0.1216931216931217,
+					0.7411764705882353
+				],
+				"primary_color_light": "a5a09c",
+				"primary_color_dark": "7f7b78",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/4804079.jpg",
+			"directors": [
+				{
+					"name": "马克·森卓斯基"
+				}
+			],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 13,
+					"title": "第68届金球奖获奖名单",
+					"uri": "douban://douban.com/subject_collection/ECWUIRVFY?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "4804079",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p607743654.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p607743654.jpg"
+			},
+			"pubdate": [
+				"2010-09-23(美国)"
+			],
+			"rating": {
+				"count": 165806,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.3
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/4804079",
+			"subtype": "tv",
+			"title": "生活大爆炸  第四季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/4804079",
+			"url": "https://movie.douban.com/subject/4804079/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "2010"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:44:39",
+		"id": 4909648882,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/25845400 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/25845400/interest/4909648882",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "约翰尼·盖尔克奇"
+				},
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "凯莉·库柯"
+				},
+				{
+					"name": "西蒙·赫尔伯格"
+				},
+				{
+					"name": "昆瑙·内亚"
+				},
+				{
+					"name": "梅丽莎·劳奇"
+				},
+				{
+					"name": "马伊姆·拜力克"
+				},
+				{
+					"name": "凯文·苏斯曼"
+				},
+				{
+					"name": "劳拉·斯宾塞"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2015 / 美国 / 喜剧 / 马克·森卓斯基 / 约翰尼·盖尔克奇 吉姆·帕森斯",
+			"color_scheme": {
+				"_base_color": [
+					0.04901960784313725,
+					0.4473684210526316,
+					0.14901960784313725
+				],
+				"_avg_color": [
+					0.05333333333333332,
+					0.35211267605633806,
+					0.2784313725490196
+				],
+				"primary_color_light": "724e3f",
+				"primary_color_dark": "4c342a",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/25845400.jpg",
+			"directors": [
+				{
+					"name": "马克·森卓斯基"
+				}
+			],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 9,
+					"title": "第6届美国评论家选择电视奖获奖名单",
+					"uri": "douban://douban.com/subject_collection/ECUYJXKOI?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "25845400",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2559504518.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2559504518.jpg"
+			},
+			"pubdate": [
+				"2015-09-21(美国)"
+			],
+			"rating": {
+				"count": 74670,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/25845400",
+			"subtype": "tv",
+			"title": "生活大爆炸 第九季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/25845400",
+			"url": "https://movie.douban.com/subject/25845400/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2015"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:44:35",
+		"id": 4909648856,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/10561953 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/10561953/interest/4909648856",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "约翰尼·盖尔克奇"
+				},
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "凯莉·库柯"
+				},
+				{
+					"name": "西蒙·赫尔伯格"
+				},
+				{
+					"name": "昆瑙·内亚"
+				},
+				{
+					"name": "马伊姆·拜力克"
+				},
+				{
+					"name": "梅丽莎·劳奇"
+				},
+				{
+					"name": "玛尔戈·哈什曼"
+				},
+				{
+					"name": "雷吉娜·金"
+				},
+				{
+					"name": "威尔·惠顿"
+				},
+				{
+					"name": "凯文·苏斯曼"
+				},
+				{
+					"name": "凯特·米库奇"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2012 / 美国 / 喜剧 / 马克·森卓斯基 / 约翰尼·盖尔克奇 吉姆·帕森斯",
+			"color_scheme": {
+				"_base_color": [
+					0.1458333333333334,
+					0.13333333333333333,
+					0.23529411764705882
+				],
+				"_avg_color": [
+					0.11111111111111116,
+					0.17241379310344832,
+					0.3411764705882353
+				],
+				"primary_color_light": "727063",
+				"primary_color_dark": "4c4b42",
+				"secondary_color": "f9f9f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/10561953.jpg",
+			"directors": [
+				{
+					"name": "马克·森卓斯基"
+				}
+			],
+			"genres": [
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 8,
+					"title": "第65届黄金时段艾美奖获奖名单",
+					"uri": "douban://douban.com/subject_collection/ECPQJLWNQ?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "10561953",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2557870269.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2557870269.jpg"
+			},
+			"pubdate": [
+				"2012-09-27(美国)"
+			],
+			"rating": {
+				"count": 127621,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/10561953",
+			"subtype": "tv",
+			"title": "生活大爆炸 第六季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/10561953",
+			"url": "https://movie.douban.com/subject/10561953/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "2012"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-05 10:44:31",
+		"id": 4909648813,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/27001001 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/27001001/interest/4909648813",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "吉姆·帕森斯"
+				},
+				{
+					"name": "约翰尼·盖尔克奇"
+				},
+				{
+					"name": "凯莉·库柯"
+				},
+				{
+					"name": "西蒙·赫尔伯格"
+				},
+				{
+					"name": "昆瑙·内亚"
+				},
+				{
+					"name": "梅丽莎·劳奇"
+				},
+				{
+					"name": "马伊姆·拜力克"
+				},
+				{
+					"name": "凯文·苏斯曼"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2018 / 美国 / 喜剧 爱情 / 马克·森卓斯基 / 吉姆·帕森斯 约翰尼·盖尔克奇",
+			"color_scheme": {
+				"_base_color": [
+					0.1309523809523809,
+					0.35443037974683544,
+					0.30980392156862746
+				],
+				"_avg_color": [
+					0.1098484848484849,
+					0.34108527131782945,
+					0.5058823529411764
+				],
+				"primary_color_light": "a5996b",
+				"primary_color_dark": "7f7552",
+				"secondary_color": "f9f8f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/27001001.jpg",
+			"directors": [
+				{
+					"name": "马克·森卓斯基"
+				}
+			],
+			"genres": [
+				"喜剧",
+				"爱情"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 2,
+					"title": "爱情类美剧榜",
+					"uri": "douban://douban.com/subject_collection/ECA45D3RQ?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "27001001",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2535085957.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2535085957.jpg"
+			},
+			"pubdate": [
+				"2018-09-24(美国)"
+			],
+			"rating": {
+				"count": 110742,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.7
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/27001001",
+			"subtype": "tv",
+			"title": "生活大爆炸 第十二季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/27001001",
+			"url": "https://movie.douban.com/subject/27001001/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "2018"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
 		"create_time": "2026-07-20 00:49:01",
 		"id": 4893676666,
 		"is_editable": false,

@@ -1,5 +1,1283 @@
 [
   {
+    "id": "22523273",
+    "title": "摩登家庭 第五季",
+    "mediaType": "tv",
+    "year": 2013,
+    "releaseDate": "2013-09-25",
+    "poster": "https://dou.img.lithub.cc/movie/22523273.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2151475197.jpg",
+    "directors": [
+      "詹姆斯·R·巴格多纳斯"
+    ],
+    "actors": [
+      "艾德·奥尼尔",
+      "索菲娅·维加拉",
+      "朱丽·鲍温",
+      "泰·布利尔",
+      "杰西·泰勒·弗格森",
+      "艾瑞克·斯通斯崔特",
+      "萨拉·海蓝德",
+      "诺兰·古德",
+      "里克·罗德里格兹",
+      "奥布里·安德森-埃蒙斯"
+    ],
+    "genres": [
+      "喜剧",
+      "家庭"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/22523273/",
+    "doubanRating": 9.6,
+    "watchedAt": "2026-08-05T02:50:17.000Z",
+    "addedAt": "2026-08-05T02:50:17.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "10748074",
+    "title": "摩登家庭 第四季",
+    "mediaType": "tv",
+    "year": 2012,
+    "releaseDate": "2012-09-26",
+    "poster": "https://dou.img.lithub.cc/movie/10748074.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2201084723.jpg",
+    "directors": [
+      "斯蒂文·莱维坦"
+    ],
+    "actors": [
+      "艾德·奥尼尔",
+      "索菲娅·维加拉",
+      "朱丽·鲍温",
+      "泰·布利尔",
+      "杰西·泰勒·弗格森",
+      "艾瑞克·斯通斯崔特",
+      "里克·罗德里格兹"
+    ],
+    "genres": [
+      "喜剧",
+      "家庭"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/10748074/",
+    "doubanRating": 9.6,
+    "watchedAt": "2026-08-05T02:50:13.000Z",
+    "addedAt": "2026-08-05T02:50:13.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "4904662",
+    "title": "摩登家庭 第二季",
+    "mediaType": "tv",
+    "year": 2010,
+    "releaseDate": "2010-09-22",
+    "poster": "https://dou.img.lithub.cc/movie/4904662.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p640181887.jpg",
+    "directors": [
+      "Jason Winer"
+    ],
+    "actors": [
+      "艾德·奥尼尔",
+      "索菲娅·维加拉",
+      "朱丽·鲍温",
+      "泰·布利尔",
+      "杰西·泰勒·弗格森",
+      "艾瑞克·斯通斯崔特",
+      "萨拉·海蓝德",
+      "阿芮尔·温特",
+      "诺兰·古德",
+      "里克·罗德里格兹"
+    ],
+    "genres": [
+      "喜剧",
+      "家庭"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/4904662/",
+    "doubanRating": 9.6,
+    "watchedAt": "2026-08-05T02:50:09.000Z",
+    "addedAt": "2026-08-05T02:50:09.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "10727268",
+    "title": "破产姐妹 第二季",
+    "mediaType": "tv",
+    "year": 2012,
+    "releaseDate": "2012-09-24",
+    "poster": "https://dou.img.lithub.cc/movie/10727268.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2312474023.jpg",
+    "directors": [
+      "弗莱德·萨维奇"
+    ],
+    "actors": [
+      "凯特·戴琳斯",
+      "贝丝·比厄",
+      "Garrett Morris",
+      "马修·摩伊",
+      "Jonathan Kite",
+      "詹妮佛·库里奇",
+      "瑞恩·汉森",
+      "斯蒂文·韦伯",
+      "乔纳森·克特",
+      "加勒特·莫里斯",
+      "尼克·扎诺"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/10727268/",
+    "doubanRating": 8.9,
+    "watchedAt": "2026-08-05T02:49:42.000Z",
+    "addedAt": "2026-08-05T02:49:42.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "6729121",
+    "title": "摩登家庭  第三季",
+    "mediaType": "tv",
+    "year": 2011,
+    "releaseDate": "2011-09-21",
+    "poster": "https://dou.img.lithub.cc/movie/6729121.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1178503927.jpg",
+    "directors": [
+      "杰森·维纳"
+    ],
+    "actors": [
+      "艾德·奥尼尔",
+      "索菲娅·维加拉",
+      "朱丽·鲍温",
+      "泰·布利尔",
+      "杰西·泰勒·弗格森",
+      "艾瑞克·斯通斯崔特",
+      "里德·尤因",
+      "萨拉·海蓝德",
+      "阿芮尔·温特",
+      "诺兰·古德",
+      "里克·罗德里格兹",
+      "奥布里·安德森-埃蒙斯"
+    ],
+    "genres": [
+      "喜剧",
+      "家庭"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/6729121/",
+    "doubanRating": 9.6,
+    "watchedAt": "2026-08-05T02:49:38.000Z",
+    "addedAt": "2026-08-05T02:49:38.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "20470240",
+    "title": "老爸老妈的浪漫史 第九季",
+    "mediaType": "tv",
+    "year": 2013,
+    "releaseDate": "2013-09-23",
+    "poster": "https://dou.img.lithub.cc/movie/20470240.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2151222431.jpg",
+    "directors": [
+      "帕梅拉·福莱曼"
+    ],
+    "actors": [
+      "乔什·拉德诺",
+      "尼尔·帕特里克·哈里斯",
+      "杰森·席格尔",
+      "寇碧·史莫德斯",
+      "艾莉森·汉尼根",
+      "克里斯汀·米利欧缇"
+    ],
+    "genres": [
+      "喜剧",
+      "爱情"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/20470240/",
+    "doubanRating": 8.2,
+    "watchedAt": "2026-08-05T02:49:25.000Z",
+    "addedAt": "2026-08-05T02:49:25.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "10563743",
+    "title": "老爸老妈的浪漫史 第八季",
+    "mediaType": "tv",
+    "year": 2012,
+    "releaseDate": "2012-09-24",
+    "poster": "https://dou.img.lithub.cc/movie/10563743.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2928242346.jpg",
+    "directors": [
+      "帕梅拉·福莱曼"
+    ],
+    "actors": [
+      "乔什·拉德诺",
+      "尼尔·帕特里克·哈里斯",
+      "杰森·席格尔",
+      "寇碧·史莫德斯",
+      "艾莉森·汉尼根",
+      "克里斯汀·米利欧缇",
+      "比尔·法格巴克",
+      "苏西·帕尔克森",
+      "贝基·纽顿",
+      "克里斯·艾略特",
+      "琳德西·冯塞卡",
+      "大卫·亨瑞",
+      "鲍勃·萨盖特",
+      "迈克尔·特鲁科",
+      "阿什利·威廉姆斯",
+      "艾伦·D.威廉姆斯",
+      "乔·曼根尼罗",
+      "乔·洛·特鲁格里奥",
+      "大卫·伯卡",
+      "亚历克西斯·德尼索夫",
+      "马绍尔·曼尼什",
+      "雷·怀斯",
+      "凯莉·黛弗",
+      "蕾切尔·比尔森",
+      "帕梅拉·福莱曼",
+      "艾比·艾略特",
+      "艾伦·锡克",
+      "迈克·泰森",
+      "凯尔·麦克拉克伦",
+      "劳拉·贝尔·邦迪",
+      "弗兰西丝·康罗伊"
+    ],
+    "genres": [
+      "喜剧",
+      "爱情"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/10563743/",
+    "doubanRating": 9.2,
+    "watchedAt": "2026-08-05T02:49:20.000Z",
+    "addedAt": "2026-08-05T02:49:20.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "6794391",
+    "title": "老爸老妈的浪漫史 第七季",
+    "mediaType": "tv",
+    "year": 2011,
+    "releaseDate": "2011-09-19",
+    "poster": "https://dou.img.lithub.cc/movie/6794391.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2559733756.jpg",
+    "directors": [
+      "帕梅拉·福莱曼"
+    ],
+    "actors": [
+      "乔什·拉德诺",
+      "尼尔·帕特里克·哈里斯",
+      "杰森·席格尔",
+      "寇碧·史莫德斯",
+      "艾莉森·汉尼根"
+    ],
+    "genres": [
+      "喜剧",
+      "爱情"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/6794391/",
+    "doubanRating": 9.2,
+    "watchedAt": "2026-08-05T02:49:15.000Z",
+    "addedAt": "2026-08-05T02:49:15.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "5262275",
+    "title": "老爸老妈的浪漫史 第六季",
+    "mediaType": "tv",
+    "year": 2010,
+    "releaseDate": "2010-09-20",
+    "poster": "https://dou.img.lithub.cc/movie/5262275.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2559733721.jpg",
+    "directors": [
+      "Pamela Fryman"
+    ],
+    "actors": [
+      "尼尔·帕特里克·哈里斯",
+      "寇碧·史莫德斯",
+      "乔什·拉德诺",
+      "杰森·席格尔",
+      "艾莉森·汉尼根"
+    ],
+    "genres": [
+      "喜剧",
+      "爱情"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/5262275/",
+    "doubanRating": 9.3,
+    "watchedAt": "2026-08-05T02:49:10.000Z",
+    "addedAt": "2026-08-05T02:49:10.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "3222657",
+    "title": "老爸老妈的浪漫史 第四季",
+    "mediaType": "tv",
+    "year": 2008,
+    "releaseDate": "2008-09-22",
+    "poster": "https://dou.img.lithub.cc/movie/3222657.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2559733610.jpg",
+    "directors": [
+      "帕梅拉·福莱曼"
+    ],
+    "actors": [
+      "乔什·拉德诺",
+      "杰森·席格尔",
+      "寇碧·史莫德斯",
+      "尼尔·帕特里克·哈里斯",
+      "艾莉森·汉尼根",
+      "萨拉·乔克"
+    ],
+    "genres": [
+      "喜剧",
+      "爱情"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/3222657/",
+    "doubanRating": 9.2,
+    "watchedAt": "2026-08-05T02:49:04.000Z",
+    "addedAt": "2026-08-05T02:49:04.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "2326226",
+    "title": "老爸老妈的浪漫史 第三季",
+    "mediaType": "tv",
+    "year": 2007,
+    "releaseDate": "2007-09-24",
+    "poster": "https://dou.img.lithub.cc/movie/2326226.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2375122590.jpg",
+    "directors": [],
+    "actors": [
+      "乔什·拉德诺",
+      "尼尔·帕特里克·哈里斯",
+      "艾莉森·汉尼根",
+      "杰森·席格尔",
+      "寇碧·史莫德斯"
+    ],
+    "genres": [
+      "喜剧",
+      "爱情"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/2326226/",
+    "doubanRating": 9.3,
+    "watchedAt": "2026-08-05T02:48:59.000Z",
+    "addedAt": "2026-08-05T02:48:59.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "1427818",
+    "title": "老爸老妈的浪漫史 第一季",
+    "mediaType": "tv",
+    "year": 2005,
+    "releaseDate": "2005-09-19",
+    "poster": "https://dou.img.lithub.cc/movie/1427818.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2375121696.jpg",
+    "directors": [
+      "Pamela Fryman",
+      "Rob Greenberg"
+    ],
+    "actors": [
+      "乔什·拉德诺",
+      "杰森·席格尔",
+      "艾莉森·汉尼根",
+      "尼尔·帕特里克·哈里斯",
+      "寇碧·史莫德斯",
+      "阿什利·威廉姆斯"
+    ],
+    "genres": [
+      "喜剧",
+      "爱情"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/1427818/",
+    "doubanRating": 9.1,
+    "watchedAt": "2026-08-05T02:48:53.000Z",
+    "addedAt": "2026-08-05T02:48:53.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "37245790",
+    "title": "乔治和曼迪的头婚生活 第二季",
+    "mediaType": "tv",
+    "year": 2025,
+    "releaseDate": "2025-10-16",
+    "poster": "https://dou.img.lithub.cc/movie/37245790.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2926065431.jpg",
+    "directors": [
+      "Mark Cendrowski"
+    ],
+    "actors": [
+      "蒙塔纳·乔丹",
+      "艾米丽·奥斯蒙特"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/37245790/",
+    "doubanRating": 8.2,
+    "watchedAt": "2026-08-05T02:48:44.000Z",
+    "addedAt": "2026-08-05T02:48:44.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "36731415",
+    "title": "乔治和曼迪的头婚生活 第一季",
+    "mediaType": "tv",
+    "year": 2024,
+    "releaseDate": "2024-10-17",
+    "poster": "https://dou.img.lithub.cc/movie/36731415.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2913969681.jpg",
+    "directors": [
+      "马克·森卓斯基",
+      "查克·罗瑞",
+      "史蒂文·莫拉"
+    ],
+    "actors": [
+      "蒙塔纳·乔丹",
+      "艾米丽·奥斯蒙特",
+      "雷切尔·贝·琼斯",
+      "威尔·萨索",
+      "道奇·鲍德温"
+    ],
+    "genres": [
+      "剧情",
+      "喜剧",
+      "爱情"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/36731415/",
+    "doubanRating": 8.3,
+    "watchedAt": "2026-08-05T02:48:35.000Z",
+    "addedAt": "2026-08-05T02:48:35.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "2296025",
+    "title": "老爸老妈的浪漫史 第二季",
+    "mediaType": "tv",
+    "year": 2006,
+    "releaseDate": "2006-09-18",
+    "poster": "https://dou.img.lithub.cc/movie/2296025.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2375122102.jpg",
+    "directors": [
+      "帕梅拉·福莱曼"
+    ],
+    "actors": [
+      "乔什·拉德诺",
+      "尼尔·帕特里克·哈里斯",
+      "艾莉森·汉尼根",
+      "寇碧·史莫德斯",
+      "杰森·席格尔"
+    ],
+    "genres": [
+      "喜剧",
+      "爱情"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/2296025/",
+    "doubanRating": 9.3,
+    "watchedAt": "2026-08-05T02:48:09.000Z",
+    "addedAt": "2026-08-05T02:48:09.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "35420025",
+    "title": "小谢尔顿 第七季",
+    "mediaType": "tv",
+    "year": 2024,
+    "releaseDate": "2024-02-15",
+    "poster": "https://dou.img.lithub.cc/movie/35420025.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2903443592.jpg",
+    "directors": [],
+    "actors": [
+      "伊恩·阿米蒂奇",
+      "佐伊·派瑞",
+      "兰斯·巴伯",
+      "蒙塔纳·乔丹",
+      "拉根·雷沃德",
+      "马特·霍比",
+      "艾米丽·奥斯蒙特",
+      "安妮·波茨",
+      "吉姆·帕森斯",
+      "马伊姆·拜力克",
+      "格雷格·T·尼尔森",
+      "Mary Grill",
+      "Korey Simeone",
+      "Rayne Bidder",
+      "塞巴斯蒂安·斯切尔",
+      "Jeff Chen"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/35420025/",
+    "doubanRating": 9.5,
+    "watchedAt": "2026-08-05T02:45:55.000Z",
+    "addedAt": "2026-08-05T02:45:55.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "35420024",
+    "title": "小谢尔顿 第六季",
+    "mediaType": "tv",
+    "year": 2022,
+    "releaseDate": "2022-09-29",
+    "poster": "https://dou.img.lithub.cc/movie/35420024.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2881123578.jpg",
+    "directors": [
+      "艾力克斯·里德"
+    ],
+    "actors": [
+      "伊恩·阿米蒂奇",
+      "佐伊·派瑞",
+      "兰斯·巴伯",
+      "蒙塔纳·乔丹",
+      "拉根·雷沃德",
+      "马特·霍比",
+      "艾米丽·奥斯蒙特",
+      "安妮·波茨",
+      "吉姆·帕森斯",
+      "格雷格·T·尼尔森",
+      "罗基·麦克默里",
+      "Emanuel Loarca"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/35420024/",
+    "doubanRating": 9.1,
+    "watchedAt": "2026-08-05T02:45:51.000Z",
+    "addedAt": "2026-08-05T02:45:51.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "35420023",
+    "title": "小谢尔顿 第五季",
+    "mediaType": "tv",
+    "year": 2021,
+    "releaseDate": "2021-10-07",
+    "poster": "https://dou.img.lithub.cc/movie/35420023.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2692536045.jpg",
+    "directors": [
+      "艾力克斯·里德"
+    ],
+    "actors": [
+      "伊恩·阿米蒂奇",
+      "佐伊·派瑞",
+      "兰斯·巴伯",
+      "蒙塔纳·乔丹",
+      "拉根·雷沃德",
+      "Matt Hobby",
+      "安妮·波茨",
+      "吉姆·帕森斯",
+      "华莱士·肖恩",
+      "梅莉莎·彼得曼",
+      "艾娃·艾伦",
+      "汤姆·易"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/35420023/",
+    "doubanRating": 9.1,
+    "watchedAt": "2026-08-05T02:45:47.000Z",
+    "addedAt": "2026-08-05T02:45:47.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "30467486",
+    "title": "小谢尔顿 第四季",
+    "mediaType": "tv",
+    "year": 2020,
+    "releaseDate": "2020-11-05",
+    "poster": "https://dou.img.lithub.cc/movie/30467486.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2569867115.jpg",
+    "directors": [
+      "贾法尔·马赫穆德"
+    ],
+    "actors": [
+      "伊恩·阿米蒂奇",
+      "佐伊·派瑞",
+      "兰斯·巴伯",
+      "蒙塔纳·乔丹",
+      "拉根·雷沃德",
+      "安妮·波茨",
+      "Matt Hobby",
+      "吉姆·帕森斯",
+      "Luis Victor Jimenez",
+      "瑞克斯·林恩",
+      "怀亚特·麦克卢尔",
+      "格雷格·T·尼尔森",
+      "瑞安·方",
+      "Danielle Pinnock",
+      "华莱士·肖恩"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/30467486/",
+    "doubanRating": 9.3,
+    "watchedAt": "2026-08-05T02:45:42.000Z",
+    "addedAt": "2026-08-05T02:45:42.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "30467485",
+    "title": "小谢尔顿 第三季",
+    "mediaType": "tv",
+    "year": 2019,
+    "releaseDate": "2019-09-26",
+    "poster": "https://dou.img.lithub.cc/movie/30467485.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2567488952.jpg",
+    "directors": [
+      "贾法尔·马赫穆德"
+    ],
+    "actors": [
+      "伊恩·阿米蒂奇",
+      "佐伊·派瑞",
+      "吉姆·帕森斯",
+      "兰斯·巴伯",
+      "蒙塔纳·乔丹",
+      "拉根·雷沃德",
+      "安妮·波茨",
+      "莎拉·贝克",
+      "卡尔利斯·布克",
+      "丹尼斯·库克鲁姆",
+      "约翰·哈特曼",
+      "卡罗尔·曼塞尔"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/30467485/",
+    "doubanRating": 9.4,
+    "watchedAt": "2026-08-05T02:45:39.000Z",
+    "addedAt": "2026-08-05T02:45:39.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "27623506",
+    "title": "小谢尔顿 第二季",
+    "mediaType": "tv",
+    "year": 2018,
+    "releaseDate": "2018-09-24",
+    "poster": "https://dou.img.lithub.cc/movie/27623506.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2627603750.jpg",
+    "directors": [
+      "贾法尔·马赫穆德",
+      "霍华德·达奇"
+    ],
+    "actors": [
+      "伊恩·阿米蒂奇",
+      "佐伊·派瑞",
+      "兰斯·巴伯",
+      "蒙塔纳·乔丹",
+      "拉根·雷沃德",
+      "安妮·波茨",
+      "吉姆·帕森斯",
+      "瑞安·方",
+      "怀亚特·麦克卢尔",
+      "华莱士·肖恩"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/27623506/",
+    "doubanRating": 9.5,
+    "watchedAt": "2026-08-05T02:45:17.000Z",
+    "addedAt": "2026-08-05T02:45:17.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "25845393",
+    "title": "生活大爆炸 第八季",
+    "mediaType": "tv",
+    "year": 2014,
+    "releaseDate": "2014-09-22",
+    "poster": "https://dou.img.lithub.cc/movie/25845393.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2201798471.jpg",
+    "directors": [
+      "马克·森卓斯基"
+    ],
+    "actors": [
+      "吉姆·帕森斯",
+      "约翰尼·盖尔克奇",
+      "凯莉·库柯",
+      "西蒙·赫尔伯格",
+      "昆瑙·内亚",
+      "马伊姆·拜力克",
+      "梅丽莎·劳奇",
+      "比利·鲍伯·松顿",
+      "凯文·苏斯曼 Kevin Sussman",
+      "雷吉娜·金",
+      "布莱恩·乔治",
+      "劳拉·斯宾塞",
+      "威尔·惠顿",
+      "劳丽·梅特卡夫",
+      "克里斯汀·芭伦斯基"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/25845393/",
+    "doubanRating": 9.2,
+    "watchedAt": "2026-08-05T02:45:12.000Z",
+    "addedAt": "2026-08-05T02:45:12.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "25845401",
+    "title": "生活大爆炸 第十季",
+    "mediaType": "tv",
+    "year": 2016,
+    "releaseDate": "2016-09-19",
+    "poster": "https://dou.img.lithub.cc/movie/25845401.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2376308621.jpg",
+    "directors": [
+      "马克·森卓斯基"
+    ],
+    "actors": [
+      "约翰尼·盖尔克奇",
+      "吉姆·帕森斯",
+      "凯莉·库柯",
+      "西蒙·赫尔伯格",
+      "昆瑙·内亚",
+      "马伊姆·拜力克",
+      "梅丽莎·劳奇",
+      "凯文·苏斯曼"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/25845401/",
+    "doubanRating": 9.4,
+    "watchedAt": "2026-08-05T02:45:09.000Z",
+    "addedAt": "2026-08-05T02:45:09.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "21339708",
+    "title": "生活大爆炸 第七季",
+    "mediaType": "tv",
+    "year": 2013,
+    "releaseDate": "2013-09-27",
+    "poster": "https://dou.img.lithub.cc/movie/21339708.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2016948076.jpg",
+    "directors": [
+      "马克·森卓斯基"
+    ],
+    "actors": [
+      "约翰尼·盖尔克奇",
+      "吉姆·帕森斯",
+      "凯莉·库柯",
+      "西蒙·赫尔伯格",
+      "昆瑙·内亚",
+      "马伊姆·拜力克",
+      "梅丽莎·劳奇",
+      "威尔·惠顿",
+      "凯文·苏斯曼",
+      "克里斯汀·芭伦斯基"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/21339708/",
+    "doubanRating": 9.3,
+    "watchedAt": "2026-08-05T02:45:05.000Z",
+    "addedAt": "2026-08-05T02:45:05.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "27000999",
+    "title": "生活大爆炸 第十一季",
+    "mediaType": "tv",
+    "year": 2017,
+    "releaseDate": "2017-09-25",
+    "poster": "https://dou.img.lithub.cc/movie/27000999.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2562676631.jpg",
+    "directors": [
+      "马克·森卓斯基"
+    ],
+    "actors": [
+      "吉姆·帕森斯",
+      "凯莉·库柯",
+      "约翰尼·盖尔克奇",
+      "西蒙·赫尔伯格",
+      "昆瑙·内亚",
+      "马伊姆·拜力克",
+      "梅丽莎·劳奇",
+      "凯文·苏斯曼",
+      "劳丽·梅特卡夫",
+      "瑞琪·琳德赫姆",
+      "史蒂芬·霍金",
+      "贝丝·比厄",
+      "沃尔顿·戈金斯",
+      "比尔·盖茨",
+      "马克·哈米尔",
+      "凯西·贝茨",
+      "劳伦·拉普库斯",
+      "Joseph Teller",
+      "约翰·罗斯·鲍伊",
+      "布莱恩·波塞恩",
+      "威尔·惠顿",
+      "考特尼·海根勒",
+      "杰瑞·奥康奈尔",
+      "尼尔·盖曼"
+    ],
+    "genres": [
+      "喜剧",
+      "爱情"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/27000999/",
+    "doubanRating": 9.5,
+    "watchedAt": "2026-08-05T02:45:01.000Z",
+    "addedAt": "2026-08-05T02:45:01.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "3990470",
+    "title": "生活大爆炸  第三季",
+    "mediaType": "tv",
+    "year": 2009,
+    "releaseDate": "2009-09-21",
+    "poster": "https://dou.img.lithub.cc/movie/3990470.jpg",
+    "posterFallback": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p1864616471.jpg",
+    "directors": [
+      "马克·森卓斯基"
+    ],
+    "actors": [
+      "约翰尼·盖尔克奇",
+      "吉姆·帕森斯",
+      "凯莉·库柯",
+      "西蒙·赫尔伯格",
+      "昆瑙·内亚",
+      "梅丽莎·劳奇",
+      "凯文·苏斯曼",
+      "克里斯汀·芭伦斯基",
+      "朱迪·格雷尔",
+      "约书亚·马林纳",
+      "威尔·惠顿",
+      "翠西亚·希弗",
+      "斯坦·李"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/3990470/",
+    "doubanRating": 9.4,
+    "watchedAt": "2026-08-05T02:44:56.000Z",
+    "addedAt": "2026-08-05T02:44:56.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "6557005",
+    "title": "生活大爆炸  第五季",
+    "mediaType": "tv",
+    "year": 2011,
+    "releaseDate": "2011-09-22",
+    "poster": "https://dou.img.lithub.cc/movie/6557005.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1169720986.jpg",
+    "directors": [
+      "马克·森卓斯基"
+    ],
+    "actors": [
+      "约翰尼·盖尔克奇",
+      "吉姆·帕森斯",
+      "凯莉·库柯",
+      "西蒙·赫尔伯格",
+      "昆瑙·内亚",
+      "马伊姆·拜力克",
+      "阿尔蒂·曼",
+      "梅丽莎·劳奇"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/6557005/",
+    "doubanRating": 9.2,
+    "watchedAt": "2026-08-05T02:44:52.000Z",
+    "addedAt": "2026-08-05T02:44:52.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "3190880",
+    "title": "生活大爆炸  第二季",
+    "mediaType": "tv",
+    "year": 2008,
+    "releaseDate": "2008-09-22",
+    "poster": "https://dou.img.lithub.cc/movie/3190880.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2557622277.jpg",
+    "directors": [
+      "查克·罗瑞",
+      "比尔·布拉迪"
+    ],
+    "actors": [
+      "吉姆·帕森斯",
+      "约翰尼·盖尔克奇",
+      "凯莉·库柯",
+      "西蒙·赫尔伯格",
+      "昆瑙·内亚",
+      "莎拉·吉尔伯特",
+      "克里斯汀·芭伦斯基",
+      "凯文·苏斯曼",
+      "乔迪·琳·欧基菲",
+      "凯缇·萨克霍夫",
+      "吴汉章",
+      "马克·哈雷利克"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/3190880/",
+    "doubanRating": 9.5,
+    "watchedAt": "2026-08-05T02:44:48.000Z",
+    "addedAt": "2026-08-05T02:44:48.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "4804079",
+    "title": "生活大爆炸  第四季",
+    "mediaType": "tv",
+    "year": 2010,
+    "releaseDate": "2010-09-23",
+    "poster": "https://dou.img.lithub.cc/movie/4804079.jpg",
+    "posterFallback": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p607743654.jpg",
+    "directors": [
+      "马克·森卓斯基"
+    ],
+    "actors": [
+      "约翰尼·盖尔克奇",
+      "吉姆·帕森斯",
+      "凯莉·库柯",
+      "西蒙·赫尔伯格",
+      "昆瑙·内亚",
+      "马伊姆·拜力克",
+      "Gregory Allen Gabroy",
+      "梅丽莎·劳奇",
+      "阿尔蒂·曼",
+      "威尔·惠顿",
+      "武井乔治"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/4804079/",
+    "doubanRating": 9.3,
+    "watchedAt": "2026-08-05T02:44:43.000Z",
+    "addedAt": "2026-08-05T02:44:43.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "25845400",
+    "title": "生活大爆炸 第九季",
+    "mediaType": "tv",
+    "year": 2015,
+    "releaseDate": "2015-09-21",
+    "poster": "https://dou.img.lithub.cc/movie/25845400.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2559504518.jpg",
+    "directors": [
+      "马克·森卓斯基"
+    ],
+    "actors": [
+      "约翰尼·盖尔克奇",
+      "吉姆·帕森斯",
+      "凯莉·库柯",
+      "西蒙·赫尔伯格",
+      "昆瑙·内亚",
+      "梅丽莎·劳奇",
+      "马伊姆·拜力克",
+      "凯文·苏斯曼",
+      "劳拉·斯宾塞"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/25845400/",
+    "doubanRating": 9.2,
+    "watchedAt": "2026-08-05T02:44:39.000Z",
+    "addedAt": "2026-08-05T02:44:39.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "10561953",
+    "title": "生活大爆炸 第六季",
+    "mediaType": "tv",
+    "year": 2012,
+    "releaseDate": "2012-09-27",
+    "poster": "https://dou.img.lithub.cc/movie/10561953.jpg",
+    "posterFallback": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2557870269.jpg",
+    "directors": [
+      "马克·森卓斯基"
+    ],
+    "actors": [
+      "约翰尼·盖尔克奇",
+      "吉姆·帕森斯",
+      "凯莉·库柯",
+      "西蒙·赫尔伯格",
+      "昆瑙·内亚",
+      "马伊姆·拜力克",
+      "梅丽莎·劳奇",
+      "玛尔戈·哈什曼",
+      "雷吉娜·金",
+      "威尔·惠顿",
+      "凯文·苏斯曼",
+      "凯特·米库奇"
+    ],
+    "genres": [
+      "喜剧"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/10561953/",
+    "doubanRating": 9.2,
+    "watchedAt": "2026-08-05T02:44:35.000Z",
+    "addedAt": "2026-08-05T02:44:35.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
+    "id": "27001001",
+    "title": "生活大爆炸 第十二季",
+    "mediaType": "tv",
+    "year": 2018,
+    "releaseDate": "2018-09-24",
+    "poster": "https://dou.img.lithub.cc/movie/27001001.jpg",
+    "posterFallback": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2535085957.jpg",
+    "directors": [
+      "马克·森卓斯基"
+    ],
+    "actors": [
+      "吉姆·帕森斯",
+      "约翰尼·盖尔克奇",
+      "凯莉·库柯",
+      "西蒙·赫尔伯格",
+      "昆瑙·内亚",
+      "梅丽莎·劳奇",
+      "马伊姆·拜力克",
+      "凯文·苏斯曼"
+    ],
+    "genres": [
+      "喜剧",
+      "爱情"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "languages": [],
+    "doubanUrl": "https://movie.douban.com/subject/27001001/",
+    "doubanRating": 9.7,
+    "watchedAt": "2026-08-05T02:44:31.000Z",
+    "addedAt": "2026-08-05T02:44:31.000Z",
+    "tags": [],
+    "hidden": false,
+    "status": "watched",
+    "source": "douban"
+  },
+  {
     "id": "1305690",
     "title": "阿飞正传",
     "mediaType": "movie",
