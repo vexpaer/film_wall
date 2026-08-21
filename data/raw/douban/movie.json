@@ -2,6 +2,8333 @@
 	{
 		"charts": [],
 		"comment": "",
+		"create_time": "2026-08-21 10:39:09",
+		"id": 4925176959,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/3990479 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/3990479/interest/4925176959",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "乔什·拉德诺"
+				},
+				{
+					"name": "尼尔·帕特里克·哈里斯"
+				},
+				{
+					"name": "艾莉森·汉尼根"
+				},
+				{
+					"name": "杰森·席格尔"
+				},
+				{
+					"name": "寇碧·史莫德斯"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2009 / 美国 / 喜剧 爱情 / 帕梅拉·福莱曼 / 乔什·拉德诺 尼尔·帕特里克·哈里斯",
+			"color_scheme": {
+				"_base_color": [
+					0.5720164609053499,
+					0.35064935064935066,
+					0.9058823529411765
+				],
+				"_avg_color": [
+					0.5454545454545454,
+					0.2256410256410256,
+					0.7647058823529411
+				],
+				"primary_color_light": "6b8ca5",
+				"primary_color_dark": "526c7f",
+				"secondary_color": "f4f7f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/3990479.jpg",
+			"directors": [
+				{
+					"name": "帕梅拉·福莱曼"
+				}
+			],
+			"genres": [
+				"喜剧",
+				"爱情"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "3990479",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2559733692.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2559733692.jpg"
+			},
+			"pubdate": [
+				"2009-09-21(美国)"
+			],
+			"rating": {
+				"count": 42140,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/3990479",
+			"subtype": "tv",
+			"title": "老爸老妈的浪漫史 第五季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/3990479",
+			"url": "https://movie.douban.com/subject/3990479/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2009"
+		},
+		"tags": [],
+		"vote_count": 0,
+		"star_time": "2026-08-21 10:39:09"
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:37:38",
+		"id": 4925176009,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/27194292 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/27194292/interest/4925176009",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "米莉·波比·布朗"
+				},
+				{
+					"name": "薇诺娜·瑞德"
+				},
+				{
+					"name": "大卫·哈伯"
+				},
+				{
+					"name": "菲恩·伍法德"
+				},
+				{
+					"name": "伽塔·马塔拉佐"
+				},
+				{
+					"name": "凯莱布·麦克劳克林"
+				},
+				{
+					"name": "诺亚·施纳普"
+				},
+				{
+					"name": "萨迪·辛克"
+				},
+				{
+					"name": "娜塔莉·戴尔"
+				},
+				{
+					"name": "查理·希顿"
+				},
+				{
+					"name": "乔·基瑞"
+				},
+				{
+					"name": "玛雅·霍克"
+				},
+				{
+					"name": "约瑟夫·奎恩"
+				},
+				{
+					"name": "普莉雅·弗格森"
+				},
+				{
+					"name": "爱德华多·弗兰科"
+				},
+				{
+					"name": "布伦特·吉尔曼"
+				},
+				{
+					"name": "杰米·坎贝尔·鲍尔"
+				},
+				{
+					"name": "马修·莫迪恩"
+				},
+				{
+					"name": "保罗·雷瑟"
+				},
+				{
+					"name": "戴克·蒙哥马利"
+				},
+				{
+					"name": "罗伯特·英格兰德"
+				},
+				{
+					"name": "汤姆·弗拉席亚"
+				},
+				{
+					"name": "尼古拉·久里奇科"
+				},
+				{
+					"name": "卡拉·布欧诺"
+				},
+				{
+					"name": "乔·克里斯特"
+				},
+				{
+					"name": "梅森·戴伊"
+				},
+				{
+					"name": "格瑞思·范·迪恩"
+				},
+				{
+					"name": "罗根·莱利·布鲁纳"
+				},
+				{
+					"name": "迈尔斯·特鲁伊特"
+				},
+				{
+					"name": "爱洛迪·格蕾丝·奥尔金"
+				},
+				{
+					"name": "艾米贝丝·麦克纳尔蒂"
+				},
+				{
+					"name": "加布里埃拉·皮佐罗"
+				},
+				{
+					"name": "奥黛丽·霍尔科姆"
+				},
+				{
+					"name": "拉菲尔·卢斯"
+				},
+				{
+					"name": "罗布·摩根"
+				},
+				{
+					"name": "约翰·雷诺兹"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2022 / 美国 / 剧情 科幻 悬疑 惊悚 恐怖 奇幻 / 马特·达菲 罗斯·达菲 肖恩·利维 尼姆罗德·安陶尔 / 米莉·波比·布朗 薇诺娜·瑞德",
+			"color_scheme": {
+				"_base_color": [
+					0.03183520599250935,
+					0.45408163265306123,
+					0.7686274509803922
+				],
+				"_avg_color": [
+					0.00694444444444442,
+					0.32,
+					0.29411764705882354
+				],
+				"primary_color_light": "72483e",
+				"primary_color_dark": "4c3029",
+				"secondary_color": "f9f5f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/27194292.jpg",
+			"directors": [
+				{
+					"name": "马特·达菲"
+				},
+				{
+					"name": "罗斯·达菲"
+				},
+				{
+					"name": "肖恩·利维"
+				},
+				{
+					"name": "尼姆罗德·安陶尔"
+				}
+			],
+			"genres": [
+				"剧情",
+				"科幻",
+				"悬疑"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 3,
+					"title": "奇幻类美剧榜",
+					"uri": "douban://douban.com/subject_collection/ECHU473PI?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "27194292",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2873896406.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2873896406.jpg"
+			},
+			"pubdate": [
+				"2022-05-27(美国)"
+			],
+			"rating": {
+				"count": 321163,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/27194292",
+			"subtype": "tv",
+			"title": "怪奇物语 第四季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/27194292",
+			"url": "https://movie.douban.com/subject/27194292/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2022"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:37:35",
+		"id": 4925175980,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/27119156 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/27119156/interest/4925175980",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "米莉·波比·布朗"
+				},
+				{
+					"name": "薇诺娜·瑞德"
+				},
+				{
+					"name": "大卫·哈伯"
+				},
+				{
+					"name": "菲恩·伍法德"
+				},
+				{
+					"name": "伽塔·马塔拉佐"
+				},
+				{
+					"name": "凯莱布·麦克劳克林"
+				},
+				{
+					"name": "诺亚·施纳普"
+				},
+				{
+					"name": "娜塔莉·戴尔"
+				},
+				{
+					"name": "查理·希顿"
+				},
+				{
+					"name": "乔·基瑞"
+				},
+				{
+					"name": "萨迪·辛克"
+				},
+				{
+					"name": "戴克·蒙哥马利"
+				},
+				{
+					"name": "玛雅·霍克"
+				},
+				{
+					"name": "普莉雅·弗格森"
+				},
+				{
+					"name": "布伦特·吉尔曼"
+				},
+				{
+					"name": "卡拉·布欧诺"
+				},
+				{
+					"name": "乔·克里斯特"
+				},
+				{
+					"name": "杰克·布塞"
+				},
+				{
+					"name": "迈克尔·帕克"
+				},
+				{
+					"name": "加利·艾尔维斯"
+				},
+				{
+					"name": "安德烈·伊夫琴科"
+				},
+				{
+					"name": "亚历克·乌特戈夫"
+				},
+				{
+					"name": "加布里埃拉·皮佐罗"
+				},
+				{
+					"name": "弗兰切丝卡·雷阿莱"
+				},
+				{
+					"name": "佩姬·麦利"
+				},
+				{
+					"name": "西恩·奥斯汀"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2019 / 美国 / 剧情 科幻 悬疑 惊悚 恐怖 奇幻 / 马特·达菲 罗斯·达菲 肖恩·利维 乌塔·布里泽维茨 / 米莉·波比·布朗 薇诺娜·瑞德",
+			"color_scheme": {
+				"_base_color": [
+					0.975,
+					0.3921568627450981,
+					0.8
+				],
+				"_avg_color": [
+					0.9090909090909092,
+					0.29729729729729737,
+					0.2901960784313726
+				],
+				"primary_color_light": "72454c",
+				"primary_color_dark": "4c2e33",
+				"secondary_color": "f9f4f5",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/27119156.jpg",
+			"directors": [
+				{
+					"name": "马特·达菲"
+				},
+				{
+					"name": "罗斯·达菲"
+				},
+				{
+					"name": "肖恩·利维"
+				},
+				{
+					"name": "乌塔·布里泽维茨"
+				}
+			],
+			"genres": [
+				"剧情",
+				"科幻",
+				"悬疑"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 5,
+					"title": "奇幻类美剧榜",
+					"uri": "douban://douban.com/subject_collection/ECHU473PI?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "27119156",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2558683543.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2558683543.jpg"
+			},
+			"pubdate": [
+				"2019-07-04(美国)"
+			],
+			"rating": {
+				"count": 334361,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 8.7
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/27119156",
+			"subtype": "tv",
+			"title": "怪奇物语 第三季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/27119156",
+			"url": "https://movie.douban.com/subject/27119156/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2019"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:37:33",
+		"id": 4925175962,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/26844438 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/26844438/interest/4925175962",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "米莉·波比·布朗"
+				},
+				{
+					"name": "薇诺娜·瑞德"
+				},
+				{
+					"name": "大卫·哈伯"
+				},
+				{
+					"name": "菲恩·伍法德"
+				},
+				{
+					"name": "伽塔·马塔拉佐"
+				},
+				{
+					"name": "凯莱布·麦克劳克林"
+				},
+				{
+					"name": "诺亚·施纳普"
+				},
+				{
+					"name": "娜塔莉·戴尔"
+				},
+				{
+					"name": "查理·希顿"
+				},
+				{
+					"name": "乔·基瑞"
+				},
+				{
+					"name": "萨迪·辛克"
+				},
+				{
+					"name": "戴克·蒙哥马利"
+				},
+				{
+					"name": "西恩·奥斯汀"
+				},
+				{
+					"name": "布伦特·吉尔曼"
+				},
+				{
+					"name": "保罗·雷瑟"
+				},
+				{
+					"name": "卡拉·布欧诺"
+				},
+				{
+					"name": "乔·克里斯特"
+				},
+				{
+					"name": "罗布·摩根"
+				},
+				{
+					"name": "约翰·雷诺兹"
+				},
+				{
+					"name": "兰德尔·P·海文斯"
+				},
+				{
+					"name": "莉内娅·贝特尔森"
+				},
+				{
+					"name": "凯·格林"
+				},
+				{
+					"name": "詹姆斯·兰德里·赫伯特"
+				},
+				{
+					"name": "安娜·雅克贝-海伦"
+				},
+				{
+					"name": "加布里埃尔·梅登"
+				},
+				{
+					"name": "普路特·泰勒·文斯"
+				},
+				{
+					"name": "马修·莫迪恩"
+				},
+				{
+					"name": "艾米·穆林斯"
+				},
+				{
+					"name": "艾米·西米茨"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2017 / 美国 / 剧情 科幻 悬疑 惊悚 恐怖 奇幻 / 马特·达菲 罗斯·达菲 肖恩·利维 安德鲁·斯坦顿 丽贝卡·托马斯 / 米莉·波比·布朗 薇诺娜·瑞德",
+			"color_scheme": {
+				"_base_color": [
+					0.015873015873015872,
+					0.5701357466063348,
+					0.8666666666666667
+				],
+				"_avg_color": [
+					0.9680851063829787,
+					0.45192307692307687,
+					0.40784313725490196
+				],
+				"primary_color_light": "723731",
+				"primary_color_dark": "4c2520",
+				"secondary_color": "f9f5f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/26844438.jpg",
+			"directors": [
+				{
+					"name": "马特·达菲"
+				},
+				{
+					"name": "罗斯·达菲"
+				},
+				{
+					"name": "肖恩·利维"
+				},
+				{
+					"name": "安德鲁·斯坦顿"
+				},
+				{
+					"name": "丽贝卡·托马斯"
+				}
+			],
+			"genres": [
+				"剧情",
+				"科幻",
+				"悬疑"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 4,
+					"title": "奇幻类美剧榜",
+					"uri": "douban://douban.com/subject_collection/ECHU473PI?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "26844438",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2502853643.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2502853643.jpg"
+			},
+			"pubdate": [
+				"2017-10-27(美国)"
+			],
+			"rating": {
+				"count": 361682,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 8.9
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/26844438",
+			"subtype": "tv",
+			"title": "怪奇物语 第二季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/26844438",
+			"url": "https://movie.douban.com/subject/26844438/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2017"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:37:32",
+		"id": 4925175943,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/35774681 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/35774681/interest/4925175943",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "米莉·波比·布朗"
+				},
+				{
+					"name": "薇诺娜·瑞德"
+				},
+				{
+					"name": "大卫·哈伯"
+				},
+				{
+					"name": "菲恩·伍法德"
+				},
+				{
+					"name": "伽塔·马塔拉佐"
+				},
+				{
+					"name": "凯莱布·麦克劳克林"
+				},
+				{
+					"name": "诺亚·施纳普"
+				},
+				{
+					"name": "萨迪·辛克"
+				},
+				{
+					"name": "娜塔莉·戴尔"
+				},
+				{
+					"name": "查理·希顿"
+				},
+				{
+					"name": "乔·基瑞"
+				},
+				{
+					"name": "玛雅·霍克"
+				},
+				{
+					"name": "普莉雅·弗格森"
+				},
+				{
+					"name": "兰德尔·P·海文斯"
+				},
+				{
+					"name": "布伦特·吉尔曼"
+				},
+				{
+					"name": "莉内娅·贝特尔森"
+				},
+				{
+					"name": "杰米·坎贝尔·鲍尔"
+				},
+				{
+					"name": "琳达·汉密尔顿"
+				},
+				{
+					"name": "谢尔曼·奥古斯图斯"
+				},
+				{
+					"name": "亚历克斯·布鲁瑞克斯"
+				},
+				{
+					"name": "卡拉·布欧诺"
+				},
+				{
+					"name": "乔·克里斯特"
+				},
+				{
+					"name": "内尔·费希尔"
+				},
+				{
+					"name": "杰克·康奈利"
+				},
+				{
+					"name": "艾米贝丝·麦克纳尔蒂"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2025 / 美国 / 剧情 科幻 悬疑 惊悚 恐怖 奇幻 / 肖恩·利维 马特·达菲 罗斯·达菲 弗兰克·德拉邦特 / 米莉·波比·布朗 薇诺娜·瑞德",
+			"color_scheme": {
+				"_base_color": [
+					0.01626016260162601,
+					0.6180904522613065,
+					0.7803921568627451
+				],
+				"_avg_color": [
+					0.004504504504504514,
+					0.4805194805194805,
+					0.30196078431372547
+				],
+				"primary_color_light": "72322b",
+				"primary_color_dark": "4c211d",
+				"secondary_color": "f9f5f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/35774681.jpg",
+			"directors": [
+				{
+					"name": "肖恩·利维"
+				},
+				{
+					"name": "马特·达菲"
+				},
+				{
+					"name": "罗斯·达菲"
+				},
+				{
+					"name": "弗兰克·德拉邦特"
+				}
+			],
+			"genres": [
+				"剧情",
+				"科幻",
+				"悬疑"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 1,
+					"title": "豆瓣2025评分最高英美续订剧",
+					"uri": "douban://douban.com/subject_collection/ECWQ7ZJGY?type=rank&category=movie&rank_type=year"
+				}
+			],
+			"id": "35774681",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2927467335.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2927467335.jpg"
+			},
+			"pubdate": [
+				"2025-11-26(美国)"
+			],
+			"rating": {
+				"count": 215978,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/35774681",
+			"subtype": "tv",
+			"title": "怪奇物语 第五季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/35774681",
+			"url": "https://movie.douban.com/subject/35774681/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2025"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:37:12",
+		"id": 4925175725,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/26748847 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/26748847/interest/4925175725",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "鲍勃·奥登科克"
+				},
+				{
+					"name": "乔纳森·班克斯"
+				},
+				{
+					"name": "蕾亚·塞洪"
+				},
+				{
+					"name": "帕特里克·法比安"
+				},
+				{
+					"name": "迈克尔·麦基恩"
+				},
+				{
+					"name": "布兰登·巴恩斯"
+				},
+				{
+					"name": "吉安卡罗·埃斯波西托"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2017 / 美国 / 剧情 犯罪 / 文斯·吉利根 约翰·施班 托马斯·施纳泽 丹尼尔·沙克海姆 基斯·戈登 亚当·伯恩斯坦 明基·斯皮罗 皮特·古尔德 / 鲍勃·奥登科克 乔纳森·班克斯",
+			"color_scheme": {
+				"_base_color": [
+					0.7000000000000001,
+					0.23809523809523808,
+					0.16470588235294117
+				],
+				"_avg_color": [
+					0.777777777777778,
+					0.07894736842105254,
+					0.2980392156862745
+				],
+				"primary_color_light": "5c5772",
+				"primary_color_dark": "3d3a4c",
+				"secondary_color": "f5f4f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/26748847.jpg",
+			"directors": [
+				{
+					"name": "文斯·吉利根"
+				},
+				{
+					"name": "约翰·施班"
+				},
+				{
+					"name": "托马斯·施纳泽"
+				},
+				{
+					"name": "丹尼尔·沙克海姆"
+				},
+				{
+					"name": "基斯·戈登"
+				},
+				{
+					"name": "亚当·伯恩斯坦"
+				},
+				{
+					"name": "明基·斯皮罗"
+				},
+				{
+					"name": "皮特·古尔德"
+				}
+			],
+			"genres": [
+				"剧情",
+				"犯罪"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 1,
+					"title": "2017评分最高英美剧",
+					"uri": "douban://douban.com/subject_collection/2017_tv_743?type=rank&category=movie&rank_type=year"
+				}
+			],
+			"id": "26748847",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2442801582.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2442801582.jpg"
+			},
+			"pubdate": [
+				"2017-04-10(美国)"
+			],
+			"rating": {
+				"count": 123233,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.6
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/26748847",
+			"subtype": "tv",
+			"title": "风骚律师 第三季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/26748847",
+			"url": "https://movie.douban.com/subject/26748847/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "2017"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:37:10",
+		"id": 4925175698,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/25976733 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/25976733/interest/4925175698",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "鲍勃·奥登科克"
+				},
+				{
+					"name": "乔纳森·班克斯"
+				},
+				{
+					"name": "蕾亚·塞洪"
+				},
+				{
+					"name": "帕特里克·法比安"
+				},
+				{
+					"name": "迈克尔·曼多"
+				},
+				{
+					"name": "迈克尔·麦基恩"
+				},
+				{
+					"name": "小艾德·博格里"
+				},
+				{
+					"name": "Mark Proksch"
+				},
+				{
+					"name": "凯尔·博恩海默"
+				},
+				{
+					"name": "Stoney Westmoreland"
+				},
+				{
+					"name": "Jessie Ennis"
+				},
+				{
+					"name": "Omar Maskati"
+				},
+				{
+					"name": "Eileen Fogarty"
+				},
+				{
+					"name": "艾利克斯·迪塞尔"
+				},
+				{
+					"name": "Dave Racki"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2016 / 美国 / 剧情 犯罪 / 托马斯·施纳泽 泰瑞·麦克多诺 斯科特·怀南特 亚当·伯恩斯坦 约翰·施班 迈克尔·斯洛维斯 科林·巴克西 拉尔沙·康达基 皮特·古尔德 文斯·吉利根 / 鲍勃·奥登科克 乔纳森·班克斯",
+			"color_scheme": {
+				"_base_color": [
+					0.15000000000000005,
+					0.05235602094240834,
+					0.7490196078431373
+				],
+				"_avg_color": [
+					0.09523809523809525,
+					0.15217391304347824,
+					0.5411764705882353
+				],
+				"primary_color_light": "a5a49d",
+				"primary_color_dark": "7f7e78",
+				"secondary_color": "f9f9f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/25976733.jpg",
+			"directors": [
+				{
+					"name": "托马斯·施纳泽"
+				},
+				{
+					"name": "泰瑞·麦克多诺"
+				},
+				{
+					"name": "斯科特·怀南特"
+				},
+				{
+					"name": "亚当·伯恩斯坦"
+				},
+				{
+					"name": "约翰·施班"
+				},
+				{
+					"name": "迈克尔·斯洛维斯"
+				},
+				{
+					"name": "科林·巴克西"
+				},
+				{
+					"name": "拉尔沙·康达基"
+				},
+				{
+					"name": "皮特·古尔德"
+				},
+				{
+					"name": "文斯·吉利根"
+				}
+			],
+			"genres": [
+				"剧情",
+				"犯罪"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 3,
+					"title": "2016评分最高英美剧",
+					"uri": "douban://douban.com/subject_collection/2016_tv_474?type=rank&category=movie&rank_type=year"
+				}
+			],
+			"id": "25976733",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2560535645.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2560535645.jpg"
+			},
+			"pubdate": [
+				"2016-02-15(美国)"
+			],
+			"rating": {
+				"count": 130852,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/25976733",
+			"subtype": "tv",
+			"title": "风骚律师 第二季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/25976733",
+			"url": "https://movie.douban.com/subject/25976733/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "2016"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:37:02",
+		"id": 4925175614,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/34951007 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/34951007/interest/4925175614",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "鲍勃·奥登科克"
+				},
+				{
+					"name": "乔纳森·班克斯"
+				},
+				{
+					"name": "蕾亚·塞洪"
+				},
+				{
+					"name": "帕特里克·法比安"
+				},
+				{
+					"name": "迈克尔·曼多"
+				},
+				{
+					"name": "托尼·达尔顿"
+				},
+				{
+					"name": "吉安卡罗·埃斯波西托"
+				},
+				{
+					"name": "斯蒂文·鲍尔"
+				},
+				{
+					"name": "哈维尔·格拉杰达"
+				},
+				{
+					"name": "罗伯特·保罗·泰勒"
+				},
+				{
+					"name": "布莱恩·克兰斯顿"
+				},
+				{
+					"name": "亚伦·保尔"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2022 / 美国 / 剧情 犯罪 / 迈克尔·莫里斯 戈登·史密斯 吉安卡罗·埃斯波西托 蕾亚·塞洪 皮特·古尔德 托马斯·施纳泽 文斯·吉利根 / 鲍勃·奥登科克 乔纳森·班克斯",
+			"color_scheme": {
+				"_base_color": [
+					0.8333333333333334,
+					0.625,
+					0.09411764705882353
+				],
+				"_avg_color": [
+					0.9080459770114943,
+					0.6444444444444445,
+					0.17647058823529413
+				],
+				"primary_color_light": "722b72",
+				"primary_color_dark": "4c1c4c",
+				"secondary_color": "f9f4f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/34951007.jpg",
+			"directors": [
+				{
+					"name": "迈克尔·莫里斯"
+				},
+				{
+					"name": "戈登·史密斯"
+				},
+				{
+					"name": "吉安卡罗·埃斯波西托"
+				},
+				{
+					"name": "蕾亚·塞洪"
+				},
+				{
+					"name": "皮特·古尔德"
+				},
+				{
+					"name": "托马斯·施纳泽"
+				},
+				{
+					"name": "文斯·吉利根"
+				}
+			],
+			"genres": [
+				"剧情",
+				"犯罪"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 6,
+					"title": "犯罪类美剧榜",
+					"uri": "douban://douban.com/subject_collection/EC2Y5CTPA?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "34951007",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2869521768.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2869521768.jpg"
+			},
+			"pubdate": [
+				"2022-04-18(美国)"
+			],
+			"rating": {
+				"count": 124051,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.7
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/34951007",
+			"subtype": "tv",
+			"title": "风骚律师 第六季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/34951007",
+			"url": "https://movie.douban.com/subject/34951007/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "2022"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:36:52",
+		"id": 4925175515,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/4927382 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/4927382/interest/4925175515",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "布莱恩·克兰斯顿"
+				},
+				{
+					"name": "亚伦·保尔"
+				},
+				{
+					"name": "安娜·冈"
+				},
+				{
+					"name": "吉安卡罗·埃斯波西托"
+				},
+				{
+					"name": "鲍勃·奥登科克"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2011 / 美国 / 剧情 犯罪 / 亚当·伯恩斯坦 米歇尔·麦克拉伦 大卫·斯雷德 科林·巴克西 迈克尔·斯洛维斯 皮特·古尔德 约翰·伦克 泰瑞·麦克多诺 斯科特·怀南特 文斯·吉利根 / 布莱恩·克兰斯顿 亚伦·保尔",
+			"color_scheme": {
+				"_base_color": [
+					0.11515151515151516,
+					0.7366071428571428,
+					0.8784313725490196
+				],
+				"_avg_color": [
+					0.10714285714285715,
+					0.6942148760330578,
+					0.4745098039215686
+				],
+				"primary_color_light": "72581e",
+				"primary_color_dark": "4c3b14",
+				"secondary_color": "f9f8f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/4927382.jpg",
+			"directors": [
+				{
+					"name": "亚当·伯恩斯坦"
+				},
+				{
+					"name": "米歇尔·麦克拉伦"
+				},
+				{
+					"name": "大卫·斯雷德"
+				},
+				{
+					"name": "科林·巴克西"
+				},
+				{
+					"name": "迈克尔·斯洛维斯"
+				},
+				{
+					"name": "皮特·古尔德"
+				},
+				{
+					"name": "约翰·伦克"
+				},
+				{
+					"name": "泰瑞·麦克多诺"
+				},
+				{
+					"name": "斯科特·怀南特"
+				},
+				{
+					"name": "文斯·吉利根"
+				}
+			],
+			"genres": [
+				"剧情",
+				"犯罪"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 12,
+					"title": "第12届美国电影学会奖获奖名单",
+					"uri": "douban://douban.com/subject_collection/EC2UJ76XI?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "4927382",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2016506391.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2016506391.jpg"
+			},
+			"pubdate": [
+				"2011-07-17(美国)"
+			],
+			"rating": {
+				"count": 210132,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/4927382",
+			"subtype": "tv",
+			"title": "绝命毒师  第四季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/4927382",
+			"url": "https://movie.douban.com/subject/4927382/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2011"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:36:50",
+		"id": 4925175478,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/3586996 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/3586996/interest/4925175478",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "布莱恩·克兰斯顿"
+				},
+				{
+					"name": "亚伦·保尔"
+				},
+				{
+					"name": "安娜·冈"
+				},
+				{
+					"name": "克里斯滕·里特"
+				},
+				{
+					"name": "迪恩·诺里斯"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2009 / 美国 / 剧情 犯罪 / 亚当·伯恩斯坦 米歇尔·麦克拉伦 布莱恩·克兰斯顿 查尔斯·海德 泰瑞·麦克多诺 约翰·达尔 约翰·伦克 彼得·梅达克 费利克斯·恩里克斯·阿尔科拉 菲尔·亚伯拉罕 科林·巴克西 / 布莱恩·克兰斯顿 亚伦·保尔",
+			"color_scheme": {
+				"_base_color": [
+					0.5185185185185185,
+					0.6728971962616822,
+					0.4196078431372549
+				],
+				"_avg_color": [
+					0.4595959595959596,
+					0.2894736842105264,
+					0.4470588235294118
+				],
+				"primary_color_light": "256a72",
+				"primary_color_dark": "19464c",
+				"secondary_color": "f4f9f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/3586996.jpg",
+			"directors": [
+				{
+					"name": "亚当·伯恩斯坦"
+				},
+				{
+					"name": "米歇尔·麦克拉伦"
+				},
+				{
+					"name": "布莱恩·克兰斯顿"
+				},
+				{
+					"name": "查尔斯·海德"
+				},
+				{
+					"name": "泰瑞·麦克多诺"
+				},
+				{
+					"name": "约翰·达尔"
+				},
+				{
+					"name": "约翰·伦克"
+				},
+				{
+					"name": "彼得·梅达克"
+				},
+				{
+					"name": "费利克斯·恩里克斯·阿尔科拉"
+				},
+				{
+					"name": "菲尔·亚伯拉罕"
+				},
+				{
+					"name": "科林·巴克西"
+				}
+			],
+			"genres": [
+				"剧情",
+				"犯罪"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "3586996",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2872295944.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2872295944.jpg"
+			},
+			"pubdate": [
+				"2009-03-08(美国)"
+			],
+			"rating": {
+				"count": 247639,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.3
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/3586996",
+			"subtype": "tv",
+			"title": "绝命毒师  第二季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/3586996",
+			"url": "https://movie.douban.com/subject/3586996/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2009"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:36:47",
+		"id": 4925175450,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/6952149 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/6952149/interest/4925175450",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "布莱恩·克兰斯顿"
+				},
+				{
+					"name": "亚伦·保尔"
+				},
+				{
+					"name": "安娜·冈"
+				},
+				{
+					"name": "迪恩·诺里斯"
+				},
+				{
+					"name": "贝琪·勃兰特"
+				},
+				{
+					"name": "RJ·米特"
+				},
+				{
+					"name": "鲍勃·奥登科克"
+				},
+				{
+					"name": "乔纳森·班克斯"
+				},
+				{
+					"name": "克里斯托弗·科辛斯"
+				},
+				{
+					"name": "劳拉·弗雷泽"
+				},
+				{
+					"name": "杰西·普莱蒙"
+				},
+				{
+					"name": "艾米莉·里奥斯"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2012 / 美国 / 剧情 犯罪 / 迈克尔·斯洛维斯 米歇尔·麦克拉伦 亚当·伯恩斯坦 莱恩·约翰逊 乔治·马斯塔斯 科林·巴克西 托马斯·施纳泽 布莱恩·克兰斯顿 山姆·卡特林 皮特·古尔德 文斯·吉利根 / 布莱恩·克兰斯顿 亚伦·保尔",
+			"color_scheme": {
+				"_base_color": [
+					0.22549019607843138,
+					0.4722222222222222,
+					0.1411764705882353
+				],
+				"_avg_color": [
+					0.19753086419753085,
+					0.4029850746268657,
+					0.2627450980392157
+				],
+				"primary_color_light": "5f723c",
+				"primary_color_dark": "3f4c28",
+				"secondary_color": "f8f9f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/6952149.jpg",
+			"directors": [
+				{
+					"name": "迈克尔·斯洛维斯"
+				},
+				{
+					"name": "米歇尔·麦克拉伦"
+				},
+				{
+					"name": "亚当·伯恩斯坦"
+				},
+				{
+					"name": "莱恩·约翰逊"
+				},
+				{
+					"name": "乔治·马斯塔斯"
+				},
+				{
+					"name": "科林·巴克西"
+				},
+				{
+					"name": "托马斯·施纳泽"
+				},
+				{
+					"name": "布莱恩·克兰斯顿"
+				},
+				{
+					"name": "山姆·卡特林"
+				},
+				{
+					"name": "皮特·古尔德"
+				},
+				{
+					"name": "文斯·吉利根"
+				}
+			],
+			"genres": [
+				"剧情",
+				"犯罪"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 2,
+					"title": "犯罪类美剧榜",
+					"uri": "douban://douban.com/subject_collection/EC2Y5CTPA?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "6952149",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p1579021082.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1579021082.jpg"
+			},
+			"pubdate": [
+				"2012-07-15(美国)"
+			],
+			"rating": {
+				"count": 260015,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.7
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/6952149",
+			"subtype": "tv",
+			"title": "绝命毒师  第五季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/6952149",
+			"url": "https://movie.douban.com/subject/6952149/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2012"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:36:38",
+		"id": 4925175367,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/36890115 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/36890115/interest/4925175367",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "赵露思"
+				},
+				{
+					"name": "陈伟霆"
+				},
+				{
+					"name": "万鹏"
+				},
+				{
+					"name": "唐晓天"
+				},
+				{
+					"name": "管梓净"
+				},
+				{
+					"name": "钟雅婷"
+				},
+				{
+					"name": "王伊瑶"
+				},
+				{
+					"name": "许亚军"
+				},
+				{
+					"name": "温峥嵘"
+				},
+				{
+					"name": "范世錡"
+				},
+				{
+					"name": "冯晖"
+				},
+				{
+					"name": "刘敏"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2025 / 中国大陆 / 剧情 爱情 / 陈畅 / 赵露思 陈伟霆",
+			"color_scheme": {
+				"_base_color": [
+					0.7916666666666666,
+					0.16666666666666666,
+					0.18823529411764706
+				],
+				"_avg_color": [
+					0.9166666666666667,
+					0.13953488372093023,
+					0.33725490196078434
+				],
+				"primary_color_light": "6d5f72",
+				"primary_color_dark": "493f4c",
+				"secondary_color": "f8f4f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/36890115.jpg",
+			"directors": [
+				{
+					"name": "陈畅"
+				}
+			],
+			"genres": [
+				"剧情",
+				"爱情"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "36890115",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2914332534.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2914332534.jpg"
+			},
+			"pubdate": [
+				"2025-09-26(中国大陆)"
+			],
+			"rating": {
+				"count": 227453,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 6.5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/36890115",
+			"subtype": "tv",
+			"title": "许我耀眼",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/36890115",
+			"url": "https://movie.douban.com/subject/36890115/",
+			"vendor_desc": "独播",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png"
+			],
+			"year": "2025"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:36:21",
+		"id": 4925175213,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/35244032 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/35244032/interest/4925175213",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "汤姆·希德勒斯顿"
+				},
+				{
+					"name": "索菲娅·迪·马蒂诺"
+				},
+				{
+					"name": "古古·姆巴塔-劳"
+				},
+				{
+					"name": "欧文·威尔逊"
+				},
+				{
+					"name": "乌米·马萨库"
+				},
+				{
+					"name": "尤金·科戴洛"
+				},
+				{
+					"name": "关继威"
+				},
+				{
+					"name": "乔纳森·梅杰斯"
+				},
+				{
+					"name": "塔拉·斯特朗"
+				},
+				{
+					"name": "理查德·迪克森"
+				},
+				{
+					"name": "拉斐尔·卡索"
+				},
+				{
+					"name": "凯特·迪基"
+				},
+				{
+					"name": "利兹·凯尔"
+				},
+				{
+					"name": "尼尔·艾利斯"
+				},
+				{
+					"name": "杰克·坎宁安-纳托尔"
+				},
+				{
+					"name": "尼克·欧文福特"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2023 / 美国 / 科幻 奇幻 / 贾斯汀·本森 艾伦·穆尔黑德 丹·德里伍 凯西拉·法拉尼 / 汤姆·希德勒斯顿 索菲娅·迪·马蒂诺",
+			"color_scheme": {
+				"_base_color": [
+					0.041666666666666664,
+					0.2962962962962963,
+					0.10588235294117647
+				],
+				"_avg_color": [
+					0.055555555555555525,
+					0.2884615384615384,
+					0.20392156862745098
+				],
+				"primary_color_light": "725950",
+				"primary_color_dark": "4c3b35",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/35244032.jpg",
+			"directors": [
+				{
+					"name": "贾斯汀·本森"
+				},
+				{
+					"name": "艾伦·穆尔黑德"
+				},
+				{
+					"name": "丹·德里伍"
+				},
+				{
+					"name": "凯西拉·法拉尼"
+				}
+			],
+			"genres": [
+				"科幻",
+				"奇幻"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 16,
+					"title": "科幻类美剧榜",
+					"uri": "douban://douban.com/subject_collection/ECL45GQ4I?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "35244032",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2896254228.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2896254228.jpg"
+			},
+			"pubdate": [
+				"2023-10-05(美国)"
+			],
+			"rating": {
+				"count": 72395,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/35244032",
+			"subtype": "tv",
+			"title": "洛基 第二季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/35244032",
+			"url": "https://movie.douban.com/subject/35244032/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2023"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:36:18",
+		"id": 4925175186,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/30331432 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/30331432/interest/4925175186",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "汤姆·希德勒斯顿"
+				},
+				{
+					"name": "索菲娅·迪·马蒂诺"
+				},
+				{
+					"name": "欧文·威尔逊"
+				},
+				{
+					"name": "乌米·马萨库"
+				},
+				{
+					"name": "古古·姆巴塔-劳"
+				},
+				{
+					"name": "尤金·科戴洛"
+				},
+				{
+					"name": "汉娜·阿斯莱森"
+				},
+				{
+					"name": "劳伦·雷瓦尔德"
+				},
+				{
+					"name": "塔拉·斯特朗"
+				},
+				{
+					"name": "尼尔·艾利斯"
+				},
+				{
+					"name": "萨拉菲娜·金"
+				},
+				{
+					"name": "伊兰·史鲁洛维茨"
+				},
+				{
+					"name": "萨莎·莱恩"
+				},
+				{
+					"name": "菲利普·福纳"
+				},
+				{
+					"name": "米歇尔·罗斯"
+				},
+				{
+					"name": "理查德·E·格兰特"
+				},
+				{
+					"name": "杰克·维尔"
+				},
+				{
+					"name": "迪奥比亚·欧帕瑞"
+				},
+				{
+					"name": "艾伦·比尔纳"
+				},
+				{
+					"name": "乔纳森·梅杰斯"
+				},
+				{
+					"name": "苏珊·加拉赫"
+				},
+				{
+					"name": "德里克·罗素"
+				},
+				{
+					"name": "本·范德梅"
+				},
+				{
+					"name": "乔恩·科林·巴克利"
+				},
+				{
+					"name": "埃里卡·科尔曼"
+				},
+				{
+					"name": "朱万达斯·坎迪斯"
+				},
+				{
+					"name": "凯特·贝兰特"
+				},
+				{
+					"name": "乔希·法德姆"
+				},
+				{
+					"name": "马莱丽·格雷迪"
+				},
+				{
+					"name": "凯莱·弗莱明"
+				},
+				{
+					"name": "拉菲尔·卢斯"
+				},
+				{
+					"name": "迈克尔·罗斯"
+				},
+				{
+					"name": "杰西·加文"
+				},
+				{
+					"name": "丹尼尔·纽曼"
+				},
+				{
+					"name": "卢修斯·巴斯顿"
+				},
+				{
+					"name": "奥斯汀·弗里曼"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2021 / 美国 / 动作 科幻 奇幻 冒险 / 凯特·赫伦 / 汤姆·希德勒斯顿 索菲娅·迪·马蒂诺",
+			"color_scheme": {
+				"_base_color": [
+					0.08888888888888889,
+					0.5223880597014925,
+					0.788235294117647
+				],
+				"_avg_color": [
+					0.0763888888888889,
+					0.631578947368421,
+					0.2980392156862745
+				],
+				"primary_color_light": "725636",
+				"primary_color_dark": "4c3924",
+				"secondary_color": "f9f7f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/30331432.jpg",
+			"directors": [
+				{
+					"name": "凯特·赫伦"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻",
+				"奇幻"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 13,
+					"title": "科幻类美剧榜",
+					"uri": "douban://douban.com/subject_collection/ECL45GQ4I?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "30331432",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2646859929.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2646859929.jpg"
+			},
+			"pubdate": [
+				"2021-06-09(美国)"
+			],
+			"rating": {
+				"count": 160889,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 8.5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/30331432",
+			"subtype": "tv",
+			"title": "洛基 第一季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/30331432",
+			"url": "https://movie.douban.com/subject/30331432/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2021"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:36:05",
+		"id": 4925175052,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/36590911 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/36590911/interest/4925175052",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "洁丝·辛克莱"
+				},
+				{
+					"name": "丽兹·布罗德威"
+				},
+				{
+					"name": "德雷克·卢"
+				},
+				{
+					"name": "伦敦·托尔"
+				},
+				{
+					"name": "麦迪·菲利普斯"
+				},
+				{
+					"name": "阿萨·格尔曼"
+				},
+				{
+					"name": "西恩·帕特里克·汤玛斯"
+				},
+				{
+					"name": "哈米什·林克莱特"
+				},
+				{
+					"name": "伊桑·斯莱特"
+				},
+				{
+					"name": "艾琳·莫里亚蒂"
+				},
+				{
+					"name": "蔡斯·克劳福德"
+				},
+				{
+					"name": "瓦莱瑞·卡瑞"
+				},
+				{
+					"name": "苏珊·海沃德"
+				},
+				{
+					"name": "内森·米切尔"
+				},
+				{
+					"name": "杰西·厄舍"
+				},
+				{
+					"name": "吉安卡罗·埃斯波西托"
+				},
+				{
+					"name": "扎克·麦克格温"
+				},
+				{
+					"name": "泰特·弗莱彻"
+				},
+				{
+					"name": "斯蒂芬·卡林"
+				},
+				{
+					"name": "杰西卡·克莱门特"
+				},
+				{
+					"name": "乔吉·墨菲"
+				},
+				{
+					"name": "怀亚特·多里昂"
+				},
+				{
+					"name": "基雅·金"
+				},
+				{
+					"name": "奥利维亚·莫兰丁"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2025 / 美国 / 剧情 动作 科幻 / 史蒂夫·博伊姆 / 洁丝·辛克莱 丽兹·布罗德威",
+			"color_scheme": {
+				"_base_color": [
+					0.9698795180722891,
+					0.8058252427184466,
+					0.403921568627451
+				],
+				"_avg_color": [
+					0.9715909090909091,
+					0.7154471544715447,
+					0.4823529411764706
+				],
+				"primary_color_light": "721626",
+				"primary_color_dark": "4c0e19",
+				"secondary_color": "f9f4f5",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/36590911.jpg",
+			"directors": [
+				{
+					"name": "史蒂夫·博伊姆"
+				}
+			],
+			"genres": [
+				"剧情",
+				"动作",
+				"科幻"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "36590911",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2923611991.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2923611991.jpg"
+			},
+			"pubdate": [
+				"2025-09-17(美国)"
+			],
+			"rating": {
+				"count": 18746,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 6.5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/36590911",
+			"subtype": "tv",
+			"title": "V世代 第二季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/36590911",
+			"url": "https://movie.douban.com/subject/36590911/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2025"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:36:03",
+		"id": 4925175030,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/35211473 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/35211473/interest/4925175030",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "洁丝·辛克莱"
+				},
+				{
+					"name": "钱斯·佩尔多莫"
+				},
+				{
+					"name": "麦迪·菲利普斯"
+				},
+				{
+					"name": "德雷克·卢"
+				},
+				{
+					"name": "伦敦·托尔"
+				},
+				{
+					"name": "丽兹·布罗德威"
+				},
+				{
+					"name": "阿萨·格尔曼"
+				},
+				{
+					"name": "帕特里克·施瓦辛格"
+				},
+				{
+					"name": "谢莉·康恩"
+				},
+				{
+					"name": "马可·皮科西"
+				},
+				{
+					"name": "亚历山大·卡尔弗特"
+				},
+				{
+					"name": "玛雅·巴斯蒂达斯"
+				},
+				{
+					"name": "蔻碧·米纳菲"
+				},
+				{
+					"name": "P·J·伯恩"
+				},
+				{
+					"name": "西恩·帕特里克·汤玛斯"
+				},
+				{
+					"name": "德里克·威尔逊"
+				},
+				{
+					"name": "克兰西·布朗"
+				},
+				{
+					"name": "克劳迪娅·杜米特"
+				},
+				{
+					"name": "莱拉·罗宾斯"
+				},
+				{
+					"name": "詹森·阿克斯"
+				},
+				{
+					"name": "安东尼·斯塔尔"
+				},
+				{
+					"name": "卡尔·厄本"
+				},
+				{
+					"name": "安迪·沃肯"
+				},
+				{
+					"name": "丹·贝尔尼"
+				},
+				{
+					"name": "罗伯特·巴佐齐"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2023 / 美国 / 剧情 喜剧 动作 科幻 冒险 / 尼尔森·克拉格 史蒂夫·博伊姆 蕾切尔·高德伯格 萨娜·哈姆里 克莱尔·基尔纳 菲利浦·斯格里西亚 莎娜·斯坦 / 洁丝·辛克莱 钱斯·佩尔多莫",
+			"color_scheme": {
+				"_base_color": [
+					0.25,
+					0.06666666666666667,
+					0.23529411764705882
+				],
+				"_avg_color": [
+					0.1875,
+					0.2222222222222222,
+					0.4235294117647059
+				],
+				"primary_color_light": "6e726b",
+				"primary_color_dark": "494c47",
+				"secondary_color": "f7f9f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/35211473.jpg",
+			"directors": [
+				{
+					"name": "尼尔森·克拉格"
+				},
+				{
+					"name": "史蒂夫·博伊姆"
+				},
+				{
+					"name": "蕾切尔·高德伯格"
+				},
+				{
+					"name": "萨娜·哈姆里"
+				},
+				{
+					"name": "克莱尔·基尔纳"
+				},
+				{
+					"name": "菲利浦·斯格里西亚"
+				},
+				{
+					"name": "莎娜·斯坦"
+				}
+			],
+			"genres": [
+				"剧情",
+				"喜剧",
+				"动作"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 8,
+					"title": "豆瓣2023评分最高英美新剧",
+					"uri": "douban://douban.com/subject_collection/ECUI6CVAI?type=rank&category=movie&rank_type=year"
+				}
+			],
+			"id": "35211473",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2898632379.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2898632379.jpg"
+			},
+			"pubdate": [
+				"2023-09-29(美国)"
+			],
+			"rating": {
+				"count": 58616,
+				"max": 10,
+				"star_count": 4,
+				"value": 8.1
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/35211473",
+			"subtype": "tv",
+			"title": "V世代 第一季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/35211473",
+			"url": "https://movie.douban.com/subject/35211473/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2023"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:36:00",
+		"id": 4925175001,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/34626347 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/34626347/interest/4925175001",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "卡尔·厄本"
+				},
+				{
+					"name": "杰克·奎德"
+				},
+				{
+					"name": "安东尼·斯塔尔"
+				},
+				{
+					"name": "艾琳·莫里亚蒂"
+				},
+				{
+					"name": "多米妮克·麦克艾丽戈特"
+				},
+				{
+					"name": "杰西·厄舍"
+				},
+				{
+					"name": "拉兹·阿隆索"
+				},
+				{
+					"name": "蔡斯·克劳福德"
+				},
+				{
+					"name": "托默·卡蓬"
+				},
+				{
+					"name": "凯伦·福原"
+				},
+				{
+					"name": "内森·米切尔"
+				},
+				{
+					"name": "蔻碧·米纳菲"
+				},
+				{
+					"name": "珊特尔·范圣滕"
+				},
+				{
+					"name": "妮卡·埃利奥特"
+				},
+				{
+					"name": "阿雅·卡什"
+				},
+				{
+					"name": "莱拉·罗宾斯"
+				},
+				{
+					"name": "乔丹娜·拉茹瓦"
+				},
+				{
+					"name": "吉姆·比弗"
+				},
+				{
+					"name": "周豪"
+				},
+				{
+					"name": "卡梅隆·克罗维蒂"
+				},
+				{
+					"name": "克劳迪娅·杜米特"
+				},
+				{
+					"name": "贾森·加里-斯坦福德"
+				},
+				{
+					"name": "肖恩·阿什莫"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2020 / 美国 / 剧情 喜剧 动作 科幻 犯罪 / 菲利浦·斯格里西亚 巴坦·席尔瓦 / 卡尔·厄本 杰克·奎德",
+			"color_scheme": {
+				"_base_color": [
+					0,
+					0.9324324324324325,
+					0.5803921568627451
+				],
+				"_avg_color": [
+					0,
+					0.39864864864864874,
+					0.5803921568627451
+				],
+				"primary_color_light": "a50b0b",
+				"primary_color_dark": "7f0808",
+				"secondary_color": "f9f4f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/34626347.jpg",
+			"directors": [
+				{
+					"name": "菲利浦·斯格里西亚"
+				},
+				{
+					"name": "巴坦·席尔瓦"
+				}
+			],
+			"genres": [
+				"剧情",
+				"喜剧",
+				"动作"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 19,
+					"title": "犯罪类美剧榜",
+					"uri": "douban://douban.com/subject_collection/EC2Y5CTPA?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "34626347",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2611337609.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2611337609.jpg"
+			},
+			"pubdate": [
+				"2020-09-04(美国)"
+			],
+			"rating": {
+				"count": 132937,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 8.6
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/34626347",
+			"subtype": "tv",
+			"title": "黑袍纠察队 第二季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/34626347",
+			"url": "https://movie.douban.com/subject/34626347/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2020"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:35:56",
+		"id": 4925174955,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/35926862 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/35926862/interest/4925174955",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "卡尔·厄本"
+				},
+				{
+					"name": "杰克·奎德"
+				},
+				{
+					"name": "安东尼·斯塔尔"
+				},
+				{
+					"name": "艾琳·莫里亚蒂"
+				},
+				{
+					"name": "拉兹·阿隆索"
+				},
+				{
+					"name": "托默·卡蓬"
+				},
+				{
+					"name": "凯伦·福原"
+				},
+				{
+					"name": "杰弗里·迪恩·摩根"
+				},
+				{
+					"name": "克劳迪娅·杜米特"
+				},
+				{
+					"name": "杰西·厄舍"
+				},
+				{
+					"name": "蔡斯·克劳福德"
+				},
+				{
+					"name": "内森·米切尔"
+				},
+				{
+					"name": "苏珊·海沃德"
+				},
+				{
+					"name": "瓦莱瑞·卡瑞"
+				},
+				{
+					"name": "卡梅隆·克罗维蒂"
+				},
+				{
+					"name": "蔻碧·米纳菲"
+				},
+				{
+					"name": "马修·爱迪生"
+				},
+				{
+					"name": "艾略特·奈特"
+				},
+				{
+					"name": "西蒙·佩吉"
+				},
+				{
+					"name": "德里克·威尔逊"
+				},
+				{
+					"name": "吉安卡罗·埃斯波西托"
+				},
+				{
+					"name": "奥米德·阿布塔西"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2024 / 美国 / 剧情 喜剧 动作 科幻 犯罪 / 菲利浦·斯格里西亚 卡伦·卡薇欧拉 / 卡尔·厄本 杰克·奎德",
+			"color_scheme": {
+				"_base_color": [
+					0.5476190476190476,
+					0.3684210526315789,
+					0.2980392156862745
+				],
+				"_avg_color": [
+					0.5530303030303029,
+					0.17599999999999996,
+					0.49019607843137253
+				],
+				"primary_color_light": "486672",
+				"primary_color_dark": "30444c",
+				"secondary_color": "f4f8f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/35926862.jpg",
+			"directors": [
+				{
+					"name": "菲利浦·斯格里西亚"
+				},
+				{
+					"name": "卡伦·卡薇欧拉"
+				}
+			],
+			"genres": [
+				"剧情",
+				"喜剧",
+				"动作"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "35926862",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2907681437.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2907681437.jpg"
+			},
+			"pubdate": [
+				"2024-06-13(美国)"
+			],
+			"rating": {
+				"count": 64387,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 7.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/35926862",
+			"subtype": "tv",
+			"title": "黑袍纠察队 第四季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/35926862",
+			"url": "https://movie.douban.com/subject/35926862/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2024"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:35:51",
+		"id": 4925174909,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/35154050 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/35154050/interest/4925174909",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "卡尔·厄本"
+				},
+				{
+					"name": "杰克·奎德"
+				},
+				{
+					"name": "安东尼·斯塔尔"
+				},
+				{
+					"name": "艾琳·莫里亚蒂"
+				},
+				{
+					"name": "詹森·阿克斯"
+				},
+				{
+					"name": "多米妮克·麦克艾丽戈特"
+				},
+				{
+					"name": "杰西·厄舍"
+				},
+				{
+					"name": "拉兹·阿隆索"
+				},
+				{
+					"name": "蔡斯·克劳福德"
+				},
+				{
+					"name": "托默·卡蓬"
+				},
+				{
+					"name": "凯伦·福原"
+				},
+				{
+					"name": "内森·米切尔"
+				},
+				{
+					"name": "蔻碧·米纳菲"
+				},
+				{
+					"name": "克劳迪娅·杜米特"
+				},
+				{
+					"name": "西蒙·佩吉"
+				},
+				{
+					"name": "阿雅·卡什"
+				},
+				{
+					"name": "吉安卡罗·埃斯波西托"
+				},
+				{
+					"name": "P·J·伯恩"
+				},
+				{
+					"name": "卡梅隆·克罗维蒂"
+				},
+				{
+					"name": "迈尔斯·加斯顿·维拉努瓦"
+				},
+				{
+					"name": "马修·爱迪生"
+				},
+				{
+					"name": "弗朗西丝·特纳"
+				},
+				{
+					"name": "凯蒂·布赖尔"
+				},
+				{
+					"name": "莱拉·罗宾斯"
+				},
+				{
+					"name": "吉姆·比弗"
+				},
+				{
+					"name": "凯尔·麦克"
+				},
+				{
+					"name": "卢卡·奥利尔"
+				},
+				{
+					"name": "妮卡·埃利奥特"
+				},
+				{
+					"name": "查理兹·塞隆"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2022 / 美国 / 剧情 喜剧 动作 科幻 犯罪 / 菲利浦·斯格里西亚 / 卡尔·厄本 杰克·奎德",
+			"color_scheme": {
+				"_base_color": [
+					0.04999999999999999,
+					0.6060606060606061,
+					0.12941176470588237
+				],
+				"_avg_color": [
+					0.10273972602739727,
+					0.7227722772277227,
+					0.396078431372549
+				],
+				"primary_color_light": "72422d",
+				"primary_color_dark": "4c2c1e",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/35154050.jpg",
+			"directors": [
+				{
+					"name": "菲利浦·斯格里西亚"
+				}
+			],
+			"genres": [
+				"剧情",
+				"喜剧",
+				"动作"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 20,
+					"title": "犯罪类美剧榜",
+					"uri": "douban://douban.com/subject_collection/EC2Y5CTPA?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "35154050",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2873152309.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2873152309.jpg"
+			},
+			"pubdate": [
+				"2022-06-03(美国)"
+			],
+			"rating": {
+				"count": 116991,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 8.6
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/35154050",
+			"subtype": "tv",
+			"title": "黑袍纠察队 第三季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/35154050",
+			"url": "https://movie.douban.com/subject/35154050/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2022"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:35:48",
+		"id": 4925174879,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/3703650 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/3703650/interest/4925174879",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "卡尔·厄本"
+				},
+				{
+					"name": "艾琳·莫里亚蒂"
+				},
+				{
+					"name": "杰克·奎德"
+				},
+				{
+					"name": "安东尼·斯塔尔"
+				},
+				{
+					"name": "多米妮克·麦克艾丽戈特"
+				},
+				{
+					"name": "杰西·厄舍"
+				},
+				{
+					"name": "蔡斯·克劳福德"
+				},
+				{
+					"name": "托默·卡蓬"
+				},
+				{
+					"name": "凯伦·福原"
+				},
+				{
+					"name": "内森·米切尔"
+				},
+				{
+					"name": "伊丽莎白·苏"
+				},
+				{
+					"name": "拉兹·阿隆索"
+				},
+				{
+					"name": "詹妮弗·艾斯波西多"
+				},
+				{
+					"name": "西蒙·佩吉"
+				},
+				{
+					"name": "肖恩·本森"
+				},
+				{
+					"name": "安·库萨克"
+				},
+				{
+					"name": "克里斯蒂安·凯耶斯"
+				},
+				{
+					"name": "洁斯·萨尔圭罗"
+				},
+				{
+					"name": "妮卡·埃利奥特"
+				},
+				{
+					"name": "阿历克斯·哈赛尔"
+				},
+				{
+					"name": "米什卡·特博"
+				},
+				{
+					"name": "乔丹娜·拉茹瓦"
+				},
+				{
+					"name": "马尔科姆·巴雷特"
+				},
+				{
+					"name": "布列塔尼·艾伦"
+				},
+				{
+					"name": "吉安卡罗·埃斯波西托"
+				},
+				{
+					"name": "尼古拉·科雷亚·达姆得"
+				},
+				{
+					"name": "斯科特·汤普森·贝克"
+				},
+				{
+					"name": "珊特尔·范圣滕"
+				},
+				{
+					"name": "大卫·安德鲁斯"
+				},
+				{
+					"name": "大卫·瑞勒"
+				},
+				{
+					"name": "布雷丹·贝塞尔"
+				},
+				{
+					"name": "约翰·道曼"
+				},
+				{
+					"name": "海利·乔·奥斯蒙"
+				},
+				{
+					"name": "莱拉·罗宾斯"
+				},
+				{
+					"name": "比利·赞恩"
+				},
+				{
+					"name": "贾登·马丁"
+				},
+				{
+					"name": "保利诺·努内斯"
+				},
+				{
+					"name": "克里斯塔·巴科"
+				},
+				{
+					"name": "德什伊·帕达亚奇"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2019 / 美国 / 剧情 喜剧 动作 科幻 犯罪 / 菲利浦·斯格里西亚 丹尼尔·艾提奥斯 埃里克·克里普克 珍妮弗·庞 斯特凡·施瓦茨 马特·沙克曼 弗雷德里克·E·O·托耶 丹·特拉亨伯格 / 卡尔·厄本 艾琳·莫里亚蒂",
+			"color_scheme": {
+				"_base_color": [
+					0.008838383838383812,
+					0.6666666666666665,
+					0.7764705882352941
+				],
+				"_avg_color": [
+					0.9958333333333333,
+					0.5555555555555556,
+					0.2823529411764706
+				],
+				"primary_color_light": "722a26",
+				"primary_color_dark": "4c1c19",
+				"secondary_color": "f9f5f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/3703650.jpg",
+			"directors": [
+				{
+					"name": "菲利浦·斯格里西亚"
+				},
+				{
+					"name": "丹尼尔·艾提奥斯"
+				},
+				{
+					"name": "埃里克·克里普克"
+				},
+				{
+					"name": "珍妮弗·庞"
+				},
+				{
+					"name": "斯特凡·施瓦茨"
+				},
+				{
+					"name": "马特·沙克曼"
+				},
+				{
+					"name": "弗雷德里克·E·O·托耶"
+				},
+				{
+					"name": "丹·特拉亨伯格"
+				}
+			],
+			"genres": [
+				"剧情",
+				"喜剧",
+				"动作"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 14,
+					"title": "犯罪类美剧榜",
+					"uri": "douban://douban.com/subject_collection/EC2Y5CTPA?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "3703650",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2558948000.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2558948000.jpg"
+			},
+			"pubdate": [
+				"2019-07-26(美国)"
+			],
+			"rating": {
+				"count": 200443,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 8.6
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/3703650",
+			"subtype": "tv",
+			"title": "黑袍纠察队 第一季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/3703650",
+			"url": "https://movie.douban.com/subject/3703650/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "2019"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:35:46",
+		"id": 4925174856,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/36343491 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/36343491/interest/4925174856",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "卡尔·厄本"
+				},
+				{
+					"name": "杰克·奎德"
+				},
+				{
+					"name": "安东尼·斯塔尔"
+				},
+				{
+					"name": "艾琳·莫里亚蒂"
+				},
+				{
+					"name": "拉兹·阿隆索"
+				},
+				{
+					"name": "托默·卡蓬"
+				},
+				{
+					"name": "凯伦·福原"
+				},
+				{
+					"name": "詹森·阿克斯"
+				},
+				{
+					"name": "苏珊·海沃德"
+				},
+				{
+					"name": "瓦莱瑞·卡瑞"
+				},
+				{
+					"name": "蔡斯·克劳福德"
+				},
+				{
+					"name": "内森·米切尔"
+				},
+				{
+					"name": "杰西·厄舍"
+				},
+				{
+					"name": "蔻碧·米纳菲"
+				},
+				{
+					"name": "卡梅隆·克罗维蒂"
+				},
+				{
+					"name": "奥利维亚·莫兰丁"
+				},
+				{
+					"name": "奥米德·阿布塔西"
+				},
+				{
+					"name": "吉安卡罗·埃斯波西托"
+				},
+				{
+					"name": "洁丝·辛克莱"
+				},
+				{
+					"name": "伦敦·托尔"
+				},
+				{
+					"name": "丽兹·布罗德威"
+				},
+				{
+					"name": "伊丽莎白·苏"
+				},
+				{
+					"name": "杰弗里·迪恩·摩根"
+				},
+				{
+					"name": "戴维德·迪格斯"
+				},
+				{
+					"name": "扎克·麦克格温"
+				},
+				{
+					"name": "埃斯·霍德尔莫瑟"
+				},
+				{
+					"name": "贾德·帕达里克"
+				},
+				{
+					"name": "米沙·克林斯"
+				},
+				{
+					"name": "保罗·雷瑟"
+				},
+				{
+					"name": "梅森·戴伊"
+				},
+				{
+					"name": "森尚子"
+				},
+				{
+					"name": "大卫·安德鲁斯"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2026 / 美国 / 剧情 喜剧 动作 科幻 犯罪 / 菲利浦·斯格里西亚 莎娜·斯坦 卡伦·卡薇欧拉 / 卡尔·厄本 杰克·奎德",
+			"color_scheme": {
+				"_base_color": [
+					0.4855072463768117,
+					0.338235294117647,
+					0.26666666666666666
+				],
+				"_avg_color": [
+					0.46491228070175444,
+					0.22619047619047622,
+					0.32941176470588235
+				],
+				"primary_color_light": "4b726f",
+				"primary_color_dark": "324c4a",
+				"secondary_color": "f4f9f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/36343491.jpg",
+			"directors": [
+				{
+					"name": "菲利浦·斯格里西亚"
+				},
+				{
+					"name": "莎娜·斯坦"
+				},
+				{
+					"name": "卡伦·卡薇欧拉"
+				}
+			],
+			"genres": [
+				"剧情",
+				"喜剧",
+				"动作"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 5,
+					"title": "近期热门美剧榜",
+					"uri": "douban://douban.com/subject_collection/ECFA5DI7Q?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "36343491",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2930448310.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2930448310.jpg"
+			},
+			"pubdate": [
+				"2026-04-08(美国)"
+			],
+			"rating": {
+				"count": 55190,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 6.5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/36343491",
+			"subtype": "tv",
+			"title": "黑袍纠察队 第五季",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/36343491",
+			"url": "https://movie.douban.com/subject/36343491/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2026"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:29:43",
+		"id": 4925171616,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/4922787 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/4922787/interest/4925171616",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "孙俪"
+				},
+				{
+					"name": "陈建斌"
+				},
+				{
+					"name": "蔡少芬"
+				},
+				{
+					"name": "李东学"
+				},
+				{
+					"name": "蒋欣"
+				},
+				{
+					"name": "陶昕然"
+				},
+				{
+					"name": "斓曦"
+				},
+				{
+					"name": "孙茜"
+				},
+				{
+					"name": "张晓龙"
+				},
+				{
+					"name": "刘雪华"
+				},
+				{
+					"name": "李天柱"
+				},
+				{
+					"name": "蓝盈莹"
+				},
+				{
+					"name": "张雅萌"
+				},
+				{
+					"name": "杨紫嫣"
+				},
+				{
+					"name": "陈思斯"
+				},
+				{
+					"name": "万美汐"
+				},
+				{
+					"name": "热依扎"
+				},
+				{
+					"name": "李宜娟"
+				},
+				{
+					"name": "战菁一"
+				},
+				{
+					"name": "唐艺昕"
+				},
+				{
+					"name": "谭松韵"
+				},
+				{
+					"name": "徐璐"
+				},
+				{
+					"name": "毛晓彤"
+				},
+				{
+					"name": "康福震"
+				},
+				{
+					"name": "杨凯淳"
+				},
+				{
+					"name": "刘钇彤"
+				},
+				{
+					"name": "赵秦"
+				},
+				{
+					"name": "王文杰"
+				},
+				{
+					"name": "颖儿"
+				},
+				{
+					"name": "郭千誉"
+				},
+				{
+					"name": "邬立朋"
+				},
+				{
+					"name": "沈保平"
+				},
+				{
+					"name": "梁艺馨"
+				},
+				{
+					"name": "杨淇"
+				},
+				{
+					"name": "何亚男"
+				},
+				{
+					"name": "李佳璇"
+				},
+				{
+					"name": "王一鸣"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2011 / 中国大陆 / 剧情 古装 / 郑晓龙 / 孙俪 陈建斌",
+			"color_scheme": {
+				"_base_color": [
+					0.01310861423220975,
+					0.6223776223776223,
+					0.5607843137254902
+				],
+				"_avg_color": [
+					0.018518518518518507,
+					0.5472972972972974,
+					0.5803921568627451
+				],
+				"primary_color_light": "a5463e",
+				"primary_color_dark": "7f3630",
+				"secondary_color": "f9f5f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/4922787.jpg",
+			"directors": [
+				{
+					"name": "郑晓龙"
+				}
+			],
+			"genres": [
+				"剧情",
+				"古装"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 6,
+					"title": "豆瓣高分华语剧集榜",
+					"uri": "douban://douban.com/subject_collection/ECGYCP2VQ?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "4922787",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p1480046723.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1480046723.jpg"
+			},
+			"pubdate": [
+				"2011-11-17(中国大陆)"
+			],
+			"rating": {
+				"count": 934139,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9.4
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/4922787",
+			"subtype": "tv",
+			"title": "后宫·甄嬛传",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/4922787",
+			"url": "https://movie.douban.com/subject/4922787/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2011"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:29:21",
+		"id": 4925171413,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/30331433 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/30331433/interest/4925171413",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "伊丽莎白·奥尔森"
+				},
+				{
+					"name": "保罗·贝坦尼"
+				},
+				{
+					"name": "凯瑟琳·哈恩"
+				},
+				{
+					"name": "泰柔娜·派丽丝"
+				},
+				{
+					"name": "乔什·斯坦伯"
+				},
+				{
+					"name": "埃文·彼得斯"
+				},
+				{
+					"name": "兰道尔·朴"
+				},
+				{
+					"name": "凯特·戴琳斯"
+				},
+				{
+					"name": "大卫·A·佩顿"
+				},
+				{
+					"name": "大卫·伦格尔"
+				},
+				{
+					"name": "阿莫斯·格里克"
+				},
+				{
+					"name": "赛琳娜·安杜兹"
+				},
+				{
+					"name": "黛布拉·乔·拉普"
+				},
+				{
+					"name": "朱利安·希威德"
+				},
+				{
+					"name": "杰特·克莱恩"
+				},
+				{
+					"name": "阿西夫·阿里"
+				},
+				{
+					"name": "维多利亚·布雷德"
+				},
+				{
+					"name": "艾玛·考尔菲德"
+				},
+				{
+					"name": "杰克逊·罗伯特·斯科特"
+				},
+				{
+					"name": "乔琳·珀迪"
+				},
+				{
+					"name": "韦斯利·坎摩尔"
+				},
+				{
+					"name": "凯特·福布斯"
+				},
+				{
+					"name": "弗雷德·迈拉麦德"
+				},
+				{
+					"name": "兰迪·奥格斯比"
+				},
+				{
+					"name": "萝丝·比安科"
+				},
+				{
+					"name": "拉娜·扬"
+				},
+				{
+					"name": "薇薇安娜·查维斯"
+				},
+				{
+					"name": "伊拉娜·古拉尔尼克"
+				},
+				{
+					"name": "丹尼雅"
+				},
+				{
+					"name": "迈克拉·罗素"
+				},
+				{
+					"name": "珍娜·凯内尔"
+				},
+				{
+					"name": "埃莫·欧文斯"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2021 / 美国 / 剧情 科幻 / 马特·沙克曼 / 伊丽莎白·奥尔森 保罗·贝坦尼",
+			"color_scheme": {
+				"_base_color": [
+					0.09523809523809523,
+					0.2413793103448276,
+					0.22745098039215686
+				],
+				"_avg_color": [
+					0.08695652173913049,
+					0.25842696629213474,
+					0.34901960784313724
+				],
+				"primary_color_light": "726657",
+				"primary_color_dark": "4c443a",
+				"secondary_color": "f9f7f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/30331433.jpg",
+			"directors": [
+				{
+					"name": "马特·沙克曼"
+				}
+			],
+			"genres": [
+				"剧情",
+				"科幻"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 20,
+					"title": "高分经典美剧榜",
+					"uri": "douban://douban.com/subject_collection/ECVACWVGI?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "30331433",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2628036511.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2628036511.jpg"
+			},
+			"pubdate": [
+				"2021-01-15(美国)"
+			],
+			"rating": {
+				"count": 228755,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 9
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/30331433",
+			"subtype": "tv",
+			"title": "旺达幻视",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/30331433",
+			"url": "https://movie.douban.com/subject/30331433/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2021"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:28:11",
+		"id": 4925170761,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/1295278 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1295278/interest/4925170761",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "安德鲁·麦卡锡"
+				},
+				{
+					"name": "乔纳森·斯沃曼"
+				},
+				{
+					"name": "凯瑟琳·玛丽·斯图尔特"
+				},
+				{
+					"name": "特利·奇瑟"
+				},
+				{
+					"name": "唐·卡尔法"
+				},
+				{
+					"name": "Catherine Parks"
+				},
+				{
+					"name": "埃洛伊丝·德约丽娅"
+				},
+				{
+					"name": "Gregory Salata"
+				},
+				{
+					"name": "路易斯·基亚姆布拉沃"
+				},
+				{
+					"name": "特德·科特切夫"
+				},
+				{
+					"name": "Margaret Hall"
+				},
+				{
+					"name": "Timothy Perez"
+				},
+				{
+					"name": "Mark Kenneth Smaltz"
+				},
+				{
+					"name": "安东尼·曼尼诺"
+				},
+				{
+					"name": "Polly Segal"
+				},
+				{
+					"name": "Robert L. Horen"
+				},
+				{
+					"name": "Bruce Paul Barbour"
+				},
+				{
+					"name": "杰森·威奈勒"
+				},
+				{
+					"name": "Jack Hallett"
+				},
+				{
+					"name": "斯德法诺斯·米尔特萨卡基斯"
+				},
+				{
+					"name": "乔治·张"
+				},
+				{
+					"name": "Lou Criscuolo"
+				},
+				{
+					"name": "Cindy Foster Jones"
+				},
+				{
+					"name": "大卫·汉默"
+				},
+				{
+					"name": "斯基特·乌尔里奇"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "1989 / 美国 / 喜剧 犯罪 冒险 / 特德·科特切夫 / 安德鲁·麦卡锡 乔纳森·斯沃曼",
+			"color_scheme": {
+				"_base_color": [
+					0.06535947712418298,
+					0.25373134328358204,
+					0.788235294117647
+				],
+				"_avg_color": [
+					0,
+					0.14012738853503187,
+					0.615686274509804
+				],
+				"primary_color_light": "a58c7b",
+				"primary_color_dark": "7f6b5f",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/1295278.jpg",
+			"directors": [
+				{
+					"name": "特德·科特切夫"
+				}
+			],
+			"genres": [
+				"喜剧",
+				"犯罪",
+				"冒险"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "1295278",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2445032255.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2445032255.jpg"
+			},
+			"pubdate": [
+				"1989-07-05"
+			],
+			"rating": {
+				"count": 2123,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 7.1
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/1295278",
+			"subtype": "movie",
+			"title": "老板度假去",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/1295278",
+			"url": "https://movie.douban.com/subject/1295278/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "1989"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:27:40",
+		"id": 4925170427,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/25900947 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/25900947/interest/4925170427",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "阿尔登·埃伦瑞奇"
+				},
+				{
+					"name": "艾米莉亚·克拉克"
+				},
+				{
+					"name": "伍迪·哈里森"
+				},
+				{
+					"name": "唐纳德·格洛弗"
+				},
+				{
+					"name": "保罗·贝坦尼"
+				},
+				{
+					"name": "乔纳斯·索塔莫"
+				},
+				{
+					"name": "菲比·沃勒-布里奇"
+				},
+				{
+					"name": "沃里克·戴维斯"
+				},
+				{
+					"name": "坦迪·牛顿"
+				},
+				{
+					"name": "克林特·霍华德"
+				},
+				{
+					"name": "伊安·肯尼"
+				},
+				{
+					"name": "理查德·迪克森"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2018 / 美国 / 动作 科幻 冒险 / 朗·霍华德 / 阿尔登·埃伦瑞奇 艾米莉亚·克拉克",
+			"color_scheme": {
+				"_base_color": [
+					0.7777777777777778,
+					0.32142857142857145,
+					0.10980392156862745
+				],
+				"_avg_color": [
+					0.9907407407407408,
+					0.2769230769230768,
+					0.2549019607843137
+				],
+				"primary_color_light": "664d72",
+				"primary_color_dark": "44334c",
+				"secondary_color": "f8f4f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/25900947.jpg",
+			"directors": [
+				{
+					"name": "朗·霍华德"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻",
+				"冒险"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 21,
+					"title": "第61届日本电影蓝丝带奖获奖名单",
+					"uri": "douban://douban.com/subject_collection/ECCIJROVA?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "25900947",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2521436880.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2521436880.jpg"
+			},
+			"pubdate": [
+				"2018-05-25(中国大陆)"
+			],
+			"rating": {
+				"count": 66978,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 6.7
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/25900947",
+			"subtype": "movie",
+			"title": "游侠索罗：星球大战外传",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/25900947",
+			"url": "https://movie.douban.com/subject/25900947/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2018"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:27:36",
+		"id": 4925170380,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/1297785 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1297785/interest/4925170380",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "伊万·麦克格雷格"
+				},
+				{
+					"name": "娜塔莉·波特曼"
+				},
+				{
+					"name": "海登·克里斯滕森"
+				},
+				{
+					"name": "克里斯托弗·李"
+				},
+				{
+					"name": "塞缪尔·杰克逊"
+				},
+				{
+					"name": "弗兰克·奥兹"
+				},
+				{
+					"name": "伊恩·麦克迪阿梅德"
+				},
+				{
+					"name": "潘妮拉·奥古斯特"
+				},
+				{
+					"name": "特穆拉·莫里森"
+				},
+				{
+					"name": "吉米·斯密茨"
+				},
+				{
+					"name": "杰克·汤普森"
+				},
+				{
+					"name": "阿梅德·贝斯特"
+				},
+				{
+					"name": "萝丝·拜恩"
+				},
+				{
+					"name": "奥利弗·福德·戴维斯"
+				},
+				{
+					"name": "利安娜·瓦尔斯曼"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2002 / 美国 / 动作 科幻 冒险 / 乔治·卢卡斯 / 伊万·麦克格雷格 娜塔莉·波特曼",
+			"color_scheme": {
+				"_base_color": [
+					0.0568181818181818,
+					0.43137254901960786,
+					0.8
+				],
+				"_avg_color": [
+					0.06410256410256408,
+					0.2921348314606741,
+					0.34901960784313724
+				],
+				"primary_color_light": "725241",
+				"primary_color_dark": "4c362b",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/1297785.jpg",
+			"directors": [
+				{
+					"name": "乔治·卢卡斯"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻",
+				"冒险"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "1297785",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2308393297.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2308393297.jpg"
+			},
+			"pubdate": [
+				"2002-07-12(中国大陆)"
+			],
+			"rating": {
+				"count": 115446,
+				"max": 10,
+				"star_count": 4,
+				"value": 8.1
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/1297785",
+			"subtype": "movie",
+			"title": "星球大战前传2：克隆人的进攻",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/1297785",
+			"url": "https://movie.douban.com/subject/1297785/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "2002"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:27:32",
+		"id": 4925170322,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/1309078 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1309078/interest/4925170322",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "伊万·麦克格雷格"
+				},
+				{
+					"name": "娜塔莉·波特曼"
+				},
+				{
+					"name": "海登·克里斯滕森"
+				},
+				{
+					"name": "伊恩·麦克迪阿梅德"
+				},
+				{
+					"name": "塞缪尔·杰克逊"
+				},
+				{
+					"name": "吉米·斯密茨"
+				},
+				{
+					"name": "弗兰克·奥兹"
+				},
+				{
+					"name": "安东尼·丹尼尔斯"
+				},
+				{
+					"name": "克里斯托弗·李"
+				},
+				{
+					"name": "凯莎·卡斯特-休伊斯"
+				},
+				{
+					"name": "西拉斯·卡森"
+				},
+				{
+					"name": "Jay Laga'aia"
+				},
+				{
+					"name": "布鲁斯·斯宾斯"
+				},
+				{
+					"name": "韦恩·佩格拉姆"
+				},
+				{
+					"name": "特穆拉·莫里森"
+				},
+				{
+					"name": "奥利弗·福德·戴维斯"
+				},
+				{
+					"name": "阿梅德·贝斯特"
+				},
+				{
+					"name": "杰米·布洛奇"
+				},
+				{
+					"name": "肯尼·贝克"
+				},
+				{
+					"name": "彼德·梅犹"
+				},
+				{
+					"name": "乔尔·埃哲顿"
+				},
+				{
+					"name": "邦妮·皮耶斯"
+				},
+				{
+					"name": "艾米·爱伦"
+				},
+				{
+					"name": "Graeme Blundell"
+				},
+				{
+					"name": "特丽莎·诺贝尔"
+				},
+				{
+					"name": "克劳迪娅·卡万"
+				},
+				{
+					"name": "Keira Wingate"
+				},
+				{
+					"name": "吉娜薇·欧瑞丽"
+				},
+				{
+					"name": "奇·陈"
+				},
+				{
+					"name": "丽纳·欧文"
+				},
+				{
+					"name": "克里斯托弗·卡比"
+				},
+				{
+					"name": "马修·伍德"
+				},
+				{
+					"name": "克里斯蒂·莱特"
+				},
+				{
+					"name": "Mousy McCallum"
+				},
+				{
+					"name": "Michael Kingma"
+				},
+				{
+					"name": "大卫·阿克德"
+				},
+				{
+					"name": "吉尔·布鲁克斯"
+				},
+				{
+					"name": "罗布·科尔曼"
+				},
+				{
+					"name": "本·库克"
+				},
+				{
+					"name": "卡罗琳·德索扎"
+				},
+				{
+					"name": "纳许·埃哲顿"
+				},
+				{
+					"name": "尼克·吉拉德"
+				},
+				{
+					"name": "罗杰·盖耶特"
+				},
+				{
+					"name": "尼克·詹姆森"
+				},
+				{
+					"name": "詹姆斯·厄尔·琼斯"
+				},
+				{
+					"name": "Ali Keshavji"
+				},
+				{
+					"name": "戈兰·D·克鲁特"
+				},
+				{
+					"name": "约翰·诺尔"
+				},
+				{
+					"name": "Nalini Krishan"
+				},
+				{
+					"name": "约翰·莱文"
+				},
+				{
+					"name": "白灵"
+				},
+				{
+					"name": "乔治·卢卡斯"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2005 / 美国 / 动作 科幻 奇幻 冒险 / 乔治·卢卡斯 / 伊万·麦克格雷格 娜塔莉·波特曼",
+			"color_scheme": {
+				"_base_color": [
+					0.016666666666666663,
+					0.35714285714285715,
+					0.10980392156862745
+				],
+				"_avg_color": [
+					0.03623188405797099,
+					0.31081081081081086,
+					0.2901960784313726
+				],
+				"primary_color_light": "724d49",
+				"primary_color_dark": "4c3331",
+				"secondary_color": "f9f5f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/1309078.jpg",
+			"directors": [
+				{
+					"name": "乔治·卢卡斯"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻",
+				"奇幻"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 6,
+					"title": "第15届MTV电影奖获奖名单",
+					"uri": "douban://douban.com/subject_collection/ECZEJGPJY?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "1309078",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p533908031.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p533908031.jpg"
+			},
+			"pubdate": [
+				"2005-05-20(中国大陆)"
+			],
+			"rating": {
+				"count": 121866,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 8.5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/1309078",
+			"subtype": "movie",
+			"title": "星球大战前传3：西斯的反击",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/1309078",
+			"url": "https://movie.douban.com/subject/1309078/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2005"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:27:27",
+		"id": 4925170262,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/22265634 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/22265634/interest/4925170262",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "马克·哈米尔"
+				},
+				{
+					"name": "凯丽·费雪"
+				},
+				{
+					"name": "黛西·雷德利"
+				},
+				{
+					"name": "亚当·德赖弗"
+				},
+				{
+					"name": "约翰·博耶加"
+				},
+				{
+					"name": "奥斯卡·伊萨克"
+				},
+				{
+					"name": "安迪·瑟金斯"
+				},
+				{
+					"name": "露皮塔·尼永奥"
+				},
+				{
+					"name": "多姆纳尔·格里森"
+				},
+				{
+					"name": "安东尼·丹尼尔斯"
+				},
+				{
+					"name": "格温多兰·克里斯蒂"
+				},
+				{
+					"name": "凯莉·玛丽·陈"
+				},
+				{
+					"name": "劳拉·邓恩"
+				},
+				{
+					"name": "本尼西奥·德尔·托罗"
+				},
+				{
+					"name": "弗兰克·奥兹"
+				},
+				{
+					"name": "比莉·洛德"
+				},
+				{
+					"name": "阿曼达·劳伦斯"
+				},
+				{
+					"name": "吉米·维"
+				},
+				{
+					"name": "贾斯汀·塞洛克斯"
+				},
+				{
+					"name": "蒂姆·罗斯"
+				},
+				{
+					"name": "汤姆·凯恩"
+				},
+				{
+					"name": "亚德里安·埃德蒙松"
+				},
+				{
+					"name": "马克·路易斯·琼斯"
+				},
+				{
+					"name": "赫敏·科菲尔德"
+				},
+				{
+					"name": "吴青芸"
+				},
+				{
+					"name": "诺阿·西甘"
+				},
+				{
+					"name": "保罗·卡塞"
+				},
+				{
+					"name": "米凯拉·科尔"
+				},
+				{
+					"name": "普莉安卡·伯福德"
+				},
+				{
+					"name": "纳温·乔杜里"
+				},
+				{
+					"name": "安德鲁·杰克"
+				},
+				{
+					"name": "克里斯塔·克拉克"
+				},
+				{
+					"name": "伊川东吾"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2017 / 美国 / 动作 科幻 冒险 / 莱恩·约翰逊 / 马克·哈米尔 凯丽·费雪",
+			"color_scheme": {
+				"_base_color": [
+					0.9841269841269842,
+					0.7,
+					0.11764705882352941
+				],
+				"_avg_color": [
+					0.9944444444444445,
+					0.4195804195804196,
+					0.5607843137254902
+				],
+				"primary_color_light": "a5313c",
+				"primary_color_dark": "7f262e",
+				"secondary_color": "f9f4f5",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/22265634.jpg",
+			"directors": [
+				{
+					"name": "莱恩·约翰逊"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻",
+				"冒险"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 9,
+					"title": "2018高分科幻/动作片",
+					"uri": "douban://douban.com/subject_collection/2018_movie_18?type=rank&category=movie&rank_type=year"
+				}
+			],
+			"id": "22265634",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2506694509.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2506694509.jpg"
+			},
+			"pubdate": [
+				"2018-01-05(中国大陆)"
+			],
+			"rating": {
+				"count": 162953,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 7.1
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/22265634",
+			"subtype": "movie",
+			"title": "星球大战8：最后的绝地武士",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/22265634",
+			"url": "https://movie.douban.com/subject/22265634/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "2017"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:27:24",
+		"id": 4925170214,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/1294362 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1294362/interest/4925170214",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "连姆·尼森"
+				},
+				{
+					"name": "伊万·麦克格雷格"
+				},
+				{
+					"name": "娜塔莉·波特曼"
+				},
+				{
+					"name": "杰克·洛伊德"
+				},
+				{
+					"name": "伊恩·麦克迪阿梅德"
+				},
+				{
+					"name": "潘妮拉·奥古斯特"
+				},
+				{
+					"name": "奥利弗·福德·戴维斯"
+				},
+				{
+					"name": "阿梅德·贝斯特"
+				},
+				{
+					"name": "安东尼·丹尼尔斯"
+				},
+				{
+					"name": "肯尼·贝克"
+				},
+				{
+					"name": "弗兰克·奥兹"
+				},
+				{
+					"name": "特伦斯·斯坦普"
+				},
+				{
+					"name": "布耐恩·布莱塞得"
+				},
+				{
+					"name": "安德鲁·斯考姆比"
+				},
+				{
+					"name": "休·夸希"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "1999 / 美国 / 动作 科幻 冒险 / 乔治·卢卡斯 / 连姆·尼森 伊万·麦克格雷格",
+			"color_scheme": {
+				"_base_color": [
+					0.061403508771929814,
+					0.4797979797979798,
+					0.7764705882352941
+				],
+				"_avg_color": [
+					0.025252525252525266,
+					0.4074074074074074,
+					0.3176470588235294
+				],
+				"primary_color_light": "724f3b",
+				"primary_color_dark": "4c3527",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/1294362.jpg",
+			"directors": [
+				{
+					"name": "乔治·卢卡斯"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻",
+				"冒险"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "1294362",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2308392633.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2308392633.jpg"
+			},
+			"pubdate": [
+				"1999-11-05(中国大陆)"
+			],
+			"rating": {
+				"count": 140419,
+				"max": 10,
+				"star_count": 4,
+				"value": 8.3
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/1294362",
+			"subtype": "movie",
+			"title": "星球大战前传1：幽灵的威胁",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/1294362",
+			"url": "https://movie.douban.com/subject/1294362/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "1999"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:27:19",
+		"id": 4925170152,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/1296528 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1296528/interest/4925170152",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "马克·哈米尔"
+				},
+				{
+					"name": "哈里森·福特"
+				},
+				{
+					"name": "凯丽·费雪"
+				},
+				{
+					"name": "比利·迪·威廉姆斯"
+				},
+				{
+					"name": "安东尼·丹尼尔斯"
+				},
+				{
+					"name": "大卫·鲍罗斯"
+				},
+				{
+					"name": "彼德·梅犹"
+				},
+				{
+					"name": "肯尼·贝克"
+				},
+				{
+					"name": "弗兰克·奥兹"
+				},
+				{
+					"name": "亚历克·吉尼斯"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "1980 / 美国 / 动作 科幻 冒险 / 厄文·克什纳 / 马克·哈米尔 哈里森·福特",
+			"color_scheme": {
+				"_base_color": [
+					0.9166666666666666,
+					0.17857142857142858,
+					0.2196078431372549
+				],
+				"_avg_color": [
+					0.7083333333333334,
+					0.16260162601626016,
+					0.4823529411764706
+				],
+				"primary_color_light": "725e68",
+				"primary_color_dark": "4c3e45",
+				"secondary_color": "f9f4f7",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/1296528.jpg",
+			"directors": [
+				{
+					"name": "厄文·克什纳"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻",
+				"冒险"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 8,
+					"title": "第53届奥斯卡金像奖获奖名单",
+					"uri": "douban://douban.com/subject_collection/ECZAIFFSY?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "1296528",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p732937546.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p732937546.jpg"
+			},
+			"pubdate": [
+				"1980-05-21(美国)"
+			],
+			"rating": {
+				"count": 121201,
+				"max": 10,
+				"star_count": 4,
+				"value": 8.4
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/1296528",
+			"subtype": "movie",
+			"title": "星球大战2：帝国反击战",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/1296528",
+			"url": "https://movie.douban.com/subject/1296528/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "1980"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:27:15",
+		"id": 4925170108,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/22265687 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/22265687/interest/4925170108",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "黛西·雷德利"
+				},
+				{
+					"name": "亚当·德赖弗"
+				},
+				{
+					"name": "奥斯卡·伊萨克"
+				},
+				{
+					"name": "约翰·博耶加"
+				},
+				{
+					"name": "马克·哈米尔"
+				},
+				{
+					"name": "凯丽·费雪"
+				},
+				{
+					"name": "比利·迪·威廉姆斯"
+				},
+				{
+					"name": "伊恩·麦克迪阿梅德"
+				},
+				{
+					"name": "凯丽·拉塞尔"
+				},
+				{
+					"name": "哈里森·福特"
+				},
+				{
+					"name": "朱迪·科默"
+				},
+				{
+					"name": "比利·豪尔"
+				},
+				{
+					"name": "露皮塔·尼永奥"
+				},
+				{
+					"name": "多姆纳尔·格里森"
+				},
+				{
+					"name": "凯莉·玛丽·陈"
+				},
+				{
+					"name": "乔纳斯·索塔莫"
+				},
+				{
+					"name": "比莉·洛德"
+				},
+				{
+					"name": "安东尼·丹尼尔斯"
+				},
+				{
+					"name": "娜奥米·阿基"
+				},
+				{
+					"name": "理查德·E·格兰特"
+				},
+				{
+					"name": "多米尼克·莫纳汉"
+				},
+				{
+					"name": "格雷戈·格伦伯格"
+				},
+				{
+					"name": "艾德·希兰"
+				},
+				{
+					"name": "林-曼努尔·米兰达"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2019 / 美国 / 动作 科幻 冒险 / J·J·艾布拉姆斯 / 黛西·雷德利 亚当·德赖弗",
+			"color_scheme": {
+				"_base_color": [
+					0.6790123456790124,
+					0.3970588235294117,
+					0.26666666666666666
+				],
+				"_avg_color": [
+					0.6262626262626263,
+					0.22147651006711416,
+					0.5843137254901961
+				],
+				"primary_color_light": "6863a5",
+				"primary_color_dark": "504c7f",
+				"secondary_color": "f5f4f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/22265687.jpg",
+			"directors": [
+				{
+					"name": "J·J·艾布拉姆斯"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻",
+				"冒险"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 35,
+					"title": "第92届奥斯卡奖全部获奖及提名名单",
+					"uri": "douban://douban.com/subject_collection/ECZ4HST2A?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "22265687",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2575456458.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2575456458.jpg"
+			},
+			"pubdate": [
+				"2019-12-18(中国大陆)"
+			],
+			"rating": {
+				"count": 111239,
+				"max": 10,
+				"star_count": 3,
+				"value": 6.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/22265687",
+			"subtype": "movie",
+			"title": "星球大战9：天行者崛起",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/22265687",
+			"url": "https://movie.douban.com/subject/22265687/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "2019"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:27:10",
+		"id": 4925170043,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/25894431 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/25894431/interest/4925170043",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "菲丽希缇·琼斯"
+				},
+				{
+					"name": "迭戈·卢纳"
+				},
+				{
+					"name": "甄子丹"
+				},
+				{
+					"name": "本·门德尔森"
+				},
+				{
+					"name": "麦斯·米科尔森"
+				},
+				{
+					"name": "艾伦·图代克"
+				},
+				{
+					"name": "福里斯特·惠特克"
+				},
+				{
+					"name": "姜文"
+				},
+				{
+					"name": "里兹·阿迈德"
+				},
+				{
+					"name": "乔纳森·阿里斯"
+				},
+				{
+					"name": "尤妮斯·奥卢米德"
+				},
+				{
+					"name": "克莱尔·陈"
+				},
+				{
+					"name": "吉米·斯密茨"
+				},
+				{
+					"name": "沃里克·戴维斯"
+				},
+				{
+					"name": "马克·普雷斯顿"
+				},
+				{
+					"name": "吉娜薇·欧瑞丽"
+				},
+				{
+					"name": "詹姆斯·厄尔·琼斯"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2016 / 美国 / 动作 科幻 冒险 / 加里斯·爱德华斯 / 菲丽希缇·琼斯 迭戈·卢纳",
+			"color_scheme": {
+				"_base_color": [
+					0.5584795321637427,
+					0.475,
+					0.47058823529411764
+				],
+				"_avg_color": [
+					0.562962962962963,
+					0.3571428571428572,
+					0.49411764705882355
+				],
+				"primary_color_light": "3c5f72",
+				"primary_color_dark": "283f4c",
+				"secondary_color": "f4f8f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/25894431.jpg",
+			"directors": [
+				{
+					"name": "加里斯·爱德华斯"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻",
+				"冒险"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 44,
+					"title": "美国科幻片榜",
+					"uri": "douban://douban.com/subject_collection/ECDAO6XZI?type=rank&category=movie&rank_type=film_genre"
+				}
+			],
+			"id": "25894431",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2403049086.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2403049086.jpg"
+			},
+			"pubdate": [
+				"2017-01-06(中国大陆)"
+			],
+			"rating": {
+				"count": 192712,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 7.3
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/25894431",
+			"subtype": "movie",
+			"title": "星球大战外传：侠盗一号",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/25894431",
+			"url": "https://movie.douban.com/subject/25894431/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2016"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:27:06",
+		"id": 4925169993,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/1297151 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1297151/interest/4925169993",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "马克·哈米尔"
+				},
+				{
+					"name": "哈里森·福特"
+				},
+				{
+					"name": "凯丽·费雪"
+				},
+				{
+					"name": "比利·迪·威廉姆斯"
+				},
+				{
+					"name": "安东尼·丹尼尔斯"
+				},
+				{
+					"name": "彼德·梅犹"
+				},
+				{
+					"name": "塞巴斯蒂安·肖"
+				},
+				{
+					"name": "伊恩·麦克迪阿梅德"
+				},
+				{
+					"name": "弗兰克·奥兹"
+				},
+				{
+					"name": "詹姆斯·厄尔·琼斯"
+				},
+				{
+					"name": "大卫·鲍罗斯"
+				},
+				{
+					"name": "亚历克·吉尼斯"
+				},
+				{
+					"name": "肯尼·贝克"
+				},
+				{
+					"name": "迈克尔·佩宁顿"
+				},
+				{
+					"name": "肯尼斯·考利"
+				},
+				{
+					"name": "米迦勒·卡特"
+				},
+				{
+					"name": "丹尼斯·劳森"
+				},
+				{
+					"name": "蒂姆·罗斯"
+				},
+				{
+					"name": "德尔莫特·克劳利"
+				},
+				{
+					"name": "卡罗琳·布莱奇斯顿"
+				},
+				{
+					"name": "沃里克·戴维斯"
+				},
+				{
+					"name": "杰米·布洛奇"
+				},
+				{
+					"name": "克莱尔·达文波特"
+				},
+				{
+					"name": "杰克·普韦思"
+				},
+				{
+					"name": "尼古拉斯·里德"
+				},
+				{
+					"name": "汤姆·曼尼恩"
+				},
+				{
+					"name": "迈克尔·亨博瑞·巴尔兰"
+				},
+				{
+					"name": "莎拉·本内特"
+				},
+				{
+					"name": "黛比·李·卡林顿"
+				},
+				{
+					"name": "萨迪·科尔"
+				},
+				{
+					"name": "托尼·考克斯"
+				},
+				{
+					"name": "Luis De Jesus"
+				},
+				{
+					"name": "菲尔·方德卡罗"
+				},
+				{
+					"name": "Sal Fondacaro"
+				},
+				{
+					"name": "迈克尔·吉尔顿"
+				},
+				{
+					"name": "保罗·格兰特"
+				},
+				{
+					"name": "理查德·琼斯"
+				},
+				{
+					"name": "基兰·沙阿"
+				},
+				{
+					"name": "费利克斯·西拉"
+				},
+				{
+					"name": "凯文·汤普森"
+				},
+				{
+					"name": "Kendra Wall"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "1983 / 美国 / 动作 科幻 奇幻 冒险 / 理查德·马昆德 / 马克·哈米尔 哈里森·福特",
+			"color_scheme": {
+				"_base_color": [
+					0.6296296296296297,
+					0.225,
+					0.1568627450980392
+				],
+				"_avg_color": [
+					0.6176470588235294,
+					0.21794871794871798,
+					0.3058823529411765
+				],
+				"primary_color_light": "585e72",
+				"primary_color_dark": "3b3f4c",
+				"secondary_color": "f4f6f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/1297151.jpg",
+			"directors": [
+				{
+					"name": "理查德·马昆德"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻",
+				"奇幻"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 5,
+					"title": "豆瓣2023上映40周年电影",
+					"uri": "douban://douban.com/subject_collection/ECUU6JARQ?type=rank&category=movie&rank_type=year"
+				}
+			],
+			"id": "1297151",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p847596881.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p847596881.jpg"
+			},
+			"pubdate": [
+				"1983-05-25(美国)"
+			],
+			"rating": {
+				"count": 110284,
+				"max": 10,
+				"star_count": 4,
+				"value": 8.4
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/1297151",
+			"subtype": "movie",
+			"title": "星球大战3：绝地归来",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/1297151",
+			"url": "https://movie.douban.com/subject/1297151/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "1983"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:27:01",
+		"id": 4925169946,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/20326665 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/20326665/interest/4925169946",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "哈里森·福特"
+				},
+				{
+					"name": "马克·哈米尔"
+				},
+				{
+					"name": "凯丽·费雪"
+				},
+				{
+					"name": "亚当·德赖弗"
+				},
+				{
+					"name": "黛西·雷德利"
+				},
+				{
+					"name": "约翰·博耶加"
+				},
+				{
+					"name": "多姆纳尔·格里森"
+				},
+				{
+					"name": "奥斯卡·伊萨克"
+				},
+				{
+					"name": "露皮塔·尼永奥"
+				},
+				{
+					"name": "安迪·瑟金斯"
+				},
+				{
+					"name": "安东尼·丹尼尔斯"
+				},
+				{
+					"name": "彼德·梅犹"
+				},
+				{
+					"name": "马克斯·冯·叙多夫"
+				},
+				{
+					"name": "比利·迪·威廉姆斯"
+				},
+				{
+					"name": "艾德·斯皮伊尔斯"
+				},
+				{
+					"name": "马修·詹姆斯·托马斯"
+				},
+				{
+					"name": "肯尼·贝克"
+				},
+				{
+					"name": "格温多兰·克里斯蒂"
+				},
+				{
+					"name": "西蒙·佩吉"
+				},
+				{
+					"name": "克里斯塔·克拉克"
+				},
+				{
+					"name": "匹普·安德森"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2015 / 美国 / 动作 科幻 冒险 / J·J·艾布拉姆斯 / 哈里森·福特 马克·哈米尔",
+			"color_scheme": {
+				"_base_color": [
+					0.05357142857142857,
+					0.39999999999999997,
+					0.8235294117647058
+				],
+				"_avg_color": [
+					0.9691358024691358,
+					0.30681818181818177,
+					0.34509803921568627
+				],
+				"primary_color_light": "725344",
+				"primary_color_dark": "4c372d",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/20326665.jpg",
+			"directors": [
+				{
+					"name": "J·J·艾布拉姆斯"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻",
+				"冒险"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 43,
+					"title": "美国科幻片榜",
+					"uri": "douban://douban.com/subject_collection/ECDAO6XZI?type=rank&category=movie&rank_type=film_genre"
+				}
+			],
+			"id": "20326665",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2293954118.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2293954118.jpg"
+			},
+			"pubdate": [
+				"2016-01-09(中国大陆)"
+			],
+			"rating": {
+				"count": 230225,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 7.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/20326665",
+			"subtype": "movie",
+			"title": "星球大战7：原力觉醒",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/20326665",
+			"url": "https://movie.douban.com/subject/20326665/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2015"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:26:56",
+		"id": 4925169908,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/1293838 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1293838/interest/4925169908",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "哈里森·福特"
+				},
+				{
+					"name": "马克·哈米尔"
+				},
+				{
+					"name": "凯丽·费雪"
+				},
+				{
+					"name": "彼得·库欣"
+				},
+				{
+					"name": "亚历克·吉尼斯"
+				},
+				{
+					"name": "彼德·梅犹"
+				},
+				{
+					"name": "大卫·鲍罗斯"
+				},
+				{
+					"name": "詹姆斯·厄尔·琼斯"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "1977 / 美国 / 动作 科幻 冒险 / 乔治·卢卡斯 / 哈里森·福特 马克·哈米尔",
+			"color_scheme": {
+				"_base_color": [
+					0.9285714285714286,
+					0.1749999999999999,
+					0.1568627450980392
+				],
+				"_avg_color": [
+					0.9583333333333331,
+					0.09523809523809523,
+					0.32941176470588235
+				],
+				"primary_color_light": "725e67",
+				"primary_color_dark": "4c3f44",
+				"secondary_color": "f9f4f7",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/1293838.jpg",
+			"directors": [
+				{
+					"name": "乔治·卢卡斯"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻",
+				"冒险"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 39,
+					"title": "美国科幻片榜",
+					"uri": "douban://douban.com/subject_collection/ECDAO6XZI?type=rank&category=movie&rank_type=film_genre"
+				}
+			],
+			"id": "1293838",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2500865872.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2500865872.jpg"
+			},
+			"pubdate": [
+				"1977-05-25(美国)"
+			],
+			"rating": {
+				"count": 164270,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 8.5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/1293838",
+			"subtype": "movie",
+			"title": "星球大战",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/1293838",
+			"url": "https://movie.douban.com/subject/1293838/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "1977"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:26:15",
+		"id": 4925169505,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/1295728 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1295728/interest/4925169505",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "艾米利奥·艾斯特维兹"
+				},
+				{
+					"name": "安东尼·迈克尔·豪尔"
+				},
+				{
+					"name": "约翰·卡普洛斯"
+				},
+				{
+					"name": "贾德·尼尔森"
+				},
+				{
+					"name": "莫利·林沃德"
+				},
+				{
+					"name": "艾丽·西蒂"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "1985 / 美国 / 剧情 喜剧 / 约翰·休斯 / 艾米利奥·艾斯特维兹 安东尼·迈克尔·豪尔",
+			"color_scheme": {
+				"_base_color": [
+					0.8174603174603173,
+					0.0985915492957747,
+					0.8352941176470589
+				],
+				"_avg_color": [
+					0.9242424242424243,
+					0.15714285714285717,
+					0.5490196078431373
+				],
+				"primary_color_light": "a495a5",
+				"primary_color_dark": "7e727f",
+				"secondary_color": "f9f4f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/1295728.jpg",
+			"directors": [
+				{
+					"name": "约翰·休斯"
+				}
+			],
+			"genres": [
+				"剧情",
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "1295728",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2200935928.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2200935928.jpg"
+			},
+			"pubdate": [
+				"1985-02-07"
+			],
+			"rating": {
+				"count": 35441,
+				"max": 10,
+				"star_count": 4,
+				"value": 7.9
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/1295728",
+			"subtype": "movie",
+			"title": "早餐俱乐部",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/1295728",
+			"url": "https://movie.douban.com/subject/1295728/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "1985"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:25:59",
+		"id": 4925169330,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/36369452 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/36369452/interest/4925169330",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "沈腾"
+				},
+				{
+					"name": "范丞丞"
+				},
+				{
+					"name": "尹正"
+				},
+				{
+					"name": "张本煜"
+				},
+				{
+					"name": "孙艺洲"
+				},
+				{
+					"name": "魏翔"
+				},
+				{
+					"name": "贾冰"
+				},
+				{
+					"name": "郑恺"
+				},
+				{
+					"name": "冯绍峰"
+				},
+				{
+					"name": "黄景瑜"
+				},
+				{
+					"name": "刘昊然"
+				},
+				{
+					"name": "于适"
+				},
+				{
+					"name": "胡先煦"
+				},
+				{
+					"name": "阎鹤祥"
+				},
+				{
+					"name": "周野芒"
+				},
+				{
+					"name": "高华阳"
+				},
+				{
+					"name": "孙强"
+				},
+				{
+					"name": "范高翔"
+				},
+				{
+					"name": "郝瀚"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2024 / 中国大陆 / 剧情 喜剧 运动 / 韩寒 / 沈腾 范丞丞",
+			"color_scheme": {
+				"_base_color": [
+					0.5797101449275363,
+					0.27710843373493976,
+					0.3254901960784314
+				],
+				"_avg_color": [
+					0.5833333333333335,
+					0.053571428571428506,
+					0.4392156862745098
+				],
+				"primary_color_light": "526372",
+				"primary_color_dark": "37424c",
+				"secondary_color": "f4f7f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/36369452.jpg",
+			"directors": [
+				{
+					"name": "韩寒"
+				}
+			],
+			"genres": [
+				"剧情",
+				"喜剧",
+				"运动"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 17,
+					"title": "中国大陆喜剧片榜",
+					"uri": "douban://douban.com/subject_collection/ECKIO6SXI?type=rank&category=movie&rank_type=film_genre"
+				}
+			],
+			"id": "36369452",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2903066285.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2903066285.jpg"
+			},
+			"pubdate": [
+				"2024-02-10(中国大陆)"
+			],
+			"rating": {
+				"count": 826899,
+				"max": 10,
+				"star_count": 4,
+				"value": 7.6
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/36369452",
+			"subtype": "movie",
+			"title": "飞驰人生2",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/36369452",
+			"url": "https://movie.douban.com/subject/36369452/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "2024"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:25:55",
+		"id": 4925169284,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/37311135 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/37311135/interest/4925169284",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "沈腾"
+				},
+				{
+					"name": "尹正"
+				},
+				{
+					"name": "黄景瑜"
+				},
+				{
+					"name": "张本煜"
+				},
+				{
+					"name": "魏翔"
+				},
+				{
+					"name": "沙溢"
+				},
+				{
+					"name": "范丞丞"
+				},
+				{
+					"name": "孙艺洲"
+				},
+				{
+					"name": "段奕宏"
+				},
+				{
+					"name": "张新成"
+				},
+				{
+					"name": "胡先煦"
+				},
+				{
+					"name": "李治廷"
+				},
+				{
+					"name": "白宇帆"
+				},
+				{
+					"name": "周政杰"
+				},
+				{
+					"name": "高华阳"
+				},
+				{
+					"name": "刘巴特尔"
+				},
+				{
+					"name": "何澳"
+				},
+				{
+					"name": "贾冰"
+				},
+				{
+					"name": "王安宇"
+				},
+				{
+					"name": "陈永胜"
+				},
+				{
+					"name": "冯绍峰"
+				},
+				{
+					"name": "郝瀚"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2026 / 中国大陆 / 剧情 喜剧 运动 / 韩寒 / 沈腾 尹正",
+			"color_scheme": {
+				"_base_color": [
+					0.8030303030303031,
+					0.39285714285714285,
+					0.10980392156862745
+				],
+				"_avg_color": [
+					0.9166666666666666,
+					0.375,
+					0.18823529411764706
+				],
+				"primary_color_light": "6a4572",
+				"primary_color_dark": "472e4c",
+				"secondary_color": "f8f4f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/37311135.jpg",
+			"directors": [
+				{
+					"name": "韩寒"
+				}
+			],
+			"genres": [
+				"剧情",
+				"喜剧",
+				"运动"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "37311135",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2929427346.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2929427346.jpg"
+			},
+			"pubdate": [
+				"2026-02-17(中国大陆)"
+			],
+			"rating": {
+				"count": 482802,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 7.1
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/37311135",
+			"subtype": "movie",
+			"title": "飞驰人生3",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/37311135",
+			"url": "https://movie.douban.com/subject/37311135/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "2026"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:25:38",
+		"id": 4925169082,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/26404869 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/26404869/interest/4925169082",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "杰西·艾森伯格"
+				},
+				{
+					"name": "伍迪·哈里森"
+				},
+				{
+					"name": "戴夫·弗兰科"
+				},
+				{
+					"name": "艾拉·菲舍尔"
+				},
+				{
+					"name": "裴淳华"
+				},
+				{
+					"name": "贾斯蒂斯·史密斯"
+				},
+				{
+					"name": "多米尼克·塞萨"
+				},
+				{
+					"name": "阿丽亚娜·格林布拉特"
+				},
+				{
+					"name": "丽兹·卡潘"
+				},
+				{
+					"name": "摩根·弗里曼"
+				},
+				{
+					"name": "多米尼克·奥伯恩"
+				},
+				{
+					"name": "塔邦·莫拉巴"
+				},
+				{
+					"name": "塞巴斯蒂安·尤金·汉森"
+				},
+				{
+					"name": "佩斯利·戴·埃雷拉"
+				},
+				{
+					"name": "马克·鲁法洛"
+				},
+				{
+					"name": "鲍比·霍兰德·汉顿"
+				},
+				{
+					"name": "莉桑德拉·斯凯·阿里亚斯"
+				},
+				{
+					"name": "迈娅·班顿"
+				},
+				{
+					"name": "亨利·费舍尔"
+				},
+				{
+					"name": "汤姆·约翰逊"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2025 / 美国 / 剧情 动作 犯罪 / 鲁本·弗雷斯彻 / 杰西·艾森伯格 伍迪·哈里森",
+			"color_scheme": {
+				"_base_color": [
+					0.5928571428571429,
+					0.5785123966942148,
+					0.4745098039215686
+				],
+				"_avg_color": [
+					0.5863095238095237,
+					0.4148148148148148,
+					0.5294117647058824
+				],
+				"primary_color_light": "4570a5",
+				"primary_color_dark": "35567f",
+				"secondary_color": "f4f7f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/26404869.jpg",
+			"directors": [
+				{
+					"name": "鲁本·弗雷斯彻"
+				}
+			],
+			"genres": [
+				"剧情",
+				"动作",
+				"犯罪"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 4,
+					"title": "豆瓣2025最值得期待外语电影",
+					"uri": "douban://douban.com/subject_collection/ECMU73OJA?type=rank&category=movie&rank_type=year"
+				}
+			],
+			"id": "26404869",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2926399098.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2926399098.jpg"
+			},
+			"pubdate": [
+				"2025-11-14(中国大陆)"
+			],
+			"rating": {
+				"count": 140332,
+				"max": 10,
+				"star_count": 3,
+				"value": 5.5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/26404869",
+			"subtype": "movie",
+			"title": "惊天魔盗团3",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/26404869",
+			"url": "https://movie.douban.com/subject/26404869/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2025"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:25:33",
+		"id": 4925169049,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/25662337 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/25662337/interest/4925169049",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "杰西·艾森伯格"
+				},
+				{
+					"name": "马克·鲁法洛"
+				},
+				{
+					"name": "伍迪·哈里森"
+				},
+				{
+					"name": "戴夫·弗兰科"
+				},
+				{
+					"name": "丹尼尔·雷德克里夫"
+				},
+				{
+					"name": "丽兹·卡潘"
+				},
+				{
+					"name": "周杰伦"
+				},
+				{
+					"name": "桑娜·莱瑟"
+				},
+				{
+					"name": "迈克尔·凯恩"
+				},
+				{
+					"name": "摩根·弗里曼"
+				},
+				{
+					"name": "大卫·沃肖夫斯基"
+				},
+				{
+					"name": "周采芹"
+				},
+				{
+					"name": "理查德·莱恩"
+				},
+				{
+					"name": "亨利·劳埃德-休斯"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2016 / 美国 / 剧情 悬疑 犯罪 / 朱浩伟 / 杰西·艾森伯格 马克·鲁法洛",
+			"color_scheme": {
+				"_base_color": [
+					0.7222222222222222,
+					0.16071428571428564,
+					0.2196078431372549
+				],
+				"_avg_color": [
+					0.8333333333333334,
+					0.058252427184466084,
+					0.403921568627451
+				],
+				"primary_color_light": "666072",
+				"primary_color_dark": "44404c",
+				"secondary_color": "f6f4f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/25662337.jpg",
+			"directors": [
+				{
+					"name": "朱浩伟"
+				}
+			],
+			"genres": [
+				"剧情",
+				"悬疑",
+				"犯罪"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "25662337",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2355440566.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2355440566.jpg"
+			},
+			"pubdate": [
+				"2016-06-24(中国大陆)"
+			],
+			"rating": {
+				"count": 366263,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 7
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/25662337",
+			"subtype": "movie",
+			"title": "惊天魔盗团2",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/25662337",
+			"url": "https://movie.douban.com/subject/25662337/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2016"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:25:29",
+		"id": 4925168993,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/6517421 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/6517421/interest/4925168993",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "杰西·艾森伯格"
+				},
+				{
+					"name": "艾拉·菲舍尔"
+				},
+				{
+					"name": "伍迪·哈里森"
+				},
+				{
+					"name": "戴夫·弗兰科"
+				},
+				{
+					"name": "马克·鲁法洛"
+				},
+				{
+					"name": "梅拉尼·罗兰"
+				},
+				{
+					"name": "摩根·弗里曼"
+				},
+				{
+					"name": "迈克尔·凯恩"
+				},
+				{
+					"name": "迈克尔·凯利"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2013 / 美国 法国 / 剧情 悬疑 犯罪 / 路易斯·莱特里尔 / 杰西·艾森伯格 艾拉·菲舍尔",
+			"color_scheme": {
+				"_base_color": [
+					0.08333333333333372,
+					0.0266666666666667,
+					0.8823529411764706
+				],
+				"_avg_color": [
+					0.16666666666666666,
+					0.034782608695652174,
+					0.45098039215686275
+				],
+				"primary_color_light": "72716f",
+				"primary_color_dark": "4c4b4a",
+				"secondary_color": "f9f7f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/6517421.jpg",
+			"directors": [
+				{
+					"name": "路易斯·莱特里尔"
+				}
+			],
+			"genres": [
+				"剧情",
+				"悬疑",
+				"犯罪"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "6517421",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2151336415.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2151336415.jpg"
+			},
+			"pubdate": [
+				"2013-10-10(中国大陆)"
+			],
+			"rating": {
+				"count": 638520,
+				"max": 10,
+				"star_count": 4,
+				"value": 7.8
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/6517421",
+			"subtype": "movie",
+			"title": "惊天魔盗团",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/6517421",
+			"url": "https://movie.douban.com/subject/6517421/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "2013"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:24:20",
+		"id": 4925168243,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/1297280 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1297280/interest/4925168243",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "加利·艾尔维斯"
+				},
+				{
+					"name": "曼迪·帕廷金"
+				},
+				{
+					"name": "克里斯·萨兰登"
+				},
+				{
+					"name": "克里斯托弗·格斯特"
+				},
+				{
+					"name": "华莱士·肖恩"
+				},
+				{
+					"name": "巨人安德烈"
+				},
+				{
+					"name": "弗莱德·萨维奇"
+				},
+				{
+					"name": "罗宾·怀特"
+				},
+				{
+					"name": "彼得·法尔克"
+				},
+				{
+					"name": "彼得·库克"
+				},
+				{
+					"name": "梅尔·史密斯"
+				},
+				{
+					"name": "卡罗尔·凯恩"
+				},
+				{
+					"name": "比利·克里斯托"
+				},
+				{
+					"name": "安妮·戴森"
+				},
+				{
+					"name": "玛格里·梅森"
+				},
+				{
+					"name": "马尔科姆·斯托里"
+				},
+				{
+					"name": "威洛比·格雷"
+				},
+				{
+					"name": "贝齐·布兰特利"
+				},
+				{
+					"name": "Paul Badger"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "1987 / 美国 / 爱情 家庭 奇幻 冒险 / 罗伯·莱纳 / 加利·艾尔维斯 曼迪·帕廷金",
+			"color_scheme": {
+				"_base_color": [
+					0.0292397660818714,
+					0.268867924528302,
+					0.8313725490196079
+				],
+				"_avg_color": [
+					0.784313725490196,
+					0.18085106382978733,
+					0.3686274509803922
+				],
+				"primary_color_light": "725953",
+				"primary_color_dark": "4c3b37",
+				"secondary_color": "f9f5f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/1297280.jpg",
+			"directors": [
+				{
+					"name": "罗伯·莱纳"
+				}
+			],
+			"genres": [
+				"爱情",
+				"家庭",
+				"奇幻"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "1297280",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p1047219022.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1047219022.jpg"
+			},
+			"pubdate": [
+				"1987-09-18(多伦多电影节)"
+			],
+			"rating": {
+				"count": 12324,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 7
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/1297280",
+			"subtype": "movie",
+			"title": "公主新娘",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/1297280",
+			"url": "https://movie.douban.com/subject/1297280/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "1987"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:24:08",
+		"id": 4925168134,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/1428073 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1428073/interest/4925168134",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "热拉尔·德帕迪约"
+				},
+				{
+					"name": "奥内拉·穆蒂"
+				},
+				{
+					"name": "让·罗什福尔"
+				},
+				{
+					"name": "皮埃尔·阿迪提"
+				},
+				{
+					"name": "赛尔乔·鲁比尼"
+				},
+				{
+					"name": "弗洛朗丝·达雷尔 "
+				},
+				{
+					"name": "朱莉·德帕迪约"
+				},
+				{
+					"name": "吉约姆·德帕迪约"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "1998 / 法国 德国 意大利 / 剧情 爱情 惊悚 历史 冒险 / 荷赛·达阳 / 热拉尔·德帕迪约 奥内拉·穆蒂",
+			"color_scheme": {
+				"_base_color": [
+					0.048076923076923093,
+					0.5621621621621622,
+					0.7254901960784313
+				],
+				"_avg_color": [
+					0.048611111111111105,
+					0.5581395348837209,
+					0.16862745098039217
+				],
+				"primary_color_light": "724432",
+				"primary_color_dark": "4c2d21",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/1428073.jpg",
+			"directors": [
+				{
+					"name": "荷赛·达阳"
+				}
+			],
+			"genres": [
+				"剧情",
+				"爱情",
+				"惊悚"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "1428073",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2385446317.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2385446317.jpg"
+			},
+			"pubdate": [
+				"1998-09-07(法国)"
+			],
+			"rating": {
+				"count": 8374,
+				"max": 10,
+				"star_count": 4,
+				"value": 8.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/1428073",
+			"subtype": "tv",
+			"title": "基督山伯爵",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/1428073",
+			"url": "https://movie.douban.com/subject/1428073/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "1998"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:22:50",
+		"id": 4925167348,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/21324900 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/21324900/interest/4925167348",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "艾米·亚当斯"
+				},
+				{
+					"name": "杰瑞米·雷纳"
+				},
+				{
+					"name": "福里斯特·惠特克"
+				},
+				{
+					"name": "迈克尔·斯图巴"
+				},
+				{
+					"name": "马泰"
+				},
+				{
+					"name": "马克·奥布莱恩"
+				},
+				{
+					"name": "乔·柯布登 "
+				},
+				{
+					"name": "派特·凯利"
+				},
+				{
+					"name": "娜塔莉·希波蒂"
+				},
+				{
+					"name": "阮朴生"
+				},
+				{
+					"name": "克里斯蒂安· 杰达"
+				},
+				{
+					"name": "朱利安·凯西"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2016 / 美国 加拿大 / 剧情 科幻 / 丹尼斯·维伦纽瓦 / 艾米·亚当斯 杰瑞米·雷纳",
+			"color_scheme": {
+				"_base_color": [
+					0.19444444444444434,
+					0.12,
+					0.19607843137254902
+				],
+				"_avg_color": [
+					0.10606060606060604,
+					0.1946902654867256,
+					0.44313725490196076
+				],
+				"primary_color_light": "707264",
+				"primary_color_dark": "4a4c43",
+				"secondary_color": "f9f9f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/21324900.jpg",
+			"directors": [
+				{
+					"name": "丹尼斯·维伦纽瓦"
+				}
+			],
+			"genres": [
+				"剧情",
+				"科幻"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 33,
+					"title": "美国科幻片榜",
+					"uri": "douban://douban.com/subject_collection/ECDAO6XZI?type=rank&category=movie&rank_type=film_genre"
+				}
+			],
+			"id": "21324900",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2411622421.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2411622421.jpg"
+			},
+			"pubdate": [
+				"2017-01-20(中国大陆)"
+			],
+			"rating": {
+				"count": 534128,
+				"max": 10,
+				"star_count": 4,
+				"value": 7.8
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/21324900",
+			"subtype": "movie",
+			"title": "降临",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/21324900",
+			"url": "https://movie.douban.com/subject/21324900/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "2016"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:22:35",
+		"id": 4925167233,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/1945330 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1945330/interest/4925167233",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "托马斯·简"
+				},
+				{
+					"name": "马西娅·盖伊·哈登"
+				},
+				{
+					"name": "劳瑞·侯登"
+				},
+				{
+					"name": "安德鲁·布劳尔"
+				},
+				{
+					"name": "托比·琼斯"
+				},
+				{
+					"name": "威廉·赛德勒"
+				},
+				{
+					"name": "内森·甘宝"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2007 / 美国 / 科幻 惊悚 恐怖 / 弗兰克·德拉邦特 / 托马斯·简 马西娅·盖伊·哈登",
+			"color_scheme": {
+				"_base_color": [
+					0.10416666666666659,
+					0.14479638009049772,
+					0.8666666666666667
+				],
+				"_avg_color": [
+					0.12318840579710148,
+					0.1900826446280991,
+					0.4745098039215686
+				],
+				"primary_color_light": "726c62",
+				"primary_color_dark": "4c4841",
+				"secondary_color": "f9f8f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/1945330.jpg",
+			"directors": [
+				{
+					"name": "弗兰克·德拉邦特"
+				}
+			],
+			"genres": [
+				"科幻",
+				"惊悚",
+				"恐怖"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 10,
+					"title": "评分最高恐怖片",
+					"uri": "douban://douban.com/subject_collection/film_genre_34?type=rank&category=movie&rank_type=film_genre"
+				}
+			],
+			"id": "1945330",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2363134750.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2363134750.jpg"
+			},
+			"pubdate": [
+				"2007-11-21(美国)"
+			],
+			"rating": {
+				"count": 396259,
+				"max": 10,
+				"star_count": 4,
+				"value": 8.1
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/1945330",
+			"subtype": "movie",
+			"title": "迷雾",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/1945330",
+			"url": "https://movie.douban.com/subject/1945330/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2007"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:21:26",
+		"id": 4925166583,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/1292328 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1292328/interest/4925166583",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "张国荣"
+				},
+				{
+					"name": "林青霞"
+				},
+				{
+					"name": "梁朝伟"
+				},
+				{
+					"name": "张学友"
+				},
+				{
+					"name": "张曼玉"
+				},
+				{
+					"name": "刘嘉玲"
+				},
+				{
+					"name": "梁家辉"
+				},
+				{
+					"name": "杨采妮"
+				},
+				{
+					"name": "邹兆龙"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "1994 / 中国香港 中国台湾 / 剧情 动作 爱情 武侠 古装 / 王家卫 / 张国荣 林青霞",
+			"color_scheme": {
+				"_base_color": [
+					0.059139784946236486,
+					0.1455399061032864,
+					0.8352941176470589
+				],
+				"_avg_color": [
+					0.6782945736434108,
+					0.3028169014084507,
+					0.5568627450980392
+				],
+				"primary_color_light": "a5968d",
+				"primary_color_dark": "7f736c",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/1292328.jpg",
+			"directors": [
+				{
+					"name": "王家卫"
+				}
+			],
+			"genres": [
+				"剧情",
+				"动作",
+				"爱情"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 220,
+					"title": "豆瓣电影Top250",
+					"uri": "douban://douban.com/subject_collection/movie_top250"
+				}
+			],
+			"id": "1292328",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p1982176012.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1982176012.jpg"
+			},
+			"pubdate": [
+				"1994-09-17(中国大陆)"
+			],
+			"rating": {
+				"count": 642639,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 8.6
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/1292328",
+			"subtype": "movie",
+			"title": "东邪西毒",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/1292328",
+			"url": "https://movie.douban.com/subject/1292328/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "1994"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:20:57",
+		"id": 4925166307,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/2158490 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/2158490/interest/4925166307",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "本·阿弗莱克"
+				},
+				{
+					"name": "亨利·卡维尔"
+				},
+				{
+					"name": "盖尔·加朵"
+				},
+				{
+					"name": "埃兹拉·米勒"
+				},
+				{
+					"name": "杰森·莫玛"
+				},
+				{
+					"name": "雷·费舍尔"
+				},
+				{
+					"name": "杰瑞米·艾恩斯"
+				},
+				{
+					"name": "艾米·亚当斯"
+				},
+				{
+					"name": "戴安·琳恩"
+				},
+				{
+					"name": "康妮·尼尔森"
+				},
+				{
+					"name": "J·K·西蒙斯"
+				},
+				{
+					"name": "塞伦·希德"
+				},
+				{
+					"name": "安珀·赫德"
+				},
+				{
+					"name": "乔·莫顿"
+				},
+				{
+					"name": "丽莎·洛文·孔斯利"
+				},
+				{
+					"name": "英格瓦·埃盖特·西古德松"
+				},
+				{
+					"name": "大卫·休里斯"
+				},
+				{
+					"name": "赛吉·康斯坦斯"
+				},
+				{
+					"name": "朱利安·刘易斯·琼斯"
+				},
+				{
+					"name": "奥古斯塔·艾娃·艾伦德斯杜提尔"
+				},
+				{
+					"name": "迈克尔·麦克埃尔哈顿"
+				},
+				{
+					"name": "约翰·达格尔什"
+				},
+				{
+					"name": "拉腊·德坎罗"
+				},
+				{
+					"name": "理查德·克里弗特"
+				},
+				{
+					"name": "寇布勒·霍尔德布鲁克-史密斯"
+				},
+				{
+					"name": "弗朗西斯·麦基"
+				},
+				{
+					"name": "杜晨·科洛斯"
+				},
+				{
+					"name": "布鲁克·恩斯"
+				},
+				{
+					"name": "安·奥戈博莫"
+				},
+				{
+					"name": "萨曼莎·乔"
+				},
+				{
+					"name": "马克·麦克卢尔"
+				},
+				{
+					"name": "吉安皮罗·科格诺利"
+				},
+				{
+					"name": "杰罗姆·普拉顿"
+				},
+				{
+					"name": "奥赖恩·李"
+				},
+				{
+					"name": "奥利弗·加茨"
+				},
+				{
+					"name": "奥利弗·鲍威尔"
+				},
+				{
+					"name": "奥萝尔·劳泽瑞尔"
+				},
+				{
+					"name": "罗莎·埃斯科达"
+				},
+				{
+					"name": "杨荣凯"
+				},
+				{
+					"name": "布鲁斯·约翰逊"
+				},
+				{
+					"name": "托米·梅"
+				},
+				{
+					"name": "丹·莫什"
+				},
+				{
+					"name": "莱拉·里德"
+				},
+				{
+					"name": "凯莉·波尔克"
+				},
+				{
+					"name": "加里·A·赫克"
+				},
+				{
+					"name": "克莱尔·阿什顿"
+				},
+				{
+					"name": "萨姆·本杰明"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2017 / 美国 / 动作 科幻 奇幻 冒险 / 扎克·施奈德 / 本·阿弗莱克 亨利·卡维尔",
+			"color_scheme": {
+				"_base_color": [
+					0.06034482758620694,
+					0.2648401826484018,
+					0.8588235294117647
+				],
+				"_avg_color": [
+					0.07142857142857147,
+					0.13592233009708743,
+					0.403921568627451
+				],
+				"primary_color_light": "725f54",
+				"primary_color_dark": "4c3f38",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/2158490.jpg",
+			"directors": [
+				{
+					"name": "扎克·施奈德"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻",
+				"奇幻"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "2158490",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2504027804.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2504027804.jpg"
+			},
+			"pubdate": [
+				"2017-11-17(中国大陆)"
+			],
+			"rating": {
+				"count": 323959,
+				"max": 10,
+				"star_count": 3,
+				"value": 6.3
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/2158490",
+			"subtype": "movie",
+			"title": "正义联盟",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/2158490",
+			"url": "https://movie.douban.com/subject/2158490/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "2017"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:20:11",
+		"id": 4925165874,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/30323120 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/30323120/interest/4925165874",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "麦斯·米科尔森"
+				},
+				{
+					"name": "托玛斯·博·拉森"
+				},
+				{
+					"name": "马格努斯·米兰"
+				},
+				{
+					"name": "拉斯·兰特"
+				},
+				{
+					"name": "玛丽亚·邦妮薇"
+				},
+				{
+					"name": "海伦娜·赖因科德·纳曼"
+				},
+				{
+					"name": "苏西·沃德"
+				},
+				{
+					"name": "艾伯特·鲁德贝克·林哈特"
+				},
+				{
+					"name": "弗莱德瑞克·温瑟·拉斯穆森"
+				},
+				{
+					"name": "多尔特·回斯特德"
+				},
+				{
+					"name": "莫滕·桑博"
+				},
+				{
+					"name": "奥勒·杜邦"
+				},
+				{
+					"name": "比尔·克林顿"
+				},
+				{
+					"name": "列昂尼德·伊里奇·勃列日涅夫"
+				},
+				{
+					"name": "让-克洛德·容克"
+				},
+				{
+					"name": "安格拉·默克尔"
+				},
+				{
+					"name": "欧尔班·维克托"
+				},
+				{
+					"name": "尼古拉·萨科齐"
+				},
+				{
+					"name": "鲍里斯·尼古拉耶维奇·叶利钦"
+				},
+				{
+					"name": "马丁·格雷斯-罗森塔尔"
+				},
+				{
+					"name": "Silas Cornelius Van"
+				},
+				{
+					"name": "Magnus Sjørup"
+				},
+				{
+					"name": "Aksel Vedsegaard"
+				},
+				{
+					"name": "Gustav Sigurth Jeppesen"
+				},
+				{
+					"name": "Aya Grann"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2020 / 丹麦 瑞典 荷兰 / 剧情 喜剧 / 托马斯·温特伯格 / 麦斯·米科尔森 托玛斯·博·拉森",
+			"color_scheme": {
+				"_base_color": [
+					0.07575757575757575,
+					0.24017467248908297,
+					0.8980392156862745
+				],
+				"_avg_color": [
+					0.08750000000000002,
+					0.3007518796992482,
+					0.5215686274509804
+				],
+				"primary_color_light": "a5907d",
+				"primary_color_dark": "7f6e60",
+				"secondary_color": "f9f7f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/30323120.jpg",
+			"directors": [
+				{
+					"name": "托马斯·温特伯格"
+				}
+			],
+			"genres": [
+				"剧情",
+				"喜剧"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 19,
+					"title": "欧洲喜剧片榜",
+					"uri": "douban://douban.com/subject_collection/ECPQO4BPA?type=rank&category=movie&rank_type=film_genre"
+				}
+			],
+			"id": "30323120",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2628440526.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2628440526.jpg"
+			},
+			"pubdate": [
+				"2020-09-12(多伦多电影节)"
+			],
+			"rating": {
+				"count": 123672,
+				"max": 10,
+				"star_count": 4,
+				"value": 7.9
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/30323120",
+			"subtype": "movie",
+			"title": "酒精计划",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/30323120",
+			"url": "https://movie.douban.com/subject/30323120/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2020"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:19:55",
+		"id": 4925165720,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/3895511 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/3895511/interest/4925165720",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "汤姆·克鲁斯"
+				},
+				{
+					"name": "摩根·弗里曼"
+				},
+				{
+					"name": "欧嘉·柯瑞兰寇"
+				},
+				{
+					"name": "尼古拉·科斯特-瓦尔道"
+				},
+				{
+					"name": "佐伊·贝尔"
+				},
+				{
+					"name": "梅丽莎·里奥"
+				},
+				{
+					"name": "安德丽娅·赖斯伯勒"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2013 / 美国 / 动作 科幻 冒险 / 约瑟夫·科辛斯基 / 汤姆·克鲁斯 摩根·弗里曼",
+			"color_scheme": {
+				"_base_color": [
+					0.5882352941176471,
+					0.18478260869565213,
+					0.3607843137254902
+				],
+				"_avg_color": [
+					0.6000000000000001,
+					0.11278195488721807,
+					0.5215686274509804
+				],
+				"primary_color_light": "8795a5",
+				"primary_color_dark": "67737f",
+				"secondary_color": "f4f7f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/3895511.jpg",
+			"directors": [
+				{
+					"name": "约瑟夫·科辛斯基"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻",
+				"冒险"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "3895511",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p1870772842.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1870772842.jpg"
+			},
+			"pubdate": [
+				"2013-05-10(中国大陆)"
+			],
+			"rating": {
+				"count": 176271,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 7.1
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/3895511",
+			"subtype": "movie",
+			"title": "遗落战境",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/3895511",
+			"url": "https://movie.douban.com/subject/3895511/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "2013"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:19:44",
+		"id": 4925165617,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/1293799 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1293799/interest/4925165617",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "汤姆·克鲁斯"
+				},
+				{
+					"name": "凯莉·麦吉利斯"
+				},
+				{
+					"name": "方·基默"
+				},
+				{
+					"name": "安东尼·爱德华兹"
+				},
+				{
+					"name": "汤姆·斯凯里特"
+				},
+				{
+					"name": "迈克尔·艾恩塞德"
+				},
+				{
+					"name": "约翰·斯托克韦尔"
+				},
+				{
+					"name": "里克·罗索维奇"
+				},
+				{
+					"name": "蒂姆·罗宾斯"
+				},
+				{
+					"name": "小克拉伦斯·吉尔亚德"
+				},
+				{
+					"name": "惠普·赫布利"
+				},
+				{
+					"name": "詹姆斯·托根"
+				},
+				{
+					"name": "梅格·瑞恩"
+				},
+				{
+					"name": "亚德里安·帕斯达"
+				},
+				{
+					"name": "巴瑞·塔布"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "1986 / 美国 / 剧情 动作 / 托尼·斯科特 / 汤姆·克鲁斯 凯莉·麦吉利斯",
+			"color_scheme": {
+				"_base_color": [
+					0.06626506024096386,
+					0.37053571428571425,
+					0.8784313725490196
+				],
+				"_avg_color": [
+					0.05333333333333331,
+					0.24509803921568638,
+					0.4
+				],
+				"primary_color_light": "725948",
+				"primary_color_dark": "4c3b30",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/1293799.jpg",
+			"directors": [
+				{
+					"name": "托尼·斯科特"
+				}
+			],
+			"genres": [
+				"剧情",
+				"动作"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 13,
+					"title": "第59届奥斯卡金像奖获奖名单",
+					"uri": "douban://douban.com/subject_collection/ECXIIB4PA?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "1293799",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p1871745733.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1871745733.jpg"
+			},
+			"pubdate": [
+				"1986-05-16(美国)"
+			],
+			"rating": {
+				"count": 124282,
+				"max": 10,
+				"star_count": 4,
+				"value": 7.6
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/1293799",
+			"subtype": "movie",
+			"title": "壮志凌云",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/1293799",
+			"url": "https://movie.douban.com/subject/1293799/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "1986"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:19:29",
+		"id": 4925165482,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/34807062 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/34807062/interest/4925165482",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "安娜·德·阿玛斯"
+				},
+				{
+					"name": "基努·里维斯"
+				},
+				{
+					"name": "安杰丽卡·休斯顿"
+				},
+				{
+					"name": "加布里埃尔·伯恩"
+				},
+				{
+					"name": "伊恩·麦柯肖恩"
+				},
+				{
+					"name": "诺曼·瑞杜斯"
+				},
+				{
+					"name": "兰斯·莱迪克"
+				},
+				{
+					"name": "卡塔琳娜·桑地诺·莫雷诺"
+				},
+				{
+					"name": "艾娃·乔伊斯·麦卡锡"
+				},
+				{
+					"name": "朱丽叶特·多赫提"
+				},
+				{
+					"name": "莎伦·邓肯-布鲁斯特"
+				},
+				{
+					"name": "大卫·卡斯塔尼达"
+				},
+				{
+					"name": "维多利亚·孔德"
+				},
+				{
+					"name": "罗伯特‧马瑟"
+				},
+				{
+					"name": "崔秀英"
+				},
+				{
+					"name": "郑斗洪"
+				},
+				{
+					"name": "安娜·帕里约"
+				},
+				{
+					"name": "马克·克拉姆"
+				},
+				{
+					"name": "福岛莉拉"
+				},
+				{
+					"name": "亚伯拉罕·波波拉"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2025 / 美国 匈牙利 / 动作 惊悚 / 伦·怀斯曼 / 安娜·德·阿玛斯 基努·里维斯",
+			"color_scheme": {
+				"_base_color": [
+					0.7829457364341086,
+					0.7818181818181819,
+					0.21568627450980393
+				],
+				"_avg_color": [
+					0.80718954248366,
+					0.6296296296296297,
+					0.3176470588235294
+				],
+				"primary_color_light": "571972",
+				"primary_color_dark": "3a104c",
+				"secondary_color": "f8f4f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/34807062.jpg",
+			"directors": [
+				{
+					"name": "伦·怀斯曼"
+				}
+			],
+			"genres": [
+				"动作",
+				"惊悚"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 8,
+					"title": "豆瓣2025最值得期待外语电影",
+					"uri": "douban://douban.com/subject_collection/ECMU73OJA?type=rank&category=movie&rank_type=year"
+				}
+			],
+			"id": "34807062",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2921992149.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2921992149.jpg"
+			},
+			"pubdate": [
+				"2025-06-06(美国/中国大陆)"
+			],
+			"rating": {
+				"count": 106356,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 6.8
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/34807062",
+			"subtype": "movie",
+			"title": "疾速追杀：芭蕾杀姬",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/34807062",
+			"url": "https://movie.douban.com/subject/34807062/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2025"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:19:26",
+		"id": 4925165452,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/26909790 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/26909790/interest/4925165452",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "基努·里维斯"
+				},
+				{
+					"name": "哈莉·贝瑞"
+				},
+				{
+					"name": "劳伦斯·菲什伯恩"
+				},
+				{
+					"name": "安杰丽卡·休斯顿"
+				},
+				{
+					"name": "伊恩·麦柯肖恩"
+				},
+				{
+					"name": "马克·达卡斯考斯"
+				},
+				{
+					"name": "艾莎·凯特·狄龙"
+				},
+				{
+					"name": "兰斯·莱迪克"
+				},
+				{
+					"name": "萨伊德·塔格马奥"
+				},
+				{
+					"name": "杰罗姆·弗林"
+				},
+				{
+					"name": "杰森·曼楚克斯"
+				},
+				{
+					"name": "托拜厄斯·西格尔"
+				},
+				{
+					"name": "博班·马里亚诺维奇"
+				},
+				{
+					"name": "罗宾·罗德·泰勒"
+				},
+				{
+					"name": "罗比·德拉费勒"
+				},
+				{
+					"name": "费斯·洛根"
+				},
+				{
+					"name": "雅彦·鲁伊安"
+				},
+				{
+					"name": "兰德尔·杜克·金"
+				},
+				{
+					"name": "袁之正"
+				},
+				{
+					"name": "陈虎"
+				},
+				{
+					"name": "安东尼·帕迪利亚"
+				},
+				{
+					"name": "斯特凡尼娅·马卡洛娃"
+				},
+				{
+					"name": "西尔维奥·西马克"
+				},
+				{
+					"name": "马米·科西科"
+				},
+				{
+					"name": "罗曼·米蒂齐扬"
+				},
+				{
+					"name": "希塞普·阿里夫·拉哈姆"
+				},
+				{
+					"name": "安妮·比萨比亚"
+				},
+				{
+					"name": "约翰·盖蒂尔"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2019 / 美国 / 动作 惊悚 犯罪 / 查德·斯塔赫斯基 / 基努·里维斯 哈莉·贝瑞",
+			"color_scheme": {
+				"_base_color": [
+					0.0009416195856873736,
+					0.7866666666666666,
+					0.8823529411764706
+				],
+				"_avg_color": [
+					0.0012722646310432961,
+					0.5954545454545455,
+					0.8627450980392157
+				],
+				"primary_color_light": "a52423",
+				"primary_color_dark": "7f1b1b",
+				"secondary_color": "f9f4f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/26909790.jpg",
+			"directors": [
+				{
+					"name": "查德·斯塔赫斯基"
+				}
+			],
+			"genres": [
+				"动作",
+				"惊悚",
+				"犯罪"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "26909790",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2551393832.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2551393832.jpg"
+			},
+			"pubdate": [
+				"2019-05-17(美国)"
+			],
+			"rating": {
+				"count": 230218,
+				"max": 10,
+				"star_count": 4,
+				"value": 7.9
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/26909790",
+			"subtype": "movie",
+			"title": "疾速追杀3",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/26909790",
+			"url": "https://movie.douban.com/subject/26909790/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2019"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:19:22",
+		"id": 4925165426,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/26333560 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/26333560/interest/4925165426",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "基努·里维斯"
+				},
+				{
+					"name": "里卡尔多·斯卡马奇奥"
+				},
+				{
+					"name": "伊恩·麦柯肖恩"
+				},
+				{
+					"name": "鲁比·罗丝"
+				},
+				{
+					"name": "科曼"
+				},
+				{
+					"name": "克劳迪亚·杰里尼"
+				},
+				{
+					"name": "兰斯·莱迪克"
+				},
+				{
+					"name": "劳伦斯·菲什伯恩"
+				},
+				{
+					"name": "托拜厄斯·西格尔"
+				},
+				{
+					"name": "约翰·雷吉扎莫"
+				},
+				{
+					"name": "布里吉特·莫伊纳汉"
+				},
+				{
+					"name": "托马斯·萨多斯基"
+				},
+				{
+					"name": "大卫·帕特里克·凯利"
+				},
+				{
+					"name": "杨佩里"
+				},
+				{
+					"name": "弗兰科·内罗"
+				},
+				{
+					"name": "彼得·塞拉菲诺威茨"
+				},
+				{
+					"name": "马里奥·多纳托内"
+				},
+				{
+					"name": "彼得·斯特曼"
+				},
+				{
+					"name": "克里斯·勒潘塔"
+				},
+				{
+					"name": "沃斯·史蒂文斯"
+				},
+				{
+					"name": "海蒂·莫尼梅克"
+				},
+				{
+					"name": "克里斯塔尔·伦伯格"
+				},
+				{
+					"name": "提姆·康纳利"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2017 / 美国 中国香港 / 动作 惊悚 犯罪 / 查德·斯塔赫斯基 / 基努·里维斯 里卡尔多·斯卡马奇奥",
+			"color_scheme": {
+				"_base_color": [
+					0.75,
+					0.5,
+					0.17254901960784313
+				],
+				"_avg_color": [
+					0.7678571428571428,
+					0.4912280701754386,
+					0.2235294117647059
+				],
+				"primary_color_light": "563972",
+				"primary_color_dark": "39264c",
+				"secondary_color": "f7f4f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/26333560.jpg",
+			"directors": [
+				{
+					"name": "查德·斯塔赫斯基"
+				}
+			],
+			"genres": [
+				"动作",
+				"惊悚",
+				"犯罪"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 8,
+					"title": "2017高分科幻/动作片",
+					"uri": "douban://douban.com/subject_collection/2017_movie_701?type=rank&category=movie&rank_type=year"
+				}
+			],
+			"id": "26333560",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2425658978.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2425658978.jpg"
+			},
+			"pubdate": [
+				"2017-02-10(美国)"
+			],
+			"rating": {
+				"count": 205405,
+				"max": 10,
+				"star_count": 4,
+				"value": 7.9
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/26333560",
+			"subtype": "movie",
+			"title": "疾速追杀2",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/26333560",
+			"url": "https://movie.douban.com/subject/26333560/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2017"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:19:19",
+		"id": 4925165403,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/33455421 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/33455421/interest/4925165403",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "基努·里维斯"
+				},
+				{
+					"name": "甄子丹"
+				},
+				{
+					"name": "伊恩·麦柯肖恩"
+				},
+				{
+					"name": "劳伦斯·菲什伯恩"
+				},
+				{
+					"name": "比尔·斯卡斯加德"
+				},
+				{
+					"name": "真田广之"
+				},
+				{
+					"name": "沙米尔·安德森"
+				},
+				{
+					"name": "泽山璃奈"
+				},
+				{
+					"name": "兰斯·莱迪克"
+				},
+				{
+					"name": "克兰西·布朗"
+				},
+				{
+					"name": "斯科特·阿金斯"
+				},
+				{
+					"name": "马克·扎罗"
+				},
+				{
+					"name": "娜塔丽·特纳"
+				},
+				{
+					"name": "艾米·关"
+				},
+				{
+					"name": "乔治·乔吉奧"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2023 / 美国 / 动作 惊悚 犯罪 / 查德·斯塔赫斯基 / 基努·里维斯 甄子丹",
+			"color_scheme": {
+				"_base_color": [
+					0.04518072289156625,
+					0.7793427230046949,
+					0.8352941176470589
+				],
+				"_avg_color": [
+					0.03825136612021859,
+					0.7530864197530864,
+					0.3176470588235294
+				],
+				"primary_color_light": "723119",
+				"primary_color_dark": "4c2110",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/33455421.jpg",
+			"directors": [
+				{
+					"name": "查德·斯塔赫斯基"
+				}
+			],
+			"genres": [
+				"动作",
+				"惊悚",
+				"犯罪"
+			],
+			"has_linewatch": false,
+			"honor_infos": [],
+			"id": "33455421",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2919121051.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2919121051.jpg"
+			},
+			"pubdate": [
+				"2025-03-14(中国大陆)"
+			],
+			"rating": {
+				"count": 193432,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 7.3
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/33455421",
+			"subtype": "movie",
+			"title": "疾速追杀4",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/33455421",
+			"url": "https://movie.douban.com/subject/33455421/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2023"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-21 10:19:15",
+		"id": 4925165368,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/25798131 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/25798131/interest/4925165368",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "基努·里维斯"
+				},
+				{
+					"name": "迈克尔·恩奎斯特"
+				},
+				{
+					"name": "阿尔菲·艾伦"
+				},
+				{
+					"name": "威廉·达福"
+				},
+				{
+					"name": "迪恩·文特斯"
+				},
+				{
+					"name": "阿德琳妮·帕里奇"
+				},
+				{
+					"name": "奥默·巴尼亚"
+				},
+				{
+					"name": "托比·莱昂纳德·摩尔"
+				},
+				{
+					"name": "丹尼尔·伯哈特"
+				},
+				{
+					"name": "布里吉特·莫伊纳汉"
+				},
+				{
+					"name": "约翰·雷吉扎莫"
+				},
+				{
+					"name": "伊恩·麦柯肖恩"
+				},
+				{
+					"name": "布里吉特·瑞根"
+				},
+				{
+					"name": "兰斯·莱迪克"
+				},
+				{
+					"name": "基思·贾丁"
+				},
+				{
+					"name": "托马斯·萨多斯基"
+				},
+				{
+					"name": "克拉克·彼得斯"
+				},
+				{
+					"name": "兰德尔·杜克·金"
+				},
+				{
+					"name": "凯文·纳什"
+				},
+				{
+					"name": "大卫·帕特里克·凯利"
+				},
+				{
+					"name": "波·沙都"
+				},
+				{
+					"name": "纳迪娅·凯"
+				},
+				{
+					"name": "凡妮莎·万德·普卢姆"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2014 / 美国 / 动作 惊悚 犯罪 / 查德·斯塔赫斯基 / 基努·里维斯 迈克尔·恩奎斯特",
+			"color_scheme": {
+				"_base_color": [
+					0.5317460317460317,
+					0.65625,
+					0.25098039215686274
+				],
+				"_avg_color": [
+					0.5256410256410257,
+					0.6753246753246753,
+					0.30196078431372547
+				],
+				"primary_color_light": "276472",
+				"primary_color_dark": "1a424c",
+				"secondary_color": "f4f8f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/25798131.jpg",
+			"directors": [
+				{
+					"name": "查德·斯塔赫斯基"
+				}
+			],
+			"genres": [
+				"动作",
+				"惊悚",
+				"犯罪"
+			],
+			"has_linewatch": false,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 10,
+					"title": "高分复仇电影榜",
+					"uri": "douban://douban.com/subject_collection/ECQAPKOQI?type=rank&category=movie&rank_type=film_genre"
+				}
+			],
+			"id": "25798131",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2933018274.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2933018274.jpg"
+			},
+			"pubdate": [
+				"2026(中国大陆)"
+			],
+			"rating": {
+				"count": 258473,
+				"max": 10,
+				"star_count": 4,
+				"value": 7.8
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/25798131",
+			"subtype": "movie",
+			"title": "疾速追杀",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/25798131",
+			"url": "https://movie.douban.com/subject/25798131/",
+			"vendor_desc": "",
+			"vendor_icons": [],
+			"year": "2014"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
 		"create_time": "2026-08-16 23:14:38",
 		"id": 4921037988,
 		"is_editable": false,
