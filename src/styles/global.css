@@ -1561,13 +1561,6 @@ body .main-content .filter-chip.is-active {
   box-shadow: 0 0 22px rgba(66, 232, 255, 0.08);
 }
 
-@media (min-width: 901px) {
-  body .main-content .filter-section {
-    position: sticky;
-    top: calc(var(--nav-height) + 10px);
-  }
-}
-
 @media (max-width: 640px) {
   body .main-content .page-header,
   body .main-content .books-header,

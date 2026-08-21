@@ -75,6 +75,25 @@ export async function getRecentMovies(count = 6): Promise<Movie[]> {
 }
 
 /**
+ * 随机获取电影
+ * 可选过滤条件，用于首页只抽取有海报来源的条目
+ */
+export async function getRandomMovies(
+  count = 6,
+  predicate?: (movie: Movie) => boolean,
+): Promise<Movie[]> {
+  const candidates = (await getAllMovies()).filter((movie) => !predicate || predicate(movie));
+  const shuffled = [...candidates];
+
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[index]];
+  }
+
+  return shuffled.slice(0, Math.max(0, count));
+}
+
+/**
  * 计算统计数据
  */
 export async function getStats() {

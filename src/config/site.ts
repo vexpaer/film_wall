@@ -33,7 +33,7 @@ export const siteConfig = {
   moviesPerPage: 24,
 
   /** 电影墙默认排序 */
-  defaultSort: "watchedAt" as const,
+  defaultSort: "random" as const,
 
   /** 是否显示隐藏电影（hidden: true） */
   showHidden: false,

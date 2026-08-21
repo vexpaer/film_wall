@@ -11,7 +11,7 @@ import StarRating from "../components/StarRating.astro";
 import { siteConfig } from "../config/site";
 import {
   getAllMovies,
-  getRecentMovies,
+  getRandomMovies,
   getStats,
   formatRating,
 } from "../utils/data";
@@ -19,7 +19,7 @@ import { getAllBooks } from "../utils/books";
 import { hasPosterSource } from "../utils/posters";
 
 const movies = await getAllMovies();
-const recent = await getRecentMovies(6);
+const randomMovies = await getRandomMovies(6, hasPosterSource);
 const stats = await getStats();
 const books = await getAllBooks();
 const movieCount = movies.filter((movie) => movie.mediaType === "movie").length;
@@ -36,8 +36,8 @@ const featured = [...movies]
   )
   .slice(0, 3);
 
-// 首屏背景电影（最近观看中有海报的）
-const heroBgMovie = recent.find(hasPosterSource);
+// 首屏背景电影与首页卡片均从有海报来源的影片中随机抽取
+const heroBgMovie = randomMovies[0];
 const heroTitleWords = siteConfig.title.split(/\s+/);
 const marqueeWords = ["Watch", "Feel", "Archive", "Repeat"];
 ---
@@ -148,7 +148,7 @@ const marqueeWords = ["Watch", "Feel", "Archive", "Repeat"];
             <span class="hero__poster-corner hero__poster-corner--bl"></span>
             <span class="hero__poster-corner hero__poster-corner--br"></span>
             <div class="hero__poster-caption">
-              <span>LAST WATCHED</span>
+              <span>RANDOM FRAME</span>
               <strong>{heroBgMovie.title}</strong>
             </div>
           </div>
@@ -224,14 +224,14 @@ const marqueeWords = ["Watch", "Feel", "Archive", "Repeat"];
     </div>
   </section>
 
-  <!-- ── 最近观看 ───────────────────────────────────────── -->
-  {recent.length > 0 && (
-    <section class="section section--recent" data-home-section aria-labelledby="recent-heading">
+  <!-- ── 随机放映 ───────────────────────────────────────── -->
+  {randomMovies.length > 0 && (
+    <section class="section section--random" data-home-section aria-labelledby="random-heading">
       <div class="container">
         <div class="section__header">
           <div>
-            <span class="section__eyebrow">02 / LATEST EXPOSURES</span>
-            <h2 class="section__title" id="recent-heading">新鲜<span>显影</span></h2>
+            <span class="section__eyebrow">02 / RANDOM EXPOSURES</span>
+            <h2 class="section__title" id="random-heading">随机<span>显影</span></h2>
           </div>
           <a href={`${base}/movies/`} class="btn btn-ghost section__more-btn">
             查看完整片库 <span aria-hidden="true">↗</span>
@@ -239,7 +239,7 @@ const marqueeWords = ["Watch", "Feel", "Archive", "Repeat"];
         </div>
 
         <div class="movie-grid home-movie-grid">
-          {recent.map((movie) => (
+          {randomMovies.map((movie) => (
             <MovieCard movie={movie} showDate={true} />
           ))}
         </div>
@@ -1458,7 +1458,7 @@ const marqueeWords = ["Watch", "Feel", "Archive", "Repeat"];
     -webkit-text-stroke: 1px var(--color-accent);
   }
 
-  .section--recent::before {
+  .section--random::before {
     content: "";
     position: absolute;
     inset: 8% 0 auto;
