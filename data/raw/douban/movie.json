@@ -2,6 +2,304 @@
 	{
 		"charts": [],
 		"comment": "",
+		"create_time": "2026-08-23 12:45:01",
+		"id": 4927121226,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/25825412 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/25825412/interest/4927121226",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "杰森·斯坦森"
+				},
+				{
+					"name": "杰西卡·阿尔芭"
+				},
+				{
+					"name": "汤米·李·琼斯"
+				},
+				{
+					"name": "杨紫琼"
+				},
+				{
+					"name": "山姆·哈兹尔丁"
+				},
+				{
+					"name": "约翰·塞纳迭姆博"
+				},
+				{
+					"name": "托比·艾丁顿"
+				},
+				{
+					"name": "费米·依鲁福祖"
+				},
+				{
+					"name": "安提欧·昆塔瓦莱"
+				},
+				{
+					"name": "芮塔·彭安"
+				},
+				{
+					"name": "邦妮·泽勒巴克"
+				},
+				{
+					"name": "斯图尔特·索普"
+				},
+				{
+					"name": "艾利克斯·库则力科"
+				},
+				{
+					"name": "布拉汉姆·沙卜"
+				},
+				{
+					"name": "托马斯·科维"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2016 / 美国 法国 保加利亚 德国 / 动作 犯罪 / 丹尼斯·甘塞尔 / 杰森·斯坦森 杰西卡·阿尔芭",
+			"color_scheme": {
+				"_base_color": [
+					0.09941520467836255,
+					0.27804878048780485,
+					0.803921568627451
+				],
+				"_avg_color": [
+					0.047619047619047616,
+					0.35,
+					0.3137254901960784
+				],
+				"primary_color_light": "726552",
+				"primary_color_dark": "4c4337",
+				"secondary_color": "f9f7f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/25825412.jpg",
+			"directors": [
+				{
+					"name": "丹尼斯·甘塞尔"
+				}
+			],
+			"genres": [
+				"动作",
+				"犯罪"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "25825412",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2385311728.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2385311728.jpg"
+			},
+			"pubdate": [
+				"2016-10-21(中国大陆)"
+			],
+			"rating": {
+				"count": 114648,
+				"max": 10,
+				"star_count": 3,
+				"value": 5.7
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/25825412",
+			"subtype": "movie",
+			"title": "机械师2：复活",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/25825412",
+			"url": "https://movie.douban.com/subject/25825412/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2016"
+		},
+		"tags": [],
+		"vote_count": 0,
+		"star_time": "2026-08-23 12:45:01"
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-23 12:44:54",
+		"id": 4927121150,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/3006783 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/3006783/interest/4927121150",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "杰森·斯坦森"
+				},
+				{
+					"name": "本·福斯特"
+				},
+				{
+					"name": "托尼·戈德温"
+				},
+				{
+					"name": "唐纳德·萨瑟兰"
+				},
+				{
+					"name": "杰夫·蔡斯"
+				},
+				{
+					"name": "米妮·安顿"
+				},
+				{
+					"name": "詹姆斯·罗根"
+				},
+				{
+					"name": "埃迪·J.费尔南德斯"
+				},
+				{
+					"name": "约翰·麦康奈尔"
+				},
+				{
+					"name": "克丽斯塔·坎贝尔"
+				},
+				{
+					"name": "拉腊·格赖斯"
+				},
+				{
+					"name": "兰斯·E·尼克尔斯"
+				},
+				{
+					"name": "J·D·埃弗摩尔"
+				},
+				{
+					"name": "大卫·雷奇"
+				},
+				{
+					"name": "珍·奥尔特加"
+				},
+				{
+					"name": "拉蒂斯·唐斯-库拉尔"
+				},
+				{
+					"name": "斯图尔特·格利尔"
+				},
+				{
+					"name": "凯齐纳·沃尔尔约尼奥"
+				},
+				{
+					"name": "丹尼·科斯莫"
+				},
+				{
+					"name": "戴恩·布朗"
+				},
+				{
+					"name": "格兰特·凯斯"
+				},
+				{
+					"name": "伊莉丝·范科"
+				},
+				{
+					"name": "杰拉尔丁·格伦"
+				},
+				{
+					"name": "小尼克·琼斯"
+				},
+				{
+					"name": "马特·麦科姆"
+				},
+				{
+					"name": "斯塔莱特·米亚里奥尼"
+				},
+				{
+					"name": "古斯塔沃·奥尔蒂斯"
+				},
+				{
+					"name": "洛根·道格拉斯·史密斯"
+				},
+				{
+					"name": "查德·斯塔赫斯基"
+				},
+				{
+					"name": "西蒙·韦斯特"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2011 / 美国 / 动作 惊悚 / 西蒙·韦斯特 / 杰森·斯坦森 本·福斯特",
+			"color_scheme": {
+				"_base_color": [
+					0.13589743589743594,
+					0.2995391705069124,
+					0.8509803921568627
+				],
+				"_avg_color": [
+					0.12681159420289848,
+					0.3066666666666667,
+					0.5882352941176471
+				],
+				"primary_color_light": "a59c74",
+				"primary_color_dark": "7f7859",
+				"secondary_color": "f9f8f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/3006783.jpg",
+			"directors": [
+				{
+					"name": "西蒙·韦斯特"
+				}
+			],
+			"genres": [
+				"动作",
+				"惊悚"
+			],
+			"has_linewatch": true,
+			"honor_infos": [],
+			"id": "3006783",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p1008022297.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1008022297.jpg"
+			},
+			"pubdate": [
+				"2012-08-02(中国大陆)"
+			],
+			"rating": {
+				"count": 162730,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 7.3
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/3006783",
+			"subtype": "movie",
+			"title": "机械师",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/3006783",
+			"url": "https://movie.douban.com/subject/3006783/",
+			"vendor_desc": "独播",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png"
+			],
+			"year": "2011"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
 		"create_time": "2026-08-21 10:39:09",
 		"id": 4925176959,
 		"is_editable": false,
