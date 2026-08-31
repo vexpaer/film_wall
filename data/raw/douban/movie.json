@@ -2,6 +2,638 @@
 	{
 		"charts": [],
 		"comment": "",
+		"create_time": "2026-08-30 21:05:31",
+		"id": 4933626045,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/26302614 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/26302614/interest/4933626045",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "成东日"
+				},
+				{
+					"name": "李一花"
+				},
+				{
+					"name": "罗美兰"
+				},
+				{
+					"name": "金成畇"
+				},
+				{
+					"name": "崔武成"
+				},
+				{
+					"name": "金善映"
+				},
+				{
+					"name": "柳慧英"
+				},
+				{
+					"name": "李惠利"
+				},
+				{
+					"name": "柳俊烈"
+				},
+				{
+					"name": "高庚杓"
+				},
+				{
+					"name": "朴宝剑"
+				},
+				{
+					"name": "安宰弘"
+				},
+				{
+					"name": "李东辉"
+				},
+				{
+					"name": "崔胜元"
+				},
+				{
+					"name": "金秀路"
+				},
+				{
+					"name": "李美妍"
+				},
+				{
+					"name": "金柱赫"
+				},
+				{
+					"name": "全美善"
+				},
+				{
+					"name": "李世映"
+				},
+				{
+					"name": "金英玉"
+				},
+				{
+					"name": "朴芝润"
+				},
+				{
+					"name": "李秀敬"
+				},
+				{
+					"name": "金太勋"
+				},
+				{
+					"name": "朴正民"
+				},
+				{
+					"name": "高昌锡"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2015 / 韩国 / 剧情 喜剧 爱情 / 申元浩 / 成东日 李一花",
+			"color_scheme": {
+				"_base_color": [
+					0.10457516339869284,
+					0.2615384615384615,
+					0.7647058823529411
+				],
+				"_avg_color": [
+					0.0934959349593496,
+					0.24117647058823527,
+					0.6666666666666666
+				],
+				"primary_color_light": "a5957a",
+				"primary_color_dark": "7f735e",
+				"secondary_color": "f9f8f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/26302614.jpg",
+			"directors": [
+				{
+					"name": "申元浩"
+				}
+			],
+			"genres": [
+				"剧情",
+				"喜剧",
+				"爱情"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 1,
+					"title": "高分经典韩剧榜",
+					"uri": "douban://douban.com/subject_collection/EC6EC5GBQ?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "26302614",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2272563445.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2272563445.jpg"
+			},
+			"pubdate": [
+				"2015-11-06(韩国)"
+			],
+			"rating": {
+				"count": 1058160,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.7
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/26302614",
+			"subtype": "tv",
+			"title": "请回答1988",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/26302614",
+			"url": "https://movie.douban.com/subject/26302614/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "2015"
+		},
+		"tags": [],
+		"vote_count": 0,
+		"star_time": "2026-08-30 21:05:31"
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-30 21:05:22",
+		"id": 4933625891,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/34841067 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/34841067/interest/4933625891",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "贾玲"
+				},
+				{
+					"name": "张小斐"
+				},
+				{
+					"name": "沈腾"
+				},
+				{
+					"name": "陈赫"
+				},
+				{
+					"name": "刘佳"
+				},
+				{
+					"name": "丁嘉丽"
+				},
+				{
+					"name": "王琳"
+				},
+				{
+					"name": "杜源"
+				},
+				{
+					"name": "何翯"
+				},
+				{
+					"name": "何欢"
+				},
+				{
+					"name": "韩云云"
+				},
+				{
+					"name": "包文婧"
+				},
+				{
+					"name": "葛珊珊"
+				},
+				{
+					"name": "史策"
+				},
+				{
+					"name": "黄小猫"
+				},
+				{
+					"name": "许君聪"
+				},
+				{
+					"name": "卜钰"
+				},
+				{
+					"name": "刘宏禄"
+				},
+				{
+					"name": "魏翔"
+				},
+				{
+					"name": "孙集斌"
+				},
+				{
+					"name": "张泰维"
+				},
+				{
+					"name": "郭宇鹏"
+				},
+				{
+					"name": "朱天福"
+				},
+				{
+					"name": "冯巩"
+				},
+				{
+					"name": "乔杉"
+				},
+				{
+					"name": "王小利"
+				},
+				{
+					"name": "宋晓峰"
+				},
+				{
+					"name": "董若溪"
+				},
+				{
+					"name": "曹贺军"
+				},
+				{
+					"name": "赵婷婷"
+				},
+				{
+					"name": "姬晴"
+				},
+				{
+					"name": "郭祥鹏"
+				},
+				{
+					"name": "李一峰"
+				},
+				{
+					"name": "潘斌龙"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2021 / 中国大陆 / 剧情 喜剧 奇幻 / 贾玲 / 贾玲 张小斐",
+			"color_scheme": {
+				"_base_color": [
+					0.0992063492063492,
+					0.3485477178423236,
+					0.9450980392156862
+				],
+				"_avg_color": [
+					0.053030303030303004,
+					0.5612244897959183,
+					0.7686274509803922
+				],
+				"primary_color_light": "a58e6b",
+				"primary_color_dark": "7f6d53",
+				"secondary_color": "f9f7f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/34841067.jpg",
+			"directors": [
+				{
+					"name": "贾玲"
+				}
+			],
+			"genres": [
+				"剧情",
+				"喜剧",
+				"奇幻"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 9,
+					"title": "中国大陆喜剧片榜",
+					"uri": "douban://douban.com/subject_collection/ECKIO6SXI?type=rank&category=movie&rank_type=film_genre"
+				}
+			],
+			"id": "34841067",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img1.doubanio.com/view/photo/m_ratio_poster/public/p2629056068.jpg",
+				"normal": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2629056068.jpg"
+			},
+			"pubdate": [
+				"2021-02-12(中国大陆)"
+			],
+			"rating": {
+				"count": 1573164,
+				"max": 10,
+				"star_count": 4,
+				"value": 7.7
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/34841067",
+			"subtype": "movie",
+			"title": "你好，李焕英",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/34841067",
+			"url": "https://movie.douban.com/subject/34841067/",
+			"vendor_desc": "独播",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png"
+			],
+			"year": "2021"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-30 21:05:14",
+		"id": 4933625766,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/35267224 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/35267224/interest/4933625766",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "张艺兴"
+				},
+				{
+					"name": "金晨"
+				},
+				{
+					"name": "咏梅"
+				},
+				{
+					"name": "王传君"
+				},
+				{
+					"name": "王大陆"
+				},
+				{
+					"name": "周也"
+				},
+				{
+					"name": "孙阳"
+				},
+				{
+					"name": "邓萃雯"
+				},
+				{
+					"name": "林威"
+				},
+				{
+					"name": "黄艺馨"
+				},
+				{
+					"name": "王议伟"
+				},
+				{
+					"name": "辛鹏"
+				},
+				{
+					"name": "汤加文"
+				},
+				{
+					"name": "刘敬宇"
+				},
+				{
+					"name": "林韦辰"
+				},
+				{
+					"name": "生港帅"
+				},
+				{
+					"name": "洪助升"
+				},
+				{
+					"name": "李东海"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2023 / 中国大陆 / 剧情 犯罪 / 申奥 / 张艺兴 金晨",
+			"color_scheme": {
+				"_base_color": [
+					0.12499999999999999,
+					0.4081632653061225,
+					0.19215686274509805
+				],
+				"_avg_color": [
+					0.11574074074074074,
+					0.45,
+					0.3137254901960784
+				],
+				"primary_color_light": "726743",
+				"primary_color_dark": "4c442d",
+				"secondary_color": "f9f8f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/35267224.jpg",
+			"directors": [
+				{
+					"name": "申奥"
+				}
+			],
+			"genres": [
+				"剧情",
+				"犯罪"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 5,
+					"title": "第37届中国电影金鸡奖提名名单",
+					"uri": "douban://douban.com/subject_collection/EC5M7UEWA?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "35267224",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2911964046.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2911964046.jpg"
+			},
+			"pubdate": [
+				"2023-08-08(中国大陆)"
+			],
+			"rating": {
+				"count": 796336,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 6.8
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/35267224",
+			"subtype": "movie",
+			"title": "孤注一掷",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/35267224",
+			"url": "https://movie.douban.com/subject/35267224/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "2023"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-30 21:05:04",
+		"id": 4933625589,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/1308715 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1308715/interest/4933625589",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "本·阿弗莱克"
+				},
+				{
+					"name": "艾伦·艾克哈特"
+				},
+				{
+					"name": "乌玛·瑟曼"
+				},
+				{
+					"name": "保罗·吉亚玛提"
+				},
+				{
+					"name": "科鲁姆·费奥瑞"
+				},
+				{
+					"name": "乔·莫顿"
+				},
+				{
+					"name": "迈克尔·C·豪尔"
+				},
+				{
+					"name": "皮特·弗雷德曼"
+				},
+				{
+					"name": "凯瑟琳·莫里斯"
+				},
+				{
+					"name": "伊万娜·米利切维奇"
+				},
+				{
+					"name": "Christopher Kennedy"
+				},
+				{
+					"name": "富尔·切切里"
+				},
+				{
+					"name": "约翰·卡西尼"
+				},
+				{
+					"name": "考乐姆·吉斯·雷尼"
+				},
+				{
+					"name": "米歇尔·哈里逊"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2003 / 美国 / 动作 科幻 悬疑 惊悚 / 吴宇森 / 本·阿弗莱克 艾伦·艾克哈特",
+			"color_scheme": {
+				"_base_color": [
+					0.10000000000000002,
+					0.29279279279279274,
+					0.8705882352941177
+				],
+				"_avg_color": [
+					0.7857142857142856,
+					0.06363636363636366,
+					0.43137254901960786
+				],
+				"primary_color_light": "726551",
+				"primary_color_dark": "4c4336",
+				"secondary_color": "f9f7f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/1308715.jpg",
+			"directors": [
+				{
+					"name": "吴宇森"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻",
+				"悬疑"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 3,
+					"title": "第24届金酸莓奖获奖名单",
+					"uri": "douban://douban.com/subject_collection/EC3VANWOI?type=rank&category=movie&rank_type=award_movie"
+				}
+			],
+			"id": "1308715",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2021574101.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2021574101.jpg"
+			},
+			"pubdate": [
+				"2004-04-09(中国大陆)"
+			],
+			"rating": {
+				"count": 52494,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 7.3
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/1308715",
+			"subtype": "movie",
+			"title": "记忆裂痕",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/1308715",
+			"url": "https://movie.douban.com/subject/1308715/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/88a62f5e0cf9981c910e60f4421c3e66aac2c9bc/pics/vendors/bilibili.png"
+			],
+			"year": "2003"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
 		"create_time": "2026-08-23 12:45:01",
 		"id": 4927121226,
 		"is_editable": false,
