@@ -2,6 +2,311 @@
 	{
 		"charts": [],
 		"comment": "",
+		"create_time": "2026-09-05 22:44:20",
+		"id": 4938160256,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/24404677 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/24404677/interest/4938160256",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "斯嘉丽·约翰逊"
+				},
+				{
+					"name": "摩根·弗里曼"
+				},
+				{
+					"name": "崔岷植"
+				},
+				{
+					"name": "阿马尔·维克德"
+				},
+				{
+					"name": "朱利安·林希德-图特"
+				},
+				{
+					"name": "皮鲁·埃斯贝克"
+				},
+				{
+					"name": "里奥·蒂普顿"
+				},
+				{
+					"name": "詹·奥利弗·施罗德"
+				},
+				{
+					"name": "弗雷德里克·周"
+				},
+				{
+					"name": "克莱尔·陈"
+				},
+				{
+					"name": "塞德里克·舍瓦姆"
+				},
+				{
+					"name": "沃尔夫冈·皮索尔斯"
+				},
+				{
+					"name": "邵斯凡"
+				},
+				{
+					"name": "保罗·陈"
+				},
+				{
+					"name": "林𬀩恒"
+				},
+				{
+					"name": "邢峰"
+				},
+				{
+					"name": "徐灏翔"
+				},
+				{
+					"name": "塞缪尔·丘林"
+				},
+				{
+					"name": "李淳"
+				},
+				{
+					"name": "吕克·贝松"
+				},
+				{
+					"name": "高靖榕"
+				},
+				{
+					"name": "克里斯多夫·泰克"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2014 / 法国 德国 中国台湾 加拿大 美国 英国 / 动作 科幻 / 吕克·贝松 / 斯嘉丽·约翰逊 摩根·弗里曼",
+			"color_scheme": {
+				"_base_color": [
+					0.6111111111111112,
+					0.014925373134328306,
+					0.788235294117647
+				],
+				"_avg_color": [
+					0.6071428571428572,
+					0.07865168539325831,
+					0.6980392156862745
+				],
+				"primary_color_light": "a3a4a5",
+				"primary_color_dark": "7d7e7f",
+				"secondary_color": "f4f6f9",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/24404677.jpg",
+			"directors": [
+				{
+					"name": "吕克·贝松"
+				}
+			],
+			"genres": [
+				"动作",
+				"科幻"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 19,
+					"title": "高分暴力电影榜",
+					"uri": "douban://douban.com/subject_collection/ECZYPMVHA?type=rank&category=movie&rank_type=film_genre"
+				}
+			],
+			"id": "24404677",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2201909284.jpg",
+				"normal": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2201909284.jpg"
+			},
+			"pubdate": [
+				"2014-10-24(中国大陆)"
+			],
+			"rating": {
+				"count": 633716,
+				"max": 10,
+				"star_count": 4,
+				"value": 7.5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/24404677",
+			"subtype": "movie",
+			"title": "超体",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/24404677",
+			"url": "https://movie.douban.com/subject/24404677/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2014"
+		},
+		"tags": [],
+		"vote_count": 0,
+		"star_time": "2026-09-05 22:44:20"
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-08-31 21:12:52",
+		"id": 4934431105,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/25717233 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/25717233/interest/4934431105",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "黄渤"
+				},
+				{
+					"name": "徐峥"
+				},
+				{
+					"name": "袁泉"
+				},
+				{
+					"name": "周冬雨"
+				},
+				{
+					"name": "陶慧"
+				},
+				{
+					"name": "岳小军"
+				},
+				{
+					"name": "沈腾"
+				},
+				{
+					"name": "张俪"
+				},
+				{
+					"name": "马苏"
+				},
+				{
+					"name": "刘美含"
+				},
+				{
+					"name": "王砚辉"
+				},
+				{
+					"name": "焦俊艳"
+				},
+				{
+					"name": "郭涛"
+				},
+				{
+					"name": "李晨"
+				},
+				{
+					"name": "熊乃瑾"
+				},
+				{
+					"name": "夏雨"
+				},
+				{
+					"name": "刘仪伟"
+				},
+				{
+					"name": "雷佳音"
+				},
+				{
+					"name": "雍梦婷"
+				},
+				{
+					"name": "梁浩"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2014 / 中国大陆 / 喜剧 爱情 / 宁浩 / 黄渤 徐峥",
+			"color_scheme": {
+				"_base_color": [
+					0.060606060606060684,
+					0.16336633663366334,
+					0.792156862745098
+				],
+				"_avg_color": [
+					0.04597701149425287,
+					0.19999999999999998,
+					0.5686274509803921
+				],
+				"primary_color_light": "a5948a",
+				"primary_color_dark": "7f726a",
+				"secondary_color": "f9f6f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/25717233.jpg",
+			"directors": [
+				{
+					"name": "宁浩"
+				}
+			],
+			"genres": [
+				"喜剧",
+				"爱情"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 6,
+					"title": "2014热门院线电影",
+					"uri": "douban://douban.com/subject_collection/2014_movie_3?type=rank&category=movie&rank_type=year"
+				}
+			],
+			"id": "25717233",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2221061003.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2221061003.jpg"
+			},
+			"pubdate": [
+				"2014-09-30(中国大陆)"
+			],
+			"rating": {
+				"count": 588620,
+				"max": 10,
+				"star_count": 3.5,
+				"value": 7.2
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/25717233",
+			"subtype": "movie",
+			"title": "心花路放",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/25717233",
+			"url": "https://movie.douban.com/subject/25717233/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img2.doubanio.com/f/frodo/8e1b7f8b48804cf759fc411e75d62c5ffd4f8f42/pics/vendors/migu_video.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "2014"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
 		"create_time": "2026-08-30 21:05:31",
 		"id": 4933626045,
 		"is_editable": false,

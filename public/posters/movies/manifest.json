@@ -1111,6 +1111,11 @@
       "provider": "douban",
       "source": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2624607255.jpg"
     },
+    "24404677": {
+      "path": "posters/movies/24404677.jpg",
+      "provider": "douban",
+      "source": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2201909284.jpg"
+    },
     "24405378": {
       "path": "posters/movies/24405378.jpg",
       "provider": "douban",
@@ -1135,6 +1140,11 @@
       "path": "posters/movies/25662337.jpg",
       "provider": "douban",
       "source": "https://img9.doubanio.com/view/photo/m_ratio_poster/public/p2355440566.jpg"
+    },
+    "25717233": {
+      "path": "posters/movies/25717233.jpg",
+      "provider": "douban",
+      "source": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2221061003.jpg"
     },
     "25726259": {
       "path": "posters/movies/25726259.jpg",
