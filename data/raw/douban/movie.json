@@ -2,6 +2,181 @@
 	{
 		"charts": [],
 		"comment": "",
+		"create_time": "2026-09-12 01:00:47",
+		"id": 4942405558,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/35465232 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/35465232/interest/4942405558",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "张译"
+				},
+				{
+					"name": "张颂文"
+				},
+				{
+					"name": "李一桐"
+				},
+				{
+					"name": "张志坚"
+				},
+				{
+					"name": "吴刚"
+				},
+				{
+					"name": "倪大红"
+				},
+				{
+					"name": "韩童生"
+				},
+				{
+					"name": "李建义"
+				},
+				{
+					"name": "石兆琪"
+				},
+				{
+					"name": "李健"
+				},
+				{
+					"name": "高叶"
+				},
+				{
+					"name": "王骁"
+				},
+				{
+					"name": "贾冰"
+				},
+				{
+					"name": "郝平"
+				},
+				{
+					"name": "苏小玎"
+				},
+				{
+					"name": "林家川"
+				},
+				{
+					"name": "阿如那"
+				},
+				{
+					"name": "鲍大志"
+				},
+				{
+					"name": "隆妮"
+				},
+				{
+					"name": "令卓"
+				},
+				{
+					"name": "吴岳阳"
+				},
+				{
+					"name": "岳秀清"
+				},
+				{
+					"name": "赵达"
+				},
+				{
+					"name": "沈丹萍"
+				},
+				{
+					"name": "舒耀瑄"
+				},
+				{
+					"name": "宋家腾"
+				},
+				{
+					"name": "王沛禄"
+				},
+				{
+					"name": "曲栅栅"
+				},
+				{
+					"name": "叶琪山"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2023 / 中国大陆 / 剧情 犯罪 / 徐纪周 / 张译 张颂文",
+			"color_scheme": {
+				"_base_color": [
+					0.028985507246376812,
+					0.3709677419354838,
+					0.24313725490196078
+				],
+				"_avg_color": [
+					0.050000000000000044,
+					0.27027027027027034,
+					0.43529411764705883
+				],
+				"primary_color_light": "724f48",
+				"primary_color_dark": "4c3530",
+				"secondary_color": "f9f5f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/35465232.jpg",
+			"directors": [
+				{
+					"name": "徐纪周"
+				}
+			],
+			"genres": [
+				"剧情",
+				"犯罪"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "tv",
+					"rank": 13,
+					"title": "高分经典大陆剧榜",
+					"uri": "douban://douban.com/subject_collection/ECT45KVZI?type=rank&category=movie&rank_type=tv_genre"
+				}
+			],
+			"id": "35465232",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2886376181.jpg",
+				"normal": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2886376181.jpg"
+			},
+			"pubdate": [
+				"2023-01-14(中国大陆)"
+			],
+			"rating": {
+				"count": 1068903,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 8.5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/35465232",
+			"subtype": "tv",
+			"title": "狂飙",
+			"type": "tv",
+			"uri": "douban://douban.com/tv/35465232",
+			"url": "https://movie.douban.com/subject/35465232/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "2023"
+		},
+		"tags": [],
+		"vote_count": 0,
+		"star_time": "2026-09-12 01:00:47"
+	},
+	{
+		"charts": [],
+		"comment": "",
 		"create_time": "2026-09-05 22:44:20",
 		"id": 4938160256,
 		"is_editable": false,

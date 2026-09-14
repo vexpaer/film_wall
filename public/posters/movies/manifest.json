@@ -1641,6 +1641,11 @@
       "provider": "douban",
       "source": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2903443592.jpg"
     },
+    "35465232": {
+      "path": "posters/movies/35465232.jpg",
+      "provider": "douban",
+      "source": "https://img2.doubanio.com/view/photo/m_ratio_poster/public/p2886376181.jpg"
+    },
     "35593344": {
       "path": "posters/movies/35593344.jpg",
       "provider": "douban",
