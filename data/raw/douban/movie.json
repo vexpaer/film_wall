@@ -2,6 +2,358 @@
 	{
 		"charts": [],
 		"comment": "",
+		"create_time": "2026-09-23 10:45:46",
+		"id": 4950069175,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/10463953 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/10463953/interest/4950069175",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "本尼迪克特·康伯巴奇"
+				},
+				{
+					"name": "凯拉·奈特莉"
+				},
+				{
+					"name": "马修·古迪"
+				},
+				{
+					"name": "罗里·金尼尔"
+				},
+				{
+					"name": "艾伦·里奇"
+				},
+				{
+					"name": "马修·比尔德"
+				},
+				{
+					"name": "查尔斯·丹斯"
+				},
+				{
+					"name": "马克·斯特朗"
+				},
+				{
+					"name": "詹姆斯·诺斯科特"
+				},
+				{
+					"name": "汤姆·古德曼-希尔"
+				},
+				{
+					"name": "史蒂芬·威丁顿"
+				},
+				{
+					"name": "伊兰·古德曼"
+				},
+				{
+					"name": "杰克·塔尔登"
+				},
+				{
+					"name": "埃里克斯·劳瑟"
+				},
+				{
+					"name": "杰克·班农"
+				},
+				{
+					"name": "塔彭丝·米德尔顿"
+				},
+				{
+					"name": "安德鲁·哈维尔"
+				},
+				{
+					"name": "威尔·鲍登"
+				},
+				{
+					"name": "李·阿斯奎斯-柯"
+				},
+				{
+					"name": "海莉·乔安妮·培根"
+				},
+				{
+					"name": "安库塔·布雷班"
+				},
+				{
+					"name": "格雷斯·卡尔德"
+				},
+				{
+					"name": "理查德·坎贝尔"
+				},
+				{
+					"name": "温斯顿·丘吉尔"
+				},
+				{
+					"name": "克里斯·考林"
+				},
+				{
+					"name": "汉娜·弗林"
+				},
+				{
+					"name": "卢克·霍普"
+				},
+				{
+					"name": "斯图尔特·马修斯"
+				},
+				{
+					"name": "亚当·诺威尔"
+				},
+				{
+					"name": "哈里·S·杜鲁门"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "2014 / 英国 美国 / 剧情 同性 传记 战争 / 莫滕·泰杜姆 / 本尼迪克特·康伯巴奇 凯拉·奈特莉",
+			"color_scheme": {
+				"_base_color": [
+					0.2333333333333333,
+					0.09090909090909097,
+					0.21568627450980393
+				],
+				"_avg_color": [
+					0.09374999999999996,
+					0.1616161616161616,
+					0.38823529411764707
+				],
+				"primary_color_light": "6e7268",
+				"primary_color_dark": "494c45",
+				"secondary_color": "f7f9f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/10463953.jpg",
+			"directors": [
+				{
+					"name": "莫滕·泰杜姆"
+				}
+			],
+			"genres": [
+				"剧情",
+				"同性",
+				"传记"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 157,
+					"title": "豆瓣电影Top250",
+					"uri": "douban://douban.com/subject_collection/movie_top250"
+				}
+			],
+			"id": "10463953",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2922986728.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2922986728.jpg"
+			},
+			"pubdate": [
+				"2015-07-21(中国大陆)"
+			],
+			"rating": {
+				"count": 730879,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 8.8
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/10463953",
+			"subtype": "movie",
+			"title": "模仿游戏",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/10463953",
+			"url": "https://movie.douban.com/subject/10463953/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png"
+			],
+			"year": "2014"
+		},
+		"tags": [],
+		"vote_count": 0,
+		"star_time": "2026-09-23 10:45:46"
+	},
+	{
+		"charts": [],
+		"comment": "",
+		"create_time": "2026-09-21 21:09:28",
+		"id": 4878105967,
+		"is_editable": false,
+		"is_private": false,
+		"platforms": [],
+		"rating": null,
+		"sharing_text": "https://www.douban.com/doubanapp/dispatch/movie/1292063 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/1292063/interest/4878105967",
+		"status": "done",
+		"subject": {
+			"actors": [
+				{
+					"name": "罗伯托·贝尼尼"
+				},
+				{
+					"name": "尼可莱塔·布拉斯基"
+				},
+				{
+					"name": "乔治·坎塔里尼"
+				},
+				{
+					"name": "朱斯蒂诺·杜拉诺"
+				},
+				{
+					"name": "赛尔乔·比尼·布斯特里克"
+				},
+				{
+					"name": "玛丽萨·帕雷德斯"
+				},
+				{
+					"name": "霍斯特·布赫霍尔茨"
+				},
+				{
+					"name": "利迪娅·阿方西"
+				},
+				{
+					"name": "朱利亚娜·洛约迪切"
+				},
+				{
+					"name": "亚美利哥·丰塔尼"
+				},
+				{
+					"name": "彼得·德·席尔瓦"
+				},
+				{
+					"name": "弗朗西斯·古佐"
+				},
+				{
+					"name": "拉法埃拉·莱博罗尼"
+				},
+				{
+					"name": "克劳迪奥·阿方西"
+				},
+				{
+					"name": "吉尔·巴罗尼"
+				},
+				{
+					"name": "马西莫·比安奇"
+				},
+				{
+					"name": "恩尼奥·孔萨尔维"
+				},
+				{
+					"name": "吉安卡尔洛·科森蒂诺"
+				},
+				{
+					"name": "阿伦·克雷格"
+				},
+				{
+					"name": "汉尼斯·赫尔曼"
+				},
+				{
+					"name": "弗兰科·梅斯科利尼"
+				},
+				{
+					"name": "安东尼奥·普雷斯特"
+				},
+				{
+					"name": "吉娜·诺维勒"
+				},
+				{
+					"name": "理查德·塞梅尔"
+				},
+				{
+					"name": "安德烈提多娜"
+				},
+				{
+					"name": "迪尔克·范登贝格"
+				},
+				{
+					"name": "奥梅罗·安东努蒂"
+				}
+			],
+			"album_no_interact": false,
+			"article_intros": [],
+			"card_subtitle": "1997 / 意大利 / 剧情 喜剧 爱情 战争 / 罗伯托·贝尼尼 / 罗伯托·贝尼尼 尼可莱塔·布拉斯基",
+			"color_scheme": {
+				"_base_color": [
+					0.07142857142857113,
+					0.03398058252427186,
+					0.807843137254902
+				],
+				"_avg_color": [
+					0.09999999999999999,
+					0.034246575342465634,
+					0.5725490196078431
+				],
+				"primary_color_light": "a5a2a0",
+				"primary_color_dark": "7f7d7b",
+				"secondary_color": "f9f7f4",
+				"is_dark": true
+			},
+			"controversy_reason": "",
+			"cover_url": "https://dou.img.lithub.cc/movie/1292063.jpg",
+			"directors": [
+				{
+					"name": "罗伯托·贝尼尼"
+				}
+			],
+			"genres": [
+				"剧情",
+				"喜剧",
+				"爱情"
+			],
+			"has_linewatch": true,
+			"honor_infos": [
+				{
+					"kind": "movie",
+					"rank": 7,
+					"title": "豆瓣电影Top250",
+					"uri": "douban://douban.com/subject_collection/movie_top250"
+				}
+			],
+			"id": "1292063",
+			"is_released": true,
+			"is_show": false,
+			"null_rating_reason": "",
+			"pic": {
+				"large": "https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2578474613.jpg",
+				"normal": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2578474613.jpg"
+			},
+			"pubdate": [
+				"2020-01-03(中国大陆)"
+			],
+			"rating": {
+				"count": 1500355,
+				"max": 10,
+				"star_count": 5,
+				"value": 9.5
+			},
+			"release_date": null,
+			"sharing_url": "https://www.douban.com/doubanapp/dispatch/movie/1292063",
+			"subtype": "movie",
+			"title": "美丽人生",
+			"type": "movie",
+			"uri": "douban://douban.com/movie/1292063",
+			"url": "https://movie.douban.com/subject/1292063/",
+			"vendor_desc": "",
+			"vendor_icons": [
+				"https://img9.doubanio.com/f/frodo/fbc90f355fc45d5d2056e0d88c697f9414b56b44/pics/vendors/tencent.png",
+				"https://img3.doubanio.com/f/frodo/6fa5caade3ca480ccd95f455ee4d195ee342eb90/pics/vendors/youku.png",
+				"https://img9.doubanio.com/f/frodo/6c7b857e6b2255201e73bf83732d95d572f3f9f7/pics/vendors/iqiyi.png"
+			],
+			"year": "1997"
+		},
+		"tags": [],
+		"vote_count": 0
+	},
+	{
+		"charts": [],
+		"comment": "",
 		"create_time": "2026-09-20 16:50:18",
 		"id": 4948339342,
 		"is_editable": false,
